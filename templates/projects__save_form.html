@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block base_content %}
+
+<h2>SaveForm</h2>
+<h3>O projektu</h3>
+<p>Aplikace sloužící pro sběr dat z uživatelsky vytvořených formulářů bez potřeby psaní jakéhokoliv kódu na spracování dat.</p>
+
+<h3>Autor</h3>
+<p>Ondřej Šika <a href="http://ondrejsika.com">http://ondrejsika.com</a></p>
+
+<h3>Licence</h3>
+<p>Tento projekt je OpenSource, šířen pod licencí <a href="http://www.gnu.org/licenses/gpl-3.0.en.html">GNU/GPL v.3</a>.</p>
+
+<h3>Download</h3>
+<p>Projekt na BitBucket.org <a href="https://bitbucket.org/sikaondrej/saveform">https://bitbucket.org/sikaondrej/saveform</a></p>
+
+<h3>Dokumentace</h3>
+<h4>API</h4>
+<p>
+Pro záznam dat používá "saveform" jednoduché API. Jedná se o HTTP GET request na url /api/add. Parametr <b>__form_pk</b> je povyný a udává, k jakému formuláři se mají dat zapisovat. Volitelný parametr <b>__response</b> ukazuje kam se má přesměrovat stránka po zápisu do db. Většinou jde o vaší "thankyou" stránku. Příklad url: <b>http://localhost:8000/api/add/?__form_pk=1&a=1&b=2&c=3</b>.
+</p>
+
+<p>
+Pro výsledky se zobrazují na url <b>/form-[form_pk]</b>. Příklad url: <b>http://localhost:8000/form-1/</b>.
+</p>
+
+{% endblock base_content %}

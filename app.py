@@ -26,6 +26,22 @@ def projects():
 def contact():
     return render_template("contact.html")
 
+@app.route("/sitemap")
+def sitemap():
+    return render_template("sitemap.html")
+
+@app.route("/projects/save-form")
+def projects__save_form():
+    return render_template("projects__save_form.html")
+
+@app.route("/projects/sitron")
+def projects__sitron():
+    return render_template("projects__sitron.html")
+
+@app.route("/projects/djangovoid")
+def projects__save_form():
+    return render_template("projects__djangovoid.html")
+
 
 ##########
 
