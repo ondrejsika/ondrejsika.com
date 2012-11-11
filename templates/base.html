@@ -1,8 +1,138 @@
-<html>
-    <head>
-        <title>{% block title %}{% endblock title %}</title>
-    </head>
-    <body>
-        {% block body %}{% endblock body %}
-    </body>
+<!doctype html>
+<html class="no-js">
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>{% block title %}OndrejSika.com{% endblock title %}</title>
+		
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" media="all" href="/static/css/style.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
+		
+		
+		<!-- JS -->
+		<script src="/static/js/jquery-1.6.4.min.js"></script>
+		<script src="/static/js/css3-mediaqueries.js"></script>
+		<script src="/static/js/custom.js"></script>
+		<script src="/static/js/tabs.js"></script>
+		
+		<!-- Tweet -->
+		<link rel="stylesheet" href="/static/css/jquery.tweet.css" media="all"  /> 
+		<script src="/static/js/tweet/jquery.tweet.js" ></script> 
+		<!-- ENDS Tweet -->
+		
+		<!-- superfish -->
+		<link rel="stylesheet" media="screen" href="/static/css/superfish.css" /> 
+		<script  src="/static/js/superfish-1.4.8/js/hoverIntent.js"></script>
+		<script  src="/static/js/superfish-1.4.8/js/superfish.js"></script>
+		<script  src="/static/js/superfish-1.4.8/js/supersubs.js"></script>
+		<!-- ENDS superfish -->
+		
+		<!-- prettyPhoto -->
+		<script  src="/static/js/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+		<link rel="stylesheet" href="js/prettyPhoto/css/prettyPhoto.css"  media="screen" />
+		<!-- ENDS prettyPhoto -->
+		
+		<!-- poshytip -->
+		<link rel="stylesheet" href="js/poshytip-1.1/src/tip-twitter/tip-twitter.css"  />
+		<link rel="stylesheet" href="js/poshytip-1.1/src/tip-yellowsimple/tip-yellowsimple.css"  />
+		<script  src="/static/js/poshytip-1.1/src/jquery.poshytip.min.js"></script>
+		<!-- ENDS poshytip -->
+		
+		<!-- GOOGLE FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300' rel='stylesheet' type='text/css'>
+		
+		<!-- Flex Slider -->
+		<link rel="stylesheet" href="/static/css/flexslider.css" >
+		<script src="/static/js/jquery.flexslider-min.js"></script>
+		<!-- ENDS Flex Slider -->
+		
+		<!-- Less framework -->
+		<link rel="stylesheet" media="all" href="/static/css/lessframework.css"/>
+		
+		<!-- modernizr -->
+		<script src="/static/js/modernizr.js"></script>
+		
+		<!-- SKIN -->
+		<link rel="stylesheet" media="all" href="/static/css/skin.css"/>
+		
+		<style type="text/css">
+		h2 {
+			margin-bottom: 10px; 
+		}
+		footer .wrapper {
+		background: none;
+		}
+		footer .wrapper, .footer-bottom {
+		padding-top: 0px;
+		}
+		</style>
+
+	</head>
+	
+	<body lang="en">
+	
+		
+	
+		<header class="clearfix">
+		
+			<!-- top widget -->
+			<div id="top-widget-holder">
+				<div class="wrapper">
+					<div id="top-widget">
+						<div class="padding">
+						{% block header %}{% endblock header %}
+								
+										
+						</div>
+					</div>
+				</div>
+				<a href="#" id="top-open">Menu</a>
+			</div>
+			<!-- ENDS top-widget -->
+		
+			<div class="wrapper clearfix">
+				
+				<a href="index.html"><h1 style="color:white;margin-bottom:10px; padding-top:20px;">Ondrej Sika</h1></a>
+				
+				<nav>
+					{% include "menu.html" %}
+					<div id="combo-holder"></div>
+				</nav>
+			</div>
+		</header>
+		
+		
+
+		
+		<!-- MAIN -->
+		<div id="main">	
+			<div class="wrapper">
+					{% block base_content %}{% endblock base_content %}
+			</div>
+		</div>
+		<!-- ENDS MAIN -->
+		
+		
+		<footer>
+			<div class="wrapper">
+				<div class="footer-bottom">
+					<div class="left">2012 &copy; <a href="http://ondrejsika.com" >Ondrej Sika</a> | All rights reserved {% block footer %}{% endblock footer %}</div>
+					<div class="right">
+						<ul id="social-bar">
+							<li><a href="http://www.facebook.com/sikaondrej2"  title="Facebook" class="poshytip"><img src="/static/img/social/facebook.png"  alt="Facebook" /></a></li>
+							<li><a href="https://twitter.com/sikaondrej" title="Twitter" class="poshytip"><img src="/static/img/social/twitter.png"  alt="twitter" /></a></li>
+							<li><a href="https://plus.google.com/u/0/103792510103800752680/about"  title="Google+" class="poshytip"><img src="/static/img/social/plus.png" alt="Google plus" /></a></li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</footer>
+					
+	</body>
+	
 </html>
