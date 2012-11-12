@@ -1,0 +1,206 @@
+{% extends "base.html" %}
+{% block base_content %}
+
+<h2>Hosting</h2>
+<p>Administrační rozhraní k hostingu vyvíjíme. Pokud máte zájem o hostingové služby, neváhejte kontaktovat <a href="mailto:hosting@ondrejsika.com">hosting@ondrejsika.com</a>.</p>
+<h3>Ceny webhostingů</h3>
+<h4>WSGI (Django) hosting</h4>
+<table class="table">
+    <tr>
+        <th>Název</th>
+        <th>Cena</th>
+        <th>Prostor</th>
+        <th>Počet domén</th>
+        <th>Počet DB</th>
+        <th></th>
+    </tr>
+    <tr>
+        <td>WSGI Basic</td>
+        <td>299 Kč / rok</td>
+        <td>100 MB</td>
+        <td>1</td>
+        <td>2</td>
+        <td>sftp, git, django console</td>
+    </tr>
+    <tr>
+        <td>WSGI Standard</td>
+        <td>499 Kč / rok</td>
+        <td>500 MB</td>
+        <td>3</td>
+        <td>6</td>
+        <td>sftp, git, django console</td>
+    </tr>
+    <tr>
+        <td>WSGI Pro</td>
+        <td>699 Kč / rok</td>
+        <td>1 000 MB</td>
+        <td>5</td>
+        <td>10</td>
+        <td>sftp, git, ssh, django console</td>
+    </tr>
+    <tr>
+        <td>WSGI Unlimit</td>
+        <td>1199 Kč / rok</td>
+        <td>5 000 MB</td>
+        <td>10</td>
+        <td>20</td>
+        <td>sftp, git, ssh, django console</td>
+    </tr>
+</table>
+<h4>Static hosting</h4>
+<table class="table">
+    <tr>
+        <th>Název</th>
+        <th>Cena</th>
+        <th>Prostor</th>
+        <th>Počet domén</th>
+        <th>Počet DB</th>
+        <th></th>
+    </tr>
+    <tr>
+        <td>Static Basic</td>
+        <td>99 Kč / rok</td>
+        <td>20 MB</td>
+        <td>1</td>
+        <td>0</td>
+        <td>sftp</td>
+    </tr>
+    <tr>
+        <td>Static Standard</td>
+        <td>199 Kč / rok</td>
+        <td>100 MB</td>
+        <td>1</td>
+        <td>0</td>
+        <td>sftp</td>
+    </tr>
+    <tr>
+        <td>Static Pro</td>
+        <td>399 Kč / rok</td>
+        <td>500 MB</td>
+        <td>3</td>
+        <td>0</td>
+        <td>sftp, git</td>
+    </tr>
+    <tr>
+        <td>Static Unlimit</td>
+        <td>699 Kč / rok</td>
+        <td>1 000 MB</td>
+        <td>5</td>
+        <td>0</td>
+        <td>sftp, git</td>
+    </tr>
+</table>
+<h4>PHP hosting</h4>
+<table class="table">
+    <tr>
+        <th>Název</th>
+        <th>Cena</th>
+        <th>Prostor</th>
+        <th>Počet domén</th>
+        <th>Počet DB</th>
+        <th></th>
+    </tr>
+    <tr>
+        <td>PHP Basic</td>
+        <td>299 Kč / rok</td>
+        <td>100 MB</td>
+        <td>1</td>
+        <td>0</td>
+        <td>sftp</td>
+    </tr>
+    <tr>
+        <td>PHP Standard</td>
+        <td>399 Kč / rok</td>
+        <td>500 MB</td>
+        <td>1</td>
+        <td>2</td>
+        <td>sftp</td>
+    </tr>
+    <tr>
+        <td>PHP Pro</td>
+        <td>499 Kč / rok</td>
+        <td>1 000 MB</td>
+        <td>3</td>
+        <td>6</td>
+        <td>sftp, git</td>
+    </tr>
+    <tr>
+        <td>PHP Unlimit</td>
+        <td>999 Kč / rok</td>
+        <td>2 000 MB</td>
+        <td>10</td>
+        <td>20</td>
+        <td>sftp, git</td>
+    </tr>
+</table>
+<h3>Ceny ostatních hostingů</h3>
+<h4>UP hosting</h4>
+<p>Hosting vhodný pro nahrávací a monitorovací systémy, které získávají velké množství dat. Příkladem je zálohování záznamů z IP kamer.</p>
+<table class="table">
+    <tr>
+        <th>Prostor</th>
+        <th>Cena</th>
+        <th>Připojení</th>
+    </tr>
+    <tr>
+        <td>1 GB</td>
+        <td>399 Kč / rok</td>
+        <td>sftp, webové rozhraní</td>
+    </tr>
+    <tr>
+        <td>10 GB</td>
+        <td>499 Kč / rok</td>
+        <td>sftp, webové rozhraní</td>
+    </tr>
+    <tr>
+        <td>50 GB</td>
+        <td>999 Kč / rok</td>
+        <td>sftp, webové rozhraní</td>
+    </tr>
+    <tr>
+        <td>100 GB</td>
+        <td>1999 Kč / rok</td>
+        <td>sftp, webové rozhraní</td>
+    </tr>
+    <tr>
+        <td>500 GB</td>
+        <td>3999 Kč / rok</td>
+        <td>sftp, webové rozhraní</td>
+    </tr>
+</table>
+<h4>GIT hosting</h4>
+<p>Hosting zdrojového kódu. Cena je uvedená na jeden repozitář.</p>
+<table class="table">
+    <tr>
+        <th>Název</th>
+        <th>Cena</th>
+        <th>Max. počet vývojářů</th>
+        <th>Velikost repozitáře</th>
+    </tr>
+    <tr>
+        <td>Git Basic</td>
+        <td>99 Kč / rok</td>
+        <td>3</td>
+        <td>50 MB</td>
+    </tr>
+    <tr>
+        <td>Git Standard</td>
+        <td>199 Kč / rok</td>
+        <td>5</td>
+        <td>100 MB</td>
+    </tr>
+    <tr>
+        <td>Git Pro</td>
+        <td>399 Kč / rok</td>
+        <td>10</td>
+        <td>100 MB</td>
+    </tr>
+    <tr>
+        <td>Git Unlimit</td>
+        <td>499 Kč / rok</td>
+        <td>neomezeně</td>
+        <td>200 MB</td>
+    </tr>
+</table>
+
+{% endblock base_content %}

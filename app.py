@@ -42,6 +42,10 @@ def projects__sitron():
 def projects__save_form():
     return render_template("projects__djangovoid.html")
 
+@app.route("/hosting")
+def projects__save_form():
+    return render_template("hosting.html")
+
 
 ##########
 
