@@ -1,7 +1,14 @@
 {% extends "base.html" %}
 {% block base_content %}
 <style type="text/css">
-.block1 {min-height: 130px;}
+.block1 {
+    min-height: 130px;
+}
+.opensource {
+    background-image: url("/static/img/open-source25.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
 </style>
 <h2>Main projects</h2>
 <div class="row">
@@ -34,7 +41,7 @@
         <p>Portal for practicing math examples for University of West Bohemia.
         <br><a href="http://mtrial.zcu.cz"><b>mtrial.zcu.cz</b></a></p>
     </div>
-    <div class="span3  block1">
+    <div class="span3  block1 opensource">
        <h3>Sitron</h3>
         <p>OpenSource tool for organize orienteering.</p>
     </div>
@@ -51,25 +58,25 @@
 </div>
 <h2>Open Source</h2>
 <div class="row">
-<div class="span3">
+<div class="span3 opensource">
         <h3>DjangoVoid</h3>
         <p>Preconfigured Django project for Django 1.4
         <br><a href="http://bitbucket.org/sikaondrej/djangovoid"><b>bitbucket.org djangovoid</b></a>
         </p>
     </div>
-    <div class="span3">
+    <div class="span3 opensource">
         <h3>DjangoVoid Extensions</h3>
         <p>Plugins for quick add to DjangoVoid
         <br><a href="http://bitbucket.org/sikaondrej/djangovoid-extensions"><b>bitbucket.org djangovoid-extensions</b></a>
         </p>
     </div>
-    <div class="span3">
+    <div class="span3 opensource">
         <h3>Django CMS templates</h3>
         <p> My and free templates prepared for DjangoCMS
         <br><a href="http://bitbucket.org/sikaondrej/django-cms-templates"><b>bitbucket.org django-cms-templates</b></a>
         </p>
     </div>
-    <div class="span3">
+    <div class="span3 opensource">
         <h3>Save Form</h3>
         <p>Simple app for save form data from static HTML pages
         <br><a href="http://bitbucket.org/sikaondrej/saveform"><b>bitbucket.org saveform</b></a>
