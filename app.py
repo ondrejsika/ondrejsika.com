@@ -1,57 +1,44 @@
+# STWW (Static Templated WSGI Web)
+# version 1.0
+# Author: Ondrej Sika
+#         http://ondrejsika.com
+
 import os
 import sys
 
 normpath = lambda *args: os.path.normpath(os.path.abspath(os.path.join(*args)))
 PROJECT_ROOT = normpath(__file__, "..")
 
-activate_this = normpath(PROJECT_ROOT, 'env/bin/activate_this.py')
-execfile(activate_this, dict(__file__=activate_this))
+sys.path.append(normpath(PROJECT_ROOT, "lib"))
 
 from flask import Flask, render_template
+from flask.views import View
+
 app = Flask(__name__)
 
+class BaseView(View):
+    def __init__(self, template_name):
+        self.template_name = template_name
+    def dispatch_request(self):
+        return render_template(self.template_name)
 
+def add_view(file_path):
+    path = file_path.replace(normpath(PROJECT_ROOT, "templates/"), "")[1:]
+    if path[-5:] == ".html":
+        url = path.replace(".html", "")
+        if url in ("index", "home"):
+            url = ""
+    else:
+        url = path
+    app.add_url_rule('/'+url, view_func=BaseView.as_view(path, template_name=path))
 
-##########
+def get_file_tree(*args):
+    for path, dirs, files in os.walk(normpath(*args)):
+        for filename in files:
+            yield os.path.join(path, filename)
 
-@app.route("/")
-def home():
-    return render_template("home.html")
-
-@app.route("/news")
-def news():
-    return render_template("news.html")
-
-@app.route("/projects")
-def projects():
-    return render_template("projects.html")
-
-@app.route("/contact")
-def contact():
-    return render_template("contact.html")
-
-@app.route("/sitemap")
-def sitemap():
-    return render_template("sitemap.html")
-
-@app.route("/projects/save-form")
-def projects__save_form():
-    return render_template("projects__save_form.html")
-
-@app.route("/projects/sitron")
-def projects__sitron():
-    return render_template("projects__sitron.html")
-
-@app.route("/projects/djangovoid")
-def projects__save_form():
-    return render_template("projects__djangovoid.html")
-
-@app.route("/hosting")
-def projects__save_form():
-    return render_template("hosting.html")
-
-
-##########
+for path in get_file_tree(PROJECT_ROOT, "templates"):
+    add_view(path)
 
 if __name__ == '__main__':
     app.run()
