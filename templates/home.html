@@ -1,7 +1,25 @@
 {% extends "base.html" %}
 {% block base_content %}
+<style type="text/css">
+.teaser {background-color:#CCC;padding:10px;margin-bottom: 10px;}
+.teaser p {margin: 3px;}
+</style>
 <div class="row">
-<div class="span7">
+<div class="span2">
+<h4>Ads &amp; News</h4>
+
+<div class="row"><div class="span2 teaser">
+<h5>Static Templated WSGI Web</h5>
+<p>Try my app for simple static web based on Python, with <b>Jinja2</b> templates.</p>
+<p style="text-align:right;"><a target="blank" href="http://bitbucket.org/sikaondrej/stww">code here</a></p>
+</div></div>
+<div class="row"><div class="span2 teaser">
+<h5>ProdejKnihu.cz</h5>
+<p>Sell unnecessary book on <a target="blank" href="http://prodejknihu.cz">prodejknihu.cz</a></p>
+</div></div>
+
+</div>
+<div class="span5">
     <h2>Technology</h2>
     <p style="font-weight:bold;">Python, Django, WebApp, JavaScript, HTML5</p>
 
@@ -17,7 +35,7 @@
 <img src="/static/img/tux200.png" alt="tux" width="25">
 <img src="/static/img/tux200.png" alt="tux" width="25">
       </div>
-      <div class="span3">
+      <div class="span2">
 <h3>Open source</h3>
 <img src="/static/img/open-source.png" alt="opensource" width="25">
 <img src="/static/img/open-source.png" alt="opensource" width="25">
@@ -32,7 +50,8 @@
     </div>
 </div>
 <div class="span2">
-  <h2>Social</h2>
+  <img src="/static/img/photo2.jpg" style="max-width:100%" class="img-rounded">
+  <h2 style="margin-top:10px;">Social</h2>
 <!--     <div style="float:right;">
        <img src="/static/img/photo.jpg" alt="photo" width="200" style="-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 16px;"> -->
 <p style="margin-top:10px;"><b>
