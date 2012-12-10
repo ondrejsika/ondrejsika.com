@@ -1,0 +1,31 @@
+/* 
+Look like as Lynx 
+Author:   Ondrej Sika
+          http://ondrejsika.com/
+License:  GNU GPL v. 3
+Date:     Tue Nov 13 2012 08:20:33
+*/
+
+body {
+  background-color: black;
+  color: gray;
+  font-family: monospace;
+  font-size: 1.2em;
+}
+a {
+  color: green;
+}
+h1 {
+  text-align: center;
+  color: yellow;
+}
+b {
+  color: red;
+}
+i {
+  color: blue;
+}
+
+tt {
+  color: purple;
+}
