@@ -10,7 +10,9 @@
     <link rel="stylesheet" type="text/css" href="/static/t/eyesaver.css">
   </head>
   <body>
-    <p><a href="/t/en/home">english</a> | <a href="/t/cs/home">cesky</a></p>
+    {% block lang %}
+    <p><a href="/t/en/">english</a> | <a href="/t/cs/">cesky</a></p>
+    {% endblock lang %}
     {% block menu %}{% endblock %}
     <h1>Ondrej Sika</h1>
     {% block content %}{% endblock %}
