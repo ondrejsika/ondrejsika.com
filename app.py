@@ -26,8 +26,8 @@ def add_view(file_path):
     path = file_path.replace(normpath(PROJECT_ROOT, "templates/"), "")[1:]
     if path[-5:] == ".html":
         url = path.replace(".html", "")
-        if url in ("index", "home"):
-            url = ""
+        if "index" in url or "home" in url:
+            url = url.replace("home", "").replace("index", "")
     else:
         url = path
     app.add_url_rule('/'+url, view_func=BaseView.as_view(path, template_name=path))
