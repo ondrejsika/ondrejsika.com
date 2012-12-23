@@ -16,7 +16,7 @@ h3 {
     margin-top: 10px;
 }
 </style>
-<h2>viminput (python)</h2>
+<h2>viminput 1.0.1 (python)</h2>
 <p>If you want to enter lot of text, python's standart input is inappropriate. You write data comfortably in vim, but python load data as data from std input.</p>
 <p>
     <a href="http://pypi.python.org/pypi/viminput">http://pypi.python.org/pypi/viminput</a>
@@ -33,11 +33,17 @@ python setup.py install
 </pre>
 <h3>Example</h3>
 <h4>import functions</h4>
-<pre>>>> from viminput import viminput</pre>
-<h4>input without default data</h4>
+<pre>>>> from viminput import viminput, textinput</pre>
+<h4>viminput without default data</h4>
 <p>open blank vim</p>
 <pre>>>> data = viminput()</pre>
-<h4>input with default data</h4>
+<h4>viminput with default data</h4>
 <p>open vim with default data</p>
 <pre>>>> data = viminput("this is default data\ndataon new line")</pre>
+<h4>textinput open editor from $EDITOR with default data</h4>
+<p>open texteditor from $EDITOR with default data</p>
+<pre>>>> data = textinput(content="this is default data\ndataon new line")</pre>
+<h4>textinput open defined editor</h4>
+<p>open texteditor (nano) with default data</p>
+<pre>>>> data = textinput(editor="nano", content="this is default data\ndataon new line")</pre>
 {% endblock base_content %}
