@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block base_content %}
+<style type="text/css">
+.block1 {
+    min-height: 130px;
+}
+.row{
+    margin-bottom: 10px;
+}
+.opensource {
+    background-image: url("/static/img/open-source25.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+h3 {
+    margin-top: 10px;
+}
+</style>
+<h2>mysqlbackup 1.0</h2>
+<p>Simple script for export all tables to separated sql files.</p>
+<h3>Download</h3>
+<p>Source (bash) <a href="/static/scripts/mysqlbackup">mysqlbackup</a>
+<br>Debian / Ubuntu package <a href="/static/deb/mysqlbackup_1.0~ondrejsika-1_all.deb">mysqlbackup_1.0~ondrejsika-1_all.deb</a>
+<br>View on cpaste.org <a href="http://cpaste.org/1559/">cpaste.org/1559</a></p>
+<h3>Example of usage</h3>
+<pre>
+$ mysqlbackup [mysql_user_name] [mysql_user_passwd] [export_directory]
+</pre>
+<pre>
+$ mysqlbackup root 123456 /var/mysqlexport/
+</pre>
+{% endblock base_content %}

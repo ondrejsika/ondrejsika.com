@@ -40,5 +40,7 @@ def get_file_tree(*args):
 for path in get_file_tree(PROJECT_ROOT, "templates"):
     add_view(path)
 
+
+appilcation=app
 if __name__ == '__main__':
     app.run()
