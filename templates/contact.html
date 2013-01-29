@@ -1,55 +1,17 @@
 {% extends "base.html" %}
-
-{% block base_content %}
+{% block content %}
 <h2>Contact me</h2>
-<div class="row">
-<div class="span4">
-    <!-- <h3>Python (Django) development</h3> -->
-    <table class="table">
-        <tr>
-             <th>email</th>
-             <td><a href="mailto:dev@ondrejsika.com">dev@ondrejsika.com</b></td>
-        </tr>
-        <tr>
-             <th>phone</th>
-             <td>+420 773 452 376</td>
-        </tr>
-        <tr>
-             <th>availability</th>
-             <td><a target="blank" href="https://www.google.com/calendar/embed?src=sika.ondrej%40gmail.com">google calendar</a></td>
-        </tr>
-        <tr>
-             <th>address</th>
-             <td><p>Pilsen<br>Czech Republic</p></td>
-        </tr>
-        <tr>
-             <th>curriculum vitae</th>
-             <td><p>
-                <a href="/static/cv/cv2012.pdf">Download as PDF</a>
-                <br><a href="/static/cv/cv2012.tex">Download as TeX</a>
-            </td>
-        </tr>
-    </table>
-</div>
-<div class="span4">
-    <!-- <h3>Hosting</h3>
-    <table class="table">
-        <tr>
-             <th>PHP</th>
-             <td><a href="mailto:info@phphost.cz">info@phphost.cz</a></td>
-             <td><a href="http://phphost.cz">phphost.cz</a></td>
-        </tr>
-        <tr>
-             <th>Django (WSGI)</th>
-             <td><a href="mailto:info@gjangohost.cz">info@djangohost.cz</a></td>
-             <td><a href="http://djangohost.cz">djangohost.cz</a></td>
-        </tr>
-        <tr>
-             <th>GIT</th>
-             <td><a href="mailto:info@git-host.cz">info@git-host.cz</a></td>
-             <td><a href="http://git-host.cz">git-host.cz</a></td>
-        </tr>
-    </table> -->
-</div>
-</div>
-{% endblock base_content %}
+<h3>email</h3>
+<p><a href="mailto:dev@ondrejsika.com">dev@ondrejsika.com</a></p>
+<h3>phone</h3>
+<p>+420 773 452 376</p>
+<h3>availability</h3>
+<p><a target="blank" href="https://www.google.com/calendar/embed?src=sika.ondrej%40gmail.com">google calendar</a></p>
+<h3>address</h3>
+<p>Pilsen<br>Czech Republic</p>
+<h3>curriculum vitae</h3>
+<p>
+<a href="http://drive.ondrejsika.com/cv.pdf" target="blank">Download as PDF</a>
+<br><a href="http://drive.ondrejsika.com/cv.tex" target="blank">Download as TeX</a>
+</p>
+{% endblock content %}
