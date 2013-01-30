@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>crypto documentation</h2>
+<p>Python library for simply text cryptography.</p>
+<h3>Authors</h3>
+<table class="table">
+    <tr>
+        <td><b>Ondrej Sika</b></td>
+        <td><a href="http://ondrejsika.com">ondrejsika.com</a></td>
+        <td><a href="mailto:dev@ondrejsika.com">dev@ondrejsika.com</a></td>
+    </tr>
+</table>
+<h3>Source</h3>
+<table class="table">
+    <tr>
+        <td>Documentation</td>
+        <td><a href="http://ondrejsika.com/docs/python-crypto">http://ondrejsika.com/docs/python-crypto</a></td>
+    </tr>
+    <tr>
+        <td>Python Package Index</td>
+        <td><a href="http://pypi.python.org/pypi/crypto">http://pypi.python.org/pypi/crypto</a></td>
+    </tr>
+    <tr>
+        <td>Bitbucket</td>
+        <td><a href="https://bitbucket.org/sikaondrej/python-crypto">https://bitbucket.org/sikaondrej/python-crypto</a></td>
+    </tr>
+</table>
+<h3>Instalation</h3>
+Instalation is very simple over pip.
+<pre># pip install crypto</pre>
+
+<h3>Functions</h3>
+<h4>Generate keys pair</h4>
+<pre>
+import crypto
+key_length = 256
+public, private = crypto.newkeys(key_length)
+</pre>
+
+<h4>Export key to string, file</h4>
+<pre>
+public_string = crypto.export_key(public)  # export key to string
+crypto.export_key_file(public, "id_rsa.pub")  # expo key to string
+</pre>
+
+<h4>Load key to string, file</h4>
+<pre>
+public = crypto.load_key(public_string)  # load key to string
+private = crypto.load_key_file("id_rsa.pub")  # load key to string
+</pre>
+
+<h4>Encrypt string</h4>
+<pre>
+message = "My secret message"
+encrypted = crypto.encrypt(message, public)
+</pre>
+
+<h4>Decrypt string</h4>
+<pre>
+message = crypto.encrypt(encrypted, private)
+</pre>
+{% endblock content %}
