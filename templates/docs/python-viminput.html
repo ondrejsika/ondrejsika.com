@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>viminput documentation</h2>
+<p>If you want to enter lot of text, python's standart input is inappropriate. You write data comfortably in vim or $EDITOR, but python load data as data from std input.</p>
+<h3>Authors</h3>
+<table class="table">
+    <tr>
+        <td><b>Ondrej Sika</b></td>
+        <td><a href="http://ondrejsika.com">ondrejsika.com</a></td>
+        <td><a href="mailto:dev@ondrejsika.com">dev@ondrejsika.com</a></td>
+    </tr>
+</table>
+<h3>Source</h3>
+<table class="table">
+    <tr>
+        <td>Documentation</td>
+        <td><a href="http://ondrejsika.com/docs/python-viminput">http://ondrejsika.com/docs/python-viminput</a></td>
+    </tr>
+    <tr>
+        <td>Python Package Index</td>
+        <td><a href="http://pypi.python.org/pypi/viminput">http://pypi.python.org/pypi/viminput</a></td>
+    </tr>
+    <tr>
+        <td>Bitbucket</td>
+        <td><a href="https://bitbucket.org/sikaondrej/python-viminput">https://bitbucket.org/sikaondrej/python-viminput</a></td>
+    </tr>
+</table>
+<h3>Instalation</h3>
+Instalation is very simple over pip.
+<pre># pip install viminput</pre>
+
+<h3>Usage</h3>
+<pre>
+from viminput import viminput, textinput
+# use vim
+text = viminput()
+print text
+# use $EDITOR
+text = textinput()
+# set editor
+text = textinput(editor="nano")
+# default data
+text = viminput(content="default data")
+</pre>
+{% endblock content %}
