@@ -45,8 +45,8 @@ crypto.export_key_file(public, "id_rsa.pub")  # expo key to string
 
 <h4>Load key to string, file</h4>
 <pre>
-public = crypto.load_key(public_string)  # load key to string
-private = crypto.load_key_file("id_rsa.pub")  # load key to string
+public = crypto.load_key(public_string)  # load key from string
+private = crypto.load_key_file("id_rsa.pub")  # load key from string
 </pre>
 
 <h4>Encrypt string</h4>
