@@ -49,7 +49,7 @@ class MyModel(sikadb.Model):
 
 <h4>Create and save object</h4>
 <pre>
-a = MyModel().new(name="object_a")
+a = MyModel().create(name="object_a")
 a.text = "This is object a"
 a.array = [1,2,3]
 a.save()
@@ -64,8 +64,8 @@ a.save()
 
 <h4>Get more objects</h4>
 <pre>
-b = MyModel().new(name="b", text="Hello").save()
-c = MyModel().new(name="c", text="Hello").save()
+b = MyModel().create(name="b", text="Hello").save()
+c = MyModel().create(name="c", text="Hello").save()
 
 MyModel().filter(text="Hello")  # return list of model b, c
 </pre>
@@ -74,5 +74,11 @@ MyModel().filter(text="Hello")  # return list of model b, c
 <pre>
 a = MyModel().get(name="object_a")
 a.delete()
+</pre>
+
+<h4>Get or create</h4>
+<p>If it returns the object exists, if not create it.</p>
+<pre>
+MyModel().get_or_create(name="d", text="Hello", array=[4,8,8]).save()
 </pre>
 {% endblock content %}
