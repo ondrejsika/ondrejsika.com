@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>remoteforms documentation</h2>
+<p>Library for AJAX access to forms</p>
+<h3>Authors</h3>
+<table class="table">
+    <tr>
+        <td><b>Ondrej Sika</b></td>
+        <td><a href="http://ondrejsika.com">ondrejsika.com</a></td>
+        <td><a href="mailto:dev@ondrejsika.com">dev@ondrejsika.com</a></td>
+    </tr>
+</table>
+<h3>Source</h3>
+<table class="table">
+    <tr>
+        <td>Documentation</td>
+        <td><a href="http://ondrejsika.com/docs/django-remoteforms">http://ondrejsika.com/docs/django-remoteforms</a></td>
+    </tr>
+    <tr>
+        <td>Python Package Index</td>
+        <td><a href="http://pypi.python.org/pypi/django-remoteforms">http://pypi.python.org/pypi/django-remoteforms</a></td>
+    </tr>
+    <tr>
+        <td>Bitbucket</td>
+        <td><a href="https://bitbucket.org/sikaondrej/django-remoteforms">https://bitbucket.org/sikaondrej/django-remoteforms</a></td>
+    </tr>
+</table>
+<h3>Instalation</h3>
+Instalation is very simple over pip.
+<pre># pip install remoteforms</pre>
+
+<h3>Djnago functions</h3>
+<pre>
+from remoteforms import form_baseview, done_baseview
+
+http_response, object or None = form_baseview(request, form_class, template, save)
+
+http_response = form_baseview(request, template)
+</pre>
+
+<h3>JavaScript functions</h3>
+<pre>
+remoteForm(formDiv, formID, submitID, formURL, doneURL)
+</pre>
+
+<h3>Usage django</h3>
+<h4>settings.py</h4>
+<pre>
+INSTALLED_APPS = (
+    ...
+    "remoteforms",
+    ...
+)
+</pre>
+<h4>views.py</h4>
+<pre>
+from remoteforms import form_baseview, done_baseview
+from forms import MyForm
+
+def my_form_view(request, template="my_form.html"):
+    return form_baseview(request, MyForm, template, True)[0]
+
+
+def my_done_view(request, template="my_form_done.html"):
+    return form_baseview(request, template)
+</pre>
+
+<h3>Usage JavaScript</h3>
+<pre>
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;script type="text/javascript" src="src/jquery-1.9.1.min.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="src/remote-forms.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript"&gt;
+    $(document).ready(function (){
+        remoteForm("#form", "form", "#formsubmit", "http://localhost:8000/form/", "http://localhost:8000/done/");
+    })
+  &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div id="form"&gt;&lt;/div&gt;&lt;button id="formsubmit"&gt;submit&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+{% endblock content %}
