@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>youtube-playlist-player documentation</h2>
+<p>JavaScript YouTube player with pushing video to playlist in playing.</p>
+<h3>Authors</h3>
+<table class="table">
+    <tr>
+        <td><b>Ondrej Sika</b></td>
+        <td><a href="http://ondrejsika.com">ondrejsika.com</a></td>
+        <td><a href="mailto:dev@ondrejsika.com">dev@ondrejsika.com</a></td>
+    </tr>
+</table>
+<h3>Source</h3>
+<table class="table">
+    <tr>
+        <td>Documentation</td>
+        <td><a href="http://ondrejsika.com/docs/javascript-youtube-playlist-player">http://ondrejsika.com/docs/javascript-youtube-playlist-player</a></td>
+    </tr>
+    <tr>
+        <td>Bitbucket</td>
+        <td><a href="https://bitbucket.org/sikaondrej/javascript-youtube-playlist-player">https://bitbucket.org/sikaondrej/javascript-youtube-playlist-player</a></td>
+    </tr>
+</table>
+
+<h3>Usage</h3>
+<pre>
+&lt;div id="video"&gt;&lt;/div&gt; &lt;!-- DIV FOR DISPLAYING PLAYER --&gt;
+
+&lt;script type="text/javascript" src="http://drive.ondrejsika.com/js/tubeplayer.js.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://drive.ondrejsika.com/js/youtube_playlist_player.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+pl = player("#video"); // create player instance
+pl.addVideo("OS7Z2Oj69Rw"); // add video to playlist
+&lt;/script&gt;
+</pre>
+{% endblock content %}
