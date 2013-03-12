@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>shm (sika hosting manager) documentation</h2>
+<p>Tool for managing PHP hosting on Apache2 and MySQL</p>
+<h3>Authors</h3>
+<table class="table">
+    <tr>
+        <td><b>Ondrej Sika</b></td>
+        <td><a href="http://ondrejsika.com">ondrejsika.com</a></td>
+        <td><a href="mailto:dev@ondrejsika.com">dev@ondrejsika.com</a></td>
+    </tr>
+</table>
+<h3>Source</h3>
+<table class="table">
+    <tr>
+        <td>Documentation</td>
+        <td><a href="http://ondrejsika.com/docs/shm">http://ondrejsika.com/docs/shm</a></td>
+    </tr>
+    <tr>
+        <td>Bitbucket</td>
+        <td><a href="https://bitbucket.org/sikaondrej/shm">https://bitbucket.org/sikaondrej/shm</a></td>
+    </tr>
+</table>
+<h3>Installation</h3>
+Clone GIT repository to /opt/shm
+<pre># git clone git@bitbucket.org:sikaondrej/shm.git /opt/shm</pre>
+add shm/bin to path
+<pre># echo "PATH=$PATH:/opt/shm/bin" > ~/.bashrc</pre>
+create config files
+<h4>/etc/shm/db</h4>
+<pre>
+MYSQL_USER="root"
+MYSQL_PASSWD="mypasswd"
+</pre>
+<h4>/etc/shm/php</h4>
+<pre>
+WWW="/var/www/"  # php hosting storage
+APACHE2_SITE="/etc/apache2/sites-available/"  # apache virtualhost conf
+</pre>
+and restart bash
+<pre>
+$ bash
+</pre>
+
+<h3>Usage</h3>
+<h4>Create PHP hosting</h4>
+<pre>$ sudo shm-php-create [domain] [[passwd]]</pre>
+Create dir structure,  user &amp; apache2 conf for hosting and activate it.
+
+<h4>Create MySQL user</h4>
+<pre>$ sudo shm-mysql-create [domain] [[passwd]]</pre>
+Create user from domain name and grant privileges for database start "$username_".
+{% endblock content %}
