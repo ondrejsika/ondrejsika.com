@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>python-googleapi documentation</h2>
+<p>Library for smart usage of Google API</p>
+<h3>Authors</h3>
+<table class="table">
+    <tr>
+        <td><b>Ondrej Sika</b></td>
+        <td><a href="http://ondrejsika.com">ondrejsika.com</a></td>
+        <td><a href="mailto:dev@ondrejsika.com">dev@ondrejsika.com</a></td>
+    </tr>
+</table>
+<h3>Source</h3>
+<table class="table">
+    <tr>
+        <td>Documentation</td>
+        <td><a href="http://ondrejsika.com/docs/python-googleapi">http://ondrejsika.com/docs/googleapi</a></td>
+    </tr>
+    <tr>
+        <td>Python Package Index</td>
+        <td><a href="http://pypi.python.org/pypi/googleapi" target="blank">http://pypi.python.org/pypi/googleapi</a></td>
+    </tr>
+    <tr>
+        <td>GitHub</td>
+        <td><a href="https://github.com/sikaondrej/python-googleapi" target="blank">https://github.com/sikaondrej/python-googleapi</a></td>
+    </tr>
+</table>
+<h3>Instalation</h3>
+Instalation is very simple over pip.
+<pre># pip install googleapi</pre>
+
+<h3>Search</h3>
+<h4>web search</h4>
+googleapi.search.web(query, [results_count=8])
+<pre>
+>>> from googleapi import search
+>>> search.web(query="Ondrej Sika", results_count=2)
+[
+    {
+        'url': u'http://ondrejsika.com/',
+        'description': u'Checkout some of my sites: ProdejKnihu.cz (CZ), OndrejSika's blog (CZ), BitBucket, GitHub, ...',
+        'title': u'OndrejSika',
+    },
+    {
+        'url': u'https://github.com/sikaondrej',
+        'description': u'sikaondrej has 8 repos written in Python, JavaScript, and C.',
+        'title': u'sikaondrej(Ond\u0159ej\u0160ika)\xb7GitHub'
+    }
+]
+</pre>
+
+<h4>images search</h4>
+googleapi.search.images(query, [results_count=8])
+<pre>
+>>> from googleapi import search
+>>> search.images(query="Ondrej Sika", results_count=2)
+[
+    {
+        'description_url': u'http://www.facebook.com/sikaondrej2',
+        'image_url': u'http://sphotos-a.xx.fbcdn.net/hphot461_o.jpg',
+        'description': u'Ondrej Sika',
+        'title': u'OndrejSika | Facebook'
+    },
+    {
+        'description_url': u'http://www.facebook.com/sikaondrej2',
+        'image_url': u'http://profile.ak.fbcdn.net/hp0_n.jpg',
+        'description': u'Ondrej Sika',
+        'title': u'390499_343806985714320_...'
+    }
+]
+</pre>
+{% endblock content %}
