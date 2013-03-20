@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>flask-server documentation</h2>
+Simple HTTP server with Jinja2 templates based on Flask
+
+<h3>Authors</h3>
+<table class="table">
+    <tr>
+        <td><b>Ondrej Sika</b></td>
+        <td><a href="http://ondrejsika.com">ondrejsika.com</a></td>
+        <td><a href="mailto:dev@ondrejsika.com">dev@ondrejsika.com</a></td>
+    </tr>
+</table>
+<h3>Source</h3>
+<table class="table">
+    <tr>
+        <td>Documentation</td>
+        <td><a href="http://ondrejsika.com/docs/flask-server">http://ondrejsika.com/docs/flask-server</a></td>
+    </tr>
+    <tr>
+        <td>Python Package Index</td>
+        <td><a href="http://pypi.python.org/pypi/flask-server" target="blank">http://pypi.python.org/pypi/flask-server</a></td>
+    </tr>
+    <tr>
+        <td>GitHub</td>
+        <td><a href="https://github.com/sikaondrej/flask-server" target="blank">https://github.com/sikaondrej/flask-server</a></td>
+    </tr>
+</table>
+<h3>Instalation</h3>
+Instalation is very simple over pip.
+<pre># pip install flask-server</pre>
+
+<h3>Create web server</h3>
+<pre>
+$ cd /path/to/web
+$ mkdir templates static
+$ vim wsgi.py
+</pre>
+<h4>content of wsgi.py</h4>
+<pre>
+#!/usr/bin/python
+from flask_server import FlaskServer, normpath
+application = FlaskServer(__name__, normpath(__file__, ".."))
+if __name__ == "__main__":
+    application.run()
+</pre>
+<h3>run</h3>
+<pre>
+$ chmod +x wsgi.py
+./wsgi.py
+</pre>
+
+<h3>Usage</h3>
+<h4>Urls</h4>
+file structure
+<pre>
+templates/index.html
+templates/about.html
+templates/projects/index.html
+templates/projects/project1.html
+templates/projects/project2.html
+</pre>
+urls structure
+<pre>
+/
+/about/
+/projects/
+/projects/project1
+/projects/project2
+</pre>
+<h4>Templates</h4>
+Templates supports Jinja2. <a href="http://jinja.pocoo.org/docs/" target="blank">jinja.pocoo.org/docs/</a>
+{% endblock content %}
