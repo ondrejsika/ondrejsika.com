@@ -33,21 +33,15 @@ Instalation is very simple over pip.
 <h3>Create web server</h3>
 <pre>
 $ cd /path/to/web
-$ mkdir templates static
-$ vim wsgi.py
+$ flask-server init
 </pre>
-<h4>content of wsgi.py</h4>
+or
 <pre>
-#!/usr/bin/python
-from flask_server import FlaskServer, normpath
-application = FlaskServer(__name__, normpath(__file__, ".."))
-if __name__ == "__main__":
-    application.run()
+$ flask init /path/to/web
 </pre>
 <h3>run</h3>
 <pre>
-$ chmod +x wsgi.py
-./wsgi.py
+$ python wsgi.py
 </pre>
 
 <h3>Usage</h3>
