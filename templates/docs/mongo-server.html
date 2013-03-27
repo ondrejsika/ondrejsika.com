@@ -66,12 +66,12 @@ HTTP GET http://localhost:5000/insert/my_table/?a=1&b=2
 Find in default table
 <pre>
 HTTP GET http://localhost:5000/find/?a=1
-[{u'a': [u'1'], u'_id': ObjectId('5153178a0fa47060817b9320')}]
+[{ u'a': [u'1'], u'b': [u'2'], u'_id': ObjectId('5153178a0fa47060817b9320')}]
 </pre>
 Find in other table
 <pre>
 HTTP GET http://localhost:5000/find/my_table/?a=1
-[{u'a': [u'1'], u'_id': ObjectId('5153178a0fa47060817b9320')}]
+[{ u'a': [u'1'], u'b': [u'2'], u'_id': ObjectId('5153178a0fa47060817b9320')}]
 </pre>
 
 {% endblock content %}
