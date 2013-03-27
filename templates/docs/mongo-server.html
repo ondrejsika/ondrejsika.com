@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>mongo-server documentation</h2>
+
+HTTP server for MongoDB
+
+<h3>Authors</h3>
+<table class="table">
+    <tr>
+        <td><b>Ondrej Sika</b></td>
+        <td><a href="http://ondrejsika.com">ondrejsika.com</a></td>
+        <td><a href="mailto:dev@ondrejsika.com">dev@ondrejsika.com</a></td>
+    </tr>
+</table>
+<h3>Source</h3>
+<table class="table">
+    <tr>
+        <td>Documentation</td>
+        <td><a href="http://ondrejsika.com/docs/mongo-server">http://ondrejsika.com/docs/mongo-server</a></td>
+    </tr>
+    <tr>
+        <td>Python Package Index</td>
+        <td><a href="http://pypi.python.org/pypi/mongo-server" target="blank">http://pypi.python.org/pypi/mongo-server</a></td>
+    </tr>
+    <tr>
+        <td>GitHub</td>
+        <td><a href="https://github.com/sikaondrej/mongo-server" target="blank">https://github.com/sikaondrej/mongo-server</a></td>
+    </tr>
+</table>
+<h3>Instalation</h3>
+Instalation is very simple over pip.
+<pre># pip install mongo-server</pre>
+
+<h3>Create mongo server</h3>
+file wsgi.py
+<pre>
+from mongo_server import MongoServer
+
+application = MongoServer(database="database", table="data", server=None, port=None)
+if __name__ == "__main__":
+    application.run()
+</pre>
+
+<h3>Run server</h3>
+<pre>
+$ python wsgi.py
+* Running on http://127.0.0.1:5000/
+</pre>
+or
+<pre>
+$ gunicorn wsgi:application
+</pre>
+
+<h3>Usage</h3>
+<h4>Insert data</h4>
+Inser to default table
+<pre>
+HTTP GET http://localhost:5000/insert/?a=1&b=2
+</pre>
+insert to other table
+<pre>
+HTTP GET http://localhost:5000/insert/my_table/?a=1&b=2
+</pre>
+
+<h4>Get data</h4>
+Find in default table
+<pre>
+HTTP GET http://localhost:5000/find/?a=1
+[{u'a': [u'1'], u'_id': ObjectId('5153178a0fa47060817b9320')}]
+</pre>
+Find in other table
+<pre>
+HTTP GET http://localhost:5000/find/my_table/?a=1
+[{u'a': [u'1'], u'_id': ObjectId('5153178a0fa47060817b9320')}]
+</pre>
+
+{% endblock content %}
