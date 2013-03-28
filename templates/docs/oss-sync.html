@@ -1,31 +1,24 @@
-{% extends "base.html" %}
-{% block content %}
-<h2>oss-sync documentation</h2>
-Tool for sync files with ssh server via rsync
-<h3>Authors</h3>
-<table class="table">
-    <tr>
-        <td><b>Ondrej Sika</b></td>
-        <td><a href="http://ondrejsika.com">ondrejsika.com</a></td>
-        <td><a href="mailto:dev@ondrejsika.com">dev@ondrejsika.com</a></td>
-    </tr>
-</table>
-<h3>Source</h3>
-<table class="table">
-    <tr>
-        <td>Documentation</td>
-        <td><a href="http://ondrejsika.com/docs/oss-sync">http://ondrejsika.com/docs/oss-sync</a></td>
-    </tr>
-    <tr>
-        <td>Bitbucket</td>
-        <td><a href="https://bitbucket.org/sikaondrej/oss-sync" target="blank">https://bitbucket.org/sikaondrej/oss-sync</a></td>
-    </tr>
-</table>
+{% extends "docs/base.html" %}
 
+{% set title = "oss-sync documentation" %}
+{% set authors = [
+    ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
+] %}
+{% set sources = [
+    ["Documentation", "ondrejsika.com/docs/oss-sync"],
+    ["Bitbucket", "bitbucket.org/sikaondrej/oss-sync"],
+] %}
+
+{% block content2 %}
+Tool for sync files with ssh server via rsync
+{% endblock content2 %}
+
+
+{% block content3 %}
 <h3>Usage</h3>
 <pre>
 $ oss-sync-config               # configurate syncer to $HOME/.oss-sync
 $ sudo oss-sync-cron [username] # add your config to chrome job
 $ oss-sync                      # sync now
 </pre>
-{% endblock content %}
+{% endblock content3 %}

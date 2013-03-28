@@ -1,29 +1,23 @@
-{% extends "base.html" %}
-{% block content %}
-<h2>spm (postgresql) documentation</h2>
+{% extends "docs/base.html" %}
+
+{% set title = "spm (postgresql) documentation" %}
+{% set authors = [
+    ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
+] %}
+{% set sources = [
+    ["Documentation", "ondrejsika.com/docs/spm"],
+    ["Bitbucket", "bitbucket.org/sikaondrej/spm"],
+] %}
+
+{% block content2 %}
 <p>Tool for managing postgress db</p>
-<h3>Authors</h3>
-<table class="table">
-    <tr>
-        <td><b>Ondrej Sika</b></td>
-        <td><a href="http://ondrejsika.com">ondrejsika.com</a></td>
-        <td><a href="mailto:dev@ondrejsika.com">dev@ondrejsika.com</a></td>
-    </tr>
-</table>
-<h3>Source</h3>
-<table class="table">
-    <tr>
-        <td>Documentation</td>
-        <td><a href="http://ondrejsika.com/docs/spm">http://ondrejsika.com/docs/spm</a></td>
-    </tr>
-    <tr>
-        <td>Bitbucket</td>
-        <td><a href="https://bitbucket.org/sikaondrej/spm" target="blank">https://bitbucket.org/sikaondrej/spm</a></td>
-    </tr>
-</table>
+{% endblock content2 %}
+
+
+{% block content3 %}
 <h3>Usage</h3>
 <h4>./spm-psql [user] [passwd] [sql command]</h4>
 <h4>./spm-createuser [postrges passwd] [username] [passwd]</h4>
 <h4>./spm-createdb [postrges passwd] [dbname]</h4>
 <h4>./spm-grantall [postrges passwd] [user] [dbname]</h4>
-{% endblock content %}
+{% endblock content3 %}

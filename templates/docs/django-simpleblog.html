@@ -1,34 +1,25 @@
-{% extends "base.html" %}
-{% block content %}
-<h2>simpleblog documentation</h2>
+{% extends "docs/base.html" %}
+
+{% set title = "django-simpleblog documentation" %}
+{% set authors = [
+    ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
+] %}
+{% set sources = [
+    ["Documentation", "ondrejsika.com/docs/django-simpleblog"],
+    ["Python Package Index", "pypi.python.org/pypi/django-simpleblog"],
+    ["Bitbucket", "bitbucket.org/sikaondrej/django-simpleblog"],
+] %}
+
+{% block content2 %}
 <p>Django app provides very simple blog.</p>
-<h3>Authors</h3>
-<table class="table">
-    <tr>
-        <td><b>Ondrej Sika</b></td>
-        <td><a href="http://ondrejsika.com">ondrejsika.com</a></td>
-        <td><a href="mailto:dev@ondrejsika.com">dev@ondrejsika.com</a></td>
-    </tr>
-</table>
-<h3>Source</h3>
-<table class="table">
-    <tr>
-        <td>Documentation</td>
-        <td><a href="http://ondrejsika.com/docs/django-simpleblog">http://ondrejsika.com/docs/django-simpleblog</a></td>
-    </tr>
-    <tr>
-        <td>Python Package Index</td>
-        <td><a href="http://pypi.python.org/pypi/django-simpleblog" target="blank">http://pypi.python.org/pypi/django-simpleblog</a></td>
-    </tr>
-    <tr>
-        <td>Bitbucket</td>
-        <td><a href="https://bitbucket.org/sikaondrej/django-simpleblog" target="blank">https://bitbucket.org/sikaondrej/django-simpleblog</a></td>
-    </tr>
-</table>
+{% endblock content2 %}
+
+
+{% block content3 %}
 <h3>Instalation</h3>
 Instalation is very simple over pip.
 <pre># pip install simpleblog</pre>
 
 <h3>Usage</h3>
 In progres..
-{% endblock content %}
+{% endblock content3 %}

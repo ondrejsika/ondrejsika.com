@@ -1,31 +1,21 @@
-{% extends "base.html" %}
-{% block content %}
-<h2>flask-server documentation</h2>
-Simple HTTP server with Jinja2 templates based on Flask
+{% extends "docs/base.html" %}
 
-<h3>Authors</h3>
-<table class="table">
-    <tr>
-        <td><b>Ondrej Sika</b></td>
-        <td><a href="http://ondrejsika.com">ondrejsika.com</a></td>
-        <td><a href="mailto:dev@ondrejsika.com">dev@ondrejsika.com</a></td>
-    </tr>
-</table>
-<h3>Source</h3>
-<table class="table">
-    <tr>
-        <td>Documentation</td>
-        <td><a href="http://ondrejsika.com/docs/flask-server">http://ondrejsika.com/docs/flask-server</a></td>
-    </tr>
-    <tr>
-        <td>Python Package Index</td>
-        <td><a href="http://pypi.python.org/pypi/flask-server" target="blank">http://pypi.python.org/pypi/flask-server</a></td>
-    </tr>
-    <tr>
-        <td>GitHub</td>
-        <td><a href="https://github.com/sikaondrej/flask-server" target="blank">https://github.com/sikaondrej/flask-server</a></td>
-    </tr>
-</table>
+{% set title = "flask-server documentation" %}
+{% set authors = [
+    ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
+] %}
+{% set sources = [
+    ["Documentation", "ondrejsika.com/docs/flask-server"],
+    ["Python Package Index", "pypi.python.org/pypi/flask-server"],
+    ["GitHub", "github.com/sikaondrej/flask-server"],
+] %}
+
+{% block content2 %}
+Simple HTTP server with Jinja2 templates based on Flask
+{% endblock content2 %}
+
+
+{% block content3 %}
 <h3>Instalation</h3>
 Instalation is very simple over pip.
 <pre># pip install flask-server</pre>
@@ -64,4 +54,4 @@ urls structure
 </pre>
 <h4>Templates</h4>
 Templates supports Jinja2. <a href="http://jinja.pocoo.org/docs/" target="blank">jinja.pocoo.org/docs/</a>
-{% endblock content %}
+{% endblock content3 %}

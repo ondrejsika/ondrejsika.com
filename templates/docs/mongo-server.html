@@ -1,32 +1,21 @@
-{% extends "base.html" %}
-{% block content %}
-<h2>mongo-server documentation</h2>
+{% extends "docs/base.html" %}
 
+{% set title = "mongo-server documentation" %}
+{% set authors = [
+    ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
+] %}
+{% set sources = [
+    ["Documentation", "ondrejsika.com/docs/mongo-server"],
+    ["Python Package Index", "pypi.python.org/pypi/mongo-server"],
+    ["GitHub", "github.com/sikaondrej/mongo-server"],
+] %}
+
+{% block content2 %}
 HTTP server for MongoDB
+{% endblock content2 %}
 
-<h3>Authors</h3>
-<table class="table">
-    <tr>
-        <td><b>Ondrej Sika</b></td>
-        <td><a href="http://ondrejsika.com">ondrejsika.com</a></td>
-        <td><a href="mailto:dev@ondrejsika.com">dev@ondrejsika.com</a></td>
-    </tr>
-</table>
-<h3>Source</h3>
-<table class="table">
-    <tr>
-        <td>Documentation</td>
-        <td><a href="http://ondrejsika.com/docs/mongo-server">http://ondrejsika.com/docs/mongo-server</a></td>
-    </tr>
-    <tr>
-        <td>Python Package Index</td>
-        <td><a href="http://pypi.python.org/pypi/mongo-server" target="blank">http://pypi.python.org/pypi/mongo-server</a></td>
-    </tr>
-    <tr>
-        <td>GitHub</td>
-        <td><a href="https://github.com/sikaondrej/mongo-server" target="blank">https://github.com/sikaondrej/mongo-server</a></td>
-    </tr>
-</table>
+
+{% block content3 %}
 <h3>Instalation</h3>
 Instalation is very simple over pip.
 <pre># pip install mongo-server</pre>
@@ -74,4 +63,4 @@ HTTP GET http://localhost:5000/find/my_table/?a=1
 [{ u'a': [u'1'], u'b': [u'2'], u'_id': ObjectId('5153178a0fa47060817b9320')}]
 </pre>
 
-{% endblock content %}
+{% endblock content3 %}

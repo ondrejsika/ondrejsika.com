@@ -1,30 +1,21 @@
-{% extends "base.html" %}
-{% block content %}
-<h2>crypto documentation</h2>
-<p>Python library for simply text cryptography.</p>
-<h3>Authors</h3>
-<table class="table">
-    <tr>
-        <td><b>Ondrej Sika</b></td>
-        <td><a href="http://ondrejsika.com">ondrejsika.com</a></td>
-        <td><a href="mailto:dev@ondrejsika.com">dev@ondrejsika.com</a></td>
-    </tr>
-</table>
-<h3>Source</h3>
-<table class="table">
-    <tr>
-        <td>Documentation</td>
-        <td><a href="http://ondrejsika.com/docs/python-crypto">http://ondrejsika.com/docs/python-crypto</a></td>
-    </tr>
-    <tr>
-        <td>Python Package Index</td>
-        <td><a href="http://pypi.python.org/pypi/crypto" target="blank">http://pypi.python.org/pypi/crypto</a></td>
-    </tr>
-    <tr>
-        <td>Bitbucket</td>
-        <td><a href="https://bitbucket.org/sikaondrej/python-crypto" target="blank">https://bitbucket.org/sikaondrej/python-crypto</a></td>
-    </tr>
-</table>
+{% extends "docs/base.html" %}
+
+{% set title = "python-crypto documentation" %}
+{% set authors = [
+    ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
+] %}
+{% set sources = [
+    ["Documentation", "ondrejsika.com/docs/python-crypto"],
+    ["Python Package Index", "pypi.python.org/pypi/crypto"],
+    ["Bitbucket", "bitbucket.org/sikaondrej/python-crypto"],
+] %}
+
+{% block content2 %}
+Tool for text cryptografy (simple example usage of python-crypto)
+{% endblock content2 %}
+
+
+{% block content3 %}
 <h3>Instalation</h3>
 Instalation is very simple via pip.
 <pre># pip install crypto</pre>
@@ -59,4 +50,4 @@ encrypted = crypto.encrypt(message, public)
 <pre>
 message = crypto.encrypt(encrypted, private)
 </pre>
-{% endblock content %}
+{% endblock content3 %}
