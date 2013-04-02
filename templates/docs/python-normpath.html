@@ -1,0 +1,43 @@
+{% extends "docs/base.html" %}
+
+{% set title = "python-normpath documentation" %}
+{% set authors = [
+    ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
+] %}
+{% set sources = [
+    ["Documentation", "ondrejsika.com/docs/python-normpath"],
+    ["Python Package Index", "pypi.python.org/pypi/normpath"],
+    ["GitHub", "github.org/sikaondrej/python-normpath"],
+] %}
+
+{% block content2 %}
+Absolute nomalized file path in Python
+{% endblock content2 %}
+
+
+{% block content3 %}
+<h3>Instalation</h3>
+Instalation is very simple via pip.
+<pre># pip install normpath</pre>
+
+<h3>Usage</h3>
+<pre>
+user@host:~/python $ python 
+>>> from normpath import normpath
+>>> normpath("..", "apps/myapp")
+"/home/user/apps/myapp"
+</pre>
+
+file /home/user/python/test.py
+<pre>
+from normpath import normpath
+print normpath(__file__)
+print normpath(__file__, "..")
+</pre>
+
+<pre>
+user@host:~/python $ python test.py
+/home/user/python/test.py
+/home/user/python
+</pre>
+{% endblock content3 %}
