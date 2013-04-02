@@ -37,7 +37,7 @@ your views.py
 <h4>views.py</h4>
 <pre>
 from django.http import HttpResponse
-from remote.http import HttpResponseAjax
+from remote_ajax.http import HttpResponseAjax
 
 def your_view(request):
     return HttpResponseAjax(HttpResponse("your response"))
