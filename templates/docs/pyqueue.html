@@ -1,0 +1,44 @@
+{% extends "docs/base.html" %}
+
+{% set title = "pyqueue documentation" %}
+{% set authors = [
+    ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
+] %}
+{% set sources = [
+    ["Documentation", "ondrejsika.com/docs/pyqueue"],
+    ["Python Package Index", "http://pypi.python.org/pypi/pyqueue"],
+    ["GitHub", "github.com/sikaondrej/pyqueue"],
+] %}
+
+{% block content2 %}
+Simple Queue in Python
+{% endblock content2 %}
+
+
+{% block content3 %}
+<h3>Installation</h3>
+simple via pip
+<pre>
+# pip install pyqueue
+</pre>
+
+<h3>Usage</h3>
+<pre>
+>>> from pyqueue import Queue
+>>> queue = Queue()
+>>> queue.empty()
+True
+>>> queue.put(1)
+>>> queue.empty()
+False
+>>> queue.put(2)
+>>> queue.get()
+1
+>>> queue.empty()
+False
+>>> queue.get()
+2
+>>> queue.empty()
+True
+</pre>
+{% endblock content3 %}
