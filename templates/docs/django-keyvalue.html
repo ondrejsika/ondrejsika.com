@@ -1,0 +1,40 @@
+{% extends "docs/base.html" %}
+
+{% set title = "django-keyvalueb documentation" %}
+{% set authors = [
+    ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
+] %}
+{% set sources = [
+    ["Documentation", "ondrejsika.com/docs/django-keyvalue"],
+    ["Python Package Index", "pypi.python.org/pypi/django-keyvalue"],
+    ["GitHub", "github.com/sikaondrej/django-keyvalue"],
+] %}
+
+{% block content2 %}
+<p>Simple rename Djano apps</p>
+{% endblock content2 %}
+
+
+{% block content3 %}
+<h3>Instalation</h3>
+Instalation is very simple over pip.
+<pre># pip install django-keyvalue</pre>
+
+<h3>Usage</h3>
+<h4>settings.py</h4>
+<pre>
+INSTALLED_APPS += ("keyvalue", )
+KEYVALUE_KEYS = (
+    ("key1", "default value"),
+    ("key2", ""),
+)
+</pre>
+<p>Keys must be unique</p>
+
+<h4>Get value</h4>
+<pre>
+>>> from keyvalue.models import Storage
+>>> Storage.onjects.get(key="key1").value
+"default value"
+</pre>
+{% endblock content3 %}
