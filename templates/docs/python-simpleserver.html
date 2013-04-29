@@ -1,0 +1,34 @@
+{% extends "docs/base.html" %}
+
+{% set title = "python-simpleserver documentation" %}
+{% set authors = [
+    ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
+] %}
+{% set sources = [
+    ["Documentation", "ondrejsika.com/docs/python-simpleserver"],
+    ["Python Package Index", "pypi.python.org/pypi/simpleserver"],
+    ["Bitbucket", "bitbucket.org/sikaondrej/python-simpleserver"],
+] %}
+
+{% block content2 %}
+<p>Simple socket server in Python</p>
+{% endblock content2 %}
+
+
+{% block content3 %}
+<h3>Instalation</h3>
+Instalation is very simple via pip.
+<pre># pip install simpleserver</pre>
+
+<h3>Usage</h3>
+<pre>
+from simpleserver import SimpleSocketServer
+
+def handler(req):
+    return 2*req
+
+server = SimpleSocketServer(("localhost", 9999), handler)
+
+server.serve_forever()
+</pre>
+{% endblock content3 %}
