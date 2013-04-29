@@ -20,15 +20,23 @@
 Instalation is very simple via pip.
 <pre># pip install simplesocket</pre>
 
-<h3>Usage</h3>
+<h3>Server</h3>
 <pre>
-from simplesocket import SimpleSocketServer
+from simplesocket import Server
 
 def handler(req):
     return 2*req
 
-server = SimpleSocketServer(("localhost", 9999), handler)
+server = Server(("localhost", 9999), handler)
 
 server.serve_forever()
+</pre>
+
+<h3>Client</h3>
+<pre>
+from simplesocket import client_request
+
+request = "hello"
+response = client_request(("localhost", 9999), request)
 </pre>
 {% endblock content3 %}
