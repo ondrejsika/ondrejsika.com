@@ -1,0 +1,44 @@
+{% extends "docs/base.html" %}
+
+{% set title = "python-cryptedserver documentation" %}
+{% set authors = [
+    ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
+] %}
+{% set sources = [
+    ["Documentation", "ondrejsika.com/docs/python-cryptedserver"],
+    ["Python Package Index", "pypi.python.org/pypi/cryptedserver"],
+    ["GitHub", "github.com/sikaondrej/python-cryptedserver"],
+] %}
+
+{% block content2 %}
+<p>Simple socket server in Python</p>
+{% endblock content2 %}
+
+
+{% block content3 %}
+<h3>Instalation</h3>
+Instalation is very simple via pip.
+<pre># pip install cryptedserver</pre>
+
+<h3>Server</h3>
+<pre>
+from cryptedserver import CryptedServer
+
+def handler(req):
+    print req
+    if req.has_key("msg"):
+        return "> "+req["msg"]
+    return "No message recieved."
+
+CryptedServer(("localhost", 8888), handler).serve_forever()
+</pre>
+
+<h3>Client</h3>
+<pre>
+from cryptedserver import CryptedServerClient
+
+socket = CryptedServerClient(("localhost", 8888))
+print socket.encrypted_request({"msg": "Hello"})
+print socket.encrypted_request({})
+</pre>
+{% endblock content3 %}
