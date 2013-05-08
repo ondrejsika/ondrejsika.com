@@ -1,0 +1,50 @@
+{% extends "docs/base.html" %}
+
+{% set title = "deploy documentation" %}
+{% set authors = [
+    ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
+] %}
+{% set sources = [
+    ["Documentation", "ondrejsika.com/docs/deploy"],
+    ["GitHub", "github.com/sikaondrej/deploy"],
+] %}
+
+{% block content2 %}
+<p>Easy deploy Python WSGI apps</p>
+{% endblock content2 %}
+
+
+{% block content3 %}
+<h3>Depencies</h3>
+Need installed before install deploy
+<pre>
+nginx
+gunicorn
+supervisor
+git
+sudo
+</pre>
+
+<h3>Installation</h3>
+as root
+<pre>
+pip install deploy
+deploy-init
+</pre>
+
+<h3>Create server</h3>
+<pre>
+deploy-startserver appname "domain.com www.domain.com"
+</pre>
+
+<h3>Update via GIT</h3>
+in production is branch master
+<pre>
+git clone git@server:appname.git
+cd appname
+# ... some changes and commits ...
+git push origin master
+</pre>
+
+
+{% endblock content3 %}
