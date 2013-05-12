@@ -23,7 +23,7 @@
             <td>{{trip.2}}</td>
             <td>{{trip.3}}</td>
             <td>{{trip.4}}</td>
-            <td><a href="{{trip.5}}">map</a></td>
+            <td>{% if trip.5 %}<a href="{{trip.5}}">map</a>{% endif %}</td>
         </tr>
     {% endfor %}
 </table>
