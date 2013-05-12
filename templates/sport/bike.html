@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Bike trips</h2>
+{% set trips = [
+    ["10. 5. 2013", "23.21", "1:42", "13.62", "36", ""],
+    ["9. 5. 2013", "30", "1:27", "20.5", "50.4", ""],
+    ["9. 5. 2013", "23.29", "1:24", "16.53", "44.21", ""],
+] %}
+<table class="table">
+    <tr>
+        <th>Date</th>
+        <th>Distance (km)</th>
+        <th>Time</th>
+        <th>Avg. speed (km/h)</th>
+        <th>Max. speed (km/h)</th>
+        <th>Map</th>
+    </tr>
+    {% for trip in trips %}
+        <tr>
+            <td>{{trip.0}}</td>
+            <td>{{trip.1}}</td>
+            <td>{{trip.2}}</td>
+            <td>{{trip.3}}</td>
+            <td>{{trip.4}}</td>
+            <td><a href="{{trip.5}}">{{trip.5}}</a></td>
+        </tr>
+    {% endfor %}
+</table>
+{% endblock content %}
