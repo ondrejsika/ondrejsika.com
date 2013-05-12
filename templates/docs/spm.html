@@ -6,7 +6,7 @@
 ] %}
 {% set sources = [
     ["Documentation", "ondrejsika.com/docs/spm"],
-    ["Bitbucket", "bitbucket.org/sikaondrej/spm"],
+    ["GitHub", "github.com/sikaondrej/spm"],
 ] %}
 
 {% block content2 %}
@@ -15,9 +15,38 @@
 
 
 {% block content3 %}
+<h3>Installation</h3>
+<pre>
+git clone git://github.com/sikaondrej/spm.git
+cd spm
+./setup install
+</pre>
+
 <h3>Usage</h3>
-<h4>./spm-psql [user] [passwd] [sql command]</h4>
-<h4>./spm-createuser [postrges passwd] [username] [passwd]</h4>
-<h4>./spm-createdb [postrges passwd] [dbname]</h4>
-<h4>./spm-grantall [postrges passwd] [user] [dbname]</h4>
+if you aren't root or don't use sudo, you must type password for user <b>postgres</b>.
+<h4>Run psql</h4>
+<pre>
+spm
+</pre>
+<h4>Run sql command</h4>
+<pre>
+spm pqsl "sql command"
+</pre>
+<h4>Create db</h4>
+<pre>
+spm createdb "database"
+</pre>
+<h4>Create user</h4>
+must be root
+<pre>
+spm createuser "user"
+</pre>
+<h4>Grantall </h4>
+<pre>
+spm grantall "user" "database"
+</pre>
+<h4>help</h4>
+<pre>
+spm help
+</pre>
 {% endblock content3 %}
