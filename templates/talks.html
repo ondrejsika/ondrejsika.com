@@ -1,12 +1,19 @@
 {% extends "base.html" %}
+
+{% set upcoming = [
+    ["Neprogramujte v templatovacím jazyku (PHP), zkuste Python!", "15. 6. 2013", "http://www.barcampbrno.cz/prednaska/bc41678b/", "www.barcampbrno.cz/..."],
+] %}
+
 {% block content %}
 <h2>Talks</h2>
 <h3>Upcoming</h3>
 <table class="table">
-    <tr>
-        <td>Neprogramujte v templatovacím jazyku (PHP), zkuste Python!</td>
-        <td>15. 6. 2013</td>
-        <td><a href="http://www.barcampbrno.cz/prednaska/bc41678b/" target="blank">www.barcampbrno.cz/...</a></td>
-    </tr>
+    {% for row in upcoming %}
+        <tr>
+            <td>{{row.0}}</td>
+            <td>{{row.1}}</td>
+            <td><a href="{{row.2}}" target="blank">{{row.3}}</a></td>
+        </tr>
+    {% endfor %}
 </table>
 {% endblock content %}
