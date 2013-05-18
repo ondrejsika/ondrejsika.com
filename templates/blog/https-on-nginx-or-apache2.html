@@ -1,10 +1,10 @@
-{% extends "base.html" %}
-{% block content %}
-<h2>HTTPS on Nginx or Apache2</h2>
-
+{% extends "blog/base.html" %}
+{% set blog_title = "HTTPS on Nginx or Apache2" %}
+{% block blog_content %}
 <h3>Create certifiacate</h3>
 Create RSA key (2048K) and certificate.
-<pre>openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
+<pre>
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
     -keyout /etc/ssl/ondrejsika.key \
     -out /etc/ssl/ondrejsika.crt \
     -subj '/O=Ondrej Sika/CN=ondrejsika.com'
@@ -72,4 +72,4 @@ Must enable mod rewrite
 and restart apache2
 
 <pre>$ sudo service apach2 restart</pre>
-{% endblock content %}
+{% endblock blog_content %}
