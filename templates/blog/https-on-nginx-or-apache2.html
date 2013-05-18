@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>HTTPS on Nginx or Apache2</h2>
+
+<h3>Create certifiacate</h3>
+Create RSA key (2048K) and certificate.
+<pre>openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
+    -keyout /etc/ssl/ondrejsika.key \
+    -out /etc/ssl/ondrejsika.crt \
+    -subj '/O=Ondrej Sika/CN=ondrejsika.com'
+</pre>
+
+<h3>Nginx config for HTTPS server</h3>
+<pre>
+server {
+    listen               443;
+
+    ssl                  on;
+    ssl_certificate      /etc/ssl/ondrejsika.crt;
+    ssl_certificate_key  /etc/ssl/ondrejsika.key;
+
+    server_name ondrejsika.com www.ondrejsika.com;
+
+    location / {
+        alias /var/www/ondrejsika/;
+        index index.html;
+    }
+}
+</pre>
+<h3>Redirect form HTTP</h3>
+<pre>
+server {
+       server_name ondrejsika.com www.ondrejsika.com;
+       listen 80;
+       rewrite ^(.*) https://ondrejsika.com permanent;
+}
+</pre>
+and restart nginx
+<pre>$ sudo service nginx restart</pre>
+<h3>Apache2 configuration</h3>
+
+Enable mod SSL
+
+<pre>$ sudo a2enmod ssl</pre>
+
+<h3>HTTPS config</h3>
+<pre>
+&lt;VirtualHost *:443&gt;
+    ServerName ondrejsika.com
+    ServerAlias www.ondrejsika.com
+    DocumentRoot "/home/www/"
+    SSLEngine on
+    SSLCertificateFile /etc/ssl/ondrejsika.crt
+    SSLCertificateKeyFile /etc/ssl/ondrejsika.key
+&lt;/VirtualHost&gt;
+</pre>
+
+<h3>Redirect from HTTP</h3>
+
+Must enable mod rewrite
+
+<pre>$ sudo a2enmod rewrite</pre>
+
+<pre>
+&lt;VirtualHost *:80&gt;
+    ServerName localhost
+    RewriteEngine On
+    RewriteRule ^/(.*) https://%{SERVER_NAME}/$1 [L,R]
+&lt;/VirtualHost&gt;
+</pre>
+
+and restart apache2
+
+<pre>$ sudo service apach2 restart</pre>
+{% endblock content %}
