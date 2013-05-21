@@ -24,6 +24,12 @@
         </ul>
     </li>
     <li><a href="#x4">Create server</a></li>
+    <li><a href="#x10">Application structure</a>
+        <ul>
+            <li><a href="#x11">wsgi</a></li>
+            <li><a href="#x12">pip requiements</a></li>
+        </ul>
+    </li>
     <li><a href="#x5">Update via GIT</a></li>
     <li><a href="#x6">Edit server conf</a>
         <ul>
@@ -55,6 +61,13 @@ deploy-init
 <pre>
 deploy startserver appname "domain.com www.domain.com"
 </pre>
+
+<h3 id="x10">Application structure</h3>
+<h4 id="x11">wsgi</h4>
+in project root must be file <b>wsgi.py</b> with variable application (wsgi application)
+
+<h4 id="x12">pip requirements</h4>
+if existst file <b>requirements.txt</b> in project root, auto install requirements to virtualenv in <b>env</b> dir
 
 <h3 id="x5">Update via GIT</h3>
 in production is branch master
