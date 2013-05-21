@@ -15,7 +15,27 @@
 
 
 {% block content3 %}
-<h3>Depencies</h3>
+<h3>Content</h3>
+<ul>
+    <li><a href="#x1">Installation</a>
+        <ul>
+            <li><a href="#x2">Depencies</a></li>
+            <li><a href="#x3">PIP instalation</a></li>
+        </ul>
+    </li>
+    <li><a href="#x4">Create server</a></li>
+    <li><a href="#x5">Update via GIT</a></li>
+    <li><a href="#x6">Edit server conf</a>
+        <ul>
+            <li><a href="#x8">nginx</a></li>
+            <li><a href="#x9">supervisor</a></li>
+        </ul>
+    </li>
+    <li><a href="#x7">Restar server</a></li>
+</ul>
+
+<h3 id="x1">Installation</h3>
+<h4 id="x2">Depencies</h4>
 Need installed before install deploy
 <pre>
 nginx
@@ -24,20 +44,19 @@ supervisor
 git
 sudo
 </pre>
-
-<h3>Installation</h3>
+<h4 id="x3">PIP installation</h4>
 as root
 <pre>
 pip install deploy
 deploy-init
 </pre>
 
-<h3>Create server</h3>
+<h3 id="x4">Create server</h3>
 <pre>
-deploy-startserver appname "domain.com www.domain.com"
+deploy startserver appname "domain.com www.domain.com"
 </pre>
 
-<h3>Update via GIT</h3>
+<h3 id="x5">Update via GIT</h3>
 in production is branch master
 <pre>
 git clone git@server:appname.git
@@ -46,5 +65,22 @@ cd appname
 git push origin master
 </pre>
 
+<h3 id="x6">Edit server conf</h3>
+opens vim with config file, then restart service
+<h4 id="x8">nginx</h4>
+<pre>
+deploy serverconf "appname" nginx
+</pre>
+
+<h4 id="x9">supervisor</h4>
+<pre>
+deploy serverconf "appname" supervisor
+</pre>
+
+<h3 id="x7">Restart server</h3>
+restart only worker (supervisor), not nginx
+<pre>
+deploy restart "appname"
+</pre>
 
 {% endblock content3 %}
