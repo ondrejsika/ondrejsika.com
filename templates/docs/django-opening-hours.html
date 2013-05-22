@@ -1,0 +1,38 @@
+{% extends "docs/base.html" %}
+
+{% set title = "django opening hours documentation" %}
+{% set authors = [
+    ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
+] %}
+{% set sources = [
+    ["Documentation", "ondrejsika.com/docs/django-opening-hours"],
+    ["Python Package Index", "pypi.python.org/pypi/django-opening-hours"],
+    ["GitHub", "github.com/sikaondrej/django-opening-hours"],
+] %}
+
+{% block content2 %}
+<p>Simple rename Django apps</p>
+{% endblock content2 %}
+
+
+{% block content3 %}
+<h3>Instalation</h3>
+Instalation is very simple over pip.
+<pre># pip install django-opening-hours</pre>
+
+<h3>Usage</h3>
+<h4>settings.py</h4>
+<pre>
+INSTALLED_APPS += ("opening_hours", )
+</pre>
+
+<h4>myapp/models.py</h4>
+<pre>
+from django.db import models
+from opening_hours.db_fields import OpeningHoursField
+
+class Store(model.Model):
+    name = models.CharField(max_length=255)
+    opening_hours = OpeningHoursField()
+</pre>
+{% endblock content3 %}
