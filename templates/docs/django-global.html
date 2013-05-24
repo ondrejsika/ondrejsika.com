@@ -1,0 +1,32 @@
+{% extends "docs/base.html" %}
+
+{% set title = "django-global documentation" %}
+{% set authors = [
+    ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
+] %}
+{% set sources = [
+    ["Documentation", "ondrejsika.com/docs/django-global"],
+    ["Python Package Index", "pypi.python.org/pypi/django-global"],
+    ["GitHub", "github.com/sikaondrej/django-global"],
+] %}
+
+{% block content2 %}
+git@github.com:sikaondrej/django-global.git
+{% endblock content2 %}
+
+
+{% block content3 %}
+<h3>Instalation</h3>
+<pre># pip install django-global</pre>
+
+<h3>Usage</h3>
+<h4>settings.py</h4>
+<pre>
+INSTALLED_APPS += ("django_global", )
+MIDDLEWARE_CLASSES += ("django_global.middleware.GlobalCssMiddleware", )
+
+GLOBAL_CSS = (STATIC_URL+"global.css", )
+GLOBAL_JS = (STATIC_URL+"global.js", )
+</pre>
+
+{% endblock content3 %}
