@@ -32,7 +32,7 @@ INSTALLED_APPS += ("large_data_admin", )
 </pre>
 and to root urls.py
 <pre>
-urlpatterns = patterns('', url(r'^large_data_admin/', include('large_data_admin.urls')))
+urlpatterns += patterns('', url(r'^large_data_admin/', include('large_data_admin.urls')))
 </pre>
 <h4>In models</h4>
 <pre>
