@@ -21,7 +21,8 @@ Instalation is very simple over pip.
 <pre># pip install django-large-data-admin</pre>
 
 <h3>Fields</h3>
-<h4>db_fields.ManyToManyField(RelatedModel, app_name, model_name, [model_field])</h4>
+<h4>db_fields.ManyToManyField(RelatedModel)</h4>
+<h4>db_fields.ForeignKey(RelatedModel)</h4>
 
 <h3>Usage</h3>
 <h4>settings.py</h4>
@@ -31,7 +32,7 @@ INSTALLED_APPS += ("large_data_admin", )
 </pre>
 and to root urls.py
 <pre>
-urlpatterns = patterns('', url(r'^chaining/', include('large_data_admin.urls')))
+urlpatterns = patterns('', url(r'^large_data_admin/', include('large_data_admin.urls')))
 </pre>
 <h4>In models</h4>
 <pre>
@@ -43,6 +44,10 @@ class MyType(models.Model):
 
 class MyModel(models.Model):
     name = models.CharField(max_length=255)
-    my_type = lda.ManyToManyField(MyType, "myapp", "MyModel", "my_type")
+    my_type = lda.ManyToManyField(MyType)
+
+class MyRelatedModel(models.Model):
+    name = models.CharField(max_length=255)
+    base_model = lda.ForeignKey(MyType)
 </pre>
 {% endblock content3 %}
