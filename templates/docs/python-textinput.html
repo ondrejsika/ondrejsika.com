@@ -1,13 +1,13 @@
 {% extends "docs/base.html" %}
 
-{% set title = "python-viminput documentation" %}
+{% set title = "python-textinput documentation" %}
 {% set authors = [
     ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
 ] %}
 {% set sources = [
-    ["Documentation", "ondrejsika.com/docs/python-viminput"],
-    ["Python Package Index", "pypi.python.org/pypi/viminput"],
-    ["Bitbucket", "bitbucket.org/sikaondrej/python-viminput"],
+    ["Documentation", "ondrejsika.com/docs/python-textinput"],
+    ["Python Package Index", "pypi.python.org/pypi/textinput"],
+    ["GitHub", "github.com/sikaondrej/python-textinput"],
 ] %}
 
 {% block content2 %}
@@ -18,11 +18,11 @@
 {% block content3 %}
 <h3>Instalation</h3>
 Instalation is very simple via pip.
-<pre># pip install viminput</pre>
+<pre># pip install textinput</pre>
 
 <h3>Usage</h3>
 <pre>
-from viminput import viminput, textinput
+from textinput import textinput, viminput
 # use vim
 text = viminput()
 print text
@@ -31,6 +31,6 @@ text = textinput()
 # set editor
 text = textinput(editor="nano")
 # default data
-text = viminput(content="default data")
+text = textinput(content="default data")
 </pre>
 {% endblock content3 %}
