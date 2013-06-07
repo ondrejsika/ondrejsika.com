@@ -16,7 +16,7 @@
 
 {% block content3 %}
 <h3>Table of content</h3>
-<!-- max id 13 -->
+<!-- max id 14 -->
 <ul>
     <li><a href="#x1">Installation</a>
         <ul>
@@ -40,6 +40,7 @@
         </ul>
     </li>
     <li><a href="#x7">Restar server</a></li>
+    <li><a href="#x14">Remove server</a></li>
 </ul>
 
 <h3 id="x1">Installation</h3>
@@ -100,6 +101,18 @@ deploy serverconf "appname" supervisor
 restart only worker (supervisor), not nginx
 <pre>
 deploy restart "appname"
+</pre>
+
+<h3 id="x14">Remove server</h3>
+remove server &amp; create backup to BACKUP_DIR (default /var/deploy/backups). If you can remove app, fro security reason, type app name
+<pre>
+deploy remove "app"
+type app name [app]: app
+</pre>
+
+if you can use remove in scripts, add paramenter -f (force)
+<pre>
+deploy remove "app" -f
 </pre>
 
 {% endblock content3 %}
