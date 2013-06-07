@@ -6,7 +6,7 @@
         "https://maps.google.com/maps/ms?msa=0&msid=217701801170887560136.0004de800e60aad401326",
         "https://maps.google.com/maps/ms?msa=0&msid=217701801170887560136.0004de8009e6e27e92f07",
         "https://maps.google.com/maps/ms?msa=0&msid=217701801170887560136.0004de801099d849383f9",
-    ]],
+    ], "https://plus.google.com/u/0/photos/103792510103800752680/albums/5886600567331921873", ],
     ["19. 5. 2013", "19.03", "1:03", "18.92", "43.2", ["https://maps.google.com/maps/ms?msa=0&msid=217701801170887560136.0004dd9ec3070ebf42c46"]],
     ["10. 5. 2013", "23.21", "1:42", "13.62", "36", ["https://maps.google.com/maps/ms?msa=0&msid=217701801170887560136.0004dc8a626867fb7e3bc"]],
     ["9. 5. 2013", "30", "1:27", "20.5", "50.4", []],
@@ -21,6 +21,7 @@
         <th>Avg. speed (km/h)</th>
         <th>Max. speed (km/h)</th>
         <th></th>
+        <th></th>
     </tr>
     {% for trip in trips %}
         <tr>
@@ -30,6 +31,7 @@
             <td>{{trip.3}}</td>
             <td>{{trip.4}}</td>
             <td>{% for map in trip.5 %}<a href="{{map}}" target="blank">map</a>&nbsp;{% endfor %}</td>
+            <td>{% if trip.6 %}<a href="{{trip.6}}" target="blank">photos</a>&nbsp;{% endif %}</td>
         </tr>
     {% endfor %}
 </table>
