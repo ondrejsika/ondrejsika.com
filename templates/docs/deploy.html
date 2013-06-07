@@ -16,7 +16,7 @@
 
 {% block content3 %}
 <h3>Table of content</h3>
-<!-- max id 12 -->
+<!-- max id 13 -->
 <ul>
     <li><a href="#x1">Installation</a>
         <ul>
@@ -29,6 +29,7 @@
         <ul>
             <li><a href="#x11">wsgi</a></li>
             <li><a href="#x12">pip requiements</a></li>
+            <li><a href="#x13">post update</a></li>
         </ul>
     </li>
     <li><a href="#x5">Update via GIT</a></li>
@@ -69,6 +70,10 @@ in project root must be file <b>wsgi.py</b> with variable application (wsgi appl
 
 <h4 id="x12">pip requirements</h4>
 if existst file <b>requirements.txt</b> in project root, auto install requirements to virtualenv in <b>env</b> dir
+
+<h4 id="x13">post_update</h4>
+<b>post_update</b> is executable file in app root, launched after git update. can be used for db migrations, etc.
+
 
 <h3 id="x5">Update via GIT</h3>
 in production is branch master
