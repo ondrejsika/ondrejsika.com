@@ -1,12 +1,13 @@
 {% extends "docs/base.html" %}
 
 {% set title = "deploy documentation" %}
+{% set github_repo = "deploy" %}
 {% set authors = [
     ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
 ] %}
 {% set sources = [
     ["Documentation", "ondrejsika.com/docs/deploy"],
-    ["GitHub", "github.com/sikaondrej/deploy"],
+    ["GitHub", "github.com/sikaondrej/" + github_repo ],
 ] %}
 
 {% block content2 %}
