@@ -4,6 +4,11 @@
     <div class="span8"><h2>{{title}}</h2></div>
     <div class="span2">
         <a href="/donate"><img src="/static/paypal_donate.gif"></a>
+        <div style="height:10px;"></div>
+        {% if github_repo %}
+        <iframe src="http://ghbtns.com/github-btn.html?user=sikaondrej&repo={{github_repo}}&type=watch&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+        <iframe src="http://ghbtns.com/github-btn.html?user=sikaondrej&repo={{github_repo}}&type=fork&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+        {% endif %}
     </div>
 </div>
 
