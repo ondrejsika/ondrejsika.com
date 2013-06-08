@@ -1,7 +1,30 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="row">
-    <div class="span8"><h2>{{title}}</h2></div>
+    <div class="span8">
+        <h2>{{title}}</h2>
+        {% block content2 %}{% endblock content2 %}
+        <h3>Authors</h3>
+        <table class="table">
+            {% for author in authors %}
+                <tr>
+                    <td><b>{{author.0}}</b></td>
+                    <td><a href="http://{{author.1}}" target="blank">{{author.1}}</a></td>
+                    <td><a href="mailto:{{author.2}}">{{author.2}}</a></td>
+                </tr>
+            {% endfor %}
+        </table>
+
+        <h3>Source</h3>
+        <table class="table">
+            {% for source in sources %}
+                <tr>
+                    <td>{{source.0}}</td>
+                    <td><a href="http://{{source.1}}" target="blank">{{source.1}}</a></td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
     <div class="span2">
         <a href="/donate"><img src="/static/paypal_donate.gif"></a>
         <div style="height:10px;"></div>
@@ -11,29 +34,6 @@
         {% endif %}
     </div>
 </div>
-
-{% block content2 %}{% endblock content2 %}
-
-<h3>Authors</h3>
-<table class="table">
-    {% for author in authors %}
-        <tr>
-            <td><b>{{author.0}}</b></td>
-            <td><a href="http://{{author.1}}" target="blank">{{author.1}}</a></td>
-            <td><a href="mailto:{{author.2}}">{{author.2}}</a></td>
-        </tr>
-    {% endfor %}
-</table>
-
-<h3>Source</h3>
-<table class="table">
-    {% for source in sources %}
-        <tr>
-            <td>{{source.0}}</td>
-            <td><a href="http://{{source.1}}" target="blank">{{source.1}}</a></td>
-        </tr>
-    {% endfor %}
-</table>
 
 {% block content3 %}{% endblock content3 %}
 
