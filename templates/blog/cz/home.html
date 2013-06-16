@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Blog</h2>
+
+{% set posts = [
+] %}
+
+{% for post in posts %}
+    {% import post+".html" as article %}
+    <a href="{{post}}"><h3>{{article.blog_title}}</h3></a>
+    <p>{{article.blog_date}}</p>
+{% endfor %}
+{% endblock content %}

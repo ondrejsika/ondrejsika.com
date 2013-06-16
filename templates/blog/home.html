@@ -1,15 +1,8 @@
 {% extends "base.html" %}
 {% block content %}
-<h2>Blog</h2>
-
-{% set posts = [
-    "/blog/https-on-nginx-or-apache2",
-    "/blog/campus-party-europe-2012",
-] %}
-
-{% for post in posts %}
-    {% import post+".html" as article %}
-    <a href="{{post}}"><h3>{{article.blog_title}}</h3></a>
-    <p>{{article.blog_date}}</p>
-{% endfor %}
+<h2>Blogs</h2>
+<div class="row">
+<div class="span5"><a href="/blog/cz/"><h3>Czech blog</h3></a></div>
+<div class="span5"><a href="/blog/en/"><h3>English blog</h3></a></div>
+</div>
 {% endblock content %}
