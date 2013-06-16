@@ -3,8 +3,9 @@
 <h2>Blog</h2>
 
 {% set posts = [
+    "/blog/cz/zavody-orientacniho-behu-v-oe2010-pod-linuxem",
 ] %}
-
+{%set xx="aa"%}
 {% for post in posts %}
     {% import post+".html" as article %}
     <a href="{{post}}"><h3>{{article.blog_title}}</h3></a>
