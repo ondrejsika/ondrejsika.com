@@ -38,7 +38,7 @@ urlpatterns += patterns('', url(r'^large_data_admin/', include('large_data_admin
 <h4>In models</h4>
 <pre>
 from django.db import models
-from large_data_admin import db_fields as lda:
+from large_data_admin import db_fields as lda
 
 class MyType(models.Model):
     name = models.CharField(max_length=255)
