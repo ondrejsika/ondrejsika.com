@@ -1,1 +1,1 @@
-flask-server==1.2.0
+flask-server==1.2.1
