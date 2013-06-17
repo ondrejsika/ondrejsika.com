@@ -1,0 +1,50 @@
+{% extends "docs/base.html" %}
+
+{% set title = "django-related-admin documentation" %}
+{% set github_repo = "django-related-admin" %}
+{% set authors = [
+    ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
+] %}
+{% set sources = [
+    ["Documentation", "ondrejsika.com/docs/django-related-admin"],
+    ["Python Package Index", "pypi.python.org/pypi/django-related-admin"],
+    ["GitHub", "github.com/sikaondrej/django-related-admin"],
+] %}
+
+{% block content2 %}
+Show fields from related model in Django admin.
+{% endblock content2 %}
+
+
+{% block content3 %}
+<h3>Instalation</h3>
+Instalation is very simple over pip.
+<pre># pip install django-related-admin</pre>
+
+<h3>Fields</h3>
+<h4>db_fields.OneToOneField(RelatedModel)</h4>
+
+<h3>Usage</h3>
+<h4>settings.py</h4>
+add to settings.py
+<pre>
+INSTALLED_APPS += ("related_admin", )
+</pre>
+and to root urls.py
+<pre>
+urlpatterns += patterns('', url(r'^related_admin/', include('related_admin.urls')))
+</pre>
+<h4>In models</h4>
+<pre>
+from django.db import models
+from related_admin import db_fields as ra
+
+class MyType(models.Model):
+    email = models.CharField(max_length=255)
+    phone = models.CharField(max_length=255)
+
+class Person(models.Model):
+    name = models.CharField(max_length=255)
+    contact = ra.OneToOneField(MyType)
+</pre>
+{% endblock content3 %}
