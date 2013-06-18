@@ -25,6 +25,11 @@ Instalation is very simple over pip.
 <h4>db_fields.ManyToManyField(RelatedModel)</h4>
 <h4>db_fields.ForeignKey(RelatedModel)</h4>
 
+<h3>Filters</h3>
+<h4>filters.get_ajax_filter(filter_title, model, field)</h4>
+<h4>db_fields.ForeignKey(RelatedModel)</h4>
+
+
 <h3>Usage</h3>
 <h4>settings.py</h4>
 add to settings.py
@@ -35,7 +40,7 @@ and to root urls.py
 <pre>
 urlpatterns += patterns('', url(r'^large_data_admin/', include('large_data_admin.urls')))
 </pre>
-<h4>In models</h4>
+<h4>In models.py</h4>
 <pre>
 from django.db import models
 from large_data_admin import db_fields as lda
@@ -50,5 +55,23 @@ class MyModel(models.Model):
 class MyRelatedModel(models.Model):
     name = models.CharField(max_length=255)
     base_model = lda.ForeignKey(MyType)
+</pre>
+
+<h4>In admin.py</h4>
+<pre>
+from django.contrib import admin
+from large_data_admin.filters import get_ajax_filter
+from models import MyType, MyModel, MyRelatedModel
+
+class MyModelAdmin(admin.ModelAdmin):
+    list_filters = (
+        get_ajax_filter("type", MyType, "my_type"),
+    )
+    def lookup_allowed(self, key, val):
+        return True
+
+admin.site.register(MyModel, MyModelAdmin)
+admin.site.register(MyType)
+admin.site.register(MyRelatedModel)
 </pre>
 {% endblock content3 %}
