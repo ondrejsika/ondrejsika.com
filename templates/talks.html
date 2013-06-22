@@ -1,19 +1,39 @@
 {% extends "base.html" %}
 
 {% set upcoming = [
-    ["Neprogramujte v templatovacím jazyku (PHP), zkuste Python!", "15. 6. 2013", "http://www.barcampbrno.cz/prednaska/bc41678b/", "www.barcampbrno.cz/..."],
+] %}
+{% set past = [
 ] %}
 
 {% block content %}
 <h2>Talks</h2>
 <h3>Upcoming</h3>
-<table class="table">
-    {% for row in upcoming %}
-        <tr>
-            <td>{{row.0}}</td>
-            <td>{{row.1}}</td>
-            <td><a href="{{row.2}}" target="blank">{{row.3}}</a></td>
-        </tr>
-    {% endfor %}
-</table>
+{% if upcoming %}
+    <table class="table">
+        {% for row in upcoming %}
+            <tr>
+                <td>{{row.0}}</td>
+                <td>{{row.1}}</td>
+                <td><a href="{{row.2}}" target="blank">{{row.3}}</a></td>
+            </tr>
+        {% endfor %}
+    </table>
+{% else %}
+    No upcoming talks yet.
+{% endif %}
+
+<h3>Past</h3>
+{% if past %}
+    <table class="table">
+        {% for row in past %}
+            <tr>
+                <td>{{row.0}}</td>
+                <td>{{row.1}}</td>
+                <td><a href="{{row.2}}" target="blank">{{row.3}}</a></td>
+            </tr>
+        {% endfor %}
+    </table>
+{% else %}
+    No past talks yet.
+{% endif %}
 {% endblock content %}
