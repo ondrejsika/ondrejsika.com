@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Runs</h2>
+{% set trips = [
+    ["23. 6. 2013", 4.78, "0:32", "9.15", [
+    "https://maps.google.com/maps/ms?msa=0&msid=217701801170887560136.0004dfc7f615c116f0791",
+    ], "http://instagram.com/p/a4c5czsDFP/", ],
+] %}
+<table class="table">
+    <tr>
+        <th>Date</th>
+        <th>Distance (km)</th>
+        <th>Time</th>
+        <th>Avg. speed (km/h)</th>
+        <th></th>
+        <th></th>
+    </tr>
+    {% for trip in trips %}
+        <tr>
+            <td>{{trip.0}}</td>
+            <td>{{trip.1}}</td>
+            <td>{{trip.2}}</td>
+            <td>{{trip.3}}</td>
+            <td>{% for map in trip.4 %}<a href="{{map}}" target="blank">map</a>&nbsp;{% endfor %}</td>
+            <td>{% if trip.5 %}<a href="{{trip.5}}" target="blank">photos</a>&nbsp;{% endif %}</td>
+        </tr>
+    {% endfor %}
+</table>
+{% endblock content %}
