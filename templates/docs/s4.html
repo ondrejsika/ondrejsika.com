@@ -1,0 +1,30 @@
+{% extends "docs/base.html" %}
+
+{% set title = "s4 (static files services)" %}
+{% set authors = [
+    ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
+] %}
+{% set sources = [
+    ["Documentation", "ondrejsika.com/docs/s4"],
+] %}
+
+{% block content2 %}
+<p>Lightweight static file services.</p>
+{% endblock content2 %}
+
+
+{% block content3 %}
+<h3>Components</h3>
+<table class="table">
+    <tr>
+        <th>name</th>
+        <th>repo</th>
+        <th>description</th>
+    </tr>
+    <tr>
+        <td>drive</td>
+        <td><a href="https://github.com/sikaondrej/s4-drive">GitHub</a></td>
+        <td>Save raw data from request</td>
+    </tr>
+</table>
+{% endblock content3 %}
