@@ -1,0 +1,13 @@
+<style type="text/css">
+.image {
+    float: left;
+    margin-bottom: 30px;
+}
+</style>
+<div class="row">
+    {% for image in gallery %}
+        <div class="span2 image">
+            <a href="{{image.1}}"><img src="{{image.0}}"></a>
+        </div>
+    {% endfor %}
+</div>
