@@ -17,25 +17,10 @@
 
 {% block content3 %}
 <h3>Instalation</h3>
-Instalation is very simple over git.
-<pre># git clone https://github.com/sikaondrej/alsa-remote.git /opt/alsa-remote</pre>
+Via install script
 
-<h3>Nginx</h3>
 <pre>
-server {
-    listen 80;
-    server_name alsa.localhost;
-
-    location / {
-        proxy_pass http://localhost:11220/;
-    }
-}
-</pre>
-
-<h3>Supervisor</h3>
-<pre>
-[program:alsaremote]
-command = gunicorn wsgi:application -b 127.0.0.1:11220
-directory = /opt/alsa-remote/
+wget https://raw.github.com/sikaondrej/install-scripts/master/alsa-remote-install.sh
+sudo sh alsa-remote-install.sh
 </pre>
 {% endblock content3 %}
