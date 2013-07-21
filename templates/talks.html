@@ -14,7 +14,7 @@
             <tr>
                 <td>{{row.0}}</td>
                 <td>{{row.1}}</td>
-                <td><a href="{{row.2}}" target="blank">{{row.3}}</a></td>
+                <td>{% if row.2 and row.3 %}<a href="{{row.2}}" target="blank">{{row.3}}</a>{% endif %}</td>
             </tr>
         {% endfor %}
     </table>
@@ -29,7 +29,7 @@
             <tr>
                 <td>{{row.0}}</td>
                 <td>{{row.1}}</td>
-                <td><a href="{{row.2}}" target="blank">{{row.3}}</a></td>
+                <td>{% if row.2 and row.3 %}<a href="{{row.2}}" target="blank">{{row.3}}</a>{% endif %}</td>
             </tr>
         {% endfor %}
     </table>
