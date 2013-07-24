@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 
 {% set upcoming = [
-    ["", "Flask, Pyvo Plzeň"],
+    ["20. 9. 2013", "Nativní Android aplikace v HTML5 jednoduše! (Praha)", "/page/nativni-android-aplikace-v-html5-jednoduse", "info", "CZ"],
+    ["13. 9. 2013", "Nativní Android aplikace v HTML5 jednoduše! (Plzeň)", "/page/nativni-android-aplikace-v-html5-jednoduse", "info", "CZ"],
+    ["", "Flask, Pyvo Plzeň", "", "CZ"],
 ] %}
 {% set past = [
 ] %}
@@ -16,6 +18,7 @@
                 <td>{{row.0}}</td>
                 <td>{{row.1}}</td>
                 <td>{% if row.2 and row.3 %}<a href="{{row.2}}" target="blank">{{row.3}}</a>{% endif %}</td>
+                <td>{{row.4}}</td>
             </tr>
         {% endfor %}
     </table>
@@ -31,6 +34,7 @@
                 <td>{{row.0}}</td>
                 <td>{{row.1}}</td>
                 <td>{% if row.2 and row.3 %}<a href="{{row.2}}" target="blank">{{row.3}}</a>{% endif %}</td>
+                <td>{{row.4}}</td>
             </tr>
         {% endfor %}
     </table>
