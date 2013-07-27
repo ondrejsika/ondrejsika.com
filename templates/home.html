@@ -1,26 +1,50 @@
 {% extends "base.html" %}
-{% block content %}
-<div class="row">
-    <div class="span7">
-        <h2>Welcome on my site</h2>
-        <p class="large" style="line-height:1.5;">
-        Check out some of my sites
-        <br><a href="http://prodejknihu.cz" target="blank">ProdejKnihu.cz</a> (CZ),
-        <br>my <a href="/blog/cz">czech</a> &amp; <a href="/blog/en">english</a> blog or my <a href="/apps-libs">apps</a>
-        <br>and my opensource on <a href="https://github.com/sikaondrej" target="blank">GitHub</a>
-        </p>
-        <p class="large" style="line-height:1.5;">
-        if you like my projects, you may <a href="/donate">support</a> me, thanks
-        </p>
+{% set title = "Ondrej Sika" %}
+{% block body %}
+<style type="text/css">
+    body {background-color: #dedede;}
+    .header {
+        text-align: left;
+        line-height:normal;   
+    }
+    .main {
+        margin: 40px;
+        margin-bottom: 60px;
+    }
+    .footer {
+        position: fixed;
+        bottom: 0px;
+        background-color: #dedede;
+        height: 40px;
+        width: 100%;
+        padding-top: 10px;
+    }
+</style>
+<div class="main ubuntu-font">
+    <p class="header" style="font-size:45px;">Hello, I'm Ondrej&nbsp;Sika,</p>
+    <p class="header" style="font-size:25px;">web developer &amp; speaker.</p>
+    <p class="header" style="font-size:20px;">
+    Frontend developer.
+    <br>Backend  developer.
+    <br>Mobile developer.
+    <br>Consultant.
+    <br>Speaker / Teacher / Lecturer.
+    </p>
+    <p class="header" style="font-size:20px;">
+        <a href="http://github.com/sikaondrej" target="blank" style="background:none;padding:0;">Github</a>
+        <br><a href="http://twitter.com/sikaondrej" target="blank" style="background:none;padding:0;">Twitter</a>
+        <br><a href="https://plus.google.com/u/0/103792510103800752680/about" target="blank" style="background:none;padding:0;">Google+</a>
+        <br><a href="http://facebook.com/sikaondrej2" target="blank" style="background:none;padding:0;">Facebook</a>
+        <br><a href="http://www.linkedin.com/pub/ondrej-sika/56/595/a62" target="blank" style="background:none;padding:0;">Linkedin</a>
+        <br><a href="http://" target="blank" style="background:none;padding:0;"></a>
+
+    </p>
+    <div class="menu">
+    {% include "menu.html" %}
     </div>
-    <div class="span3">
-        <img src="/static/images/profile2012.jpg" alt="photo of me">
-        <div style="height:13px;"></div>
-        <center>
-            <a href="https://twitter.com/sikaondrej" class="twitter-follow-button" data-show-count="false" data-size="large" data-lang="en">Follow @sikaondrej</a>
-        <script>
-            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </center>
+    <div class="footer">
+        2012 - 2013 <a href="http://ondrejsika.com">Ondrej Sika</a>
     </div>
 </div>
-{% endblock content %}
+        
+{% endblock body %}
