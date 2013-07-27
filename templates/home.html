@@ -2,17 +2,26 @@
 {% set title = "Ondrej Sika" %}
 {% block body %}
 <style type="text/css">
-    body {background-color: #dedede;}
+    body {
+        background-color: #dedede;
+        margin: 0;
+        padding: 0;
+    }
     .header {
         text-align: left;
         line-height:normal;   
     }
     .main {
-        margin: 40px;
+        margin: 50px;
         margin-bottom: 60px;
     }
     .footer {
         margin-top: 30px;
+    }
+
+    /* Mobie */
+    @media (max-width: 480px) {
+        .main {margin: 10px}
     }
 </style>
 <div class="main ubuntu-font">
