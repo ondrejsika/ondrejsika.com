@@ -43,12 +43,15 @@
         <br><a href="http://" target="blank" style="background:none;padding:0;"></a>
 
     </p>
-    <div class="menu" style="font-size:20px;">
+    <div class="menu" id="menu" style="font-size:20px;">
     {% include "menu.html" %}
     </div>
     <div class="footer">
         2012 - 2013 <a href="http://ondrejsika.com">Ondrej Sika</a>
     </div>
 </div>
-        
+
+<script type="text/javascript">
+(function(){if (window.location.hash == "#without-menu") document.getElementById('menu').hidden = true;})();
+</script>
 {% endblock body %}
