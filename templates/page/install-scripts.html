@@ -1,6 +1,20 @@
 {% extends "base.html" %}
 {% block content %}
 <h2>Install scripts</h2>
-<p>2 line to install app</p>
+<b>2 line to install app</b>
+<p>First line is wget of install script, the second runs script. That's all :)</p>
 <p>My install scripts on <a href="https://github.com/sikaondrej/install-scripts" target="blank">GitHub</a>.</p>
+
+<h3>Example</h3>
+jquery-install.sh
+<pre>
+mkdir js
+cd js
+wget code.jquery.com/jquery.js
+</pre>
+and 2 lines to install
+<pre>
+wget drive.ondrejsika.com/jquery-install.sh
+sh jquery-install.sh
+</pre>
 {% endblock content %}
