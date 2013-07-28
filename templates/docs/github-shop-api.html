@@ -1,0 +1,58 @@
+{% extends "docs/base.html" %}
+
+{% set title = "github shop api documentation" %}
+{% set github_repo = "flask-server" %}
+{% set authors = [
+    ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
+] %}
+{% set sources = [
+    ["Documentation", "ondrejsika.com/docs/github-shop-api"],
+    ["GitHub", "github.com/sikaondrej/github-shop-api"],
+] %}
+
+{% block content2 %}
+Simple JSON api for <a href="http://shop.github.com" target="blank">shop.github.com</a>
+{% endblock content2 %}
+
+
+{% block content3 %}
+<h3>Instalation</h3>
+<h4>Install script</h4>
+Instalation is very easy via <a href="https://github.com/sikaondrej/install-scripts" target="blank">install-scripts</a>
+<pre>
+wget https://raw.github.com/sikaondrej/install-scripts/master/github-shop-api-install.sh
+sudo sh alsa-remote-install.sh
+</pre>
+Now you have access to api at <code>localhost:11230</code>.
+
+<h4>Manually</h4>
+Clone repo to app dir. In root are 2 files (app.py, wsgi.py). You can run in Flask server
+<pre>python app.py</pre> or <pre>./app.py</pre> in development mode or in priduction mode via gunicorn (or uwsgi, ...)
+<pre>gunicorn wsgi:application -b 0.0.0.0:11230</pre> or <pre>gunicorn app:app -b 0.0.0.0:11230</pre>
+
+<h3>API</h3>
+Currently is only one view.
+<h4>Items</h4>
+request
+<pre>GET /api/items</pre>
+response
+<pre>
+[
+    {
+        "price": "25.00",
+        "detail_url": "http://shop.github.com/products/contribution-graph-shirt",
+        "image_url": "http://cdn.shopify.com/s/files/1/0051/4802/products/contribution-t_1024x1024.jpg?145",
+        "name": "Contribution Graph Shirt",
+        "in_stock": true
+    },
+    {
+        "price": "25.00",
+        "detail_url": "http://shop.github.com/products/arctocat",
+        "image_url": "http://cdn.shopify.com/s/files/1/0051/4802/products/Actocat_1024x1024.png?145",
+        "name": "Arctocat",
+        "in_stock": true
+    },
+    ....
+]
+</pre>
+{% endblock content3 %}
