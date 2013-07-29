@@ -1,0 +1,38 @@
+{% extends "docs/base.html" %}
+
+{% set title = "tilescache documentation" %}
+{% set github_repo = "tilescache" %}
+{% set authors = [
+    ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
+] %}
+{% set sources = [
+    ["Documentation", "ondrejsika.com/docs/tilescache"],
+    ["GitHub", "github.com/sikaondrej/tilescache"],
+] %}
+
+{% block content2 %}
+<p>Cache map tiles on web</p>
+{% endblock content2 %}
+
+
+{% block content3 %}
+<h3>URL structure</h3>
+<pre>
+/                           basic home page
+/tiles/{s}/{z}/{x}/{y}.png  tile
+</pre>
+<h3>Example servers</h3>
+<ul>
+    <li><a href="http://a.tc.b.h4y.cz" target="blank">a.tc.b.h4y.cz</a>, <a href="http://a.tc.b.h4y.cz/tile/c/13/4400/2787.png" target="blank">a.tc.b.h4y.cz/tile/c/13/4400/2787.png</a></li>
+    <li><a href="http://b.tc.b.h4y.cz" target="blank">b.tc.b.h4y.cz</a>, <a href="http://b.tc.b.h4y.cz/tile/c/13/4400/2787.png" target="blank">b.tc.b.h4y.cz/tile/c/13/4400/2787.png</a></li>
+    <li><a href="http://c.tc.b.h4y.cz" target="blank">c.tc.b.h4y.cz</a>, <a href="http://c.tc.b.h4y.cz/tile/c/13/4400/2787.png" target="blank">c.tc.b.h4y.cz/tile/c/13/4400/2787.png</a></li>
+</ul>
+<!-- <h3>Instalation</h3>
+Sipmly via pip
+<pre>
+pip install tilescache
+</pre>
+
+<h3>Connection to alsa remote</h3>
+Tilescache listen on port 11240 from everywhere (0.0.0.0) -->
+{% endblock content3 %}
