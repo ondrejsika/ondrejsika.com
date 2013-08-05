@@ -33,7 +33,7 @@ server {
 server {
        server_name ondrejsika.com www.ondrejsika.com;
        listen 80;
-       rewrite ^(.*) https://ondrejsika.com permanent;
+       rewrite ^(.*) https://ondrejsika.com$request_uri? permanent;
 }
 </pre>
 and restart nginx
