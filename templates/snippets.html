@@ -1,6 +1,28 @@
 {% extends "base.html" %}
 {% block content %}
 <h2>Snippets</h2>
+<a href="#google-geo-api-address-components"><h3 id="google-geo-api-address-components">Get address components from Google Geo API</h3></a>
+<h4>Python</h4>
+<pre>def get_geolocation(result):
+    address = ["", "", "", ""]
+    for obj in result["address_components"]:
+        if "locality" in obj["types"]:
+            address[0] = obj["long_name"]
+        if "administrative_area_level_1" in obj["types"]:
+            address[1] = obj["long_name"]
+        if "country" in obj["types"]:
+            address[2] = obj["long_name"]
+    return  tuple(address)
+
+import requests
+import json
+
+url = "http://maps.googleapis.com/maps/api/geocode/json?latlng=40,-76&sensor=false"
+print get_geolocation(json.loads(requests.get(url).text)["results"][0])
+url = "http://maps.googleapis.com/maps/api/geocode/json?latlng=50,13&sensor=false"
+print get_geolocation(json.loads(requests.get(url).text)["results"][0])
+</pre>
+
 <a href="#redmine-gmail-config"><h3 id="redmine-gmail-config">Redmine gmail config</h3></a>
 To file <code>config/configuration.yml</code> append this.
 <pre>production:
