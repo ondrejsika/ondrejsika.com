@@ -1,0 +1,71 @@
+{% extends "blog/base.html" %}
+{% set blog_title = "Tvorba Python balíčku" %}
+{% set blog_date = "9. 8. 2013" %}
+{% block blog_content %}
+
+Jak jednoduše vytvořit python balíčk, nahrát ho na pipi.python.org a instalovat přes pip.
+<br>Nejdříve si vytvoříme složku ve které budeme balíček vytvářet a přepneme se do ní
+<pre>$ mkdir ~/pip/helloworld/
+$ cd ~/pip/helloworld/</pre>
+zde sy vytvoříme pythoní knihovnu která musí obsahovat python package. Za pyhon package se považuje složka ve které je soubor __init__.py. Zde vytvoříme tedy složku s názvem našeho balíčku. Znovu helloworld a v ní vytvoříme prázdný soubor __init__.py.
+
+<pre>$ mkdir helloworld
+touch helloworld/__init__.py</pre>
+Teď už máme základní strukturu naší knihovny. Můžeme do ní vkládat další soubory a podardesáře s python balíčky.
+Do souboru __init__.py vložíme naši funkci helloworld. 
+
+<h5>obsah souboru helloworld/__init__.py</h5>
+<pre>def helloworld():
+    print "Hello world"
+</pre>
+Knihonu máme hotovou, teď musíme vytvořit soubor setup.py kam zadáme potřebné informace o balíčku.
+
+<pre>vim setup.py</pre>
+
+<h5>obsah souboru</h5>
+<pre>#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+from setuptools import setup, find_packages
+
+
+setup(
+    name = "helloworld",
+    version = "1",
+    url = 'http://ondrejsika.com/,  # domovska stranka balicku
+    author = 'Ondrej Sika',
+    author_email = 'ondrej@ondrejsika.com',
+    packages = find_packages(),
+    requires = [],  # pozadovane balicky
+)
+</pre>
+funkce setup má mnoho dalších parametrů, zde zmiňuji ty nejdůležitější
+
+<h3>Přidání balíčku pypi.python.org</h3>
+Niní můžeme přidat balíček do python package index (pipi) příkazem
+
+<pre>$ python setup.py register</pre>
+
+Pokud jste ještě žádný balíček neregistrovali, zeptá se vás program zda už máte účet, pokud a no zvolte 1, pokud ho chcete založit zvolte 2. Zadejte požadované údaje a na email Vám přijde potvrzovací email. Po potvrzení účtu rnovu proveďte příkaz 
+
+<pre>$ python setup.py register</pre>
+
+zde zvolte možnost 1 a přihlašte se. balíček se zaregistruje na serveru. Potom se vás zeptá zda si chcete uložit přihlašovací údaje. Když si je uložíte, při registraci dalších balíčku budete pouze spouštet příkaz na registraci a nebudete muset nic zadávat.
+Dále musíme na server nahrát vytvořený balíček v archivu .tar.gz. Ten vytvoříme příkazem
+
+<pre>$ python setup.py sdist</pre>
+
+a nahrajeme ho na server příkazem
+
+<pre>$ python setup.py sdist upload</pre>
+
+<h3>Instalace balíčku do systému</h3>
+Teď můžeme náš balíček nainstalovat příkazem
+<pre># pip install helloworld</pre>
+a nebo
+<pre># python setup.py install</pre>
+
+odsreanení balíčku je pro oba příklady stejné
+
+<pre># pip uninstall helloworld</pre>
+{% endblock blog_content %}
