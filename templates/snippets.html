@@ -22,6 +22,21 @@ print get_geolocation(json.loads(requests.get(url).text)["results"][0])
 url = "http://maps.googleapis.com/maps/api/geocode/json?latlng=50,13&sensor=false"
 print get_geolocation(json.loads(requests.get(url).text)["results"][0])
 </pre>
+<h4>JavaScript</h4>
+<p>Requires jQuery</p>
+<pre>function get_geolocation(lat, lon, callback){
+    url = "http://maps.googleapis.com/maps/api/geocode/json?latlng="+lat+","+lon+"&sensor=false";
+    $.getJSON(url, function(json){
+        address = ["", "", "", ""];
+        json["results"][0]["address_components"].forEach(function(obj){
+            if (obj["types"].indexOf("locality") != -1) address[0] = obj["long_name"];
+            if (obj["types"].indexOf("administrative_area_level_1") != -1) address[1] = obj["long_name"];
+            if (obj["types"].indexOf("country") != -1) address[2] = obj["long_name"];
+        })
+        callback(address);
+    });
+}
+</pre>
 
 <a href="#redmine-gmail-config"><h3 id="redmine-gmail-config">Redmine gmail config</h3></a>
 To file <code>config/configuration.yml</code> append this.
