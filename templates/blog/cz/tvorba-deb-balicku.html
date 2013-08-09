@@ -24,9 +24,8 @@ Architecture: all
 Maintainer: Ondrej Sika <ondrej@ondrejsika.com>
 Installed-Size: 1
 Depends: bash
-Section: mysql
 Priority: extra
-Homepage: http://blog.ondrejsika.com/a/tvorba-deb-balicku
+Homepage: http://ondrejsika.com/
 Description:
  Hello world app
 </pre>
@@ -40,19 +39,12 @@ $ find
 ./DEBIAN/control
 </pre>
 
-Teď už můžeme vytvářet souborovou strukturu která odpovídá souborové strukturě z linuxového rootu. Vytvořím soubor usr/local/bin/helloworld, který znázorňuje /usr/local/bin/helloworld. Do tohoto souboru napište Váš script a nastavte ho jako spustitelný.
+Teď už můžeme vytvářet souborovou strukturu která odpovídá souborové strukturě z linuxového rootu. Vytvořím soubor usr/bin/helloworld, který znázorňuje /usr/bin/helloworld. Do tohoto souboru napište Váš script a nastavte ho jako spustitelný.
 
 <pre>
-mkdir usr/local/bin/ -p
-vim usr/local/bin/helloworld
-chmod +x usr/local/bin/helloworld
-</pre>
-
-Do toho souboru zapište script
-
-<pre>
-#!/bin/sh
-echo "Hello World!"
+mkdir usr/bin/ -p
+echo -e '#!/bin/bash\necho Hello world' > usr/bin/helloworld
+chmod +x usr/bin/helloworld
 </pre>
 
 Teď máme hotovo. Můžeme skontrolovat soubory v našem balíčku příkazem find.
@@ -63,9 +55,8 @@ DEBIAN  usr
 $ find
 .
 ./usr
-./usr/local
-./usr/local/bin
-./usr/local/bin/helloworld
+./usr/bin
+./usr/bin/helloworld
 ./DEBIAN
 ./DEBIAN/control
 </pre>
@@ -83,7 +74,7 @@ helloworld_1~ondrejsika-1_all
 Niní můžeme balíček sestavit příkazem
 
 <pre>
-dpkg-deb --build helloworld_1~ondrejsika-1_all helloworld_1~ondrejsika-1_all.deb
+$ dpkg-deb --build helloworld_1~ondrejsika-1_all helloworld_1~ondrejsika-1_all.deb
 dpkg-deb: building package `helloworld_1~ondrejsika-1_all' in `helloworld_1~ondrejsika-1_all.deb'.
 </pre>
 
