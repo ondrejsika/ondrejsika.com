@@ -1,14 +1,14 @@
 {% extends "docs/base.html" %}
 
-{% set title = "django-form-utils documentation" %}
-{% set github_repo = "django-form-utils" %}
+{% set title = "django-flexible-form documentation" %}
+{% set github_repo = "django-flexible-form" %}
 {% set authors = [
     ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
 ] %}
 {% set sources = [
-    ["Documentation", "ondrejsika.com/docs/django-form-utils"],
-    ["Python Package Index", "pypi.python.org/pypi/django-form-utils"],
-    ["GitHub", "github.com/sikaondrej/django-form-utils"],
+    ["Documentation", "ondrejsika.com/docs/django-flexible-form"],
+    ["Python Package Index", "pypi.python.org/pypi/django-flexible-form"],
+    ["GitHub", "github.com/sikaondrej/django-flexible-form"],
 ] %}
 
 {% block content2 %}
@@ -19,14 +19,14 @@
 {% block content3 %}
 <h3>Instalation</h3>
 Instalation is very simple over pip.
-<pre># pip install django-form-utils</pre>
+<pre># pip install django-flexible-form</pre>
 
 
 add to INSTALLED_APPS in settings.py
 <pre>
 INSTALLED_APPS = (
     # ...
-    "form_utils",
+    "flexible_form",
     # ...
 )
 </pre>
@@ -46,12 +46,12 @@ class MyModel(models.Model):
 <h4>myapp/forms.py</h4>
 <pre>
 from django import forms
-from form_utils import FormUtils
+from flexible_form import FlexibleForm
 
 from models import MyModel
 
 
-class MyForm(forms.ModelForm, FormUtils):
+class MyForm(forms.ModelForm, FlexibleForm):
     help_texts = {
         "a": "Insert value of a",
         "b": "Insert value of b",        
