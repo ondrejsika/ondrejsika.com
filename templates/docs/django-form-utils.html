@@ -1,0 +1,64 @@
+{% extends "docs/base.html" %}
+
+{% set title = "django-form-utils documentation" %}
+{% set github_repo = "django-form-utils" %}
+{% set authors = [
+    ["Ondrej Sika", "ondrejsika.com", "dev@ondrejsika.com"],
+] %}
+{% set sources = [
+    ["Documentation", "ondrejsika.com/docs/django-form-utils"],
+    ["Python Package Index", "pypi.python.org/pypi/django-form-utils"],
+    ["GitHub", "github.com/sikaondrej/django-form-utils"],
+] %}
+
+{% block content2 %}
+<p>Django form class extensions</p>
+{% endblock content2 %}
+
+
+{% block content3 %}
+<h3>Instalation</h3>
+Instalation is very simple over pip.
+<pre># pip install django-form-utils</pre>
+
+
+add to INSTALLED_APPS in settings.py
+<pre>
+INSTALLED_APPS = (
+    # ...
+    "form_utils",
+    # ...
+)
+</pre>
+
+<h3>Usage</h3>
+<h3>Replace help texts</h3>
+<h4>myapp/models.py</h4>
+<pre>
+from django.db import models
+
+class MyModel(models.Model):
+    a = models.IntegerField(help_text="value of a")
+    b = models.IntegerField()
+    c = models.IntegerField()
+</pre>
+
+<h4>myapp/forms.py</h4>
+<pre>
+from django import forms
+from form_utils import FormUtils
+
+from models import MyModel
+
+
+class MyForm(forms.ModelForm, FormUtils):
+    help_texts = {
+        "a": "Insert value of a",
+        "b": "Insert value of b",        
+    }
+
+    def __init__(self, *args, **kwargs):
+        super(MyForm, self).__init__(*args, **kwargs)
+        self.replace_help_texts()
+</pre>
+{% endblock content3 %}
