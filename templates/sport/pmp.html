@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Pivní motivační program (Beer incentive program)</h2>
+{% set beers = [
+    ["16. 8. 2013"],
+    ["16. 8. 2013"],
+] %}
+{% set sports = [
+    ["17. 8. 2013"],
+] %}
+<style type="text/css">
+.list img {
+    height: 60px;
+}
+.overview span {
+    font-size: 150px;
+    font-family: ubuntu;
+    color: black;
+    float: left;
+    margin-top: 35px;
+}
+.overview img {
+    float: left;
+}
+
+</style>
+<div class="row">
+    <div class="span3" style="margin-top:20px;">
+        <table class="list">
+            <tr valign="bottom">
+                <td>
+                    {% for item in sports %}
+                        <p><img src="/static/pmp/sport.svg" title="Beer {{item.0}}"></p>
+                    {% endfor %}
+                </td>
+                <td>
+                    {% for item in beers %}
+                        <p><img src="/static/pmp/beer.svg" title="Sport {{item.0}}"></p>
+                    {% endfor %}
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="overview">
+        <div class="span3" style="margin-top:20px;">
+            <img src="/static/pmp/sport.svg" title="Sports"><span>{{sports|length}}</span>
+            <div style="clear:both;"></div>
+        </div>
+        <div class="span3" style="margin-top:20px;">
+            <img src="/static/pmp/beer.svg" title="Beers"><span>{{beers|length}}</span>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
