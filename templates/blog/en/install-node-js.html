@@ -1,0 +1,29 @@
+{% extends "blog/base.html" %}
+{% set blog_title = "Install Node.JS" %}
+{% set blog_date = "24. 8. 2013" %}
+{% block blog_content %}
+<h3>Manually</h3>
+<p>Download Node .tar.gz package from official website <a href="http://nodejs.org" target="blank">nodejs.org</a> and copy the extract dir to node instance directory (mostly /opt/).</p>
+<pre>
+cd Downloads
+wget http://nodejs.org/dist/v0.10.17/node-v0.10.17.tar.gz
+tar -zxvf node-v0.10.17.tar.gz
+sudo cp node-v0.10.17 /opt/node-v0.10.17 -r
+</pre>
+<p>Compile source via <code>make</code></p>
+<pre>
+cd /opt/node-v0.10.17
+make
+</pre>
+and link node binary to system path
+<pre>
+ln -sf /opt/node-v0.10.17/node /usr/local/bin/node
+</pre>
+Now node works :)
+<h4>Automatic via install scripts</h4>
+<pre>
+wget https://raw.github.com/sikaondrej/install-scripts/master/node-install.sh
+sudo sh node-install.sh
+</pre>
+More about install scripts here: <a href="/page/install-scripts">http://ondrejsika.com/page/install-scripts</a>
+{% endblock blog_content %}
