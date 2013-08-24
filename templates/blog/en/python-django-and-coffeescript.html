@@ -1,0 +1,16 @@
+{% extends "blog/base.html" %}
+{% set blog_title = "Python, Django & CoffeeScript" %}
+{% set blog_date = "24. 8. 2013" %}
+{% block blog_content %}
+If you write some web application in Python or Django is probably that you will use JavaScript. Many developers use CoffeeScript for better syntax and quick writing. There are 2 tool for compile CoffeeScript to JavaScript using Python and Django.
+<h3>Node.JS</h3>
+You must have installed Node.JS. Detail instalation in this post <a href="/blog/en/install-node-js">Installation Node.JS</a>
+
+<h3>coffeescript package</h3>
+Is simple coffee script bridge between Python and NodeJS CoffeeScript compiller.
+<br><a href="https://github.com/doloopwhile/Python-CoffeeScript" target="blank">GitHub</a>, <a href="https://pypi.python.org/pypi/CoffeeScript" target="blank">pypi</a>
+
+<h3>django-coffeescript package</h3>
+Very large package with many type translation of CoffeeScript to JavaScript. Support CoffeeScript files and CoffeeScript in templates.
+<br><a href="https://github.com/andreyfedoseev/django-coffeescript" target="blank">GitHub</a>, <a href="https://pypi.python.org/pypi/django-coffeescript" target="blank">pypi</a>
+{% endblock blog_content %}
