@@ -1,6 +1,22 @@
 {% extends "base.html" %}
 {% block content %}
+
 <h2>Snippets</h2>
+
+<a href="#encrypt-decrypt-openssl"><h3 id="encrypt-decrypt-openssl">Encrypt &amp; decrypt via OpenSSL</h3></a>
+<h4>Encrypt</h4>
+<pre>sika@thinkpad:~$ echo 'foo' | openssl aes-256-cbc -a -salt
+enter aes-256-cbc encryption password: [passphrase hidden]
+Verifying - enter aes-256-cbc encryption password: [passphrase hidden]
+U2FsdGVkX1/QGdl4syQE8bLFSr2HzoAlcG299U/T/Xk=
+</pre>
+<h4>Decrypt</h4>
+<pre>sika@thinkpad:~$ echo 'U2FsdGVkX1/QGdl4syQE8bLFSr2HzoAlcG299U/T/Xk=' | openssl aes-256-cbc -a -d -salt
+enter aes-256-cbc decryption password: [passphrase hidden]
+foo
+</pre>
+Source <a href="http://projects.skurfer.com/posts/string_encryption/" target="blank">http://projects.skurfer.com/posts/string_encryption/</a>
+
 <a href="#google-geo-api-address-components"><h3 id="google-geo-api-address-components">Get address components from Google Geo API</h3></a>
 <h4>Python</h4>
 <pre>def get_geolocation(result):
