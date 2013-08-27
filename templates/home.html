@@ -1,15 +1,53 @@
+{% extends "base.html" %}
+{% set title = "Ondrej Sika" %}
+{% block body %}
 <style type="text/css">
     body {
-        background-color: #000000;
+        background-color: #dedede;
         margin: 0;
         padding: 0;
     }
-    h1 {
-        font-family: Helvetica;
-        font-size: 200px;
-        color: #FFFFFF;
-        text-align:center;
-        font-weight: normal;
+    .header {
+        text-align: left;
+        line-height:normal;   
+    }
+    .main {
+        margin: 50px;
+        margin-bottom: 60px;
+    }
+    .footer {
+        margin-top: 30px;
+    }
+
+    /* Mobie */
+    @media (max-width: 480px) {
+        .main {margin: 10px}
     }
 </style>
-<h1>Goodbye ...</h1>
+<div class="main ubuntu-font">
+    <p class="header" style="font-size:45px;">Hello. I'm Ondrej&nbsp;Sika,</p>
+    <p class="header" style="font-size:25px;">web developer &amp; speaker.</p>
+    <p class="header" style="font-size:20px;">
+    Python, Django &amp; JavaScript developer from Pilsen &amp; Prague, Czech Republic.
+    </p>
+    <p class="header" style="font-size:20px;">
+        <a href="http://github.com/sikaondrej" target="blank" style="background:none;padding:0;">Github</a>
+        <br><a href="http://twitter.com/sikaondrej" target="blank" style="background:none;padding:0;">Twitter</a>
+        <br><a href="https://plus.google.com/u/0/103792510103800752680/about" target="blank" style="background:none;padding:0;">Google+</a>
+        <br><a href="http://facebook.com/sikaondrej2" target="blank" style="background:none;padding:0;">Facebook</a>
+        <br><a href="http://www.linkedin.com/pub/ondrej-sika/56/595/a62" target="blank" style="background:none;padding:0;">Linkedin</a>
+        <br><a href="http://" target="blank" style="background:none;padding:0;"></a>
+
+    </p>
+    <div class="menu" id="menu" style="font-size:20px;">
+    {% include "menu.html" %}
+    </div>
+    <div class="footer">
+        2012 - 2013 <a href="http://ondrejsika.com">Ondrej Sika</a>
+    </div>
+</div>
+
+<script type="text/javascript">
+(function(){if (window.location.hash == "#without-menu") document.getElementById('menu').hidden = true;})();
+</script>
+{% endblock body %}
