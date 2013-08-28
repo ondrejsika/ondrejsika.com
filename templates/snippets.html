@@ -3,6 +3,25 @@
 
 <h2>Snippets</h2>
 
+<a href="#jquery-checkbox-toggle"><h3 id="jquery-checkbox-toggle">jQuery checkbox toggle</h3></a>
+<pre>
+$(function() {
+    $("#button").click(function() {
+        $("#input").trigger('click');
+    });
+});
+</pre>
+or
+<pre>
+$(function() {
+    $("#button").click(function() {
+        var checkbox = $("#input");
+        checkbox.attr("checked", !checkbox.attr("checked"));
+    });
+});
+</pre>
+
+
 <a href="#encrypt-decrypt-openssl"><h3 id="encrypt-decrypt-openssl">Encrypt &amp; decrypt via OpenSSL</h3></a>
 <h4>Encrypt</h4>
 <pre>sika@thinkpad:~$ echo 'foo' | openssl aes-256-cbc -a -salt
