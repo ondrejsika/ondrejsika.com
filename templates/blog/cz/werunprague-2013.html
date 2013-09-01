@@ -1,0 +1,14 @@
+{% extends "blog/base.html" %}
+{% set blog_title = "We run Prague 2013" %}
+{% set blog_date = "1. 9. 2013" %}
+{% block blog_content %}
+{% set gallery = [
+    ["http://instagram.com/p/dr5J3ysDLw/media/?size=t", "http://instagram.com/p/dr5J3ysDLw/media/?size=m"],
+    ["http://instagram.com/p/dr4C5hMDJl/media/?size=t", "http://instagram.com/p/dr4C5hMDJl/media/?size=m"],
+    ["http://instagram.com/p/drvxMtMDIY/media/?size=t", "http://instagram.com/p/drvxMtMDIY/media/?size=m"],
+] %}
+<p>Bylo to super, příší rok znova.</p>
+<p>Sice jsem se neumístil úplně dobře, 6999 z 8026, s časem 1:06:43.</p>
+<p>Více informací na <a href="http://werunprague.cz" target="blank">werunprague.cz</a></p>
+{% include "gallery.html" %}
+{% endblock blog_content %}
