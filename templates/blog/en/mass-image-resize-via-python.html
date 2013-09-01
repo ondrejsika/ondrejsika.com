@@ -1,0 +1,32 @@
+{% extends "blog/base.html" %}
+{% set blog_title = "Mass resize via Python" %}
+{% set blog_date = "1. 9. 2013" %}
+{% block blog_content %}
+<h3>Linux</h3>
+install via pip
+<pre>
+sudo pip install massresize
+</pre>
+or
+<pre>
+wget https://pypi.python.org/packages/source/m/massresize/massresize-1.0.0.tar.gz
+tar xzvf massresize-1.0.0.tar.gz
+cd massresize-1.0.0
+sudo python setup.py install
+</pre>
+and run from console
+<pre>
+massresize [dir with photos] [width]
+</pre>
+example
+<pre>
+massresize /home/sika/Photos/ 300
+</pre>
+or in gui <code>massupload-gui</code>
+<h3>Windows</h3>
+Download python 2.7 for windows from <a href="http://www.python.org/ftp/python/2.7.5/python-2.7.5.msi" target="blank">http://www.python.org/ftp/python/2.7.5/python-2.7.5.msi</a> and pil <a href="http://effbot.org/downloads/PIL-1.1.7.win32-py2.7.exe" target="blank">http://effbot.org/downloads/PIL-1.1.7.win32-py2.7.exe</a>
+<br>
+Download and unzip <a href="https://github.com/sikaondrej/massresize/archive/master.zip" target="blank">https://github.com/sikaondrej/massresize/archive/master.zip</a>
+<p></p>
+Rename massresize-gui to maxresize-gui.py and run via Python
+{% endblock blog_content %}
