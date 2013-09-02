@@ -3,6 +3,58 @@
 
 <h2>Snippets</h2>
 
+<a href="#copy-file-to-ftp-server"><h3 id="copy-file-to-ftp-server">Copy file to ftp server</h3></a>
+<h4>bash</h4>
+<p>Run <code>./ftp.sh user pass server.com /home/sika file.txt</code></p>
+<pre>
+#!/bin/sh
+USERNAME=$1
+PASSWORD=$2
+SERVER=$3
+DIR=$4
+FILE=$5
+
+cd $DIR
+ftp -n -i $SERVER &lt;&lt;EOF
+user $USERNAME $PASSWORD
+binary
+mput $FILE
+quit
+EOF
+</pre>
+
+<h4>python</h4>
+<p>Run <code>./ftp.py user:pass@server.com /home/sika/file.txt</code></p>
+<pre>
+#!/usr/bin/python
+import os
+import sys
+
+login, server = sys.argv[1].split("@")
+username, password = login.split(":")
+
+filepath = os.path.abspath(os.path.join(os.path.dirname(__file__), sys.argv[2]))
+dirname = os.path.dirname(filepath)
+filename = filepath.replace(dirname+"/", "")
+
+os.system("""
+cd %(dirname)s
+ftp -n -i %(server)s &lt;&lt;EOF
+user %(username)s %(password)s
+binary
+mput %(filename)s
+quit
+EOF
+""" % {
+    "dirname": dirname,
+    "username": username,
+    "password": password,
+    "server": server,
+    "filename": filename,
+})
+</pre>
+<p>Source <a href="http://ubuntuforums.org/showthread.php?t=1663776&p=10338511#post10338511" target="blank">http://ubuntuforums.org/showthread.php?t=1663776&p=10338511#post10338511</a></p>
+
 <a href="#jquery-checkbox-toggle"><h3 id="jquery-checkbox-toggle">jQuery checkbox toggle</h3></a>
 <pre>
 $(function() {
