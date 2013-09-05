@@ -3,6 +3,19 @@
 
 <h2>Snippets</h2>
 
+<a href="#static-server-on-nginx"><h3 id="static-server-on-nginx">Static server on NGINX</h3></a>
+<pre>
+server {
+    listen 80; 
+    server_name static.gg365.eu ;
+    root /var/static/;
+    location / { 
+    autoindex on; 
+    index index.html;
+    }   
+}
+</pre>
+
 <a href="#inline-if-python"><h3 id="inline-if-python">Inline IF in Python</h3></a>
 <pre>
 >>> var = True
