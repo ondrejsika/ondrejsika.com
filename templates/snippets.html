@@ -2,6 +2,10 @@
 {% block content %}
 
 <h2>Snippets</h2>
+<a href="#mount-ftp-server"><h3 id="mount-ftp-server">Mount FTP server</h3></a>
+<pre>
+sudo curlftpfs user:password@server.com /mnt/ftpserver/ -o allow_other
+</pre>
 
 <a href="#static-server-on-nginx"><h3 id="static-server-on-nginx">Static server on NGINX</h3></a>
 <pre>
