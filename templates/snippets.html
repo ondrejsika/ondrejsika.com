@@ -2,6 +2,21 @@
 {% block content %}
 
 <h2>Snippets</h2>
+
+<a href="#rsync-with-ftp-server"><h3 id="rsync-with-ftp-server">Rsync with FTP server</h3></a>
+<p>Install <code>curlftpfs</code></p>
+<pre>
+sudo apt-get install curlftpfs
+</pre>
+<p>Mount ftp filesystem</p>
+<pre>
+sudo curlftpfs user:password@server.com /mnt/ftpserver/ -o allow_other
+</pre>
+<p>Start rsync</p>
+<pre>
+rsync -asvz --no-owner --no-group /var/www /mnt/ftpserver/
+</pre>
+
 <a href="#mount-ftp-server"><h3 id="mount-ftp-server">Mount FTP server</h3></a>
 <pre>
 sudo curlftpfs user:password@server.com /mnt/ftpserver/ -o allow_other
