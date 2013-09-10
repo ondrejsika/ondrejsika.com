@@ -3,6 +3,17 @@
 
 <h2>Snippets</h2>
 
+<a href="#rm-fuzzy-from-po-files"><h3 id="rm-fuzzy-from-po-files">rm fuzzy from po files</h3></a>
+<p>manually remove <code>#, fuzzy</code> from head and run <code>python po.py in.po out.po</code>. content of <code>po.py</code> here:</p>
+<pre>
+import sys
+out = []
+for block in file(sys.argv[1]).read().split("\n\n"):
+    if not "#, fuzzy" in block:
+        out.append(block)
+file(sys.argv[2], "w").write("\n\n".join(out))
+</pre>
+
 <a href="#text-show-by-javascript"><h3 id="text-show-by-javascript">Text show by javascript</h3></a>
 <p>usage python</p>
 <pre>$ makejstext.py idname
