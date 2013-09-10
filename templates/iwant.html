@@ -21,6 +21,7 @@
         text-shadow: -2px 2px  #444444, 2px -2px  #444444, 2px 2px  #444444, -2px -2px  #444444;
         line-height: 1em;
         color: #FFFFFF;
+        opacity: 0;
     }
 
     html, body { height: 100%; width: 99%; }
@@ -37,9 +38,49 @@
     <div id="centerOuter"><div id="centerInner"><div id="centerContent">
             <!-- BODY -->
             <center>
-            <h1>I want be a pilot</h1>
+            <h1 id="text">I want be a pilot</h1>
             </center>
             <!-- END BODY -->
         </div></div></div>
 </div>
+<script type="text/javascript">
+// setInterval(function(){
+    var opacity = 0;
+    loop = setInterval(function(){
+        opacity = opacity + 0.05;
+        document.getElementById("text").style.opacity = opacity;
+        if (opacity > 1) {
+            clearInterval(loop);
+            setTimeout(function(){
+                loop2 = setInterval(function(){
+                    opacity = opacity - 0.05;
+                    document.getElementById("text").style.opacity = opacity;
+                    if (opacity < 0) {
+                        document.getElementById("text").style.opacity = 0;
+                        clearInterval(loop2);
+                        document.getElementById("text").innerHTML = "... and I want a Tracy";
+                        loop3 = setInterval(function(){
+                            opacity = opacity + 0.05;
+                            document.getElementById("text").style.opacity = opacity;
+                            if (opacity > 1) {
+                                setTimeout(function(){
+                                    clearInterval(loop3);
+                                    loop4 = setInterval(function(){
+                                        opacity = opacity - 0.05;
+                                        document.getElementById("text").style.opacity = opacity;
+                                        if (opacity < 0) {
+                                            document.getElementById("text").style.opacity = 0;
+                                            clearInterval(loop4);
+                                        }
+                                    }, 100);
+                                }, 1000);
+                            }
+                        }, 100);
+                    }
+                }, 100);
+            }, 1000);
+        }
+    }, 100);
+// }, 10000)
+</script>
 {% endblock body %}
