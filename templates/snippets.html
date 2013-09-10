@@ -3,6 +3,39 @@
 
 <h2>Snippets</h2>
 
+<a href="#text-show-by-javascript"><h3 id="text-show-by-javascript">Text show by javascript</h3></a>
+<p>usage python</p>
+<pre>$ makejstext.py idname
+sika@sika-sl510:~$ python jstext text
+ahoj
+jak se mas
+
+&lt;p id="text"&gt;&lt;/p&gt;
+&lt;script type="text/javascript"&gt;
+document.getElementById("text").innerHTML="a"+"h"+"o"+"j"+"&lt;br&gt;"+"j"+"a"+"k"+" "+"s"+"e"+" "+"m"+"a"+"s"+"&lt;br&gt;";
+&lt;/script&gt;
+</pre>
+<p>file <code>makejstext.py</code></p>
+<pre>
+#!/usr/bin/python
+import sys
+inp = ""
+while True:
+    actual_input = raw_input()
+    if not actual_input or actual_input == "\EOF":
+        break
+    inp += actual_input + "\n"
+out = []
+for c in inp:
+   out.append("\"%s\""%c)
+out = "+".join(out)
+out = out.replace("\n", "&lt;br&gt;")
+print """&lt;p id="%s"&gt;&lt;/p&gt;
+&lt;script type="text/javascript"&gt;
+document.getElementById("%s").innerHTML=%s;
+&lt;/script&gt;""" % (sys.argv[1], sys.argv[1], out)
+</pre>
+
 <a href="#gmail-settings-for-django"><h3 id="gmail-settings-for-django">Gmail settings for Django</h3></a>
 <pre>
 EMAIL_HOST = 'smtp.gmail.com'
