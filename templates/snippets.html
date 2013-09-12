@@ -3,6 +3,15 @@
 
 <h2>Snippets</h2>
 
+<a href="#post-file-with-curl"><h3 id="post-file-with-curl">POST file with curl</h3></a>
+<pre>
+curl -F file=@&lt;path to file&gt; &lt;url&gt;
+</pre>
+<p>example</p>
+<pre>
+curl -F file=@image.png http://localhost:8000/
+</pre>
+
 <a href="#rm-fuzzy-from-po-files"><h3 id="rm-fuzzy-from-po-files">rm fuzzy from po files</h3></a>
 <p>manually remove <code>#, fuzzy</code> from head and run <code>python po.py in.po out.po</code>. content of <code>po.py</code> here:</p>
 <pre>
