@@ -3,6 +3,12 @@
 
 <h2>Snippets</h2>
 
+
+<a href="#git-delete-all-merged-branches"><h3 id="git-delete-all-merged-branches">GIT: delete all merged branches</h3></a>
+<pre>
+git branch --merged | grep -v "\*" | xargs -n 1 git branch -d
+</pre>
+
 <a href="#post-file-with-curl"><h3 id="post-file-with-curl">POST file with curl</h3></a>
 <pre>
 curl -F file=@&lt;path to file&gt; &lt;url&gt;
