@@ -62,7 +62,23 @@
                     {% endblock base_content %}
                 </div>
             </div>
-        <hr>
+        <style type="text/css">
+        .cookies {
+            margin-top: 30px;
+        }
+        .cookies p{
+            display: inline-block;
+            margin: 0;
+        }
+        .cookies span {
+            color: red;
+        }
+        </style>
+        <div class="cookies">
+            <p style="font-weight:bold;">This site <span>not</span> use cookies.</p>
+            <p>Site still use JavaScript, until EU will ban it.</p>
+        </div>
+        <hr style="margin:10px 0;">
         <div class="footer">
             <p>2012 - 2013 <a href="http://ondrejsika.com">Ondrej Sika</a> | Proudly powered by <a href="/docs/flask-server">flask-server</a> and <a href="http://python.org" target="blank" style="background: none; padding-left: 0;">Python</a>. Deployed by <a href="/docs/deploy">deploy</a>.</p>
         </div>
