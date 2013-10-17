@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    padding: 20px;
+    background-color: #fcfcfc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+p, ul, table {
+    margin-bottom: 15px;
+}
+
+td {
+    padding-right: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li, p, table {
+    margin-left: 20px;
+}
+
+.footer {
+    margin: 0;
+    margin-top: 30px;
+}
