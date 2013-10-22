@@ -16,4 +16,10 @@ if (window.location.hash == "#lynx") {
     css.setAttribute("type", "text/css");
     css.setAttribute("href", "/static/lynx-lynx.css");
     document.getElementsByTagName("head")[document.getElementsByTagName("head").length-1].appendChild(css);
+    document.getElementById("switch-lynx").href = "/";
+    document.getElementById("switch-lynx").innerHTML = "Lynx (off)";
+    document.getElementById("switch-lynx").onclick = function(){
+        window.location.href='/';
+        window.location.reload();
+    }
 }
