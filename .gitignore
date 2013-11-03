@@ -1,6 +1,3 @@
-*.pyc
-
-!.gitkeep
-
 *.swp
-*~
+
+build/*
