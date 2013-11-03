@@ -39,9 +39,14 @@ ul {
 hr {
     border: none;
     border-top: solid 1px;
+    color: black;
 }
 .menu {
-    margin: 0;
+    margin: 2px;
+}
+
+.menu a {
+    text-decoration: none;
 }
 
 h1 span {
