@@ -13,7 +13,7 @@ lang: EN
 
 ```
 Array.prototype.pop = function(n){
-    if (i !== undefined)
+    if (n !== undefined)
         return this.splice(n, 1)[0];
     return this.splice(this.length-1, 1)[0];
 }
@@ -24,7 +24,7 @@ Array.prototype.pop = function(n){
 
 ```
 Array.prototype.pop = (n) ->
-    if i
+    if n
         return this.splice(n, 1)[0]
     return this.splice(this.length-1, 1)[0]
 ```
