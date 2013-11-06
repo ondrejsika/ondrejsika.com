@@ -53,3 +53,9 @@ h1 span {
     font-size: 0.45em;
     /*color: #888888;*/
 }
+
+pre {
+    border: solid 1px;
+    padding: 7px;
+    margin-bottom: 15px;
+}
