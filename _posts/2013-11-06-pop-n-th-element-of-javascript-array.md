@@ -9,12 +9,24 @@ lang: EN
 
 ### Prototype
 
+#### JavaScript
+
 ```
 Array.prototype.pop = function(n){
     if (i !== undefined)
         return this.splice(n, 1)[0];
     return this.splice(this.length-1, 1)[0];
 }
+```
+
+
+#### CoffeeScript
+
+```
+Array.prototype.pop = (n) ->
+    if i
+        return this.splice(n, 1)[0]
+    return this.splice(this.length-1, 1)[0]
 ```
 
 ### Example of usage
