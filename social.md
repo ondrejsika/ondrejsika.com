@@ -12,3 +12,4 @@ title: Socials
 * [Facebook](http://facebook.com/sikaondrej2)
 * [Linkedin](http://www.linkedin.com/in/ondrejsika)
 * [Bitbucket](http://bitbucket.org/ondrejsika)
+* [Speaker Deck](https://speakerdeck.com/ondrejsika)
