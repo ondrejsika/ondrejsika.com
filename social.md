@@ -1,0 +1,14 @@
+---
+layout: default
+title: Socials
+---
+
+
+## {{page.title}}
+
+* [Github](http://github.com/ondrejsika)
+* [Twitter](http://twitter.com/ondrejsika)
+* [Google+](https://plus.google.com/u/0/103792510103800752680/about)
+* [Facebook](http://facebook.com/sikaondrej2)
+* [Linkedin](http://www.linkedin.com/in/ondrejsika)
+* [Bitbucket](http://bitbucket.org/ondrejsika)
