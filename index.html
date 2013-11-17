@@ -4,15 +4,24 @@ title: Home
 ---
 
 
-<p>Hello, I'm Python developer from Prague, Czech Republic</p>
+<div>
+    <div style="float:left;">
+        <p>Hello, I'm Python developer from Prague, Czech Republic</p>
 
-<h3>Blog posts</h3>
-<table>
-  {% for post in site.posts %}
-    <tr>
-        <td><a href="{{ post.url }}">{{ post.title }}</a></td>
-        <td>{{ post.lang }}</td>
-        <td>{{ post.date | date_to_string }}</td>
-    </tr>
-  {% endfor %}
-</table>
+        <h3>Blog posts</h3>
+        <table>
+          {% for post in site.posts %}
+            <tr>
+                <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+                <td>{{ post.lang }}</td>
+                <td>{{ post.date | date_to_string }}</td>
+            </tr>
+          {% endfor %}
+        </table>
+    </div>
+
+    <div style="float:right;">
+        <img src="/static/content/profile-zurich.jpg" style="width:300px;">
+    </div>
+</div>
+<div style="clear:both;"></div>
