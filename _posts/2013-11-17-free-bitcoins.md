@@ -38,6 +38,7 @@ lang: EN
 
 * [CoinAdd](https://coinad.com?r=14757)
 * [Daily Bitcoins](http://dailybitcoins.org/index.php?aff=1sikay2CvWNryyF1SJAo6YLmd5e1D36Ti)
+* [MMO Club](http://mmoclub.com/?id=88694)
 
 
 ### Daily Sites
