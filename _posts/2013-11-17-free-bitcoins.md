@@ -8,7 +8,7 @@ lang: EN
 ---
 
 ### Best sites
-
+* [Free Bitco.in](http://freebitco.in/?r=25408)
 * [BitVisitor](http://www.bitvisitor.com/?ref=1sikay2CvWNryyF1SJAo6YLmd5e1D36Ti)
 * [Coin Tube](http://www.cointube.tv/?ref=1JL1hJJBNkYdrvfdD1htsguY3XGuezBw7u)
 * [Bitcoin Get](http://www.bitcoinget.com)
