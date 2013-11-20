@@ -15,7 +15,7 @@ lang: EN
 * [I Want Free Bitcoins](http://www.iwantfreebitcoins.com/58553)
 * [CoinVisitor](http://coinvisitor.com/earn.php?ref=1sikay2CvWNryyF1SJAo6YLmd5e1D36Ti)
 * [Earn Free Bitcoins](http://earnfreebitcoins.com?ref=1sikay2CvWNryyF1SJAo6YLmd5e1D36Ti)
-* [Bitcoin 4 You](http://www.bitcoin4you.net/)
+* [Bitcoin 4 You](http://www.bitcoin4you.net/?ref=1sikay2CvWNryyF1SJAo6YLmd5e1D36Ti)
 * [Free BTC](https://free.btc.pt/login/?action=register&AFFID=4516)
 * [Free Digital Money](http://www.freedigitalmoney.com/en/Bitcoins)
 * [Rugatu](http://www.rugatu.com/)
