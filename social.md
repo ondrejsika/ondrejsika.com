@@ -13,3 +13,4 @@ title: Socials
 * [Linkedin](http://www.linkedin.com/in/ondrejsika)
 * [Bitbucket](http://bitbucket.org/ondrejsika)
 * [Speaker Deck](https://speakerdeck.com/ondrejsika)
+* [Instagram](http://instagram.com/ondrejsika)
