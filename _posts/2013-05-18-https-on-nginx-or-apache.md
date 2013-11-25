@@ -68,14 +68,14 @@ $ sudo a2enmod ssl
 ### HTTPS config
 
 ```
-&lt;VirtualHost *:443&gt;
+<VirtualHost *:443>
     ServerName ondrejsika.com
     ServerAlias www.ondrejsika.com
     DocumentRoot "/home/www/"
     SSLEngine on
     SSLCertificateFile /etc/ssl/ondrejsika.crt
     SSLCertificateKeyFile /etc/ssl/ondrejsika.key
-&lt;/VirtualHost&gt;
+</VirtualHost>
 ```
 
 
@@ -88,11 +88,11 @@ $ sudo a2enmod rewrite
 ```
 
 ```
-&lt;VirtualHost *:80&gt;
+<VirtualHost *:80>
     ServerName localhost
     RewriteEngine On
     RewriteRule ^/(.*) https://%{SERVER_NAME}/$1 [L,R]
-&lt;/VirtualHost&gt;
+</VirtualHost>
 ```
 
 and restart apache2
