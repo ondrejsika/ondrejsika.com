@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Different Forms in Django Admin"
-date:   2013-11-20 00:00:00
 categories: blog
 
 lang: EN
