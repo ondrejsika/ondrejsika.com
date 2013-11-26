@@ -18,9 +18,9 @@ title: Home
             I'm scout leader at <a href="http://sedastrela.cz">Seda Strela</a> (in Pilsen) and I like cycling, scootering and orieentering at <a href="http://lpm.zcu.cz">LPM</a>.
         </p>
 
-        <h3>Blog posts</h3>
+        <h3>Latest blog posts</h3>
         <table>
-          {% for post in site.posts %}
+          {% for post in site.posts limit:10 %}
             <tr>
                 <td><a href="{{ post.url }}">{{ post.title }}</a></td>
                 <td>{{ post.lang }}</td>
