@@ -32,6 +32,10 @@ ul {
     list-style-type: none;
 }
 
+ol li {
+    margin-left: 25px;
+}
+
 /*li, p, table {
     margin-left: 20px;
 }*/
