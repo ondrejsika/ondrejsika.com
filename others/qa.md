@@ -5,6 +5,10 @@ title: Others
 
 ## Questions & Answers
 
+##### How get status or check/uncheck checkbox input with jQuery?
+
+Get status with `$("#checkbox").prop("checked")`, return `true` for checked, `false` for unceck. For check/uncheck use 2nd parameter `true`/`false` of prop `$("#checkbox").prop("checked", true)`.
+
 ##### How hilight spaces on end of line in SublimeText?
 
 Use package [TrailingSpaces](https://github.com/SublimeText/TrailingSpaces).
