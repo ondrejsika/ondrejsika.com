@@ -2,3 +2,4 @@
 name: ondrejsika.com
 markdown: redcarpet
 pygments: true
+future: false
