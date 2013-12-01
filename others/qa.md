@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Others
+title: Questions & Answers
 ---
 
 ## Questions & Answers
