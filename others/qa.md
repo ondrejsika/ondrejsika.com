@@ -5,6 +5,10 @@ title: Others
 
 ## Questions & Answers
 
+##### How hide future post in Jekyll blog?
+
+Add `future: false` to your Jekyll config `_config.yml`.
+
 ##### How get status or check/uncheck checkbox input with jQuery?
 
 Get status with `$("#checkbox").prop("checked")`, return `true` for checked, `false` for unceck. For check/uncheck use 2nd parameter `true`/`false` of prop `$("#checkbox").prop("checked", true)`.
