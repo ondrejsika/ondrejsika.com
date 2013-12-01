@@ -3,7 +3,9 @@ layout: default
 title: "Git pro začátečníky"
 ---
 
-## Git pro začátečníky
+## {{title}}
+
+Délka 45 min (pouze přednáška), 90 min (přednáška + workshop)
 
 #### Obsah
 
@@ -26,3 +28,4 @@ title: "Git pro začátečníky"
 
 * Git <http://git-scm.com>
 * GitHub <http://github.com>
+* Prezentace

@@ -9,4 +9,7 @@ No upcomming talks.
 
 ### Topics
 
-* [GIT pro začátečníky CZ](git-pro-zacatecniky-cz.html)
+##### CZ
+
+* [GIT pro začátečníky](git-pro-zacatecniky-cz.html)
+* [Úvod do Pythonu](uvod-do-pytonu-cz.html)
