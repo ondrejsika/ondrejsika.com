@@ -12,6 +12,7 @@ title: Programmer's websites
 ##### [Jindřich Smitka](http://www.smita.info)
 ##### [John MacFarlane](http://johnmacfarlane.net)
 ##### [Martin Antoš (Mafikes)](http://mafikes.cz)
+##### [Michael Stapelberg](http://michael.stapelberg.de)
 ##### [Radim Daniel Pánek](http://rdpanek.cz)
 
 For link building write me email to <ondrej@ondrejsika.com>.
