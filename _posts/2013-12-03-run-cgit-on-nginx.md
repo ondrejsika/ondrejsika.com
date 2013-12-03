@@ -101,6 +101,7 @@ server {
     }
 
     location / {
+        rewrite  ^/cgi-bin/cgit/(.*)$  /$1? permanent;
         proxy_pass http://localhost:11155/cgi-bin/cgit;
     }
 }
