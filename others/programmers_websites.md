@@ -15,5 +15,6 @@ title: Programmer's websites
 ##### [John MacFarlane](http://johnmacfarlane.net)
 ##### [Martin Antoš (Mafikes)](http://mafikes.cz)
 ##### [Michael Stapelberg](http://michael.stapelberg.de)
+##### [Michal Bachman](http://www.bachman.cz)
 
 For link building write me email to <ondrej@ondrejsika.com>.
