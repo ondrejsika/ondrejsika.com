@@ -8,7 +8,15 @@ lang: EN
 
 ### Install
 
-`pip install irclogbot`
+```
+pip install irclogbot
+```
+
+### Usage
+
+```
+irclogbot <server> <channel> <log file>
+```
 
 ### Supervisor configuration
 
