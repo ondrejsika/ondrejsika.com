@@ -41,7 +41,7 @@ PgDn - move down in contact lists
 
 ### Config file
 
-You may use config in `~/mcabber/mcabberrc`
+You may use config in `~/.mcabber/mcabberrc`
 
 Into config type commands as to mcabber console (without slash)
 
