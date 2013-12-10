@@ -5,6 +5,10 @@ title: Questions & Answers
 
 ## Questions & Answers
 
+##### How create postgres datavase with encoding UTF-8?
+
+Run `createdb database_name -l en_US.utf8 -E UTF8 -T template0` as user `postgres`.
+
 ##### How hide future post in Jekyll blog?
 
 Add `future: false` to your Jekyll config `_config.yml`.
