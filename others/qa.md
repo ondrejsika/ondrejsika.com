@@ -5,6 +5,12 @@ title: Questions & Answers
 
 ## Questions & Answers
 
+##### How send and display notificatications?
+
+For sending notifcation use `notifi-send`. In many graphic enviroments has some tool to display it.
+
+If is haven't you may use `dunst` (in i3wm). It's simple.
+
 ##### How create postgres datavase with encoding UTF-8?
 
 Run `createdb database_name -l en_US.utf8 -E UTF8 -T template0` as user `postgres`.
