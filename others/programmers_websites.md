@@ -10,6 +10,7 @@ title: Programmer's websites
 ##### [Daniel Bultas](http://bultas.info)
 ##### [Daniel J. Bernstein](http://cr.yp.to)
 ##### [David Marek](http://www.davidmarek.cz)
+##### [David Vávra](http://www.destil.cz)
 ##### [Filip Hráček](http://filiph.net)
 ##### [Jindřich Smitka](http://www.smita.info)
 ##### [John MacFarlane](http://johnmacfarlane.net)
