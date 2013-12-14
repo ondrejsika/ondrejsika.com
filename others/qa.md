@@ -5,6 +5,10 @@ title: Questions & Answers
 
 ## Questions & Answers
 
+##### Pretty json view in bash
+
+`echo '{"foo": "lorem", "bar": "ipsum"}' | python -m json.tool`
+
 ##### How send and display notificatications?
 
 For sending notifcation use `notifi-send`. In many graphic enviroments has some tool to display it.
