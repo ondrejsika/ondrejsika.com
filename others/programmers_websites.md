@@ -14,6 +14,7 @@ title: Programmer's websites
 ##### [David Vávra](http://www.destil.cz)
 ##### [David Winterbottom](http://codeinthehole.com)
 ##### [Filip Hráček](http://filiph.net)
+##### [Honza Král](http://honzakral.com)
 ##### [Jindřich Smitka](http://www.smita.info)
 ##### [John MacFarlane](http://johnmacfarlane.net)
 ##### [Martin Antoš (Mafikes)](http://mafikes.cz)
