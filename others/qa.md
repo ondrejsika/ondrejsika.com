@@ -5,6 +5,18 @@ title: Questions & Answers
 
 ## Questions & Answers
 
+##### Basic NGINX configuration as static file server
+
+```
+server {
+    listen 80;
+    server_name drive.ondrejsika.com;
+    autoindex on;
+    index index.html;
+    root /drive/;
+}
+```
+
 ##### Pretty json view in bash
 
 `echo '{"foo": "lorem", "bar": "ipsum"}' | python -m json.tool`
