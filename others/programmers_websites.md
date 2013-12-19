@@ -18,6 +18,7 @@ title: Programmer's websites
 ##### [Jindřich Smitka](http://www.smita.info)
 ##### [John MacFarlane](http://johnmacfarlane.net)
 ##### [Martin Antoš (Mafikes)](http://mafikes.cz)
+##### [Max Ogden](http://maxogden.com)
 ##### [Michael Stapelberg](http://michael.stapelberg.de)
 ##### [Michal Bachman](http://www.bachman.cz)
 
