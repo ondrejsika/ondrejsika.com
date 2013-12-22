@@ -20,7 +20,10 @@ lang: CZ
 
 Základní číslovaní nadpisů je do úrovně 3 (sections), pokud je potřeba nastait číslování jinak, na začátek souboru vložte `\setcounter{secnumdepth}{5}`, kde `5` je úroveň do které se má číslovat.
 
-### Citace a literatura
+V obsahu se základně generuje pro nadpisy do úrovně 3 (sections). Pokud chcete generovat obsah z nadpisů jiného řádu, nastavte `\setcounter{tocdepth}{5}` kde `5` je úroveň do které se obsah generuje.
+
+
+### Citace literatury
 
 V textu stačí vložit `\cite{bookId}` kde `bookId` je identifikátor knihy. Ten se pak používá v seznamu literatury. Ten vypadá takto:
 
@@ -31,6 +34,16 @@ V textu stačí vložit `\cite{bookId}` kde `bookId` je identifikátor knihy. Te
 ```
 
 Počet nul v `\begin{thebibliography}{00}` znamená počet na míst na zarovnávání v seznamu literatury.
+
+### Citace textu
+
+Pro citování textu stačí:
+
+``` latex
+\begin{quote}
+``Education is the most powerful weapon which you can use to change the world.'' Nelson Mandela
+\end{quote}
+```
 
 ### Poznámky pod čarou.
 
@@ -88,7 +101,7 @@ typesetting (2), remaining essentially unchanged (3).
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry (4).
 It has survived not only five centuries, but also the leap into electronic
-typesetting (5), remaining essentially unchanged ().
+typesetting (5), remaining essentially unchanged (6).
 
 (4) Example ...
 (5) Example ...
