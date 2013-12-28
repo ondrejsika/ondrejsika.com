@@ -22,6 +22,6 @@ My cv from 2012 available in English [PDF](/static/content/cv/cv2012en.pdf), [TE
 
 * Python, C, Bash, JavaScript (CoffeeScript, frontend)
 * PostgreSQL, MongoDB, ElasticSearch, Neo4j
-* Git, PGP, GPG, Nginx, Gunicorn
+* Git, PGP (GPG), Nginx, Gunicorn
 * TeX, LaTeX, HTML, CSS (LessCSS)
 * BitCoin, LiteCoin
