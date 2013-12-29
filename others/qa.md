@@ -5,6 +5,17 @@ title: Questions & Answers
 
 ## Questions & Answers
 
+##### compress all js files in place
+
+```
+YIUCOMPRESSOR=/root/yuicompressor-2.4.8.jar
+
+files=`find . -name '*.js' | grep -P -v min.js`
+for file in $files; do
+     java -jar $YIUCOMPRESSOR $file -o $file
+done
+```
+
 ##### find js for compression
 
 ``` bash
