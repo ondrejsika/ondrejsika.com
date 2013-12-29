@@ -5,6 +5,8 @@ date:   2013-11-17 00:00:00
 categories: blog
 
 lang: EN
+meta_description: List of free bitcoin sites
+meta_keywords: bitcoin, free bitcoin
 ---
 
 ### Best sites

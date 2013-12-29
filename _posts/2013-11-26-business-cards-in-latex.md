@@ -4,6 +4,7 @@ title:  "Business cards in LaTeX"
 categories: blog
 
 lang: EN
+meta_keywords: businesscards, latex
 ---
 
 My pretty business cards written in LaTeX.

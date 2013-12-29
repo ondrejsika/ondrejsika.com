@@ -4,6 +4,8 @@ title:  "Objekty v C (ne v C++)"
 categories: blog
 
 lang: CZ
+meta_description: Psaní objektového kódu v ANSI C
+meta_keywords: C, ANSI C, oop, objektové programování
 ---
 
 ### Vytvoření struktury objektu

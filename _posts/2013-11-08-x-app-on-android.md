@@ -5,6 +5,8 @@ date:   2013-11-08 12:56:53
 categories: blog
 
 lang: EN
+meta_description: Tutorial how to display X output on Andoroid device.
+meta_keywords: X, android, remote display
 ---
 
 Tutorial how to display X output on Andoroid device.

@@ -4,6 +4,8 @@ title:  "Latex editor Texmaker"
 categories: blog
 
 lang: CZ
+meta_description: Výběr Latexového editoru
+meta_keywords: latex, linux, windows, tex, multiplatformní
 ---
 
 Na linuxu jsem vždy psal LaTeX dokumnety ve vimu/sublimu a kompiloval z konzole, ale na windows to tak jednoducé není. Dále jsem potřeboval naučit v LaTeXu i neprogramátory a tak je konzone nepřípustná.

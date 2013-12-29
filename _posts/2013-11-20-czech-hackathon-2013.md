@@ -5,6 +5,7 @@ date:   2013-11-20 00:00:00
 categories: blog
 
 lang: EN
+meta_keywords: Czech Hackathon, czechhackathon.cz
 ---
 
 ### Video

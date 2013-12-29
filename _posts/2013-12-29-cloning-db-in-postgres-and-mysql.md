@@ -4,6 +4,8 @@ title:  "Cloning DB in PostgreSQL and MySQL"
 categories: blog
 
 lang: EN
+meta_description: Cloning database in Postgres and Mysql
+meta_keywords: PostgreSQL, MySQL, cloning, db, database, sql
 ---
 
 ### PostgresSQL

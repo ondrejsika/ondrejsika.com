@@ -4,6 +4,8 @@ title:  "IRC Log Bot on Debian"
 categories: blog
 
 lang: EN
+meta_description: Logging IRC on Debian.
+meta_keywords: irc, logging, logbot
 ---
 
 ### Install

@@ -4,6 +4,7 @@ title:  "getattr, setattr, hassattr recursive in Python"
 categories: blog
 
 lang: EN
+meta_keywords: Python, attribustes, recrusive, setattr, getattr, hasattr
 ---
 
 ### hasattr2

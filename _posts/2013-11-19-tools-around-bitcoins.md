@@ -5,6 +5,7 @@ date:   2013-11-19 00:00:00
 categories: blog
 
 lang: EN
+meta_keywords: bitcoin
 ---
 
 ### Trade charts

@@ -4,6 +4,7 @@ title:  "Cross origin requests in Flask"
 categories: blog
 
 lang: EN
+meta_keywords: python, flask, access controll, cross site
 ---
 
 I was simplify [Decorator for the HTTP Access Control](http://flask.pocoo.org/snippets/56/) to

@@ -4,6 +4,8 @@ title:  "MCabber - Terminal XMPP Client"
 categories: blog
 
 lang: EN
+meta_description: Basic usage of MCabber.
+meta_keywords: MCabeer, xmpp, terminal
 ---
 
 ### Installation

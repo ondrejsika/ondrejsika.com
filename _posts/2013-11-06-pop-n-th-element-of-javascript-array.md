@@ -5,6 +5,7 @@ date:   2013-11-06 22:19:53
 categories: blog
 
 lang: EN
+meta_keywords: javascript, coffeescript, pop
 ---
 
 ### Prototype

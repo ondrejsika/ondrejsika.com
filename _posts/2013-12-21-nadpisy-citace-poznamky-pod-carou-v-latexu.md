@@ -4,6 +4,8 @@ title:  "Nadpisy, citace, poznámky pod čarou v LaTeXu"
 categories: blog
 
 lang: CZ
+meta_description: Základní příkazy na práci s Latextem
+meta_keywords: Latex, nadpis, citace, literatura, poznámka pod čarou, příklady
 ---
 
 ### Nadpisy

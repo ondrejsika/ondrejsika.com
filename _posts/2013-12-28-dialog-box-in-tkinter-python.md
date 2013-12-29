@@ -4,6 +4,7 @@ title:  "Dialog Box in Tkinter, Python"
 categories: blog
 
 lang: EN
+meta_keywords: Python, Tkinter, alert, input, dialog
 ---
 
 ``` python
