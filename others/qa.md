@@ -5,6 +5,12 @@ title: Questions & Answers
 
 ## Questions & Answers
 
+##### find js for compression
+
+``` bash
+find . -name '*.js' | grep -P -v min.js
+```
+
 ##### Basic NGINX configuration as static file server
 
 ```
