@@ -5,6 +5,10 @@ title: Questions & Answers
 
 ## Questions & Answers
 
+##### Disable loading images in Firefox
+
+Go to url `about:config` and change `permission.default.image` to `2`. Revert to default, set `1`.
+
 ##### compress all js files in place
 
 ```
