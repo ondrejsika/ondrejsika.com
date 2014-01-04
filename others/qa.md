@@ -5,6 +5,10 @@ title: Questions & Answers
 
 ## Questions & Answers
 
+#### Git commit without changes
+
+`git commit --allow-empty`
+
 ##### Disable loading images in Firefox
 
 Go to url `about:config` and change `permission.default.image` to `2`. Revert to default, set `1`.
