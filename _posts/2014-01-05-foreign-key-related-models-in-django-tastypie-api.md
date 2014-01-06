@@ -99,12 +99,12 @@ Now response include full related objects
         {
             "name": "My parrents",
             "file": "/static/uploads/files/myparrents.jpg",
-            "/api/v1/image/1/"
+            "resource_uri": "/api/v1/image/1/"
         },
         {
             "name": "My with dog",
             "file": "/static/uploads/files/mewithdog.jpg",
-            "/api/v1/image/2/"
+            "resource_uri": "/api/v1/image/2/"
         }
     ],
     "resource_uri": "/api/v1/gallery/1/"
