@@ -16,13 +16,27 @@ Download or clone redmine to `/var/redmine`
 #### Install deb requirements
 
 ```
-apt-get install nginx supervisor ruby rubygems ruby-dev libmagickwand-dev apt-get install libsqlite3-dev
+apt-get install nginx supervisor ruby rubygems ruby-dev libmagickwand-dev
 ```
 
-#### Install Bundler
+Choose database. For postgres
+
+```
+apt-get install postgresql-server-dev-9.1
+```
+
+for sqlite
+
+```
+apt-get install libsqlite3-dev
+```
+
+
+#### Install Ruby package
 
 ```
 gem install bundler
+gem install rubyzip
 ```
 
 #### Create DB config
