@@ -9,3 +9,4 @@ title: Others
 * [Programmer's websites](programmers_websites.html)
 * [My favourite places](favourite_places.html)
 * [Running](running.html)
+* [My PCs](my-pcs.html)
