@@ -100,10 +100,10 @@ server {
         root /var/cgit;
     }
 
-    location / {
-        rewrite  ^/cgi-bin/cgit/(.*)$  /$1? permanent;
-        proxy_pass http://localhost:11155/cgi-bin/cgit;
-    }
+    location / { 
+        rewrite  ^/$  /cgi-bin/cgit/ permanent;
+        proxy_pass http://localhost:11155/;
+    }   
 }
 
 ```
