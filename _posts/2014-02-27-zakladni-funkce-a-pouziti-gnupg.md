@@ -19,16 +19,30 @@ gpg --gen-key
 gpg --output ondrejsika_revoke.asc --gen-revoke ondrej@ondrejsika.com
 ```
 
-### Export verejnneho klice
+### Export klicu
+
+Export verejneho klice
 
 ```
 gpg --output ondrejsika_public.asc --armor --export ondrej@ondrejsika.com
 ```
 
-### Import verejneho klice
+Export privatniho klice
+
+```
+gpg --output ondrejsika_private.asc --armor --export-secret-keys ondrej@ondrejsika.com
+```
+
+### Import verejneho (ciziho) klice
 
 ```
 gpg --import kolovsky.asc
+```
+
+### Import privatniho (vlastniho) klice
+
+```
+gpg --allow-secret-key-import --import ondrejsika_private.asc
 ```
 
 ### Seznam verejnych klicu
