@@ -5,44 +5,13 @@ title: Questions & Answers
 
 ## Questions & Answers
 
-#### Git commit without changes
+Ask me via mail <ondrej@ondrejsika.com> or on [ask.fm](http://ask.fm/sikaondrej)
+
+##### How create commit without changes in git?
 
 `git commit --allow-empty`
 
-##### Disable loading images in Firefox
-
-Go to url `about:config` and change `permission.default.image` to `2`. Revert to default, set `1`.
-
-##### compress all js files in place
-
-```
-YIUCOMPRESSOR=/root/yuicompressor-2.4.8.jar
-
-files=`find . -name '*.js' | grep -P -v min.js`
-for file in $files; do
-     java -jar $YIUCOMPRESSOR $file -o $file
-done
-```
-
-##### find js for compression
-
-``` bash
-find . -name '*.js' | grep -P -v min.js
-```
-
-##### Basic NGINX configuration as static file server
-
-```
-server {
-    listen 80;
-    server_name drive.ondrejsika.com;
-    autoindex on;
-    index index.html;
-    root /drive/;
-}
-```
-
-##### Pretty json view in bash
+##### How pretty print JSON in bash?
 
 `echo '{"foo": "lorem", "bar": "ipsum"}' | python -m json.tool`
 
@@ -51,10 +20,6 @@ server {
 For sending notifcation use `notifi-send`. In many graphic enviroments has some tool to display it.
 
 If is haven't you may use `dunst` (in i3wm). It's simple.
-
-##### How create postgres datavase with encoding UTF-8?
-
-Run `createdb database_name -l en_US.utf8 -E UTF8 -T template0` as user `postgres`.
 
 ##### How hide future post in Jekyll blog?
 
