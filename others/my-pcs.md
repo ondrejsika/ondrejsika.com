@@ -23,6 +23,14 @@ title: My PCs
 * 60GB SSD, 250GB HDD
 
 
+#### Netbook Acer
+
+* Debian Wheazy
+* 9" screen, i3wm
+* Intel Atom 1.6GHz
+* 1GB RAM
+* 8GB SSF
+
 ### Servers
 
 #### ann (virtual)
@@ -38,3 +46,10 @@ title: My PCs
 * 1 CPU
 * 512MB RAM
 * 10GB HDD
+
+#### jana (virtual)
+
+* Debian
+* 8 CPU
+* 4GB RAM
+* 60GB HDD
