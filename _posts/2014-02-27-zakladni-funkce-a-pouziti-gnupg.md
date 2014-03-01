@@ -35,8 +35,39 @@ gpg --output ondrejsika_private.asc --armor --export-secret-keys ondrej@ondrejsi
 
 ### Import verejneho (ciziho) klice
 
+Ze souboru
+
 ```
 gpg --import kolovsky.asc
+```
+
+z key serveru (defaultne nastaveneho v `~/.gnupg/gpg.conf`)
+
+```
+gpg --recv-keys KEY_ID
+```
+nebo key server specifikujete v parametru
+
+```
+gpg --recv-keys --keyserver pgp.mit.edu KEY_ID
+```
+
+### Podepsani verejneho klice
+
+```
+gpg --sign-key KEY_ID
+```
+
+### Odeslani verejneho klice na server
+
+```
+gpg --send-keys --keyserver KEY_ID
+```
+
+nebo
+
+```
+gpg --send-keys --keyserver pgp.mit.edu KEY_ID
 ```
 
 ### Import privatniho (vlastniho) klice
