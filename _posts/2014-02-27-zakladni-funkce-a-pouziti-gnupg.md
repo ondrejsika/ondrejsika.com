@@ -7,6 +7,20 @@ lang: CZ
 meta_keywords: GPG, GnuPG, PGP
 ---
 
+### Instalace PnuPG (GNU Privacy Guard)
+
+V Debianu z repozitare
+
+```
+sudo apt-get install gnupg
+```
+
+timto prikazem nainstalujete jen terminalovy klient, pokud chcete nejakou grafickou nastavbu, zkuste GPA (GNU Privacy Assistant). V debianu jej nainainstajulete prikazem.
+
+```
+sudo apt-get install gpa
+```
+
 ### Vygenerovani noveho klice
 
 ```
