@@ -19,6 +19,12 @@ My PGP public key [ondrejsika_public.asc](/ondrejsika_public.asc)
 
 * [pgp.mit.edu](http://pgp.mit.edu/pks/lookup?op=vindex&search=0x775D8A020903EF6B)
 
+### Key ID
+
+```
+0903EF6B
+```
+
 ### Fingerprint
 
 ```
