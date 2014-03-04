@@ -3,7 +3,7 @@ layout: post
 title: Array with unique values in Python with reduce
 categories: blog
 
-lang: en
+lang: EN
 meta_keywords: python, unique array, reduce
 ---
 
