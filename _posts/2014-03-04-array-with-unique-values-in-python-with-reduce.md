@@ -7,9 +7,9 @@ lang: EN
 meta_keywords: python, unique array, reduce
 ---
 
-Array must be sorted.
+### Sorted array (quick)
 
-Basic example:
+Example 1
 
 ``` python
 >>> array = [1, 2, 2, 3, 4, 4, 5]
@@ -26,7 +26,7 @@ Basic example:
 [1, 2, 3, 4, 5]
 ```
 
-More complicated, unique by some key in dict:
+Example 2
 
 ``` python
 >>> array = [
@@ -45,5 +45,29 @@ More complicated, unique by some key in dict:
 
 >>> reduce(func, array, [])
 [{'id': 1, 'name': 'Ondrej'}, {'pk': 2, 'name': 'John'}]
+```
+
+### Unsorted array (slow)
+
+Example 3
+
+``` python
+>>> array = [1, 2, 5, 4, 2, 4, 3]
+
+>>> def func(output, element):
+...     if element not in output:
+...         return output + [element]
+...     else:
+...         return output
+
+>>> reduce(func, array, [])
+[1, 2, 5, 4, 3]
+```
+
+or inline:
+
+``` python
+>>> reduce(lambda output, element: output + [element] if element not in outout else output, array, [])
+[1, 2, 5, 4, 3]
 ```
 
