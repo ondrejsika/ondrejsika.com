@@ -22,7 +22,7 @@ Basic example:
 ...     else:
 ...         return output
 
->>> reduce(func, array, None)
+>>> reduce(func, array, [])
 [1, 2, 3, 4, 5]
 ```
 
@@ -43,7 +43,7 @@ More complicated, unique by some key in dict:
 ...         else:
 ...             return output
 
->>> reduce(func, array, None)
+>>> reduce(func, array, [])
 [{'id': 1, 'name': 'Ondrej'}, {'pk': 2, 'name': 'John'}]
 ```
 
