@@ -14,8 +14,8 @@ Now, i wrote Debian package for easier installation.
 ## Download & install
 
 ``` bash
-wget http://drive.ondrejsika.com/debian/all/nginx-redmine-2.3-sqlite_ondrejsika-1_all.deb
-dpkg -i nginx-redmine-2.3-sqlite_ondrejsika-1_all.deb
+wget http://drive.ondrejsika.com/debian/all/nginx-redmine-2.3-sqlite.deb
+dpkg -i nginx-redmine-2.3-sqlite.deb
 ```
 
 ## Use repository
