@@ -1,0 +1,85 @@
+
+<html>
+    <head>
+        <title>Presentation</title>
+    </head>
+    <body>
+<div id="slide0" class="slide"><h1>Hello</h1>
+</div><div id="slide1" class="slide"><h2>This is a exaple slideshow</h2>
+</div><div id="slide2" class="slide"><h2>Simple Python code</h2>
+
+<pre><code><pre>for i in xrange(5):
+    print 'Hello '
+</pre></code></pre>
+</div><div id="slide3" class="slide"><h4>Thanks ...</h4>
+
+<h1>Ondrej Sika</h1>
+
+<ul>
+<li><a href="http://ondrejsika.com">http://ondrejsika.com</a></li>
+<li><a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#58;o&#x6e;&#100;&#114;&#x65;&#x6a;&#64;&#111;&#110;dr&#x65;&#x6a;s&#105;&#x6b;&#97;&#x2e;&#x63;&#111;m">o&#x6e;&#100;&#114;&#x65;&#x6a;&#64;&#111;&#110;dr&#x65;&#x6a;s&#105;&#x6b;&#97;&#x2e;&#x63;&#111;m</a></li>
+<li><a href="http://twitter.com/ondrejsika">@ondrejsika</a></li>
+</ul>
+</div>
+        <style>
+            * {
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            }
+
+            body {
+                margin: 0;
+            }
+
+            pre, code {
+                font-family: monospace;
+            }
+
+            .slide {
+                display: none;
+                margin: 4em 0 0 4em;
+            }
+
+            .slide:first-child {
+                display: block;
+            }
+        </style>
+        <script>
+            var slideId = Number(window.location.hash.replace('#', '')) || 0;
+
+            window.onkeydown = function(event) {
+                var slide;
+                if (event.keyCode == 37) {
+                    slideId--;
+                    slide = document.getElementById('slide'+slideId);
+                    if (! slide) {
+                        slideId++;
+                        return;
+                    }
+                }
+                if (event.keyCode == 39) {
+                    slideId++;
+                    slide = document.getElementById('slide'+slideId);
+                    if (! slide) {
+                        slideId--;
+                        return;
+                    }
+                }
+
+                if(! slide) return;
+                window.location.hash = slideId;
+
+                slides = document.getElementsByClassName('slide')
+                for (var i = 0; i < slides.length; i++) {
+                    slides[i].style.display = 'none';
+                }
+                slide.style.display = 'block';
+            }
+
+            if (slideId) {
+                slideId++;
+                window.onkeydown({keyCode: 37});
+            }
+        </script>
+    </body>
+</html>
+
