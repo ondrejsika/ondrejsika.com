@@ -30,3 +30,19 @@ for(i = 0; i< links.length; i++){
     if (links[i].class && links[i].class.search(/no-taget/) == -1) continue
     if (links[i].hostname != "localhost" && links[i].hostname != "ondrejsika.com") links[i].target = "_blank"
 }
+
+// Set body width to 50em
+if (window.localStorage){
+    if (window.location.hash == '#fixed_width_on'){
+        window.localStorage.setItem('fixed_width', true);
+    }
+    if (window.location.hash == '#fixed_width_off'){
+        window.localStorage.setItem('fixed_width', false);
+    }
+
+
+    if (window.localStorage.getItem('fixed_width') == 'true'){
+        document.getElementsByTagName('body')[0].style.width = '50em';
+    }
+}
+
