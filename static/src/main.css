@@ -79,3 +79,8 @@ pre code {
     border: none;
     padding: 0;
 }
+
+table tr {
+    vertical-align: top;
+}
+
