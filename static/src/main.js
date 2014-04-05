@@ -32,6 +32,9 @@ for(i = 0; i< links.length; i++){
 }
 
 // Set body width to 50em
+if (window.location.hash == '#fixed_width'){
+    document.getElementsByTagName('body')[0].style.width = '50em';
+}
 if (window.localStorage){
     if (window.location.hash == '#fixed_width_on'){
         window.localStorage.setItem('fixed_width', true);
