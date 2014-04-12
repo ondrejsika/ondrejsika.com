@@ -68,6 +68,7 @@ pre {
     border: solid 1px;
     padding: 7px;
     margin-bottom: 15px;
+    overflow-x: auto;
 }
 
 code {
