@@ -11,10 +11,9 @@ title: My Accounts
 * [GitHub](http://github.com/ondrejsika)
 * [Bitbucket](http://bitbucket.org/ondrejsika)
 * [GitLab](https://gitlab.com/u/ondrejsika)
+* [Vagrant Cloud](https://vagrantcloud.com/ondrejsika)
 * [CodePen](http://codepen.io/ondrejsika/)
-* [Stack Owerflow](http://stackoverflow.com/users/1176853/ondrej-sika)
-* [Hackathon IO](http://www.hackathon.io/ondrej)
-* [Hacker League](https://www.hackerleague.org/users/ondrejsika)
+* [Stack Overflow](http://stackoverflow.com/users/1176853/ondrej-sika)
 * [Compilr](https://compilr.com/ondrejsika)
 
 
@@ -24,6 +23,8 @@ title: My Accounts
 * [Twitter](http://twitter.com/ondrejsika)
 * [Google+](https://google.com/+ondrejsika), [old](https://plus.google.com/u/0/103792510103800752680/about)
 * [Linkedin](http://www.linkedin.com/in/ondrejsika)
+* [Hackathon IO](http://www.hackathon.io/ondrej)
+* [Hacker League](https://www.hackerleague.org/users/ondrejsika)
 
 
 ### Others
