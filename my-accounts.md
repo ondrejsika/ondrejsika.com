@@ -7,9 +7,16 @@ title: My Accounts
 ## {{page.title}}
 
 ### Code
-* [Github](http://github.com/ondrejsika)
+
+* [GitHub](http://github.com/ondrejsika)
 * [Bitbucket](http://bitbucket.org/ondrejsika)
 * [GitLab](https://gitlab.com/u/ondrejsika)
+* [CodePen](http://codepen.io/ondrejsika/)
+* [Stack Owerflow](http://stackoverflow.com/users/1176853/ondrej-sika)
+* [Hackathon IO](http://www.hackathon.io/ondrej)
+* [Hacker League](https://www.hackerleague.org/users/ondrejsika)
+* [Compilr](https://compilr.com/ondrejsika)
+
 
 ### Social networks
 
@@ -18,7 +25,12 @@ title: My Accounts
 * [Google+](https://google.com/+ondrejsika), [old](https://plus.google.com/u/0/103792510103800752680/about)
 * [Linkedin](http://www.linkedin.com/in/ondrejsika)
 
+
 ### Others
 
 * [Speaker Deck](https://speakerdeck.com/ondrejsika)
+* [SlideShare](https://www.slideshare.net/ondrejsika/)
 * [Instagram](http://instagram.com/ondrejsika)
+* [Meetup](http://www.meetup.com/members/84973902/)
+* [Lanyrd](http://lanyrd.com/profile/ondrejsika/)
+
