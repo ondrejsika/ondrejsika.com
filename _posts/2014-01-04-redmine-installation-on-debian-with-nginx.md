@@ -16,7 +16,7 @@ Download or clone redmine to `/var/redmine`
 #### Install deb requirements
 
 ```
-apt-get install nginx supervisor ruby rubygems ruby-dev libmagickwand-dev
+apt-get install nginx supervisor ruby rubygems ruby-dev libmagickwand-dev libxslt-dev libxml2-dev
 ```
 
 Choose database. For postgres
@@ -72,6 +72,13 @@ Run server on port 3000.
 ```
 ruby script/rails server webrick -e production
 ```
+
+or on different port and ip
+
+```
+ruby script/rails server webrick -e production -p 1348 -b 127.0.0.1
+```
+
 ### Supervisor config
 
 File `/etc/supervisor/conf.d/redmine.conf`
