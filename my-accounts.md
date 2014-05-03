@@ -34,4 +34,5 @@ title: My Accounts
 * [Instagram](http://instagram.com/ondrejsika)
 * [Meetup](http://www.meetup.com/members/84973902/)
 * [Lanyrd](http://lanyrd.com/profile/ondrejsika/)
+* [djangojobs.net](http://www.djangojobs.net/people/developer/profile/470/ondrej-sika)
 
