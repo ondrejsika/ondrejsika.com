@@ -8,11 +8,11 @@ title: My Accounts
 
 ### Code
 
-* [GitHub](http://github.com/ondrejsika)
+* [Github](http://github.com/ondrejsika)
 * [Bitbucket](http://bitbucket.org/ondrejsika)
-* [GitLab](https://gitlab.com/u/ondrejsika)
+* [Gitlab](https://gitlab.com/u/ondrejsika)
 * [Vagrant Cloud](https://vagrantcloud.com/ondrejsika)
-* [CodePen](http://codepen.io/ondrejsika/)
+* [Codepen](http://codepen.io/ondrejsika/)
 * [Stack Overflow](http://stackoverflow.com/users/1176853/ondrej-sika)
 * [Compilr](https://compilr.com/ondrejsika)
 
