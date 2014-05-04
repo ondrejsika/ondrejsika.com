@@ -31,6 +31,7 @@ title: My Accounts
 
 * [Speaker Deck](https://speakerdeck.com/ondrejsika)
 * [SlideShare](https://www.slideshare.net/ondrejsika/)
+* [Bountysource](https://www.bountysource.com/people/19333)
 * [Instagram](http://instagram.com/ondrejsika)
 * [Meetup](http://www.meetup.com/members/84973902/)
 * [Lanyrd](http://lanyrd.com/profile/ondrejsika/)
