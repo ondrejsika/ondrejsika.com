@@ -9,14 +9,14 @@ lang: EN
 
 ### Install DEB package depences
 
-```
+``` bash
 sudo apt-get install build-essential postgresql-9.1 postgresql-server-dev-9.1 libxml2-dev libproj-dev libjson0-dev xsltproc docbook-xsl docbook-mathml libgdal-dev
 ```
 
 
 ### Install GEOS
 
-```
+``` bash
 wget http://download.osgeo.org/geos/geos-3.3.8.tar.bz2
 tar xvfj geos-3.3.8.tar.bz2
 cd geos-3.3.8
@@ -28,7 +28,7 @@ cd ..
 
 ### Install PostGIS
 
-```
+``` bash
 wget http://download.osgeo.org/postgis/source/postgis-2.0.3.tar.gz
 tar xfvz postgis-2.0.3.tar.gz
 cd postgis-2.0.3
@@ -46,7 +46,7 @@ sudo ln -sf /usr/share/postgresql-common/pg_wrapper /usr/local/bin/raster2pgsql
 
 ### Build PostGIS template
 
-```
+``` bash
 sudo su postgres
 
 createdb template_postgis

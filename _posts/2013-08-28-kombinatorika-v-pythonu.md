@@ -11,7 +11,7 @@ Zde uvedu funkce pro jednoduchou práci s kombinacemi, permutacemi a variacemi p
 
 Většinu těchto funkcí obsahuje modul `itertools`, který je distribuován s Pythonem.
 
-```
+``` python
 >>> import itertools
 ```
 
@@ -24,7 +24,7 @@ Tato funckce vrací n-size podmnožiny z iterable množiny, které obsahují ka�
 ##### Příklad
 Pokud chceme vrátit všechny dvouprvkové podmnožiny bez opakování z prvků A, B a C.
 
-```
+``` python
 >>> tuple(itertools.combinations(("A", "B", "C"), 2))
 (('A', 'B'), ('A', 'C'), ('B', 'C'))
 ```
@@ -40,7 +40,7 @@ Tato funckce vrací n-size podmnožiny z iterable množiny, kde se prvky množin
 ##### Příklad
 Pokud chceme vrátit všechny dvouprvkové podmnožiny z prvků A, B a C, kde se prvky A, B a C mohou opakovat.
 
-```
+``` python
 >>> tuple(itertools.combinations_with_replacement(("A", "B", "C"), 2))
 (('A', 'A'), ('A', 'B'), ('A', 'C'), ('B', 'B'), ('B', 'C'), ('C', 'C'))
 ```
@@ -53,7 +53,7 @@ Iterable je množina prvků permutace. Nepovinný parametr r je velikost premuta
 
 ##### Příklad
 
-```
+``` python
 >>> tuple(itertools.permutations(("A", "B", "C")))
 (('A', 'B', 'C'),
  ('A', 'C', 'B'),
@@ -70,3 +70,4 @@ Iterable je množina prvků permutace. Nepovinný parametr r je velikost premuta
  ('C', 'A'),
  ('C', 'B'))
 ```
+

@@ -12,7 +12,7 @@ meta_keywords: C, ANSI C, oop, objektové programování
 
 Vytvoříme nový datový typ pro náš objekt. v našem případě se jmenuje Rectangle. Tento datový typ je struktura s proměnnými a, b a area.
 
-```
+``` c
 typedef struct {
   int a;
   int b;
@@ -24,7 +24,7 @@ typedef struct {
 
 Další důležitá část našeho objektu je inicializační metoda. Tou vytvoříme objekt a můžeme rovnou nastavit některé proměnné. K funkci RectangleArea se dostaneme později.
 
-```
+``` c
 Rectangle *RectangleInit(int a, int b){
   Rectangle r;
   r.a = a;
@@ -37,7 +37,7 @@ Rectangle *RectangleInit(int a, int b){
 
 Tato metoda vrací pointer na objekt. Inicializace objektu vypadá takto.
 
-```
+``` c
 Rectangle *r = RectangleInit(10, 15);
 ```
 
@@ -45,7 +45,7 @@ Rectangle *r = RectangleInit(10, 15);
 
 Metoda RectangleArea spočte hodnotu plohy z parametů self.a, self.b a uloží ji do self.area.
 
-```
+``` c
 void RectangleArea(Rectangle **pr) {
   Rectangle r = **pr; // vytvori si lokalni objekt z pointeru
   r.area = r.a * r.b;
@@ -55,7 +55,7 @@ void RectangleArea(Rectangle **pr) {
 
 Volání metody objektu se provádí takto
 
-```
+``` c
 Rectangle *r = RectangleInit(10, 15);
 RectangleArea(&r); // spocte plochu
 ```
@@ -63,7 +63,7 @@ RectangleArea(&r); // spocte plochu
 Ukázka práce s proměnnými objektu bez metod
 Pro práci s proměnnými objektu je nutné vytvořit si objekt z daného pointeru.
 
-```
+``` c
 Rectangle *r = RectangleInit(10, 15);
 Rectangle r_ = *r; // vytvori instanci z pintru na nas objekt
 r_.a = 5; // zmeni lokalni instanci
@@ -78,7 +78,7 @@ printf("a = %d\nb = %d\n, area = %d", r_.a, r_.b, r_.area);
 
 Ukázka metody vracející určitou proměnnou
 
-```
+``` c
 int RectangleGetArea(Rectangle **pr){
   Rectangle r = **pr;
   return r.area;
@@ -87,14 +87,14 @@ int RectangleGetArea(Rectangle **pr){
 
 volání
 
-```
+``` c
 Rectangle *r = RectangleInit(10, 15);
 int area = RectangleGetArea(&r);
 ```
 
 ### Ukázka celého kódu
 
-```
+``` c
 #include <stdio.h>
 
 // struktura promennych objektu

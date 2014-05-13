@@ -11,7 +11,7 @@ lang: EN
 
 Create RSA key (2048K) and certificate.
 
-```
+``` bash
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
     -keyout /etc/ssl/ondrejsika.key \
     -out /etc/ssl/ondrejsika.crt \
@@ -20,7 +20,7 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
 
 ### Nginx config for HTTPS server
 
-```
+``` nginx
 server {
     listen               443;
 
@@ -41,7 +41,7 @@ server {
 
 ### Redirect form HTTP
 
-```
+``` nginx
 server {
        server_name ondrejsika.com www.ondrejsika.com;
        listen 80;
@@ -51,8 +51,8 @@ server {
 
 and restart nginx
 
-```
-$ sudo service nginx restart
+``` bash
+sudo service nginx restart
 ```
 
 
@@ -60,14 +60,14 @@ $ sudo service nginx restart
 
 Enable mod SSL
 
-```
-$ sudo a2enmod ssl
+``` bash
+sudo a2enmod ssl
 ```
 
 
 ### HTTPS config
 
-```
+``` apache
 <VirtualHost *:443>
     ServerName ondrejsika.com
     ServerAlias www.ondrejsika.com
@@ -83,11 +83,11 @@ $ sudo a2enmod ssl
 
 Must enable mod rewrite
 
-```
-$ sudo a2enmod rewrite
+``` bash
+sudo a2enmod rewrite
 ```
 
-```
+``` apache
 <VirtualHost *:80>
     ServerName localhost
     RewriteEngine On
@@ -97,6 +97,6 @@ $ sudo a2enmod rewrite
 
 and restart apache2
 
-```
-$ sudo service apach2 restart
+``` bash
+sudo service apach2 restart
 ```

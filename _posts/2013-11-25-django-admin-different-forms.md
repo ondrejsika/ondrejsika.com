@@ -10,7 +10,7 @@ Django admin class has method `get_form` where selet form for admin page. In def
 
 If you have more forms for different users, you must rewrite method `get_form` like that.
 
-```
+``` python
 def get_form(self, request, obj=None, **kwargs):
     if request.user.is_superuser:
         return super(PlaceAdmin, self).get_form(request, obj, form=MySuperuserForm, **kwargs)    
@@ -21,7 +21,7 @@ def get_form(self, request, obj=None, **kwargs):
 
 #### models.py
 
-```
+``` python
 from django.db import models
 
 class Account(models.Model):
@@ -31,7 +31,7 @@ class Account(models.Model):
 
 #### forms.py
 
-```
+``` python
 from django import forms
 from .models import Account
 
@@ -51,7 +51,7 @@ class AccountSuperuserForm(AccountForm):
 
 #### admin.py
 
-```
+``` python
 from django.contrib import Admin
 
 from .models import Account

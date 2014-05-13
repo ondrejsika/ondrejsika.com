@@ -9,7 +9,7 @@ meta_keywords: Python, attribustes, recrusive, setattr, getattr, hasattr
 
 ### hasattr2
 
-```
+``` python
 def hasattr2(obj, attr):
     try:
         getattr(obj, attr)
@@ -25,7 +25,7 @@ def hasattr2(obj, attr):
 
 ### getattr2
 
-```
+``` python
 def getattr2(obj, attr, otherwise=None):
     try:
         return getattr(obj, attr)
@@ -40,7 +40,7 @@ def getattr2(obj, attr, otherwise=None):
 
 ### setattr2
 
-```
+``` python
 def setattr2(obj, attr, value):
     if attr.rfind(".") != -1:
         a1 = attr[:attr.rfind(".")]

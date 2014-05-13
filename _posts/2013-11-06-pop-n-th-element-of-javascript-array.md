@@ -12,7 +12,7 @@ meta_keywords: javascript, coffeescript, pop
 
 #### JavaScript
 
-```
+``` javascript
 Array.prototype.pop = function(n){
     if (n !== undefined)
         return this.splice(n, 1)[0];
@@ -23,7 +23,7 @@ Array.prototype.pop = function(n){
 
 #### CoffeeScript
 
-```
+``` coffee
 Array.prototype.pop = (n) ->
     if n
         return this.splice(n, 1)[0]
@@ -32,7 +32,7 @@ Array.prototype.pop = (n) ->
 
 ### Example of usage
 
-```
+``` javascript
 > array = [0, 1, 2, 3]
 [0, 1, 2, 3]
 > aray.pop(0)

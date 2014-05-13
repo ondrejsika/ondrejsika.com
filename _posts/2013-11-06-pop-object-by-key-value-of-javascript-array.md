@@ -13,7 +13,7 @@ Require [Aray.pop(n)](/blog/2013/11/06/pop-n-th-element-of-javascript-array.html
 
 #### JavaScript
 
-```
+``` javascript
 Array.prototype.popBy = function(key, val){
     for(var i=0; i<this.length; i++){
         if (this[i][key] == val) return this.pop(i);
@@ -24,7 +24,7 @@ Array.prototype.popBy = function(key, val){
 
 #### CoffeeScript
 
-```
+``` coffee
 Array.prototype.popBy = (key, val) ->
     for i in [0..this.length]
         if this[i][key] == val
@@ -33,7 +33,7 @@ Array.prototype.popBy = (key, val) ->
 
 ### Example of usage
 
-```
+``` javascript
 > array = [{a:0, b: 5}, {a:1, b:6}, {a:2, b:7}, {a:3, b:8}, {a:4, b:9}]
 [{a:0, b: 5}, {a:1, b:6}, {a:2, b:7}, {a:3, b:8}, {a:4, b:9}]
 > array.popBy("a", 3)

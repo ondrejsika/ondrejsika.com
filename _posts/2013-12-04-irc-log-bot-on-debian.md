@@ -10,7 +10,7 @@ meta_keywords: irc, logging, logbot
 
 ### Install
 
-```
+``` bash
 pip install irclogbot
 ```
 
@@ -24,7 +24,7 @@ irclogbot <server> <channel> <log file>
 
 Create config file `/etc/supervisor/conf.d/irclogbot.conf`
 
-```
+``` ini
 [program:irclogbot-chanel1]
 command=irclogbot irc.ondrejsika.com chanel1 /var/irclog/channel1.log
 
@@ -34,7 +34,7 @@ command=irclogbot irc.ondrejsika.com chanel2 /var/irclog/channel2.log
 
 And reload supervisor.
 
-```
+``` bash
 supervisorctl reload
 service supervisor restart
 ```
