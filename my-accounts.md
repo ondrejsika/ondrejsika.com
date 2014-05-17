@@ -27,6 +27,13 @@ title: My Accounts
 * [Hacker League](https://www.hackerleague.org/users/ondrejsika)
 
 
+### Events
+
+* [Lanyrd](http://lanyrd.com/profile/ondrejsika/)
+* [Meetup](http://www.meetup.com/members/84973902/)
+* [Srazy.info](http://srazy.info/lide/ondrej-sika-2)
+
+
 ### Others
 
 * [500px](http://500px.com/ondrejsika)
@@ -37,7 +44,5 @@ title: My Accounts
 * [Vimeo](http://vimeo.com/ondrejsika)
 * [Youtube](https://www.youtube.com/user/sikaondrej/videos)
 * [Instagram](http://instagram.com/ondrejsika)
-* [Meetup](http://www.meetup.com/members/84973902/)
-* [Lanyrd](http://lanyrd.com/profile/ondrejsika/)
 * [djangojobs.net](http://www.djangojobs.net/people/developer/profile/470/ondrej-sika)
 
