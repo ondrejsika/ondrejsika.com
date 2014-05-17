@@ -34,6 +34,12 @@ title: My Accounts
 * [Srazy.info](http://srazy.info/lide/ondrej-sika-2)
 
 
+### Crowdfunding
+
+* [Kickstarter](https://www.kickstarter.com/profile/sikaondrej)
+* [Indiegogo](https://www.indiegogo.com/individuals/3569391)
+* [Startovač](https://www.startovac.cz/starteri/profil/1818/)
+
 ### Others
 
 * [500px](http://500px.com/ondrejsika)
