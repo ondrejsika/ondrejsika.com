@@ -23,6 +23,7 @@ title: My Accounts
 * [Twitter](http://twitter.com/ondrejsika)
 * [Google+](https://google.com/+ondrejsika), [old](https://plus.google.com/u/0/103792510103800752680/about)
 * [Linkedin](http://www.linkedin.com/in/ondrejsika)
+* [Scout](http://www.scout.org/user/47650)
 * [Hackathon IO](http://www.hackathon.io/ondrej)
 * [Hacker League](https://www.hackerleague.org/users/ondrejsika)
 
