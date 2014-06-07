@@ -29,7 +29,7 @@ title: My PCs
 * 9" screen, i3wm
 * Intel Atom 1.6GHz
 * 1GB RAM
-* 8GB SSF
+* 8GB SSD
 
 ### Servers
 
@@ -53,3 +53,5 @@ title: My PCs
 * 8 CPU
 * 4GB RAM
 * 60GB HDD
+
+
