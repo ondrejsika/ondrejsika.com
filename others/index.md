@@ -9,3 +9,6 @@ title: Others
 * [My favourite places](favourite_places.html)
 * [Running](running.html)
 * [My PCs](my-pcs.html)
+* [Matematika](matematika/)
+
+
