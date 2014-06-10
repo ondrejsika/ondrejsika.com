@@ -42,6 +42,12 @@ if (window.localStorage){
     if (window.location.hash == '#fixed_width_off'){
         window.localStorage.setItem('fixed_width', false);
     }
+    if (window.location.hash == '#invert_on'){
+        window.localStorage.setItem('invert', true);
+    }
+    if (window.location.hash == '#invert_off'){
+        window.localStorage.setItem('invert', false);
+    }
 
 
     if (window.localStorage.getItem('fixed_width') == 'true'){

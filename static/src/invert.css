@@ -1,0 +1,10 @@
+body {
+    -webkit-filter: invert(100%);
+    background-color: #010101;
+}
+
+img {
+    -webkit-filter: invert(100%);
+}
+
+
