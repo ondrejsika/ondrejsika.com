@@ -53,4 +53,5 @@ title: My Accounts
 * [Youtube](https://www.youtube.com/user/sikaondrej/videos)
 * [Instagram](http://instagram.com/ondrejsika)
 * [djangojobs.net](http://www.djangojobs.net/people/developer/profile/470/ondrej-sika)
+* [arduino](https://id.arduino.cc/ondrejsika)
 
