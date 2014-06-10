@@ -12,6 +12,7 @@
         <link rel="stylesheet" type="text/css" href="/static/src/main.css">
         <script>
         if (window.localStorage && window.localStorage.getItem('invert') == 'true'){
+            document.getElementsByTagName('head')[0].style['background-color'] = '#010101';
             var head = document.getElementsByTagName('head')[0];
             var link = document.createElement('link');
             link.rel = 'stylesheet';
