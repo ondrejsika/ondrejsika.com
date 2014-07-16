@@ -51,7 +51,7 @@ if (window.localStorage){
 
 
     if (window.localStorage.getItem('fixed_width') == 'true'){
-        document.getElementsByTagName('body')[0].style.width = '50em';
+        document.getElementsByTagName('body')[0].style.maxWidth = '50em';
     }
 }
 

@@ -50,6 +50,3 @@ layout: html
 * english (last update 31. 12. 2013) [PDF](/static/content/cv/cv2013en.pdf), [TEX](/static/content/cv/cv2013en.tex)
 * czech (last update 31. 12. 2013) [PDF](/static/content/cv/cv2013cs.pdf), [TEX](/static/content/cv/cv2013cs.tex)
 
----
-
-[old homepage](/index2.html)

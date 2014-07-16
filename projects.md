@@ -10,7 +10,6 @@ title: Projects
 
 ## Working for
 
-* [GayGuide365](https://www.gayguide365.com) - The Ultimate Gay Travel Guide
 * [Slush's pool](http://mining.bitcoin.cz/) - World's first Bitcoin mining pool
 
 
