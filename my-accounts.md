@@ -22,6 +22,8 @@ title: My Accounts
 * [Facebook](http://facebook.com/sikaondrej2)
 * [Twitter](http://twitter.com/ondrejsika)
 * [Google+](https://google.com/+ondrejsika), [old](https://plus.google.com/u/0/103792510103800752680/about)
+* [Reddit](https://reddit.com/user/ondrejsika)
+* [Hacker News](https://news.ycombinator.com/user?id=ondrejsika)
 * [Linkedin](http://www.linkedin.com/in/ondrejsika)
 * [Scout](http://www.scout.org/user/47650)
 * [Hackathon IO](http://www.hackathon.io/ondrej)
@@ -43,6 +45,8 @@ title: My Accounts
 
 ### Others
 
+* [Keybase](https://keybase.io/ondrejsika)
+* [Coinbase](https://coinbase.com/ondrejsika)
 * [500px](http://500px.com/ondrejsika)
 * [Trello](https://trello.com/ondrejsika)
 * [GoodReads](http://goodreads.com/ondrejsika)
