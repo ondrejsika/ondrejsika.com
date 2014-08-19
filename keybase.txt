@@ -1,0 +1,70 @@
+==================================================================
+https://keybase.io/ondrejsika
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://ondrejsika.com
+  * I am ondrejsika (https://keybase.io/ondrejsika) on keybase.
+  * I have a public key with fingerprint B000 780A 20CF 1013 F7A5  9081 775D 8A02 0903 EF6B
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "b000780a20cf1013f7a59081775d8a020903ef6b",
+            "host": "keybase.io",
+            "key_id": "775d8a020903ef6b",
+            "uid": "61f48a9177a3246d4836b04473d96600",
+            "username": "ondrejsika"
+        },
+        "service": {
+            "hostname": "ondrejsika.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1408436553,
+    "expire_in": 157680000,
+    "prev": "91a76d8abfc53b15c2b4b7f42b55978bbd81c412f39e774b8a251cc30a128699",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGbwMvMwMRYHtvFxMn8Ppvx9IFvSQzBnzn9qpWS8lMqlayqlbJTwVRaZl56alFB
+UWZeiZKVUpKBgYG5hUGikUFymqGBoXGaeaKppYGFobm5aYpFooGRgaWBcWqaWZKS
+jlJGfjFIB9CYpMTiVL3MfKAYkBOfmQIUxaK+FCxhZphmYpFoCTQw0djIxCzFxMLY
+LMnAxMTcOMXSzMzAAKSwOLUoLzE3Fag6Py+lKDWrODM7UalWRwkoXpaZnApyNchy
+DDV6yfm5QP0FRfkl+cn5OUC5jJKSAiuQ1pLKApDa8tSkeKgp8UmZeSlAvwM1lKUW
+FWfm5ylZGQJVJpdkgow1NDGwMDE2MzU11lFKrSjILEqNzwSpMDU3swCGkQHImtQy
+oJGWhonmZkC/JqUlmxonGZomGyWZJJmnmRglmZpamlskJaVYGCabGBqlGVummpub
+JFkkGpkaJicbGyQaGlmYWVoqgfxVmJevZGUCdGZiOtDI4sz0vMSS0qJUpVquTiYZ
+FgZGJgY2ViZQ9DFwcQrAInXqPP4/nL/drcI2TH1puTeJJ+yUiOr2yKK6yc61L056
+/FuS3HE/P1TIPq93N9fyx/+3JqZFPTWUat5+ZndtTYnNLZ68f8Ky1yfZGaQv9H8y
+i0kja5GX16spHWpZyz/JVoYyum/NO1q09GNnc4I3z7eitJ83LhVynp2+gcXnhN6x
+3TNSPXvmCy/8kfpV5s+BnO6uZfZbZn82F54lLPOk8JMY98u7ZuX2W7ZOONwQskX/
+0ttN3w/nxPFvZss7wZhgorNOqZBtBqPIM5eP/Ifbgv4oTFhs0vfg/vu/AQ46obP0
+Z9asf2W3vffxvc4ms0O/fA4WCnb7vimdLWFwuXbChLYAsS9p6ZKpsx3Et2QFdE5+
+y9nLE37Syax01aHXP/LnbthicOW6TDJHxxQz+xm7sl5t69SOnHDcvjzmzmSexN+T
+b1su+d1vc7B904H4+ub/1TJ8Rfefi7DYLLSdytc7pePfpMpf53/3LzThi9s/+VDM
+1UrtlQp7Uid3z3B02jVPSFjnUWuExHmBj5tOapq87Y7L+aP3I70ywajaxslWviVE
+e7EA06WFh2z+Z7H1aR3dn1G+98cCgYMHfSX1Q1nEZt6+U3xzs8RntxtzQhwep8jl
+leoHTOH+0dimZsj0cVudcHbViterb78QdDSIOsZvbdgrJnZidsjPYiv3iL8HfgdJ
+Rq+5dW0vs7Zfi9ZVtgnL39x6W3g/43jNz9Wt7hv310kCAA==
+=RGIt
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ondrejsika
+
+==================================================================
+
