@@ -18,6 +18,7 @@ pre {
 My PGP public key [ondrejsika_public.asc](/ondrejsika_public.asc)
 
 * [pgp.mit.edu](http://pgp.mit.edu/pks/lookup?op=vindex&search=0x775D8A020903EF6B)
+* [keybase.io](https://keybase.io/ondrejsika)
 
 ### Key ID
 
