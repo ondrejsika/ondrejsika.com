@@ -24,6 +24,7 @@ title: My Accounts
 * [Google+](https://google.com/+ondrejsika), [old](https://plus.google.com/u/0/103792510103800752680/about)
 * [Reddit](https://reddit.com/user/ondrejsika)
 * [Hacker News](https://news.ycombinator.com/user?id=ondrejsika)
+* [Devel.cz](http://devel.cz/user/2565)
 * [Linkedin](http://www.linkedin.com/in/ondrejsika)
 * [Scout](http://www.scout.org/user/47650)
 * [Hackathon IO](http://www.hackathon.io/ondrej)
