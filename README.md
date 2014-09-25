@@ -13,3 +13,8 @@ Build site to `sh build.sh` to directory `build`
 
 Deploy to GitHub pages `sh deploy-github.sh`
 
+
+## Layouts
+
+* `base` - blank page with optional header, footer (default on)
+* `redirect` - layout for html redirect
