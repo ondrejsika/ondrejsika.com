@@ -53,6 +53,7 @@ title: My Accounts
 * [GoodReads](http://goodreads.com/ondrejsika)
 * [Speaker Deck](https://speakerdeck.com/ondrejsika)
 * [SlideShare](https://www.slideshare.net/ondrejsika/)
+* [SlideLive](http://slideslive.com/ondrejsika)
 * [Bountysource](https://www.bountysource.com/people/19333)
 * [Vimeo](http://vimeo.com/ondrejsika)
 * [Youtube](https://www.youtube.com/user/sikaondrej/videos)
