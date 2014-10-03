@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: monospace;
+    font-size: 1.03em;
 }
 
 body {
@@ -10,15 +12,18 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-size: 1.3em;
     font-weight: normal;
+    margin-bottom: 4px;
 }
 
-h1 {font-size: 36px;}
-h2 {font-size: 34px;}
-h3 {font-size: 28px;}
-h4 {font-size: 22px;}
-h5 {font-size: 16px; font-weight: bold;}
-h6 {font-size: 14px; font-style: italic;}
+h1::before {content: '# '; }
+h2::before {content: '## '; }
+h3::before {content: '### '; }
+h4::before {content: '#### '; }
+h5::before {content: '##### '; }
+h6::before {content: '###### '; }
+
 
 p, ul, table {
     margin-bottom: 15px;
@@ -34,8 +39,12 @@ th {
 }
 
 ul {
-    /*list-style-type: none;*/
-    padding-left: 20px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+ul li::before {
+    content: '* ';
 }
 
 ol li {
