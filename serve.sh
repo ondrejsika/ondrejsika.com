@@ -1,3 +1,3 @@
 #!/bin/sh
 
-jekyll serve --destination build
+jekyll serve
