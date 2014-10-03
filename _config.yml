@@ -1,5 +1,5 @@
 # ondrejsika.com jekyll config
 name: ondrejsika.com
 markdown: redcarpet
-pygments: true
+highlighter: true
 future: false
