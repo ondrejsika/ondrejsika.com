@@ -18,3 +18,8 @@ Deploy to GitHub pages `sh deploy-github.sh`
 
 * `base` - blank page with optional header, footer (default on)
 * `redirect` - layout for html redirect
+
+
+## Pernament pages
+
+* `c.html` - basic my personal contact page
