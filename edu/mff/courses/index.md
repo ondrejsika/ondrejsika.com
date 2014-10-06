@@ -14,3 +14,5 @@ title: Courses / MFF UK
 * [Linearni Algebra](2014-linearni-algebra.html)
 * [Principy Pocitacu](2014-principy-pocitacu.html)
 * [Diskretni Matematika](2014-diskretni-matematika.html)
+* [Matematicky Proseminar](2014-matematicky-proseminar.html)
+
