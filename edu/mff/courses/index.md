@@ -15,4 +15,5 @@ title: Courses / MFF UK
 * [Principy Pocitacu](2014-principy-pocitacu.html)
 * [Diskretni Matematika](2014-diskretni-matematika.html)
 * [Matematicky Proseminar](2014-matematicky-proseminar.html)
+* [Programovani](2014-programovani.html)
 
