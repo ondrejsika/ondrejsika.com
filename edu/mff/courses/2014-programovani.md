@@ -10,11 +10,11 @@ title: Programovani (2014) / MFF UK
 
 ### Cviceni
 
-* [2014-10-16](2014-programovani/2014-10-16-cviceni.html)
+* [2014-10-15](2014-programovani/2014-10-15-cviceni.html)
 
-<!--
+
 #### Domaci ukoly
 
-* 2014-10-13  [scan](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-domaci-ukoly/2014-10-13.pdf)
--->
+* [2014-10-15](2014-programovani/2014-10-15-domaci-ukoly.html)
+* [2014-10-08](2014-programovani/2014-10-08-domaci-ukoly.html)
 
