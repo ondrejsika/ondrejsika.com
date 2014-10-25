@@ -16,4 +16,5 @@ title: Courses / MFF UK
 * [Diskretni Matematika](2014-diskretni-matematika.html)
 * [Matematicky Proseminar](2014-matematicky-proseminar.html)
 * [Programovani](2014-programovani.html)
+* [Pokrocile Programovani](2014-pokrocile-programovani.html)
 
