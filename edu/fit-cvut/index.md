@@ -8,5 +8,6 @@ title: FIT CVUT
 ## {{page.title}}
 
 
+* [Courses](courses/)
 * [Timetable](timetable.html)
 
