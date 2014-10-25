@@ -8,10 +8,9 @@ title: Instalace / Wolfram Mathematica (zaklady) (2014) / MFF UK
 ## {{ page.title }}
 
 
-Instalacni soubor stahnete (2.6 GB) a spuste. Pri instalaci nechte vsude nechte defaultni umisteni.
+Instalacni soubor stahnete z <https://download.cvut.cz/info/info.php?id=179> (ma priblizne 2.6 GB) a spuste. Pri instalaci nechte vsude nechte defaultni umisteni.
 
 ```
-wget 'http://download.cvut.cz/info/download_Mathematica_stud.php?name=Mathematica_10.0.1_LINUX.sh'
 sh Mathematica_10.0.1_LINUX.sh
 ```
 
