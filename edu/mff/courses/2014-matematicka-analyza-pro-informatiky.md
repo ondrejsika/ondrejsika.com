@@ -11,6 +11,7 @@ title: Matematicka Analyza pro Informatiky (2014) / MFF UK
 
 #### Prednasky
 
+* 2014-10-23 [scan](http://notes.drive.ondrejsika.com/mff/2014/matematicka-analyza/2014-10-23.pdf)
 * 2014-10-16 [scan](http://notes.drive.ondrejsika.com/mff/2014/matematicka-analyza/2014-10-16.pdf)
 * 2014-10-09 [scan](http://notes.drive.ondrejsika.com/mff/2014/matematicka-analyza/2014-10-09.pdf)
 * 2014-10-02 [scan](http://notes.drive.ondrejsika.com/mff/2014/matematicka-analyza/2014-10-02.pdf)
