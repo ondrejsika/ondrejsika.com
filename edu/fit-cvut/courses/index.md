@@ -10,4 +10,5 @@ title: Courses / FIT CVUT
 ### 2014
 
 * [Wolfram Mathematica (zaklady)](2014-wolfram-mathematica-zaklady/)
+* [Programovani a Alogritmy (BIK-PA1)](2014-programovani-a-algoritmy/)
 
