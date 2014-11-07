@@ -23,4 +23,7 @@ title: Domaci ukoly 3. 11. / Programovani (2014) / MFF UK
 
 <script src="https://gist.github.com/ondrejsika/12c43aaf3f0a65ea9785.js"></script>
 
+### Obracene poradi cifer
+
+<script src="https://gist.github.com/ondrejsika/b14680f297c39b1c7bc5.js"></script>
 
