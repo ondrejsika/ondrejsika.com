@@ -23,6 +23,7 @@ title: Diskretni Matematicka (2014) / MFF UK
 * 2014-11-03  [scan](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-cviceni/2014-11-03.pdf)
 * 2014-10-20  [scan](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-cviceni/2014-10-20.pdf)
 * 2014-10-13  [scan](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-cviceni/2014-10-13.pdf)
+* 2014-10-06  [scan](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-cviceni/2014-10-06.pdf)
 
 
 #### Domaci ukoly
