@@ -18,7 +18,14 @@ title: Matematicka Analyza pro Informatiky (2014) / MFF UK
 
 #### Cviceni
 
+* 2014-11-05 [scan](http://notes.drive.ondrejsika.com/mff/2014/matematicka-analyza-cviceni/2014-11-05.pdf)
+* 2014-10-29 [scan](http://notes.drive.ondrejsika.com/mff/2014/matematicka-analyza-cviceni/2014-10-29.pdf)
 * 2014-10-15 [scan](http://notes.drive.ondrejsika.com/mff/2014/matematicka-analyza-cviceni/2014-10-15.pdf)
 * 2014-10-08 [scan](http://notes.drive.ondrejsika.com/mff/2014/matematicka-analyza-cviceni/2014-10-08.pdf)
 * 2014-10-01 [scan](http://notes.drive.ondrejsika.com/mff/2014/matematicka-analyza-cviceni/2014-10-01.pdf)
+
+#### Ostatni
+
+* indukce - suma [scan](http://notes.drive.ondrejsika.com/mff/2014/matematicka-analyza-domaci-vypocty/indukce-suma.pdf)
+* 2014-10-13 indukce [scan](http://notes.drive.ondrejsika.com/mff/2014/matematicka-analyza-domaci-vypocty/2014-10-13-indukce.pdf)
 
