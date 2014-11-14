@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Domaci ukoly 01 / Programovani a Algoritmy (BIK-PA1) (2014) / MFF UK
+title: Domaci ukoly 01 / Programovani a Algoritmy (BIK-PA1) (2014) / FIT CVUT
 ---
 
 [Programovani a Algoritmy (BIK-PA1) (2014)](.)

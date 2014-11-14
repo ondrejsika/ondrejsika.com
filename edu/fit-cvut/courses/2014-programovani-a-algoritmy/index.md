@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Programovani a algoritmy (BIK-PA1) (2014) / MFF UK
+title: Programovani a algoritmy (BIK-PA1) (2014) / FIT CVUT
 ---
 
 [courses](..)

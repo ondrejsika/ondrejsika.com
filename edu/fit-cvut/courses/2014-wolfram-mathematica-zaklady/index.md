@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Wolfram Mathematica (zaklady) (2014) / MFF UK
+title: Wolfram Mathematica (zaklady) (2014) / FIT CVUT
 ---
 
 [courses](..)

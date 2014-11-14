@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Instalace / Wolfram Mathematica (zaklady) (2014) / MFF UK
+title: Instalace / Wolfram Mathematica (zaklady) (2014) / FIT CVUT
 ---
 
 [Wolfram Mathematica (zaklady) (2014)](.)
