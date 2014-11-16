@@ -15,5 +15,5 @@ title: Filtry / Programovani v shellu 1 (BIK-PA1) (2014) / FIT CVUT
 * `cut` - vypise specifikovane sloupce
 * `sort` - setridi radky
 * `uniq` - odstrani sousedni duplikovane radky
-* `diff` - vypiae rozdil souboru
+* `diff` - vypise rozdil souboru
 
