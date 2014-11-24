@@ -11,11 +11,11 @@ Vektor z mnoziny.
 
 $k$ - rozmer vektoru, $n$ - pockej prvku zdrojove mnoziny
 
-S opakovanim
+Bez opakovani
 
 $$ V_k (n) = \frac{n!}{(n-k)!} $$ 
 
-Bez opakovani
+S opakovanim
 
 $$ V' _k (n) = n^k $$ 
 
