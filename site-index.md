@@ -8,4 +8,5 @@ title: Site Index
 
 
 * [edu](/edu/)
+* [contact](/contact.html)
 
