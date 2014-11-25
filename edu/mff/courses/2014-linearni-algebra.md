@@ -26,6 +26,7 @@ title: Linearni Algebra (2014) / MFF UK
 
 ### Domaci ukoly
 
+* 2014-11-18 [scan - zadani](http://notes.drive.ondrejsika.com/mff/2014/linearni-algebra-domaci-ukoly/2014-11-18-zadani.pdf) (Klara Scholleova)
 * 2014-10-20 [scan - zadani](http://notes.drive.ondrejsika.com/mff/2014/linearni-algebra-domaci-ukoly/2014-10-20-zadani.pdf)
 * 2014-10-14 [scan](http://notes.drive.ondrejsika.com/mff/2014/linearni-algebra-domaci-ukoly/2014-10-14.pdf)
 
