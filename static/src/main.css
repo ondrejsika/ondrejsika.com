@@ -98,3 +98,7 @@ table tr {
     vertical-align: top;
 }
 
+blockquote {
+    padding-left: 20px;
+    border-left: solid 1px;
+}
