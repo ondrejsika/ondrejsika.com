@@ -9,7 +9,7 @@ title: Linearni Algebra (2014) / MFF UK
 
 ### Zdroje, Literatura
 
-* Pavek Kladik: Povidani o linearni algebre [page](http://pavel.klavik.cz/vyuka/texty/povidani_o_la.html), [pdf](http://pavel.klavik.cz/vyuka/texty/povidani_o_la.pdf)
+* Pavek Klavik: Povidani o linearni algebre [page](http://pavel.klavik.cz/vyuka/texty/povidani_o_la.html), [pdf](http://pavel.klavik.cz/vyuka/texty/povidani_o_la.pdf)
 * Milan Hladik: Linearni algebra [pdf](http://kam.mff.cuni.cz/~hladik/LA/text_la.pdf)
 
 ### Notes
