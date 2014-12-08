@@ -31,6 +31,7 @@ title: Diskretni Matematicka (2014) / MFF UK
 <!--
 * 2014-10-20  [scan](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-domaci-ukoly/2014-10-20.pdf)
 -->
+* osma sada  [scan](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-domaci-ukoly/dudma8.pdf)
 * 2014-10-13  [scan](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-domaci-ukoly/2014-10-13.pdf)
 
 
