@@ -7,6 +7,8 @@ title: SPSE Plzen
 
 ## {{page.title}}
 
+* ELM, ESO - vsechny elaby, zdrojova data, nesetrizene, vse pohromade, nekompletni, mozna spatne <https://bitbucket.org/ondrejsika/spse-all/src>
+
 ### 2012
 
 #### SOC - Stredoskolska odborna cinnost
