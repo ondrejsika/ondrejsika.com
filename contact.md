@@ -6,7 +6,7 @@ title: Contact
 
 ## {{page.title}}
 
-* email: <ondrej@ondrejsika.com>
+* email: __<ondrej@ondrejsika.com>__ (preferred)
 * skype: __ondrejsika__ (previously __sika.ondrej__)
 * xmpp/jabber: __ondrej@ondrejsika.com__, __ondrejsika@jabbim.com__, __ondrejsika@swissjabber.ch__
 * phone: __+420 773 452 376__
@@ -14,7 +14,16 @@ title: Contact
 
 ### Address
 
-    Klatovska 71
+Contact address
+
+    Molakova 544/34
+    flat no. 818
+    180 00 Prague
+    Czech Republic
+
+Pernament address
+
+    Klatovska 1532/71
     301 00 Pilsen
     Czech Republic
 
@@ -26,7 +35,7 @@ title: Contact
 
 ### Bitcoin address
 
-* __1sika1Cdkbg27eHLHN5gbYmtzvpiWaaJ3__
+* __1JN3LoHYkdThYFpLpcyVTw3GQDkMGGhMuD__
 
 
 ### Bank account
