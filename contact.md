@@ -21,12 +21,15 @@ Contact address
     180 00 Prague
     Czech Republic
 
+[open street map](http://www.openstreetmap.org/node/296801697)
+
 Pernament address
 
     Klatovska 1532/71
     301 00 Pilsen
     Czech Republic
 
+[open street map](http://www.openstreetmap.org/node/296689680)
 
 ### Billing information</h3>
 * ID Number: __88114163__
