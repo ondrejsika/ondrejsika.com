@@ -9,6 +9,7 @@ title: Site Index
 
 * [edu](/edu/)
 * [contact](/contact.html)
+* [resume](/resume.html)
 
 ---
 
