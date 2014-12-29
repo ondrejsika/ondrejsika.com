@@ -3,6 +3,12 @@ layout: base
 title: PF
 ---
 
+<style>
+img {
+    width: 25em;
+}
+</style>
+
 [![PF 2015](/static/content/pf2015/pf2015_640.png)](2015.html)
 
 
