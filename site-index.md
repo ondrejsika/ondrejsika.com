@@ -8,8 +8,9 @@ title: Site Index
 
 
 * [edu](/edu/)
-* [contact](/contact.html)
-* [resume](/resume.html)
+* [Contact](/contact.html)
+* [Resume](/resume.html)
+* [My Certification Authority](/ca.html)
 
 ---
 
