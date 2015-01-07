@@ -1,5 +1,5 @@
 ---
-layout: default_math
+layout: math
 title: Kombinatorika
 ---
 
