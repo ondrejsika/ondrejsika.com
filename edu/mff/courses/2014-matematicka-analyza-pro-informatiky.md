@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Matematicka Analyza pro Informatiky (2014) / MFF UK
 ---
 

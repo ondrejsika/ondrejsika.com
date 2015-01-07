@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Linearni Algebra (2014) / MFF UK
 ---
 

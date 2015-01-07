@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Instalace / Wolfram Mathematica (zaklady) (2014) / FIT CVUT
 ---
 

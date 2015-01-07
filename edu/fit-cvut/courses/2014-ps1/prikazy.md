@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Prikazy co neznam / Programovani v shellu 1 (BIK-PA1) (2014) / FIT CVUT
 ---
 

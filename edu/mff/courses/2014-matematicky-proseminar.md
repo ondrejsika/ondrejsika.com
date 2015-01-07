@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Matematicky Proseminar (2014) / MFF UK
 ---
 

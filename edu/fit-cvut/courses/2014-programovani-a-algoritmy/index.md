@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Programovani a algoritmy (BIK-PA1) (2014) / FIT CVUT
 ---
 

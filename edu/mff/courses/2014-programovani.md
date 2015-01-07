@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Programovani (2014) / MFF UK
 ---
 

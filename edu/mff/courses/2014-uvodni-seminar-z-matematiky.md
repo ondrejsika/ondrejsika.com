@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Uvodni seminar z Matematiky (2014) / MFF UK
 ---
 

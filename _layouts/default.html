@@ -2,5 +2,14 @@
 layout: base
 ---
 
+{% if page.noheader %}
+{% else %}
+<h1>Ondrej Sika</h1>
+{% endif %}
 {{content}}
+{% if page.nofooter %}
+{% else %}
+<hr class="footer">
+<p class="footer">since 2012 <a href="http://ondrejsika.com" class="no-target">Ondrej Sika</a> - <a href="/site-index.html">index</a> | Cached version by CDN77 <a href="https://ondrejsika-com.r.worldssl.net/">https://ondrejsika-com.r.worldssl.net/</a></p>
+{% endif %}
 

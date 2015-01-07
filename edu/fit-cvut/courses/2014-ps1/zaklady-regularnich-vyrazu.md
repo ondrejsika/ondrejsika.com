@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Zaklady regularnich vyrazu / Programovani v shellu 1 (BIK-PA1) (2014) / FIT CVUT
 ---
 

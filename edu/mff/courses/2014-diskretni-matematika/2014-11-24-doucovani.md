@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Doucovani 24. 11. / Diskretni Matematicka (2014) / MFF UK
 ---
 

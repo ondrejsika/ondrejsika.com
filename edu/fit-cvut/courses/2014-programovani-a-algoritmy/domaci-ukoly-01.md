@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Domaci ukoly 01 / Programovani a Algoritmy (BIK-PA1) (2014) / FIT CVUT
 ---
 

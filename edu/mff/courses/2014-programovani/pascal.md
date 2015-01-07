@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Pascal / Programovani (2014) / MFF UK
 ---
 

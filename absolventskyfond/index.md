@@ -1,6 +1,5 @@
 ---
-layout: base
-noheader: true
+layout: default
 ---
 
 # Absolvesky fond

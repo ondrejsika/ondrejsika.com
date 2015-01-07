@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Domaci ukoly 08. 10. / Programovani (2014) / MFF UK
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Programovani v shellu 1 (BIK-PS1) (2014) / FIT CVUT
 ---
 

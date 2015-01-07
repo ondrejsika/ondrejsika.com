@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Diskretni Matematicka (2014) / MFF UK
 ---
 

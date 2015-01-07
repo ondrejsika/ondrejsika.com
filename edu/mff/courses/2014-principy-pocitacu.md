@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Principy Pocitacu (2014) / MFF UK
 ---
 
