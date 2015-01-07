@@ -7,13 +7,17 @@ title: Site Index
 ## {{page.title}}
 
 
-* [edu](/edu/)
-* [Contact](/contact.html)
+* [Edu](/edu/)
 * [Resume](/resume.html)
+* [Contact](/contact.html)
+* [Fakturacni udaje](/fakturacni-udaje.html)
 * [My Certification Authority](/ca.html)
+* [Drive](http://drive.ondrejsika.com/)
 
 ---
 
-* [donate](/donate.html)
+* [Donate](/donate.html)
 * [PF](/pf/)
-* [Fakturacni udaje](/fakturacni-udaje.html)
+* [Others](/others/)
+* [Old Blog](old-blog.html)
+
