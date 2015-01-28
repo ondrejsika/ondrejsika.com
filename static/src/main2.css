@@ -1,5 +1,6 @@
-html {
+body {
     font-family: monospace;
+    width: 50em;
 }
 
 hr {
@@ -25,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 p, ul {
-    font-size: 1.04em;
+    font-size: 1.1em;
     margin: 7px 0;
 }
 
@@ -33,8 +34,10 @@ ul {
     padding-left: 20px;
 }
 
-h2 {font-size: 1.9em}
-h3 {font-size: 1.6em}
-h4 {font-size: 1.3em}
-h5 {font-size: 1.2em}
+h1 {font-size: 1.3em; font-weight: normal;}
+h2 {font-size: 1.5em}
+h3 {font-size: 1.3em}
+h4 {font-size: 1.2em}
+h5 {font-size: 1.1em}
+h6 {font-size: 1em}
 
