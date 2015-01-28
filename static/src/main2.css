@@ -47,5 +47,5 @@ table tr {
 
 th, td {
     padding-right: 20px;
-    float: left;
+    text-align: left;
 }
