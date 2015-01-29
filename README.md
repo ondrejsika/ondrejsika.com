@@ -9,17 +9,11 @@ Docs
 
 Run development server on port 4000 `sh serve.sh`
 
-Build site to `sh build.sh` to directory `build`
+Build site to `sh build.sh` to directory `_site`
 
-Deploy to GitHub pages `sh deploy-github.sh`
-
-
-## Layouts
-
-* `base` - blank page with optional header, footer (default on)
-* `redirect` - layout for html redirect
+Deploy to GitHub pages and my server `sh deploy.sh`
 
 
 ## Pernament pages
 
-* `c.html` - basic my personal contact page
+* `/c/` - my basic contact page
