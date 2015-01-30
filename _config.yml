@@ -1,5 +1,4 @@
 # ondrejsika.com jekyll config
 name: ondrejsika.com
 markdown: redcarpet
-highlighter: true
 future: false
