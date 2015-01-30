@@ -7,7 +7,7 @@ title: Blog
 <table>
   {% for post in site.posts %}
     <tr>
-        <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+        <td style="max-width:35em"><a href="{{ post.url }}">{{ post.title }}</a></td>
         <td>{{ post.lang }}</td>
         <td>{{ post.date | date_to_string}}</td>
     </tr>
