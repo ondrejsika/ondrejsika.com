@@ -8,5 +8,6 @@ title: Others
 * [My quotes](quotes.html)
 * [Running](running.html)
 * [Matematika](matematika/)
+* [LaTeX](latex/)
 
 
