@@ -13,6 +13,7 @@ title: Site Index
 * [contact](/contact.html)
 * [fakturacni udaje](/fakturacni-udaje.html)
 * [my Certification Authority](/ca.html)
+* [ssh keys](/ssh.html)
 * [drive](http://drive.ondrejsika.com/)
 
 ---
