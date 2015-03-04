@@ -49,3 +49,11 @@ th, td {
     padding-right: 20px;
     text-align: left;
 }
+
+pre {
+    padding: 10px;
+    overflow-x: auto;
+    font-size: 95%;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+}
