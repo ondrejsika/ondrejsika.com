@@ -10,6 +10,7 @@ title: Site Index
 * [edu](/edu/)
 * [resume](/resume.html)
 * [projects](/projects/)
+* [books](/books/)
 * [contact](/contact.html)
 * [fakturacni udaje](/fakturacni-udaje.html)
 * [my Certification Authority](/ca.html)
