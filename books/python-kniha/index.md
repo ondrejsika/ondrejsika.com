@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Python Kniha
+title: Python kniha
 ---
 
 
