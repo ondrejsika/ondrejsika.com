@@ -10,10 +10,9 @@ title: Site Index
 * [edu](/edu/)
 * [resume](/resume.html)
 * [projects](/projects/)
+* [articles](/articles/)
 * [books](/books/)
 * [contact](/contact.html)
-* [fakturacni udaje](/fakturacni-udaje.html)
-* [my Certification Authority](/ca.html)
 * [ssh keys](/ssh.html)
 * [drive](http://drive.ondrejsika.com/)
 
@@ -23,4 +22,5 @@ title: Site Index
 * [PF](/pf/)
 * [others](/others/)
 * [old blog](old-blog.html)
+* [my Certification Authority](/ca.html)
 

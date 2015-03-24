@@ -32,6 +32,9 @@ Pernament address
 [open street map](http://www.openstreetmap.org/node/296689680)
 
 ### Billing information
+
+[fakturacni udaje](/fakturacni-udaje.html)
+
 * ID Number: __88114163__
 * Tax ID Number: __CZ9302252102__
 
