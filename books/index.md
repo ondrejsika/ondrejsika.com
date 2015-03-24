@@ -7,6 +7,8 @@ title: My Books
 ## {{page.title}}
 
 
-* [Python Kniha](python-kniha/)
-* [Flask Kniha](flask-kniha/)
+* [Python kniha](python-kniha/)
+* [Flask kniha](flask-kniha/)
+* [Shell kniha](flask-kniha/)
+* [Git kniha](flask-kniha/)
 
