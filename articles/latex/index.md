@@ -3,6 +3,8 @@ layout: default
 title: LaTeX
 ---
 
+[articles](..)
+
 ## {{ page.title }}
 
 Moje postrehy ohledne LaTeXu.

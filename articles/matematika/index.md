@@ -3,6 +3,8 @@ layout: default
 title: Matematika
 ---
 
+[articles](..)
+
 ## {{page.title}}
 
 * [Kombinatorika](kombinatorika.html)

@@ -3,6 +3,8 @@ layout: math
 title: Kombinatorika
 ---
 
+[matematika](.)
+
 ## {{page.title}}
 
 ### Variace

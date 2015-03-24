@@ -3,6 +3,8 @@ layout: math
 title: Kombinacni cisla
 ---
 
+[matematika](.)
+
 ## {{page.title}}
 
 <style>
