@@ -24,8 +24,11 @@ Musime jej nejdrive naimportovat a trosku nastavit:
 ```
 \usepackage{listings}
 \lstset{
-   breaklines=true,
-   basicstyle=\ttfamily}
+    breaklines=true,
+    numbers=left,
+    numberstyle=\scriptsize,
+    frame=leftline,
+    basicstyle=\ttfamily}
 ```
 
 potom muzeme pouzivat inline funkci lstinline:
