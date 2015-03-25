@@ -7,6 +7,11 @@ title: LaTeX
 
 ## {{ page.title }}
 
+### Books
+
+* Wikibooks/LaTeX - velmi podrobny web/pdf navod - <https://en.wikibooks.org/wiki/LaTeX>
+
+
 Moje postrehy ohledne LaTeXu.
 
 
@@ -37,6 +42,8 @@ def hello():
     print('Hello world')
 \end{lstlisting}
 ```
+
+* Vice o baliku listings - <https://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings>
 
 #### Citace
 
