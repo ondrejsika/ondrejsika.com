@@ -15,12 +15,5 @@ title: Site Index
 * [contact](/contact.html)
 * [ssh keys](/ssh.html)
 * [drive](http://drive.ondrejsika.com/)
-
----
-
-* [donate](/donate.html)
-* [PF](/pf/)
-* [others](/others/)
-* [old blog](old-blog.html)
-* [my Certification Authority](/ca.html)
+* [others](/site-index-others.html)
 
