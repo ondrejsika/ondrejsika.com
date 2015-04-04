@@ -9,6 +9,6 @@ title: My Books
 
 * [Python kniha](python-kniha/)
 * [Flask kniha](flask-kniha/)
-* [Shell kniha](flask-kniha/)
-* [Git kniha](flask-kniha/)
+* [Shell kniha](shell-kniha/)
+* [Git kniha](git-kniha/)
 
