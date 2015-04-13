@@ -8,5 +8,5 @@ title: Resume
 
 My resume available in [PDF](/resume.pdf), [TEX](/static/content/cv/cv2015b.tex).
 
-Last update 1. 1. 2015.
+Last update 13. 4. 2015.
 
