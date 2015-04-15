@@ -5,7 +5,7 @@ title: Talks
 
 ## Talks
 
-* [Czechitas Wordpress](2015/czechitas-wordpress.html) (2015/03/01)
+* [Merged Mining (CTJB)](2015/merged-mining-ctjb.html) (04/2015)
 
 
 {% comment %}
