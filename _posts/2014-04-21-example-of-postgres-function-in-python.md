@@ -7,36 +7,6 @@ lang: EN
 meta_keywords: postgres, psql, plpython, python
 ---
 
-You must install PLPython extension
+Moved to: <https://pythonblog.cz/2014/04/21/example-of-postgres-function-in-python.html>
 
-```
-apt-get install postgresql-plpython-9.3
-```
-
-### Example 1
-
-``` sql
-CREATE FUNCTION python_pow(x integer, n integer)
-RETURNS integer AS $$
-return x ** n
-$$ LANGUAGE 'plpythonu';
-```
-
-``` sql
-sika=# select python_pow(3, 3);
- python
---------
-     27
-(1 row)
-```
-
-
-### Example 2
-
-``` sql
-CREATE FUNCTION python_pow(integer, integer)
-RETURNS integer AS $$
-return args[0] ** args[1]
-$$ LANGUAGE 'plpythonu';
-```
 
