@@ -3,14 +3,15 @@ layout: default
 title: Merged Mining (CTJB)
 ---
 
+[talks](..)
+
 ## {{ page.title }}
 
 Alias [url.os1.cz/merged-mining-ctjb](http://url.os1.cz/merged-mining-ctjb)
 
-#### Slides
+Date: 02/05/2015
 
-* original from talk [PDF](http://drive.ondrejsika.com/talks/2015/merged-mining/Ondrej_Sika__Merged_Mining__slides.pdf), [GIT](https://github.com/ondrejsika/merged-mining-slides/tree/ctjb)
-* [Github repo](https://github.com/ondrejsika/merged-mining-slides)
-* [last build](http://drive.ondrejsika.com/pdf/merged-mining-slides/_build/Ondrej_Sika__Merged_Mining__slides.pdf)
+* [PDF](http://drive.ondrejsika.com/talks/2015/merged-mining/Ondrej_Sika__Merged_Mining__slides.pdf)
+* [GIT](https://github.com/ondrejsika/merged-mining-slides/tree/ctjb)
 
 

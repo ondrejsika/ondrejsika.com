@@ -5,7 +5,7 @@ title: Talks
 
 ## Talks
 
-* [Merged Mining (CTJB)](2015/merged-mining-ctjb.html) (04/2015)
+* [Merged Mining (CTJB)](2015/merged-mining-ctjb.html) (02/05/2015)
 
 
 {% comment %}

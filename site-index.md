@@ -12,6 +12,7 @@ title: Site Index
 * [projects](/projects/)
 * [articles](/articles/)
 * [books](/books/)
+* [talks](/talks/)
 * [contact](/contact.html)
 * [ssh keys](/ssh.html)
 * [drive](http://drive.ondrejsika.com/)
