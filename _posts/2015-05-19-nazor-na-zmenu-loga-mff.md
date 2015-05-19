@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 'Nazor na zmenu loga MFF'
+title: 'Nazor na zmenu propagacniho loga MFF'
 categories: blog
 version: 2
 
 lang: CZ
 ---
 
-Timto textem chci vyjadrit nesoulas s navrhem noveho loga MFF UK.
+Timto textem chci vyjadrit nesoulas s navrhem noveho propagacniho loga MFF UK.
 
 > Podle me to nove logo naprosto nerespektuje tradici a prestiz fakulty. Pokud vim, tak zandny kvalitni brand (ktery bezpochyby je UK i MFF) logo nemeni. Meni logo Harvard, Apple, IBM nebo Mercedes? Tohle je opravdu strasne a smutne, ...
 >
