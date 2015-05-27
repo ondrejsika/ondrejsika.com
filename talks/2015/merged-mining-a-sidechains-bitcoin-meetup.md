@@ -7,7 +7,7 @@ title: Merged Mining a Sidechains (Bitcoin Meetup)
 
 ## {{ page.title }}
 
-Date: 25/05/2015
+Date: 26/05/2015
 <br>Authors: Martin Šíp, Ondrej Sika
 
 * [SpeakerDeck](https://speakerdeck.com/ondrejsika/merged-mining-a-sidechains-bitcoin-meetup)
