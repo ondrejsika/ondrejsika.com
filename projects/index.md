@@ -3,10 +3,17 @@ layout: default
 title: Projects
 ---
 
-## {{page.title}}
+## My Projects
 
-* [Django Blog](https://djangoblog.cz)
+* __SGY__
+* __Absolventsky fond__
+* __Computer Science House__
+* __Sika Foundation__
 
+## Work on
+
+* [Slush pool](https://mining.bitcoin.cz)
+* [Virtufy](https://virtufy.cz)
 
 ### Tools
 

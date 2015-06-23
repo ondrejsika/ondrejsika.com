@@ -3,7 +3,11 @@ layout: default
 title: TexB (Tex Builder)
 ---
 
-## [{{page.title}}](https://github.com/ondrejsika/texb)
+[projects](.)
+
+## {{page.title}}
 
 More informations are in README in repo.
+
+<https://github.com/ondrejsika/texb>
 
