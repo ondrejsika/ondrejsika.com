@@ -44,7 +44,7 @@ Pernament address
 
 ### Bitcoin address
 
-* __1JN3LoHYkdThYFpLpcyVTw3GQDkMGGhMuD__
+* __1A8SE3ryXEs1smwQdC9FH2Wpb56YKAp4ip__
 
 
 ### Bank account
