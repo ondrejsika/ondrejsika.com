@@ -6,7 +6,7 @@ title: Resume
 
 ## {{page.title}}
 
-My resume available in [PDF](/resume.pdf), [TEX](/static/content/cv/cv2015b.tex).
+My resume available in [PDF](/resume.pdf), [TEX](/static/content/cv/cv2015c.tex).
 
-Last update 13. 4. 2015.
+Last update 30. 6. 2015.
 
