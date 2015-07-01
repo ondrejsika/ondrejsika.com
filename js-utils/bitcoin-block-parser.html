@@ -19,8 +19,8 @@
         };
 
         $scope.do_parse = function(){
-            if ($scope.header.length != 2*80) {
-                alert('Wrong length');
+            if ($scope.header.length < 2*80) {
+                alert('Too short: not 80 bytes hexa.');
                 return;
             }
             $scope.blocks.push($scope.parse($scope.header));
