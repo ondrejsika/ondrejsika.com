@@ -6,10 +6,24 @@ title: Talks
 ## Talks
 
 <table>
+
+<tr><td>
+<b>MergedMining, SatoshiLabs, GeneralBytes (Bern, Switzerland)</b>
+</td><td>
+19/08/2015
+</td><td>
+<a href="http://www.meetup.com/Bitcoin-Meetup-Switzerland/events/224257387/">Meetup.com</a>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+
+
 <tr><td>
 <b>Merged Mining a Sidechains (Bitcoin Meetup)</b>
 </td><td>
 25/05/2015
+</td><td>
 </td><td>
 <a href="https://speakerdeck.com/ondrejsika/merged-mining-a-sidechains-bitcoin-meetup">SpeakerDeck</a>
 </td><td>
@@ -17,9 +31,11 @@ title: Talks
 </td><td>
 </td></tr>
 <tr><td>
+
 <b>Merged Mining (CTJB)</b>
 </td><td>
 02/05/2015
+</td><td>
 </td><td>
 <a href="https://speakerdeck.com/ondrejsika/merged-mining-ctjb">SpeakerDeck</a>
 </td><td>
@@ -27,6 +43,7 @@ title: Talks
 </td><td>
 <a href="https://github.com/ondrejsika/merged-mining-slides/tree/ctjb">GIT</a>
 </td></tr>
+
 </table>
 
 
