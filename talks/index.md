@@ -7,7 +7,7 @@ title: Talks
 
 <table>
 
-<tr><td>
+<tr id="bitcoin-bern-2015"><td>
 <b>MergedMining, SatoshiLabs, GeneralBytes (Bern, Switzerland)</b>
 </td><td>
 19/08/2015
@@ -45,6 +45,14 @@ title: Talks
 </td></tr>
 
 </table>
+
+<script>
+if(window.location.hash) {
+    hash = window.location.hash.slice(1);
+    row = document.getElementById(hash);
+    row.style.backgroundColor = '#DDDDDD';
+}
+</script>
 
 
 {% comment %}
