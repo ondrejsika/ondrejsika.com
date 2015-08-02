@@ -8,10 +8,8 @@ title: Site Index
 
 
 * [edu](/edu/)
-* [resume](/resume.html)
+* [resume (pdf)](/resume.pdf) [(source)](https://github.com/ondrejsika/resume)
 * [projects](/projects/)
-* [articles](/articles/)
-* [books](/books/)
 * [talks](/talks/)
 * [contact](/contact.html)
 * [ssh keys](/ssh.html)

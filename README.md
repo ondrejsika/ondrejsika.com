@@ -1,4 +1,3 @@
-[![Stories in Ready](https://badge.waffle.io/ondrejsika/ondrejsika.com.png?label=ready&title=Ready)](https://waffle.io/ondrejsika/ondrejsika.com)
 # [ondrejsika.com](http://ondrejsika.com)
 
 My website based on Jekyll and hosted by GitHub pages
@@ -17,3 +16,4 @@ Deploy to GitHub pages and my server `sh deploy.sh`
 ## Pernament pages
 
 * `/c/` - my basic contact page
+
