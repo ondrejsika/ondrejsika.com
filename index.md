@@ -15,3 +15,14 @@ Sometimes I write some posts to [my blogs](/my-blogs.html)
 
 [index](/site-index.html) [home](/)
 
+---
+
+Hledam __JavaScript Developera__ (idealne student)
+
+- Zkusenosti s ReactJS (pripadne AngularJS), pripadne chut se naucit
+- Znalost JS, HTML, CSS
+- Vyhodou Python/Django, GIT, Twitter Bootstrap
+- Moznost vyplaty v BTC
+
+V pripade zajmu me kontaktuj na <ondrej@ondrejsika.com>
+
