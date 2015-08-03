@@ -18,7 +18,6 @@ title: Talks
 </td><td>
 </td></tr>
 
-
 <tr><td>
 <b>Merged Mining a Sidechains (Bitcoin Meetup)</b>
 </td><td>
@@ -30,8 +29,8 @@ title: Talks
 <a href="https://speakerd.s3.amazonaws.com/presentations/667b7f7262834fd3bb2b45e493b822ce/merged_mining_sidechains.pdf">PDF</a>
 </td><td>
 </td></tr>
-<tr><td>
 
+<tr id="ctjb-2015"><td>
 <b>Merged Mining (CTJB)</b>
 </td><td>
 02/05/2015
