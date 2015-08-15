@@ -7,6 +7,17 @@ title: Talks
 
 <table>
 
+<tr id="bitcoin-pilsen-2015"><td>
+<b>Uvod do Bitcoinu (Pilsen, Czech Rep.)</b>
+</td><td>
+26/08/2015
+</td><td>
+<a href="https://www.facebook.com/events/1587922088138594/">Facebook</a>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+
 <tr id="bitcoin-bern-2015"><td>
 <b>MergedMining, SatoshiLabs, GeneralBytes (Bern, Switzerland)</b>
 </td><td>
