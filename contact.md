@@ -9,7 +9,7 @@ title: Contact
 * email: __<ondrej@ondrejsika.com>__ (preferred)
 * skype: __ondrejsika__
 * xmpp/jabber: __ondrej@ondrejsika.com__
-* phone: __+420 773 452 376__
+* phone: __+420 773 452 376__ (Czech), __+41 78 753 21 62__ (Swiss)
 * phone sip: __+420 226 531 633__ (__sika@xphone.cz__)
 
 ### Address
