@@ -19,14 +19,17 @@ title: Talks
 </td></tr>
 
 <tr id="bitcoin-bern-2015"><td>
-<b>MergedMining, SatoshiLabs, GeneralBytes (Bern, Switzerland)</b>
+<b>MergedMining, SatoshiLabs (Bern, Switzerland)</b>
 </td><td>
 19/08/2015
 </td><td>
 <a href="http://www.meetup.com/Bitcoin-Meetup-Switzerland/events/224257387/">Meetup.com</a>
 </td><td>
+<a href="https://speakerdeck.com/ondrejsika/merged-mining-satoshilabs-bern">SpeakerDeck</a>
 </td><td>
+<a href="https://speakerd.s3.amazonaws.com/presentations/278e757a848a4e4480a456e90137fbd7/Ondrej_Sika__Merged_Mining_Bern__slides.pdf">PDF</a>
 </td><td>
+<a href="https://github.com/ondrejsika/merged-mining-bern-slides">GIT</a>
 </td></tr>
 
 <tr><td>
