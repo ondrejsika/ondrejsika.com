@@ -6,5 +6,5 @@ title: my
 
 ## {{page.title}}
 
-* [links](links/)
+* [running](running.html)
 
