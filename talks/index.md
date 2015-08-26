@@ -14,8 +14,11 @@ title: Talks
 </td><td>
 <a href="https://www.facebook.com/events/1587922088138594/">Facebook</a>
 </td><td>
+<a href="https://speakerdeck.com/ondrejsika/uvod-do-bitcoinu-plzen">SpeakerDeck</a>
 </td><td>
+<a href="https://speakerd.s3.amazonaws.com/presentations/fe5a08e0c75248ffbcf6bf914b3dad79/Ondrej_Sika__Bitcoin_Intro__slides.pdf">PDF</a>
 </td><td>
+<a href="https://github.com/ondrejsika/uvod-do-bitcoinu-slides">GIT</a>
 </td></tr>
 
 <tr id="bitcoin-bern-2015"><td>
