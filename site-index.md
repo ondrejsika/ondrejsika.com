@@ -15,3 +15,8 @@ title: Site Index
 * [drive](http://drive.ondrejsika.com/)
 * [others](/site-index-others.html)
 
+My related sites
+
+* [prints](https://prints.os1.cz)
+* [books](https://books.os1.cz)
+
