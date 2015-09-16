@@ -17,6 +17,7 @@ title: Site Index
 
 My related sites
 
-* [prints](https://prints.os1.cz)
+* [article](https://ar.os1.cz)
 * [books](https://books.os1.cz)
+* [prints](https://prints.os1.cz)
 
