@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Airbnb
+title: Flat Sharing
 ---
 
 
@@ -35,4 +35,13 @@ In case of any problem or if you have some question, contact me directly by phon
 
 PS: I'll be pleased if you send me a postcard, when you'll be back at home :)
 
+<br>
+
+![](molakova/img/1a.jpg)
+
+![](molakova/img/1b.jpg)
+
+![](molakova/img/1c.jpg)
+
+![](molakova/img/1d.jpg)
 
