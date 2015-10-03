@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bitcoin Address
+title: Bitcoin Addresses
 ---
 
 
@@ -8,7 +8,9 @@ title: Bitcoin Address
 
 ### Trezor (preferred)
 
-    Ondrej Sika's Bitcoin address (Trezor): 1DhDxyquETrhKk3m6TkHreegr3yFmf8FkB
+    Ondrej Sika's Bitcoin address (Trezor):
+
+    1DhDxyquETrhKk3m6TkHreegr3yFmf8FkB
 
 #### BIP32 path
 
@@ -44,7 +46,10 @@ title: Bitcoin Address
 
 ### Mobile (for small mounts up to $20)
 
-    Ondrej Sika's Bitcoin address (Mobile): 1E6T2a83EXUFKcH644Uq2zGAqRchNLnNvF
+    Ondrej Sika's Bitcoin address (Mobile):
+
+    1E6T2a83EXUFKcH644Uq2zGAqRchNLnNvF
+
 
 #### PGP signed message
 
