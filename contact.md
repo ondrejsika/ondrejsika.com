@@ -54,6 +54,6 @@ Pernament address
 * BIC code / SWIFT: __FIOBCZPPXXX__
 * Bank address: __Fio banka, a.s., V Celnici 1028/10, Praha 1, Czech Republic__
 
-I also accept __Bitcoin__, ask me for an address.
+I also accept __Bitcoin__, [my addresses](/ba.html).
 
 
