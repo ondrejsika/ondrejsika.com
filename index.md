@@ -17,11 +17,23 @@ Sometimes I write some posts to [my blogs](/my-blogs.html)
 
 ---
 
-Hledam __JavaScript Developera__ (idealne student)
+##### Hledam
+
+#### JavaScript Developera (idealne student)
 
 - Zkusenosti s ReactJS (pripadne AngularJS), pripadne chut se naucit
 - Znalost JS, HTML, CSS
 - Vyhodou Python/Django, GIT, Twitter Bootstrap
+- Moznost vyplaty v BTC
+
+V pripade zajmu me kontaktuj na <ondrej@ondrejsika.com>
+
+
+#### Python Programatora (idealne student)
+
+- Vyvoj informacnich systemu a Bitcoin technologie
+- Pozaduji znalost Pythonu a chut se unit nove veci.
+- Vyhodou jsou znalosti webovych technologii, idealne ReactJS
 - Moznost vyplaty v BTC
 
 V pripade zajmu me kontaktuj na <ondrej@ondrejsika.com>
