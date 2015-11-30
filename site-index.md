@@ -11,6 +11,7 @@ title: Site Index
 * [software](/software/)
 * [talks](/talks/)
 * [contact](/contact.html)
+* [konzultace (cs)](/konzultace)
 * [bitcoin addresses](/ba.html)
 * [ssh keys](/ssh.html)
 * [drive](http://drive.ondrejsika.com/)
