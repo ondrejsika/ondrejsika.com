@@ -12,7 +12,7 @@ title: Contact
 * phone: __+420 773 452 376__ (Czech), __+41 78 753 21 62__ (Swiss)
 * phone sip: __+420 226 531 633__ (__sika@xphone.cz__)
 
-### Address
+### Addresses
 
 Contact address
 
@@ -23,6 +23,13 @@ Contact address
 
 [open street map](http://www.openstreetmap.org/node/296801697)
 
+Office
+
+    Zenklova 32/28
+    Prague 8, 180 00
+    Czech Republic
+
+[open street map](http://www.openstreetmap.org/node/296762961)
 
 Pernament address
 
