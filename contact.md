@@ -14,30 +14,26 @@ title: Contact
 
 ### Addresses
 
-Contact address
+Contact address [map](http://www.openstreetmap.org/node/296801697)
 
     Molakova 544/34
     flat no. 818
     180 00 Prague
     Czech Republic
 
-[open street map](http://www.openstreetmap.org/node/296801697)
 
-Office
+Office [map](http://www.openstreetmap.org/node/296762961)
 
     Zenklova 32/28
     Prague 8, 180 00
     Czech Republic
 
-[open street map](http://www.openstreetmap.org/node/296762961)
 
-Pernament address
+Pernament address [map](http://www.openstreetmap.org/node/296689680)
 
     Klatovska 1532/71
     301 00 Pilsen
     Czech Republic
-
-[open street map](http://www.openstreetmap.org/node/296689680)
 
 
 ### Billing information
