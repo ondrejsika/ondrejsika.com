@@ -25,7 +25,8 @@ Contact address [map](http://www.openstreetmap.org/node/296801697)
 Office [map](http://www.openstreetmap.org/node/296762961)
 
     Zenklova 32/28
-    Prague 8, 180 00
+    3rd floor, office 301
+    180 00 Prague 8
     Czech Republic
 
 
