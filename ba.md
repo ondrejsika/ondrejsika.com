@@ -38,7 +38,7 @@ title: Bitcoin Addresses
     =8Sis
     -----END PGP MESSAGE-----
 
-![](/trezor-addr.png)
+![](/static/content/ba/trezor-addr.png)
 
 <br>
 <br>
@@ -73,7 +73,7 @@ title: Bitcoin Addresses
     =4M3x
     -----END PGP MESSAGE-----
 
-![](/mobile-addr.png)
+![](/static/content/ba/mobile-addr.png)
 
 PGP messages can be verified on: <https://keybase.io/verify>
 
