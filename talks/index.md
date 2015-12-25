@@ -7,6 +7,20 @@ title: Talks
 
 <table>
 
+<tr id="bitcoin-pilsen-2016"><td>
+<b>Povidani o Bitcoinu (Pilsen, Czech Rep.)</b>
+</td><td>
+08/01/2016
+</td><td>
+<a href="https://www.facebook.com/events/1541402356172148/">Facebook</a>
+</td><td>
+<!-- <a href="">SpeakerDeck</a> -->
+</td><td>
+<!-- <a href="">PDF</a> -->
+</td><td>
+<a href="https://github.com/ondrejsika/uvod-do-bitcoinu-slides">GIT</a>
+</td></tr>
+
 <tr id="bitcoin-pilsen-2015"><td>
 <b>Uvod do Bitcoinu (Pilsen, Czech Rep.)</b>
 </td><td>
@@ -18,7 +32,7 @@ title: Talks
 </td><td>
 <a href="https://speakerd.s3.amazonaws.com/presentations/fe5a08e0c75248ffbcf6bf914b3dad79/Ondrej_Sika__Bitcoin_Intro__slides.pdf">PDF</a>
 </td><td>
-<a href="https://github.com/ondrejsika/uvod-do-bitcoinu-slides">GIT</a>
+<a href="https://github.com/ondrejsika/uvod-do-bitcoinu-slides/tree/seraf2015">GIT</a>
 </td></tr>
 
 <tr id="bitcoin-bern-2015"><td>
@@ -40,6 +54,7 @@ title: Talks
 </td><td>
 25/05/2015
 </td><td>
+<a href="https://www.facebook.com/events/100799940255426/">Facebook</a>
 </td><td>
 <a href="https://speakerdeck.com/ondrejsika/merged-mining-a-sidechains-bitcoin-meetup">SpeakerDeck</a>
 </td><td>
@@ -48,10 +63,11 @@ title: Talks
 </td></tr>
 
 <tr id="ctjb-2015"><td>
-<b>Merged Mining (CTJB)</b>
+<b>Merged Mining (CTJB, SK)</b>
 </td><td>
 02/05/2015
 </td><td>
+<a href="http://ctjb.net/2015">Event</a>
 </td><td>
 <a href="https://speakerdeck.com/ondrejsika/merged-mining-ctjb">SpeakerDeck</a>
 </td><td>
