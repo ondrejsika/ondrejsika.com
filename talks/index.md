@@ -22,7 +22,7 @@ Slides
 </td><td>
 24/01/2016
 </td><td>
-<a href="https://www.facebook.com/events/1541402356172148/">Meetup.com</a>
+<a href="http://www.meetup.com/Birmingham-Bitcoin-Meetup-Group/events/227651227/">Meetup.com</a>
 </td><td>
 <!-- <a href="">SpeakerDeck</a> -->
 </td><td>
