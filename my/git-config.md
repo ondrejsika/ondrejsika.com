@@ -19,14 +19,14 @@ pre {
 
 ## {{page.title}}
 
-Initial config
+### Initial config
 
-home
+Save config to home
 
 <pre>git config --global user.email ondrej@ondrejsika.com
 git config --global user.name 'Ondrej Sika'</pre>
 
-etc
+to etc
 
 <pre>git config --system user.email ondrej@ondrejsika.com
 git config --system user.name 'Ondrej Sika'</pre>

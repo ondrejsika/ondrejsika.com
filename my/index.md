@@ -6,5 +6,6 @@ title: my
 
 ## {{page.title}}
 
-* [running](running.html)
+* [trainings](trainings/)
+* [git config](git-config.html)
 

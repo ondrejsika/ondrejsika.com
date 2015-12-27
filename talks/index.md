@@ -17,6 +17,20 @@ Event
 Slides
 </th></tr>
 
+<tr id="bitcoin-birmingham-2016"><td>
+<b>Merged Mining, SatoshiLabs (Birmingham, UK)</b>
+</td><td>
+24/01/2016
+</td><td>
+<a href="https://www.facebook.com/events/1541402356172148/">Meetup.com</a>
+</td><td>
+<!-- <a href="">SpeakerDeck</a> -->
+</td><td>
+<!-- <a href="">PDF</a> -->
+</td><td>
+<a href="https://github.com/ondrejsika/merged-mining-satoshilabs-slides">GIT</a>
+</td></tr>
+
 <tr id="bitcoin-pilsen-2016"><td>
 <b>Povidani o Bitcoinu (Pilsen, Czech Rep.)</b>
 </td><td>
@@ -46,7 +60,7 @@ Slides
 </td></tr>
 
 <tr id="bitcoin-bern-2015"><td>
-<b>MergedMining, SatoshiLabs (Bern, Switzerland)</b>
+<b>Merged Mining, SatoshiLabs (Bern, Switzerland)</b>
 </td><td>
 19/08/2015
 </td><td>
@@ -56,7 +70,7 @@ Slides
 </td><td>
 <a href="https://speakerd.s3.amazonaws.com/presentations/278e757a848a4e4480a456e90137fbd7/Ondrej_Sika__Merged_Mining_Bern__slides.pdf">PDF</a>
 </td><td>
-<a href="https://github.com/ondrejsika/merged-mining-bern-slides">GIT</a>
+<a href="https://github.com/ondrejsika/merged-mining-satoshilabs-slides/tree/bern2015">GIT</a>
 </td></tr>
 
 <tr><td>
