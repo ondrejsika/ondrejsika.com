@@ -7,6 +7,16 @@ title: Talks
 
 <table>
 
+<tr><th>
+Title
+</th><th>
+Date
+</th><th>
+Event
+</th><th colspan="3">
+Slides
+</th></tr>
+
 <tr id="bitcoin-pilsen-2016"><td>
 <b>Povidani o Bitcoinu (Pilsen, Czech Rep.)</b>
 </td><td>
