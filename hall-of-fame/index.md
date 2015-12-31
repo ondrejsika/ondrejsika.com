@@ -8,5 +8,7 @@ title: Hall Of Fame
 
 People who inspired me:
 
+
+- __Lucie Novotna__ (2015)
 - __Pavel Moravec__ (2014)
 
