@@ -7,7 +7,6 @@ title: Others
 ## {{page.title}}
 
 
-* [articles](/articles/)
 * [books](/books/)
 * [flat sharing](/flat-sharing/)
 * [PF](/pf/)
