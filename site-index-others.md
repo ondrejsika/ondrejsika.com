@@ -9,6 +9,7 @@ title: Others
 
 * [articles](/articles/)
 * [books](/books/)
+* [flat sharing](/flat-sharing/)
 * [PF](/pf/)
 * [old blog](old-blog.html)
 * [my quotes](others/quotes.html)
