@@ -15,4 +15,3 @@ My PGP key __0903EF6B__ on [pgp.mit.edu](http://pgp.mit.edu/pks/lookup?op=vindex
 
 [index](/site-index.html) [home](/)
 
-[![PF2016](/static/content/pf2016/pf2016_small.jpg)](/pf/)
