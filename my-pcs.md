@@ -15,6 +15,7 @@ title: My PCs
 <div id="pool"></div>
 ### Slush Pool Workstation
 
+* Pentium(R) Dual-Core CPU E6300 @ 2.80GHz
 * 8 GB DDR2
 * 120 GB SSD
 * Debian Linux
