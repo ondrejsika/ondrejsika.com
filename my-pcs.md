@@ -56,8 +56,9 @@ title: My PCs
 <div id="netbook"></div>
 ### Acer Netbook
 
-* RAM: 2 GB
-* STORAGE: 8 GB SSD
+* CPU: Intel Atom 1.6 GHz
+* RAM: 1 GB
+* STORAGE: 15 GB SSD
 * OS: Debian Linux
 * Hostname: sika-acer
 
