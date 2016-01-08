@@ -1,9 +1,12 @@
 ---
 layout: default
-title: Blog
+title: Articles
 ---
 
 <h2>{{page.title}}</h2>
+
+<p><a href="/search.html">search</a> - experimental search by <a href="http://lunrjs.com">lunr.js</a></p>
+
 <table>
   {% for post in site.posts %}
     {% if post.version == 2 %}

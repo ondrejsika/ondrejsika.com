@@ -1,0 +1,62 @@
+---
+layout: default
+title: Search
+---
+<script src="/static/src/angular.js"></script>
+<script src="/static/src/lunr.min.js"></script>
+<script>
+var index = lunr(function () {
+    this.field('title', {boost: 10})
+    this.field('body'),
+    this.ref('id')
+})
+
+app = angular.module('app', []);
+app.controller('MainController', function($scope) {
+    $scope.search_results = [];
+
+    $scope.do_search = function(){
+        $scope.search_results = index.search($scope.search_input).map(function(obj, i){
+            obj.data = search_data[obj.ref];
+            return obj;
+        });
+        console.log($scope.search_input);
+        console.log(index.search($scope.search_input));
+    };
+
+    $scope.round4 = function(num){
+        return Math.round(num * 10000) / 10000;
+    };
+})
+</script>
+<script src="/search_index.js"></script>
+
+<h2>{{page.title}}</h2>
+
+<p>Currently search just in <a href="/articles.html">articles</a></p>
+
+{% raw %}
+<div ng-app="app" ng-controller="MainController">
+<input ng-model="search_input" ng-keyup="$event.keyCode == 13 && do_search()">
+<button ng-click="do_search()">search</button>
+
+<table>
+    <tr ng-repeat="result in search_results">
+        <td>
+            <a href="{{ result.data.url }}">{{ result.data.title }}</a>
+        </td>
+        <td>
+            {{ round4(result.score) }}
+        </td>
+    </tr>
+    <tr ng-show="!search_results.length">
+        <td>
+            No results.
+        </td>
+    </tr>
+</table>
+</div>
+
+<p>Search by <a href="http://lunrjs.com">lunr.js</a></p>
+{% endraw %}
+
