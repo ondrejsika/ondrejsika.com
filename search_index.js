@@ -7,7 +7,7 @@ var search_data = [];
   data = {
     url: '{{ post.url }}',
     title: '{{ post.title }}',
-    body: '{{ post.content | strip_newlines | strip_html | textilize | escape | replace:'\','' }}'
+    body: '{{ post.content | strip_newlines | strip_html | escape | replace:'\','' }}'
   }
   var id = search_data.push(data) - 1;
   index.add(angular.extend(data, {id: id}));
