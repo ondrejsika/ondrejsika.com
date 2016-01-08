@@ -2,3 +2,4 @@
 name: ondrejsika.com
 markdown: redcarpet
 future: false
+exclude: [edit, ]
