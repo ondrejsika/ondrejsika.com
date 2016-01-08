@@ -38,9 +38,9 @@ Slides
 </td><td>
 <a href="https://www.facebook.com/events/1541402356172148/">Facebook</a>
 </td><td>
-<!-- <a href="">SpeakerDeck</a> -->
+<a href="https://speakerdeck.com/ondrejsika/uvod-do-bitcoinu-perfect-world">SpeakerDeck</a>
 </td><td>
-<!-- <a href="">PDF</a> -->
+<a href="https://speakerd.s3.amazonaws.com/presentations/e10e164b7f6742be83e9efe5f9267058/Ondrej_Sika__Bitcoin_Intro__slides.pdf">PDF</a>
 </td><td>
 <a href="https://github.com/ondrejsika/uvod-do-bitcoinu-slides">GIT</a>
 </td></tr>
