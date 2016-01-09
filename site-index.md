@@ -16,6 +16,7 @@ title: Site Index
 * [skoleni (cs)](/skoleni/)
 * [bitcoin addresses](/ba.html)
 * [ssh keys](/ssh.html)
+* [donate](/donate.html)
 * [drive](http://drive.ondrejsika.com/)
 * [others](/site-index-others.html)
 
