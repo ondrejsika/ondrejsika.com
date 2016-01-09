@@ -14,5 +14,5 @@ My PGP key __0903EF6B__ on [pgp.mit.edu](http://pgp.mit.edu/pks/lookup?op=vindex
 
 I offer [trainings](/skoleni/) and [consulting](/konzultace/) (in czech)
 
-[index](/site-index.html) [home](/)
+[index](/site-index.html) [home](/) [impressum](/impressum.html)
 
