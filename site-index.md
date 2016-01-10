@@ -14,6 +14,7 @@ title: Site Index
 * [contact](/contact.html)
 * [konzultace (cs)](/konzultace/)
 * [skoleni (cs)](/skoleni/)
+* [references](/references.html)
 * [bitcoin addresses](/ba.html)
 * [ssh keys](/ssh.html)
 * [donate](/donate.html)
