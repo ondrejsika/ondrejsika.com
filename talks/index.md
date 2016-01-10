@@ -17,6 +17,20 @@ Event
 Slides
 </th></tr>
 
+<tr id="bitcoin-london-2016"><td>
+<b>Merged Mining, SatoshiLabs (London, UK)</b>
+</td><td>
+??/02/2016
+</td><td>
+<!-- <a href="http://www.meetup.com/coinscrum/events/227922904/">Meetup.com</a> -->
+</td><td>
+<!-- <a href="">SpeakerDeck</a> -->
+</td><td>
+<!-- <a href="">PDF</a> -->
+</td><td>
+<!-- <a href="https://github.com/ondrejsika/merged-mining-satoshilabs-slides">GIT</a> -->
+</td></tr>
+
 <tr id="bitcoin-birmingham-2016"><td>
 <b>Merged Mining, SatoshiLabs (Birmingham, UK)</b>
 </td><td>
