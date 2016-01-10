@@ -14,5 +14,6 @@ title: Others
 * [my quotes](others/quotes.html)
 * [my PCs](my-pcs.html)
 * [example design](others/design.html)
+* [about me](about-me.html)
 * [my](/my/)
 
