@@ -18,3 +18,9 @@ need docs
 * [massresize](https://github.com/ondrejsika/massresize) - resize multiple images - needs readme
 * [pysendmail](https://github.com/ondrejsika/pysendmail) - send email by some smtp server - needs tsl arg
 
+
+### Hackathons
+
+- [BitMondo](https://github.com/ondrejsika/bitmondo) - Show bitcoin transactions at the Mondo feed (Mondo Hackathon III, London 2016) - live: <http://bitmondo.sikaapp.cz>
+
+
