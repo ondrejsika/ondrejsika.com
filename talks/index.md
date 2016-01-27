@@ -31,20 +31,6 @@ Slides
 <!-- <a href="https://github.com/ondrejsika/merged-mining-satoshilabs-slides">GIT</a> -->
 </td></tr>
 
-<tr id="bitcoin-birmingham-2016"><td>
-<b>Merged Mining, SatoshiLabs (Birmingham, UK)</b>
-</td><td>
-24/01/2016
-</td><td>
-<a href="http://www.meetup.com/Birmingham-Bitcoin-Meetup-Group/events/227651227/">Meetup.com</a>
-</td><td>
-<!-- <a href="">SpeakerDeck</a> -->
-</td><td>
-<!-- <a href="">PDF</a> -->
-</td><td>
-<a href="https://github.com/ondrejsika/merged-mining-satoshilabs-slides">GIT</a>
-</td></tr>
-
 <tr id="bitcoin-pilsen-2016"><td>
 <b>Povidani o Bitcoinu (Pilsen, Czech Rep.)</b>
 </td><td>
