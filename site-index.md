@@ -26,3 +26,7 @@ My related sites
 * [books](https://books.os1.cz)
 * [prints](https://prints.os1.cz)
 
+My public wikis
+
+* [development notes](https://red.solab.cz/projects/development/wiki) - everything around software development
+
