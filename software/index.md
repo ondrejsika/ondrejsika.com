@@ -8,6 +8,7 @@ title: My Software
 ### Tools & Utils
 
 * [Bitcoin Block Parser](https://ondrejsika.com/js-utils/bitcoin-block-parser.html) - parse Bitcoin block header in hex format
+- [BitNotify](https://github.com/ondrejsika/bitnotify) - Send email notification after change on your bitcoin wallet or bip44 account - live: <http://bitnotify.sikaapp.cz>
 * [DevMap](https://github.com/ondrejsika/devmap) - simple tool for web geo debugging - live: <https://ondrejsika.github.io/devmap/>
 * [Light Block Explorer (lbe)](https://github.com/ondrejsika/lbe) - simple block explorer requires only Xcoind RPC interface
 * [paste](https://github.com/ondrejsika/paste) - Opensource Paste Service
@@ -31,6 +32,9 @@ Python
 - [seznam-captcha](https://github.com/ondrejsika/seznam-captcha) - Python wrapper for Seznam captcha
 - [utrace](https://github.com/ondrejsika/python-utrace) - returns JSON data from [utrace.de](http://en.utrace.de/api.php) XML API
 
+need docs
+
+- [python-syncws](https://github.com/ondrejsika/python-syncws) - Websocket server for synchronous code
 
 Django
 
