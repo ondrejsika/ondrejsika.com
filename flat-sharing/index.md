@@ -31,6 +31,12 @@ Please, lock the door, even when you are in, there is not a good door lock. I ha
 
 <br>
 
+I have WiFi network __sika-turris__ with password __asdfasdf__. Or just scan this QR code:
+
+![sika-turris connecton](/static/content/turris_password.png)
+
+<br>
+
 In case of any problem or if you have some question, contact me directly by phone __+420 773 452 376__ (iMessage, Telegram), email <ondrej@ondrejsika.com> or by [Facebook](https://facebook.com/sikaondrej2).
 
 PS: I'll be pleased if you send me a postcard, when you'll be back at home :)
