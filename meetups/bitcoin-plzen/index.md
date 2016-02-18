@@ -7,6 +7,13 @@ title: Bitcoin Meetups Pilsen
 
 ## {{ page.title }}
 
+#### Mailing List
+
+You can subscribe to [mailing list](http://eepurl.com/bQ0m0b)
+
+
+#### Meetups
+
 <table>
 
 <tr><th>
