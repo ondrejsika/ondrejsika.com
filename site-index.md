@@ -10,6 +10,7 @@ title: Site Index
 * [projects](/projects/)
 * [software](/software/)
 * [talks](/talks/)
+* [meetups](/meetups/)
 * [contact](/contact.html)
 * [konzultace (cs)](/konzultace/)
 * [skoleni (cs)](/skoleni/)
