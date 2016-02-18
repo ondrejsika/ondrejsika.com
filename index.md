@@ -4,7 +4,7 @@ layout: default
 
 I am Visionary, Bitcoin Programmer at [Slush Pool](https://slushpool.com), Ex-student of [MFF UK](http://mff.cuni.cz), Scout at [Seda Strela](http://sedastrela.cz), ...
 
-Find me on [Facebook](https://facebook.com/sikaondrej2), my code on [Github](https://www.github.com/ondrejsika), my photos on [Flickr](https://www.flickr.com/photos/ondrejsika/) and my identity on [Keybase](https://www.keybase.io/ondrejsika)
+Find me on [Facebook](https://facebook.com/sikaondrej2), my code on [Github](https://www.github.com/ondrejsika), my photos on [Flickr](https://www.flickr.com/photos/ondrejsika/) and my identity on [Keybase](https://www.keybase.io/ondrejsika) or [mojeID](https://ondrejsika.mojeid.cz/) (verified identity)
 
 Contact me via email <ondrej@ondrejsika.com>, more contacts [here](/contact.html)
 

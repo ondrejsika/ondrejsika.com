@@ -15,3 +15,4 @@ __Ondrej Sika__
 email: <ondrej@ondrejsika.com>
 <br>phone: +420 773 452 376
 
+My verified identity [mojeID](https://ondrejsika.mojeid.cz/), verified by [CZ NIC](https://nic.cz) - Czech national domain operator.
