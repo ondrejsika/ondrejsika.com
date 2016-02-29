@@ -35,7 +35,7 @@ Mohu Vam take pomoci s vyberem technologickeho stacku Vaseho projektu, od malych
 
 ### Bitcoin
 
-Pracuji jako developer na [Slush Poolu](https://mining.bitcoin.cz), mam s Bitcoinem velmi rozsahle zkusenosti a znalosti.
+Pracuji jako developer na [Slush Poolu](https://slushpool.com), mam s Bitcoinem velmi rozsahle zkusenosti a znalosti.
 
 Pomuzu Vam s implementaci Bitcoinu do Vaseho software at uz je to eshop a nebo mobilni appka, momohu Vam pochopit jak Bitcoin funguje a jake ma pro Vas vyhody a nevyhody.
 
