@@ -7,6 +7,6 @@ title: German / Langues
 
 ## {{page.title}}
 
-* [Lesson 1](lesson-1.html) (01/03/2016) - intro, verbs, ..
+* Lesson 1, 01/03/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-1.pdf)) - intro, verbs, ..
 
 
