@@ -20,6 +20,7 @@ title: My Software
 * [rajce_download](https://github.com/ondrejsika/rajce_download) - batch download from rajce.net
 * [rosetta translator](https://github.com/ondrejsika/rosetta-translator) - preconfigurated Django project just for translations
 * [TexB](https://github.com/ondrejsika/texb) - util to easy build latex documents
+* [Webcam Mirror](https://github.com/ondrejsika/webcam-mirror) - full screen webcam mirror - live: <https://ondrejsika.github.io/webcam-mirror/>
 
 need docs
 
