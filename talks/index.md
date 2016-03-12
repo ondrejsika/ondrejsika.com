@@ -17,6 +17,7 @@ Event
 Slides
 </th></tr>
 
+{% comment %}
 <tr id="bitcoin-london-2016"><td>
 <b>Merged Mining, SatoshiLabs (London, UK)</b>
 </td><td>
@@ -29,6 +30,21 @@ Slides
 <!-- <a href="">PDF</a> -->
 </td><td>
 <!-- <a href="https://github.com/ondrejsika/merged-mining-satoshilabs-slides">GIT</a> -->
+</td></tr>
+{% endcomment %}
+
+<tr id="pyconsk-2016"><td>
+<b>PythonRC (Bratislava, SK)</b>
+</td><td>
+11/03/2016
+</td><td>
+<a href="https://pycon.sk">pycon.sk</a>
+</td><td>
+<a href="https://speakerdeck.com/ondrejsika/pythonrc-pyconsk-2016">SpeakerDeck</a>
+</td><td>
+<a href="https://speakerd.s3.amazonaws.com/presentations/e0e6bba0a4254909ae860797da6f5496/Ondrej_Sika__PythonRC__slides.pdf">PDF</a>
+</td><td>
+<a href="https://github.com/ondrejsika/pythonrc-slides">GIT</a>
 </td></tr>
 
 <tr id="bitcoin-pilsen-2016"><td>
