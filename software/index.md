@@ -19,6 +19,7 @@ title: My Software
 * [paste](https://github.com/ondrejsika/paste) - Opensource Paste Service
 * [rajce_download](https://github.com/ondrejsika/rajce_download) - batch download from rajce.net
 * [rosetta translator](https://github.com/ondrejsika/rosetta-translator) - preconfigurated Django project just for translations
+* [Spending](https://github.com/ondrejsika/spending) - Spending tracker inspired by awesome app Spendee - live: <https://spending.sikaapp.cz/>
 * [TexB](https://github.com/ondrejsika/texb) - util to easy build latex documents
 * [Webcam Mirror](https://github.com/ondrejsika/webcam-mirror) - full screen webcam mirror - live: <https://ondrejsika.github.io/webcam-mirror/>
 
