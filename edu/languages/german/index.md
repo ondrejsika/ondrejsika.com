@@ -7,7 +7,8 @@ title: German / Langues
 
 ## {{page.title}}
 
-* Lesson 6, 16/03/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-6.pdf)) - traveling, pronoun (mein, dein, ...) ..
+* Lesson 7, 16/03/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-7.pdf)) - traveling, directions ..
+* Lesson 6, 16/03/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-6.pdf), [homework](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-6-homework.pdf)) - traveling, pronoun (mein, dein, ...) ..
 * Lesson 5, 15/03/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-5.pdf), [homework](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-5-homework.pdf)) - traveling, inflection, cases ..
 * Lesson 4, 09/03/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-4.pdf)) - shopping, cooking, ..
 * Lesson 3, 08/03/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-3.pdf)) - shopping, cooking, ..
