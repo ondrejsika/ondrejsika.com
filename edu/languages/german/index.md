@@ -7,6 +7,8 @@ title: German / Langues
 
 ## {{page.title}}
 
+* Lesson 9, 23/03/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-9.pdf)) - speaking
+* Lesson 8, 22/03/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-8.pdf)) - speaking
 * Lesson 7, 16/03/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-7.pdf)) - traveling, directions ..
 * Lesson 6, 16/03/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-6.pdf), [homework](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-6-homework.pdf)) - traveling, pronoun (mein, dein, ...) ..
 * Lesson 5, 15/03/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-5.pdf), [homework](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-5-homework.pdf)) - traveling, inflection, cases ..
