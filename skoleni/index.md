@@ -25,6 +25,12 @@ Pokud mate zajem o konkretni skoleni, napiste mi email: <ondrej@ondrejsika.com>
 | GIT pro pokrocile | 31. 3. 2016 | 1000 CZK |
 
 
+### Zustat v kontaktu
+
+Pokud chcete byt informovan o konkretnich verejnych skolenich, muzete se prihlasit do mailing listu.
+
+- [Skoleni GIT](http://eepurl.com/ba5EJb)
+
 ### Reference
 
 > "Školení s panem Sikou bylo naprosto v pořádku. Odnesl jsem si z něj přesně to, co jsem potřeboval. S panem Sikou jsme nadále v kontaktu pro případné dotazy nebo další školení." - __Lukas Blazicek__
