@@ -24,13 +24,21 @@ Talk
 </th></tr>
 
 <tr id="meetup-3"><td>
+Martin Pilar: Uvod do Etherea
+</td><td>
+22/04/2016
+</td><td>
+<a href="https://www.facebook.com/events/1134269723280708/">Facebook</a>
+</td><td>
+</td></tr>
+
+<tr id="meetup-3"><td>
 Bitcoin Meetup III
 </td><td>
 17/03/2016
 </td><td>
 <a href="https://www.facebook.com/events/1698584067026134/">Facebook</a>
 </td><td>
---
 </td></tr>
 
 <tr id="meetup-2"><td>
@@ -40,17 +48,16 @@ Bitcoin Meetup II
 </td><td>
 <a href="https://www.facebook.com/events/1640815929504106/">Facebook</a>
 </td><td>
---
 </td></tr>
 
 <tr id="meetup-1"><td>
-Uvod do Bitcoinu
+Ondrej Sika: Uvod do Bitcoinu
 </td><td>
 08/01/2016
 </td><td>
 <a href="https://www.facebook.com/events/1541402356172148/">Facebook</a>
 </td><td>
-<a href="/talks/#bitcoin-pilsen-2016">talk</a>
+<a href="/talks/#bitcoin-pilsen-2016">slides</a>
 </td></tr>
 
 </table>
