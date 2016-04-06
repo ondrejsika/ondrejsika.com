@@ -7,6 +7,7 @@ title: German / Langues
 
 ## {{page.title}}
 
+* Lesson 12, 05/04/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-12.pdf)) - questions, common mistakes (test review)
 * Lesson 11, 01/04/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-11.pdf)) - test
 * Lesson 10, 25/03/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-10.pdf)) - friday evening
 * Lesson 9, 23/03/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-9.pdf)) - speaking
