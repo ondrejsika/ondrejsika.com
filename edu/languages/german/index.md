@@ -7,6 +7,7 @@ title: German / Langues
 
 ## {{page.title}}
 
+* Lesson 15, 12/04/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-15.pdf)) - speaking
 * Lesson 14, 08/04/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-14.pdf)) - speaking
 * Lesson 13, 06/04/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-13.pdf)) - sich - reflexive pronouns, imperative
 * Lesson 12, 05/04/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-12.pdf)) - questions, common mistakes (test review)
