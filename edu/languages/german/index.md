@@ -7,7 +7,8 @@ title: German / Langues
 
 ## {{page.title}}
 
-* Lesson 17, 19/04/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-17.pdf)) - speaking (questions)
+* Lesson 18, 20/04/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-18.pdf)) - (present perfect)
+* Lesson 17, 19/04/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-17.pdf), [hw](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-17-hw.pdf)) - speaking (questions)
 * Lesson 16, 13/04/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-16.pdf)) - speaking
 * Lesson 15, 12/04/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-15.pdf), [hw imperativ](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-15-hw-imperativ.pdf)) - speaking
 * Lesson 14, 08/04/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-14.pdf)) - speaking
