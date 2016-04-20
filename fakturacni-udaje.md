@@ -17,6 +17,6 @@ title: Fakturacni udaje
 
     Podnikatel zapsan v zivnostenském rejstriku Magistratu mesta Plzne.
 
-    Ucet: 2900172413/2010
+    Ucet: 2500171198/2010
     Banka: Fio
 
