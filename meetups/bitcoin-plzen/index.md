@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bitcoin Meetups Pilsen
+title: Bitcoin Meetupy v Plzni
 ---
 
 [meetups](..)

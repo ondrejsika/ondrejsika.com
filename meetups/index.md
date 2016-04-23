@@ -5,6 +5,6 @@ title: Meetups
 
 ## Meetups I organize
 
-- [Bitcoin Meetups Pilsen](bitcoin-plzen)
+- [Bitcoin Meetupy v Plzni](bitcoin-plzen)
 
 
