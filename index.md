@@ -12,6 +12,7 @@ My PGP key __0903EF6B__ on [pgp.mit.edu](https://pgp.mit.edu/pks/lookup?op=vinde
 
 I offer [trainings](/skoleni/) and [consulting](/konzultace/) (in czech)
 
+<p>--</p>
 
 <span style="font-size: 2em">Bitcoin Developer Wanted</span>
 <div style="font-size: 1.5em">
