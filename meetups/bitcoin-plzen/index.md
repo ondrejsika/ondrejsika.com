@@ -23,6 +23,14 @@ Event
 Talk
 </th></tr>
 
+<tr id="meetup-5"><td>
+Bitcoin Meetup V
+</td><td>
+13/05/2016
+</td><td>
+</td><td>
+</td></tr>
+
 <tr id="meetup-4"><td>
 Martin Pilar: Uvod do Etherea
 </td><td>
