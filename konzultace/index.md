@@ -9,7 +9,7 @@ Nabizim konzultace tykajici se vyvoje nebo vedeni teamu. Mam vice nez petilete z
 
 Nabizim take [skoleni](/skoleni/), mohu ho usporadat u Vas ve firme.
 
-Pokud Vas neco zaujalo a nebo mate dotaz, napise mi a urcite se domluvime. [contakt](/contact.html)
+Pokud Vas neco zaujalo a nebo mate dotaz, napise mi a urcite se domluvime. [kontakt](/contact.html)
 
 Cena za hodninu konzultace je 1200 CZK. Pro studenty, univerzity a neziskovky je cena polovicni, 600 CZK za hodinu.
 
