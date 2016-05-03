@@ -24,7 +24,7 @@ Talk
 </th></tr>
 
 <tr id="meetup-5"><td>
-Bitcoin Meetup V
+Kdo je Satoshi Nakamoto
 </td><td>
 13/05/2016
 </td><td>
