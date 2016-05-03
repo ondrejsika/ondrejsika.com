@@ -21,8 +21,10 @@ Pokud mate zajem o konkretni skoleni, napiste mi email: <ondrej@ondrejsika.com>
 
 | Nazev | Termin | Cena |
 | --- | --- | --- |
-| GIT pro zacatecniky | 29. 3. 2016 | 1000 CZK |
-| GIT pro pokrocile | 31. 3. 2016 | 1000 CZK |
+| GIT pro zacatecniky | 18. 5. 2016 | 1000 CZK |
+| GIT pro pokrocile | 25. 5. 2016 | 1000 CZK |
+| GIT pro zacatecniky | 15. 6. 2016 | 1000 CZK |
+| GIT pro pokrocile | 22. 6. 2016 | 1000 CZK |
 
 
 ### Zustat v kontaktu
