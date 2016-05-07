@@ -7,6 +7,9 @@ title: German / Langues
 
 ## {{page.title}}
 
+* Lesson 23, 06/05/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-23.pdf))
+* Lesson 22, 04/05/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-22.pdf)) - (prepositions)
+* Lesson 21, 03/05/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-21.pdf)) - (numbers)
 * Lesson 20, 29/04/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-20.pdf)) - (present perfect, future)
 * Lesson 19, 27/04/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-19.pdf), [hw future](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-19-hw-future-tenses.pdf)) - (present perfect, modal verbs)
 * Lesson 18, 20/04/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-18.pdf), [hw](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-18-hw.pdf)) - (present perfect)
