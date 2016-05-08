@@ -11,6 +11,7 @@ title: Site Index
 * [software](/software/)
 * [talks](/talks/)
 * [meetups](/meetups/)
+* [accounts](/accounts.html)
 * [contact](/contact.html)
 * [konzultace (cs)](/konzultace/)
 * [skoleni (cs)](/skoleni/)
