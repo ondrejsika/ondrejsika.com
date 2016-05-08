@@ -28,6 +28,7 @@ Kdo je Satoshi Nakamoto
 </td><td>
 13/05/2016
 </td><td>
+<a href="https://www.facebook.com/events/553451994833778/">Facebook</a>
 </td><td>
 </td></tr>
 
