@@ -39,6 +39,9 @@ Flat sharing
 - [AirBnB](https://www.airbnb.com/users/show/4711284)
 - [Couchsurfing](https://www.couchsurfing.com/people/ondrejsika)
 
+Car sharing
+
+- [BlaBlaCar](https://www.blablacar.cz/user/show/5anjvdogz8tRTL74KEbfuQ)
 
 Education
 
