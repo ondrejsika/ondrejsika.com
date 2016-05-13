@@ -34,6 +34,7 @@ Pokud chcete byt informovan o konkretnich verejnych skolenich, muzete se prihlas
 - [Skoleni GIT](http://eepurl.com/ba5EJb)
 
 ### Reference
+> "Velmi dobrá úroveň výkladu, vysvětlení všech požadovaných témat včetně příkladů na předem připravených materiálech extra pro naše účely. Jsem spokojen s kvalitou a dobrou organizací  kurzu. Co se týka mne, tak školení padlo na úrodnou půdu. Teším se na další spolupráci." - __Bc. Ondřej Fous, DiS., Senior Developer in EYELEVEL s.r.o.__
 
 > "Školení s panem Sikou bylo naprosto v pořádku. Odnesl jsem si z něj přesně to, co jsem potřeboval. S panem Sikou jsme nadále v kontaktu pro případné dotazy nebo další školení." - __Lukas Blazicek__
 
