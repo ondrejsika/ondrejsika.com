@@ -1,8 +1,11 @@
 ---
 layout: default
+noheader: true
 ---
 
-I am Visionary, Bitcoin Programmer at [Slush Pool](https://slushpool.com), Ex-student of [MFF UK](http://mff.cuni.cz), Scout at [Seda Strela](http://sedastrela.cz), ...
+# Ondrej Sika
+
+I am Visionary, Software engeneer at [Slush Pool](https://slushpool.com) and consultant, Ex-student of [MFF UK](http://mff.cuni.cz), Scout at [Seda Strela](http://sedastrela.cz), ...
 
 Find me on [Facebook](https://facebook.com/sikaondrej2), my code on [Github](https://www.github.com/ondrejsika), my photos on [Flickr](https://www.flickr.com/photos/ondrejsika/) or [Instagram](https://www.instagram.com/ondrejsika/) and my identity on [Keybase](https://www.keybase.io/ondrejsika) or [mojeID](https://ondrejsika.mojeid.cz/) (verified identity)
 
@@ -12,7 +15,7 @@ My PGP key __0903EF6B__ on [pgp.mit.edu](https://pgp.mit.edu/pks/lookup?op=vinde
 
 I offer [trainings](/skoleni/) and [consulting](/konzultace/) (in czech)
 
-<p>--</p>
+---
 
 <span style="font-size: 2em">Bitcoin Developer Wanted</span>
 <div style="font-size: 1.5em">

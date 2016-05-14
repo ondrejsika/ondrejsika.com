@@ -1,58 +1,15 @@
-body {
-    font-family: monospace;
-    max-width: 80em;
+* {
+    font-size: 1.03em;
+    text-align: justify;
 }
 
-hr {
-    border: none;
-    border-top: solid 1px;
-    color: black;
-    margin: 10px 0 10px 0;
-}
-
-hr.footer {
-    margin: 30px 0 10px 0;
-    /*border: none;
-    border-top: medium double #333;
-    color: #333;
-    text-align: center;*/
-}
-
-h1, h2, h3, h4, h5, h6 {
-    margin: 5px 0;
-    font-weight: bold;
-}
-
-
-p, ul {
-    font-size: 1.1em;
-    margin: 7px 0;
-}
-
-ul {
-    padding-left: 20px;
-}
-
-h1 {font-size: 1.3em; font-weight: normal;}
-h2 {font-size: 1.5em}
-h3 {font-size: 1.3em}
-h4 {font-size: 1.2em}
-h5 {font-size: 1.1em}
-h6 {font-size: 1em}
-
-table tr {
-    vertical-align: top;
-}
-
-th, td {
+td, th {
     padding-right: 20px;
-    text-align: left;
 }
 
-pre {
-    padding: 10px;
-    overflow-x: auto;
-    font-size: 95%;
-    background-color: #f7f7f7;
-    border-radius: 3px;
+.site-header {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.3em;
 }
+
