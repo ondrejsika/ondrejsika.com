@@ -11,8 +11,7 @@ Nabizim take [skoleni](/skoleni/), mohu ho usporadat u Vas ve firme.
 
 Pokud Vas neco zaujalo a nebo mate dotaz, napise mi a urcite se domluvime. [kontakt](/contact.html)
 
-Cena za hodninu konzultace je 1200 CZK. Pro studenty, univerzity a neziskovky je cena polovicni, 600 CZK za hodinu.
-
+Cena za hodninu konzultace je 1500 CZK. Pro studenty, univerzity a neziskovky je cena snizena na 600 CZK za hodinu. Za konzultace se da platit __Bitcoinem__ :)
 
 ### Management vyvoje software
 
@@ -21,7 +20,7 @@ Naucim Vas jak pouzivat nastroje na spravu projektu a vetsi efektivitu jako jsou
 - verzovani - __Git__, __Gitlab__
 - continues integration - __Gitlab CI__
 - project management - __Redmine__, __Trello__
-- automatizace - __Ansible__
+- automatizace - __Ansible__, __Puppet__
 
 
 ### Vlasti vyvoj software
@@ -32,6 +31,9 @@ Mohu Vam take pomoci s vyberem technologickeho stacku Vaseho projektu, od malych
 - __HTML__, __CSS__, __JavaScript__ (CoffeeScript)
 - __LaTeX__
 
+### Sazba bakalarskych a diplomovych praci
+
+Naucim Vas jak se vyhnout problemum psani Vasi prace ve Wordu, ukazu Vam mocny nastroj na sazbu vedeckych publikaci LaTeX a vase prace bude vypadat mnohem profesionalneji a jeste s menisim usilim.
 
 ### Bitcoin
 
