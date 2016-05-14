@@ -3,6 +3,8 @@ layout: default
 title: Konzultace
 ---
 
+Podivejte se na moji profesni stranku [ondrejsika.cz](https://ondrejsika.cz)
+
 ## {{ page.title }}
 
 Nabizim konzultace tykajici se vyvoje nebo vedeni teamu. Mam vice nez petilete zkusenosti s vyvojem v Pythonu a prez 2 roky jsem vedl team mezinarodniho projektu. Vice informaci o me v mem [CV](/resume.pdf).

@@ -13,7 +13,7 @@ Contact me via email <ondrej@ondrejsika.com>, more contacts [here](/contact.html
 
 My PGP key __0903EF6B__ on [pgp.mit.edu](https://pgp.mit.edu/pks/lookup?op=vindex&search=0x775D8A020903EF6B) or in [file](ondrejsika_public.asc)
 
-I offer [trainings](/skoleni/) and [consulting](/konzultace/) (in czech)
+I offer [trainings](/skoleni/) and [consulting](/konzultace/). My bussiness site for Czech Republic is [ondrejsika.cz](https://ondrejsika.cz)
 
 ---
 

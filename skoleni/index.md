@@ -3,6 +3,8 @@ layout: default
 title: Skoleni
 ---
 
+Podivejte se na moji profesni stranku [ondrejsika.cz](https://ondrejsika.cz)
+
 ## {{ page.title }}
 
 Mohu usporadat skoleni pro Vasi firmu na jedno z temat ktere [konzultuji](/konzultace/), pripadne i na jine, pokud se domluvime.
