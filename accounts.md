@@ -48,4 +48,5 @@ Education
 - [edX](https://courses.edx.org/u/ondrejsika)
 - [Coursera](https://www.coursera.org/user/i/d54dcc0e7c597281c8a64eb2574be392)
 - [Duolingo](https://www.duolingo.com/ondrejsika)
+- [Naucmese](https://www.naucmese.cz/ondrej-sika)
 
