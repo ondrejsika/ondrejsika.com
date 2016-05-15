@@ -50,6 +50,12 @@ Pokud mate zajem jen o uvod do Bitcoinu, rad vam ho poskytnu zdarma - protoze se
 
 ### Reference
 
-> "Konzultace nam ukazala nove moznosti jak s GITem efektivneji pracovat a zjednodusila nam mnoho dosavadnich postupu" - __Ing. Vit Chmura, WebNaut s.r.o.__
+> "Velmi dobrá úroveň výkladu, vysvětlení všech požadovaných témat včetně příkladů na předem připravených materiálech extra pro naše účely. Jsem spokojen s kvalitou a dobrou organizací  kurzu. Co se týka mne, tak školení padlo na úrodnou půdu. Teším se na další spolupráci."
+>
+> __Bc. Ondřej Fous, DiS., Senior Developer in EYELEVEL s.r.o.__
+
+> "Konzultace nam ukazala nove moznosti jak s GITem efektivneji pracovat a zjednodusila nam mnoho dosavadnich postupu"
+>
+> __Ing. Vit Chmura, WebNaut s.r.o.__
 
 [vsechny reference](/references.html)
