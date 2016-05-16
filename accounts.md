@@ -26,6 +26,8 @@ Code
 - [Puppet](https://forge.puppet.com/ondrejsika)
 - [Docker Hub](https://hub.docker.com/u/ondrejsika/)
 - [Hashicorp Atlas](https://atlas.hashicorp.com/ondrejsika)
+- [Stack Exchange](https://stackexchange.com/users/6871615/ondrej-sika?tab=accounts)
+- [Stack Overflow](https://stackoverflow.com/users/5281724/ondrej-sika?tab=profile)
 
 
 Photography
