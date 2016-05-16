@@ -7,6 +7,8 @@ title: German / Langues
 
 ## {{page.title}}
 
+* Lesson 25, 11/05/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-25.pdf))
+* Lesson 24, 10/05/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-24.pdf))
 * Lesson 23, 06/05/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-23.pdf))
 * Lesson 22, 04/05/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-22.pdf)) - (prepositions)
 * Lesson 21, 03/05/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-21.pdf)) - (numbers)
