@@ -51,3 +51,5 @@ PS: I'll be pleased if you send me a postcard, when you'll be back at home :)
 
 ![](molakova/img/1d.jpg)
 
+- [welcome card](welcome-card.html)
+
