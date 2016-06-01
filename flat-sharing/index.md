@@ -4,7 +4,7 @@ title: Flat Sharing
 ---
 
 
-## {{page.title}} Home Rules
+## {{page.title}} - Home Rules
 
 Welcome,
 
