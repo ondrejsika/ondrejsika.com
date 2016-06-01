@@ -16,3 +16,9 @@ td, th {
     font-size: 1.3em;
 }
 
+@media print {
+    .noprint {
+        display: none;
+    }
+}
+
