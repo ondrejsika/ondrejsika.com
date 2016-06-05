@@ -13,8 +13,6 @@ title: Site Index
 * [meetups](/meetups/)
 * [accounts](/accounts.html)
 * [contact](/contact.html)
-* [konzultace (cs)](/konzultace/)
-* [skoleni (cs)](/skoleni/)
 * [references](/references.html)
 * [bitcoin addresses](/ba.html)
 * [ssh keys](/ssh.html)
