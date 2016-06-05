@@ -28,6 +28,8 @@ Code
 - [Hashicorp Atlas](https://atlas.hashicorp.com/ondrejsika)
 - [Stack Exchange](https://stackexchange.com/users/6871615/ondrej-sika?tab=accounts)
 - [Stack Overflow](https://stackoverflow.com/users/5281724/ondrej-sika?tab=profile)
+- [Webtrh](https://webtrh.cz/members/91094-ondrejsika)
+- [Devel.cz](http://devel.cz/user/2565/)
 
 
 Photography
