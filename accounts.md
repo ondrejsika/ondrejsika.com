@@ -54,3 +54,8 @@ Education
 - [Duolingo](https://www.duolingo.com/ondrejsika)
 - [Naucmese](https://www.naucmese.cz/ondrej-sika)
 
+Events
+
+- [Lanyrd](http://lanyrd.com/profile/ondrejsika/)
+- [Eventbrite](https://www.eventbrite.com/u/34216047400/)
+
