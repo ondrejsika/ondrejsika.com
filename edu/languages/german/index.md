@@ -7,7 +7,7 @@ title: German / Langues
 
 ## {{page.title}}
 
-* Lesson 29, 08/06/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-28.pdf)) - articles
+* Lesson 29, 08/06/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-29.pdf)) - articles
 * Lesson 28, 07/06/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-28.pdf)) - amsterdam
 * Lesson 27, 18/05/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-27-test.pdf)) - test
 * Lesson 26, 17/05/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-26-test.pdf)) - test
