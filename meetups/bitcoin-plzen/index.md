@@ -7,6 +7,8 @@ title: Bitcoin Meetupy v Plzni
 
 ## {{ page.title }}
 
+Alias [bitcoinplzen.cz](http://bitcoinplzen.cz)
+
 - [mailing list](http://eepurl.com/bQ0m0b)
 - [facebook group](https://www.facebook.com/groups/bitcoinplzen/)
 
@@ -22,6 +24,16 @@ Event
 </th><th>
 Talk
 </th></tr>
+
+<tr id="meetup-6"><td>
+Ondrej Sika: Arnhem Bitcoin City
+</td><td>
+24/06/2016
+</td><td>
+<a href="https://www.facebook.com/events/544249079094264">Facebook</a>
+</td><td>
+</td></tr>
+
 
 <tr id="meetup-5"><td>
 Kdo je Satoshi Nakamoto
@@ -42,7 +54,7 @@ Martin Pilar: Uvod do Etherea
 </td></tr>
 
 <tr id="meetup-3"><td>
-Bitcoin Meetup III
+Bitcoin Meetup 3
 </td><td>
 17/03/2016
 </td><td>
@@ -51,7 +63,7 @@ Bitcoin Meetup III
 </td></tr>
 
 <tr id="meetup-2"><td>
-Bitcoin Meetup II
+Bitcoin Meetup 2
 </td><td>
 19/02/2016
 </td><td>
