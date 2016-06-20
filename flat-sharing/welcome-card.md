@@ -26,7 +26,7 @@ title: Welcome Card - Molakova 34
     ondrej@ondrejsika.com
 
 
-### More contact
+### More contacts
 
     https://ondrejsika.com/contact.html
 
