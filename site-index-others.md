@@ -8,6 +8,7 @@ title: Others
 
 
 * [books](/books/)
+* [checklists](/others/checklists/)
 * [flat sharing](/flat-sharing/)
 * [PF](/pf/)
 * [old blog](old-blog.html)

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<p>---</p>
+
+<script>
+var show_checkboxes = function(){
+    $('li').each(function() {
+        var original = $(this).html();
+        $(this).html('<input type="checkbox" style="margin-right: 10px;">' + original);
+    });
+}
+</script>
+
+<a href="#" onclick="show_checkboxes()">show checkboxes</a>
+
+
