@@ -25,3 +25,5 @@ In Czech Republic, I offer __Git Training__ - [Skoleni Gitu](https://skoleni-git
 
 Sometimes I write a few words from trips to my czech personal blog [ondrejbloguje.cz](https://ondrejbloguje.cz).
 
+I organize [Bitcoin Meetups in Pilsen](http://bitcoinplzen.cz).
+
