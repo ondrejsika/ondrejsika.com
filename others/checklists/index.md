@@ -10,4 +10,5 @@ title: checklists
 - [Vikendova akce (mesto)](weekend-city.html)
 - [Vikendova akce (priroda)](weekend-nature.html)
 - [Tabor](tabor.html)
+- [Fitness](fitness.html)
 
