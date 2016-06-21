@@ -1,20 +1,21 @@
 % Business cards
+%   author: Ondrej Sika <ondrej@ondrejsika.com>
+%   license: MIT
+%   url: https://github.com/ondrejsika/business-cards
 %
-% Ondrej Sika
-%   www.ondrejsika.com
-%   ondrej@ondrejsika.com
 
-
-\documentclass[a4paper,11pt]{letter}
+\documentclass[11pt]{article}
+\usepackage[a4paper]{geometry}
 \usepackage[zw32010,crossmark]{ticket}
 
 \renewcommand{\ticketdefault}{}
-\newcommand{\vcard}[4]{\ticket{
+\newcommand{\vcard}[5]{\ticket{
     % size 85x54
     \put(10, 37){\tt \LARGE #1}
-    \put(10, 22){\tt #2}
-    \put(10, 17){\tt #3}
-    \put(10, 12){\tt #4}
+    \put(10, 32){\tt \small #2}
+    \put(10, 22){\tt #3}
+    \put(10, 17){\tt #4}
+    \put(10, 12){\tt #5}
 }}
 
 \newcounter{numcards}
@@ -26,9 +27,12 @@
   \stepcounter{numcards}
   \vcard
   {Ondrej Sika}
+  %{Founder of Sika Labs, Sika Gymnasium}
+  {}
   {www.ondrejsika.com}
   {ondrej@ondrejsika.com}
-  {+ 420 773 452 376}
+  {+420 773 452 376}
 }
 
 \end{document}
+
