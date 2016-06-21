@@ -7,6 +7,7 @@ title: German / Langues
 
 ## {{page.title}}
 
+* Lesson 32, 21/06/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-32.pdf)) - vocabulary
 * Lesson 31, 16/06/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-31.pdf)) - conjunctions
 * Lesson 30, 15/06/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-30.pdf))
 * Lesson 29, 08/06/2016 ([scan](http://notes.drive.ondrejsika.com/languages/german/maria/german-lesson-29.pdf)) - articles
