@@ -42,4 +42,10 @@ title: Tabor
 - esus (idealne kompletni)
 - lzice (nebo cely pribor) - podepsany
 - ? policka
+- ulamovaci noze
+- caje - mate, tuareg, zeleny
+- kratasy 4x
+- kalhoty (dlouhy) 2x
+- plavky - plavaci kratasy
+- izolacka
 
