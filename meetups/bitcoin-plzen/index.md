@@ -32,6 +32,7 @@ Ondrej Sika: Arnhem Bitcoin City
 </td><td>
 <a href="https://www.facebook.com/events/544249079094264">Facebook</a>
 </td><td>
+<a href="/talks/#bitcoin-plzen-6">talk</a>
 </td></tr>
 
 

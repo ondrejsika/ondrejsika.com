@@ -5,6 +5,15 @@ title: Talks
 
 ## Talks
 
+<div id="bitcoin-plzen-6">
+<h3>Arnhem Bitcoin City</h3>
+<p>24/06/2016 | Pilsen, CZ
+<br>event: <a href="http://bitcoinplzen.cz">Bitcoin Meetup Plzen</a>
+(<a href="https://www.facebook.com/events/544249079094264">Facebook</a>)
+<br>slides: <a href="https://speakerdeck.com/ondrejsika/arnhem-bitcoin-city">SpeakerDeck</a>,
+<a href="https://speakerd.s3.amazonaws.com/presentations/0b3b5e7b8c2c459aa0e26ab8e9bc7fcb/Arnhem_Bitcoin_City__2_.pdf">PDF</a>
+</p>
+</div>
 
 <div id="pyconsk-2016">
 <h3>PythonRC</h3>
