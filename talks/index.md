@@ -20,7 +20,7 @@ title: Talks
 <p>11/03/2016 | Bratislava, SK
 <br>event: <a href="https://pycon.sk">pycon.sk</a>
 <br>slides: <a href="https://speakerdeck.com/ondrejsika/pythonrc-pyconsk-2016">SpeakerDeck</a>,
-<a href="https://speakerd.s3.amazonaws.com/presentations/e0e6bba0a4254909ae860797da6f5496/Ondre`j_Sika__PythonRC__slides.pdf">PDF</a>,
+<a href="https://speakerd.s3.amazonaws.com/presentations/e0e6bba0a4254909ae860797da6f5496/Ondrej_Sika__PythonRC__slides.pdf">PDF</a>,
 <a href="https://github.com/ondrejsika/pythonrc-slides">GIT</a>
 </p>
 </div>
