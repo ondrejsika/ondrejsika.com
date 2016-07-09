@@ -13,10 +13,12 @@ title: Tabor
 - ponozky, trenky - 1x den + 1
 - 2000 czk cash, kreditka
 - papir, tuzka - hodne
-- telefon, powerbanky
-- fotak
+- telefon
 - zalozni telefon
-- tricka 1 na 2 dny
+- powerbanky
+- fotak
+- stativ
+- tricka - 1 na 2 dny
 - 2 tricka na spani
 - kanady, sandale, sportovni
 - 2x Mikina, nepromokava bunda
@@ -24,6 +26,7 @@ title: Tabor
 - nuz, taborovy nuz
 - mydlo s jelenem, ? Bio sampon
 - kartacek, pasta, ustni voda
+- hrnek na cisteni zubu
 - rucnik - velky
 - ? Repracek
 - knizka, ? kindle
@@ -40,6 +43,7 @@ title: Tabor
 - napinacky
 - pevny provazek, shit provazek (ne sysal)
 - esus (idealne kompletni)
+- lahve na vodu
 - lzice (nebo cely pribor) - podepsany
 - ? policka
 - ulamovaci noze
@@ -48,4 +52,12 @@ title: Tabor
 - kalhoty (dlouhy) 2x
 - plavky - plavaci kratasy
 - izolacka
+- slunecni bryle
+- opalovaci krem
+- igelitky, pytle na odpatky
+- outdor hodinky
+- budik
+- kroj
+- raminka (plastova) - min 5x
+
 
