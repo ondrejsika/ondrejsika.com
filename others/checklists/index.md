@@ -1,6 +1,6 @@
 ---
 layout: default
-title: checklists
+title: Personal Checklists
 ---
 
 
