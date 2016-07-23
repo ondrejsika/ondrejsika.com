@@ -6,6 +6,7 @@ title: Site Index
 ## {{page.title}}
 
 * [edu](/edu/)
+* [scout](/scout/)
 * [resume (pdf)](/resume.pdf) [(source)](https://github.com/ondrejsika/resume)
 * [projects](/projects/)
 * [software](/software/)
