@@ -59,3 +59,7 @@ Events
 - [Lanyrd](http://lanyrd.com/profile/ondrejsika/)
 - [Eventbrite](https://www.eventbrite.com/u/34216047400/)
 
+Hackathons
+
+- [Hackathon.io](http://www.hackathon.io/ondrejsika)
+
