@@ -18,6 +18,7 @@ title: Site Index
 * [bitcoin addresses](/ba.html)
 * [ssh keys](/ssh.html)
 * [donate](/donate.html)
+* [wiki](/wiki/)
 * [drive](http://drive.ondrejsika.com/)
 * [others](/site-index-others.html)
 
