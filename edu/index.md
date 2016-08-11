@@ -11,5 +11,6 @@ title: edu
 * [FIT CVUT](/edu/fit-cvut/)
 * [SPSE Plzen](/edu/spse-plzen/)
 * [FAV ZCU](/edu/fav-zcu/)
-* [languages](/edu/languages/)
+* [Languages](/edu/languages/)
+* [Self Study](/edu/self/)
 
