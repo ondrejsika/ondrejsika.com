@@ -25,3 +25,6 @@ title: References
 >
 > __Lukas Blazicek__
 
+> "Nie som programátor, ale v práci potrebujem občas použiť GIT. Absolvoval som školenie pre začiatočníkov a túto referenciu som napísal tak, že som najskôr forkol Ondrejov webový repozitár, ten som si naklonoval do lokálnej kópie, napísal referenciu, commitol, a pushol späť na svoj GitHub účet. Nakoniec som vytvoril pull request do pôvodného Ondrejovho repozitára, ktorý Ondrej akceptoval. Voila, referencia je na webe. Myslím, že to o Ondrejových kvalitách prednášajúceho vypovedá dostatočne. Ondrej je borec."
+>
+> __Martin Jurčo__
