@@ -5,6 +5,15 @@ title: References
 
 ## {{ page.title }}
 
+
+> "Školení pro zaměstnance firmy, mělo hlavu a patu. Oceňuji praktické příklady a snahu a diskuzi navázat metodiku verzování na naše konkrétní projekty. Školení doporučuji všem, kteří si ve verzování nejsou zcela jisti nebo si chtějí rozšířit obzory, stejně tak jako úplným nováčkům."
+>
+> __Ing. Jan Švanda, E-solutions, s.r.o.__
+
+> "Konzultace s Ondřejem mohu vřele doporučit. Nejen, že se výborně orientuje v oblasti vývoje webových aplikací, ale dokáže své znalosti i příjemnou formou předat ostatním. Pomohl také navrhnout a prototypovat řešení v oblasti automatizace a bezpečnosti, což bylo pro projekt obrovským přínosem."
+>
+> __Ing. Tomáš Jungman, Česká Spořitelna a.s.__
+
 > "Velmi dobrá úroveň výkladu, vysvětlení všech požadovaných témat včetně příkladů na předem připravených materiálech extra pro naše účely. Jsem spokojen s kvalitou a dobrou organizací  kurzu. Co se týka mne, tak školení padlo na úrodnou půdu. Teším se na další spolupráci."
 >
 > __Bc. Ondřej Fous, DiS., Senior Developer in EYELEVEL s.r.o.__
