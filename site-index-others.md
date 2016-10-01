@@ -9,6 +9,7 @@ title: Others
 
 * [books](/books/)
 * [checklists](/others/checklists/)
+* [print templates](/others/print-templates/)
 * [flat sharing](/flat-sharing/)
 * [PF](/pf/)
 * [old blog](old-blog.html)
