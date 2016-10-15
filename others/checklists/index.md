@@ -13,4 +13,5 @@ title: Personal Checklists
 - [Tabor (oddil)](tabor-oddil.html)
 - [Fitness](fitness.html)
 - [Hacker Camp](hacker-camp.html)
+- [Jachta](jachta.html)
 
