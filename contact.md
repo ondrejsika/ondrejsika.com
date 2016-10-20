@@ -7,10 +7,9 @@ title: Contact
 ## {{page.title}}
 
 * email: __<ondrej@ondrejsika.com>__ (preferred)
-* skype: __ondrejsika__
 * phone czech (primary): __+420 773 452 376__ (iMessage, Telegram)
 * phone swiss: __+41 78 753 21 62__
-* phone sip: __+420 226 531 633__ (__sika@xphone.cz__)
+* skype: __ondrejsika__
 * linedin: <https://www.linkedin.com/in/ondrejsika>
 - [__Social networks and accounts__](/accounts.html)
 
@@ -22,14 +21,6 @@ Contact address [map](http://www.openstreetmap.org/node/296801697)
     Molakova 544/34
     flat no. 818
     180 00 Prague
-    Czech Republic
-
-
-Office [map](http://www.openstreetmap.org/node/296762961)
-
-    Zenklova 32/28
-    1st floor, office 105B
-    180 00 Prague 8
     Czech Republic
 
 
