@@ -22,4 +22,8 @@ title: Fortis 2016 - Cekatelsky kurz
 * Organizace a Pravo, 21/10/2016 ([scan](http://notes.drive.ondrejsika.com/scout/fortis-2016/organizace-pravo-1.pdf))
 * Planovani, 21/10/2016 ([scan](http://notes.drive.ondrejsika.com/scout/fortis-2016/planovani-1.pdf))
 
+### Fotografie
+
+- [Prvni nedele](https://www.flickr.com/photos/ondrejsika/sets/72157675073888570)
+- [Prvni vikend](https://www.flickr.com/photos/ondrejsika/sets/72157675073640380)
 
