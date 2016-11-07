@@ -9,9 +9,11 @@ title: Fortis 2016 - Cekatelsky kurz
 
 ### Poznamky
 
-<!--
-#### Prvni beh
--->
+#### Prvni sobota
+
+* Zdravoveda, 06/11/2016 ([scan](http://notes.drive.ondrejsika.com/scout/fortis-2016/zdravoveda-1.pdf))
+
+#### Prvni vikend
 
 * Bezpecnost, 21/10/2016 ([scan](http://notes.drive.ondrejsika.com/scout/fortis-2016/bezpecnost-1.pdf))
 * Hospodareni, 21/10/2016 ([scan](http://notes.drive.ondrejsika.com/scout/fortis-2016/hospodareni-1.pdf))
