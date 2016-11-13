@@ -13,7 +13,7 @@ h1 {
 
 ---
 
-I am Visionary, Software engineer at [Slush Pool](https://slushpool.com) and consultant, former student of [MFF UK](http://mff.cuni.cz), Scout at [Seda Strela](http://sedastrela.cz), hobby orienteer at [LPM](http://lpm.zcu.cz), ... and I am proud of it.
+I am Visionary, Software engineer at [Slush Pool](https://slushpool.com) and consultant, former student of [MFF UK](http://mff.cuni.cz), Scout Leader of [Seda Strela](http://sedastrela.cz), hobby orienteer at [LPM](http://lpm.zcu.cz), ... and I am proud of it.
 
 I like the people, traveling, mountines, sports, technology, education, ...
 
