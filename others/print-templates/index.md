@@ -8,4 +8,6 @@ title: Print Templates
 
 
 - [Buzerlistek](buzerlistek.pdf)
+- [Finance](finance.pdf)
+- [Finance](jidlo.pdf)
 
