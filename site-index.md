@@ -19,6 +19,7 @@ title: Site Index
 * [ssh keys](/ssh.html)
 * [donate](/donate.html)
 * [drive](http://drive.ondrejsika.com/)
+* [orienteering](/ob/)
 * [others](/site-index-others.html)
 
 My related sites
