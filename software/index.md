@@ -12,6 +12,7 @@ title: My Software
 ### Tools & Utils
 
 * [Bitcoin Block Parser](https://ondrejsika.com/js-utils/bitcoin-block-parser.html) - parse Bitcoin block header in hex format
+- [Zcash Block Parser](https://ondrejsika.com/js-utils/zcash-block-parser.html) - parse Zcash block header in hex format
 - [BitNotify](https://github.com/ondrejsika/bitnotify) - Send email notification after change on your bitcoin wallet or bip44 account - live: <http://bitnotify.sikaapp.cz>
 * [DevMap](https://github.com/ondrejsika/devmap) - simple tool for web geo debugging - live: <https://ondrejsika.github.io/devmap/>
 * [Light Block Explorer (lbe)](https://github.com/ondrejsika/lbe) - simple block explorer requires only Xcoind RPC interface
