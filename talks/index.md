@@ -5,6 +5,24 @@ title: Talks
 
 ## Talks
 
+<div id="mine-zcash-2017">
+<h3>Mine Zcash</h3>
+<p>10/01/2017 | Prague, CZ
+<br>event: <a href="https://www.facebook.com/events/758763854280814/">Bitcoin Meetup</a>
+<br>slides: <a href="https://speakerdeck.com/ondrejsika/mine-zcash-bitcoin-meetup-praha-2017">SpeakerDeck</a>,
+<a href="https://speakerd.s3.amazonaws.com/presentations/420b5133960046d9a9c944eed2c7c6b5/Mine_Zcash.pdf">PDF</a>
+</p>
+</div>
+
+<div id="zcash-2016">
+<h3>Zcash</h3>
+<p>29/11/2016 | Prague, CZ
+<br>event: <a href="https://www.facebook.com/events/978238492321369/">Bitcoin Meetup</a>
+<br>slides: <a href="https://speakerdeck.com/ondrejsika/zcash-bitcoin-meetup-praha-2016">SpeakerDeck</a>,
+<a href="https://speakerd.s3.amazonaws.com/presentations/ed43ac7743cb4155b98207b14dd097f9/Zcash.pdf">PDF</a>
+</p>
+</div>
+
 <div id="bitcoin-plzen-6">
 <h3>Arnhem Bitcoin City</h3>
 <p>24/06/2016 | Pilsen, CZ
