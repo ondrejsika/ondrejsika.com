@@ -7,7 +7,7 @@ title: Contact
 ## {{page.title}}
 
 * email: __<ondrej@ondrejsika.com>__ (preferred)
-* phone czech (primary): __+420 773 452 376__ (iMessage, Telegram)
+* phone czech (primary): __+420 773 452 376__ (Telegram, iMessage, Signal)
 * phone swiss: __+41 78 753 21 62__
 * skype: __ondrejsika__
 * linedin: <https://www.linkedin.com/in/ondrejsika>
@@ -16,11 +16,10 @@ title: Contact
 
 ### Addresses
 
-Contact address [map](http://www.openstreetmap.org/node/296801697)
+Contact address [map](http://www.openstreetmap.org/node/3050703975)
 
-    Molakova 544/34
-    flat no. 818
-    180 00 Prague
+    Kurta Konrada 2457/6
+    190 00 Prague
     Czech Republic
 
 
