@@ -5,6 +5,10 @@ title: References
 
 ## {{ page.title }}
 
+> "Ondra u nas ve firme skolil verzovaci system GIT. Uz od prvniho okamziku bylo poznat, ze disponuje rozsahlymi znalostmi a pochopenim problematiky. Skoleni bylo provadeno s durazem na individualni pristup, profesionalitu a maximalni pokryti probirane latky. Prakticky neexistovala otazka, na kterou by nam nebyl schopny odpovedet. Ondra je ochotny konzultovat oblasti i nad ramec puvodne dohodnuteho skoleni, zejmena ohledne softwaroveho vyvoje. Urcite bych ho za nasi spolecnost doporucil komukoliv a myslim, ze ho vyuzijeme opakovane."
+>
+> __Michal Rampula, 100MEGA Distribution s.r.o__
+
 
 > "Školení pro zaměstnance firmy, mělo hlavu a patu. Oceňuji praktické příklady a snahu a diskuzi navázat metodiku verzování na naše konkrétní projekty. Školení doporučuji všem, kteří si ve verzování nejsou zcela jisti nebo si chtějí rozšířit obzory, stejně tak jako úplným nováčkům."
 >
