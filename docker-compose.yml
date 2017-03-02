@@ -1,0 +1,22 @@
+version: "2"
+
+services:
+  build:
+    build:
+      context: .
+      dockerfile: Dockerfile.jekyll
+    volumes:
+     - .:/app
+    command: jekyll build
+
+  nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    volumes:
+     - .:/app
+    ports:
+      - ${EXTERNAL_PORT}:80
+    depends_on:
+        - build
+

@@ -1,0 +1,9 @@
+FROM ruby
+
+MAINTAINER Ondrej Sika <ondrej@ondrejsika.com>
+
+
+RUN gem install jekyll
+
+WORKDIR /app
+
