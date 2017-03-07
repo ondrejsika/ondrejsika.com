@@ -27,3 +27,13 @@ Sometimes I write a few words from trips to my czech personal blog [ondrejbloguj
 
 I organize [Bitcoin Meetups in Pilsen](http://bitcoinplzen.cz).
 
+---
+
+<div style="background: #ddd; padding: 20px; text-align: center; font-size: 1.1em;">
+<span style="font-size: 30px;">Moje <a href="https://ondrejsika.cz">Konzultace, Skoleni, Workshopy</a></span>
+<br>
+Git, Docker, Continue Integration, KVM Virtualizace, CloudFlare, ...
+<br>
+<a href="https://ondrejsika.cz">ondrejsika.cz</a> / <a href="https://skoleni-git.cz">skoleni-git.cz</a> / <a href="https://skoleni-docker.cz">skoleni-docker.cz</a> / <a href="https://sedu.cz">sedu.cz</a>
+</div>
+
