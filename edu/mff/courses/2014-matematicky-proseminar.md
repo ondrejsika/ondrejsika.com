@@ -9,7 +9,7 @@ title: Matematicky Proseminar (2014) / MFF UK
 
 ### Notes
 
-* 2014-11-24 [scan](http://notes.drive.ondrejsika.com/mff/2014/matematicky-proseminar/2014-11-24.pdf)
-* 2014-10-20 [scan](http://notes.drive.ondrejsika.com/mff/2014/matematicky-proseminar/2014-10-20.pdf)
-* 2014-10-06 [scan](http://notes.drive.ondrejsika.com/mff/2014/matematicky-proseminar/2014-10-06.pdf)
+* 2014-11-24 [scan](http://notes-drive.ondrejsika.com/mff/2014/matematicky-proseminar/2014-11-24.pdf)
+* 2014-10-20 [scan](http://notes-drive.ondrejsika.com/mff/2014/matematicky-proseminar/2014-10-20.pdf)
+* 2014-10-06 [scan](http://notes-drive.ondrejsika.com/mff/2014/matematicky-proseminar/2014-10-06.pdf)
 

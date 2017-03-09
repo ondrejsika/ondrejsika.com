@@ -14,15 +14,15 @@ img {
 </style>
 
 
-Poznamky [scan](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-11-24.pdf)
+Poznamky [scan](http://notes-drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-11-24.pdf)
 
 
-![](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-11-24/1.jpg)
+![](http://notes-drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-11-24/1.jpg)
 
-![](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-11-24/2.jpg)
+![](http://notes-drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-11-24/2.jpg)
 
-![](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-11-24/3.jpg)
+![](http://notes-drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-11-24/3.jpg)
 
-![](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-11-24/4.jpg)
+![](http://notes-drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-11-24/4.jpg)
 
-![](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-11-24/5.jpg)
+![](http://notes-drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-11-24/5.jpg)

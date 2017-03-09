@@ -20,8 +20,8 @@ Alias [url.os1.cz/principy-pocitacu-2014](http://url.os1.cz/principy-pocitacu-20
 __Ostatni poznamky skenovat nebudu, mam je k dispozici v papirove podobe. Na pozadani pujcim.__
 
 
-* 2014-10-16 [scan](http://notes.drive.ondrejsika.com/mff/2014/principy-pocitacu/2014-10-16.pdf) - radice, sbernice (author: __Kristyna Knorova__)
-* 2014-10-09 [scan](http://notes.drive.ondrejsika.com/mff/2014/principy-pocitacu/2014-10-09.pdf) - HDD, sbernice
-* 2014-10-06 [scan](http://notes.drive.ondrejsika.com/mff/2014/principy-pocitacu/2014-10-06.pdf) - pameti, MCU
-* 2014-10-02 [scan](http://notes.drive.ondrejsika.com/mff/2014/principy-pocitacu/2014-10-02.pdf) - Zakladni arch. pocitace, zakladni komunikace
+* 2014-10-16 [scan](http://notes-drive.ondrejsika.com/mff/2014/principy-pocitacu/2014-10-16.pdf) - radice, sbernice (author: __Kristyna Knorova__)
+* 2014-10-09 [scan](http://notes-drive.ondrejsika.com/mff/2014/principy-pocitacu/2014-10-09.pdf) - HDD, sbernice
+* 2014-10-06 [scan](http://notes-drive.ondrejsika.com/mff/2014/principy-pocitacu/2014-10-06.pdf) - pameti, MCU
+* 2014-10-02 [scan](http://notes-drive.ondrejsika.com/mff/2014/principy-pocitacu/2014-10-02.pdf) - Zakladni arch. pocitace, zakladni komunikace
 

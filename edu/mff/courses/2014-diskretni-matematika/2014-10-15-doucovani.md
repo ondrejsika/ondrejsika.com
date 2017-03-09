@@ -14,21 +14,21 @@ img {
 </style>
 
 
-![](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-10-15/1.jpg)
+![](http://notes-drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-10-15/1.jpg)
 
-![](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-10-15/2.jpg)
+![](http://notes-drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-10-15/2.jpg)
 
-![](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-10-15/3.jpg)
+![](http://notes-drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-10-15/3.jpg)
 
-![](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-10-15/4.jpg)
+![](http://notes-drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-10-15/4.jpg)
 
-![](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-10-15/5.jpg)
+![](http://notes-drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-10-15/5.jpg)
 
-![](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-10-15/6.jpg)
+![](http://notes-drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-10-15/6.jpg)
 
-![](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-10-15/7.jpg)
+![](http://notes-drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-10-15/7.jpg)
 
-![](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-10-15/7.jpg)
+![](http://notes-drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-10-15/7.jpg)
 
-![](http://notes.drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-10-15/8.jpg)
+![](http://notes-drive.ondrejsika.com/mff/2014/diskretni-matematika-doucovani/2014-10-15/8.jpg)
 
