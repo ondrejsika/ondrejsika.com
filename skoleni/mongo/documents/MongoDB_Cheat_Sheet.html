@@ -1,0 +1,465 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>MongoDB Cheat Sheet</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<style>
+body { font:80% Verdana,Tahoma,Arial,sans-serif; }
+h1, h2, h3, h4 {  font-family: "Trebuchet MS",Georgia,"Times New Roman",serif; }
+ul.toc { padding: 4px; margin-left: 0; }
+ul.toc li { list-style-type:none; }
+ul.toc li.heading2 { margin-left: 1em; }
+ul.toc li.heading3 { margin-left: 2em; }
+a.wiki-anchor { display: none; margin-left: 6px; text-decoration: none; }
+a.wiki-anchor:hover { color: #aaa !important; text-decoration: none; }
+h1:hover a.wiki-anchor, h2:hover a.wiki-anchor, h3:hover a.wiki-anchor { display: inline; color: #ddd; }
+</style>
+</head>
+<body>
+<a name="MongoDB-Cheat-Sheet"></a>
+<h1 >MongoDB Cheat Sheet<a href="#MongoDB-Cheat-Sheet" class="wiki-anchor">&para;</a></h1>
+<pre>Ondrej Sika &lt;ondrej@ondrejsika.com&gt;
+</pre>
+<a name="Database"></a>
+<h2 >Database<a href="#Database" class="wiki-anchor">&para;</a></h2>
+
+<a name="Select-Database"></a>
+<h3 >Select Database<a href="#Select-Database" class="wiki-anchor">&para;</a></h3>
+<pre>use DATABASE_NAME
+</pre>
+<p>Example</p>
+<pre>&gt; use mydb
+switched to db mydb
+</pre>
+<p>Check selected database</p>
+<pre>&gt; show dbs
+admin  0.000GB
+local  0.000GB
+test   0.000GB
+</pre>
+<a name="Create-Database"></a>
+<h3 >Create Database<a href="#Create-Database" class="wiki-anchor">&para;</a></h3>
+
+<p>Create database by insert of first document.</p>
+<pre>switched to db mydb
+&gt; db.pets.insert({name: 'Pista', kind: 'dog'})
+WriteResult({ &quot;nInserted&quot; : 1 })
+&gt; show dbs
+admin  0.000GB
+local  0.000GB
+mydb   0.000GB
+test   0.000GB
+</pre>
+<a name="Drop-Database"></a>
+<h3 >Drop Database<a href="#Drop-Database" class="wiki-anchor">&para;</a></h3>
+<pre>&gt; db.dropDatabase()
+{ &quot;dropped&quot; : &quot;mydb&quot;, &quot;ok&quot; : 1 }
+&gt; show dbs
+admin  0.000GB
+local  0.000GB
+test   0.000GB
+</pre>
+<a name="Collection"></a>
+<h2 >Collection<a href="#Collection" class="wiki-anchor">&para;</a></h2>
+
+<a name="Create-Collection"></a>
+<h3 >Create Collection<a href="#Create-Collection" class="wiki-anchor">&para;</a></h3>
+<pre>&gt; use test
+switched to db test
+&gt; db.createCollection(&quot;mycol&quot;)
+{ &quot;ok&quot; : 1 }
+&gt; db.createCollection(&quot;crappedcol&quot;, {
+    capped: true,
+    autoIndexID: true,
+    size: 1024,
+    max: 1
+})
+{ &quot;ok&quot; : 1 }
+</pre>
+<a name="List-collections"></a>
+<h3 >List collections<a href="#List-collections" class="wiki-anchor">&para;</a></h3>
+<pre>&gt; show collections
+mycol
+crappedcol
+</pre>
+<a name="Drop-Collection"></a>
+<h3 >Drop Collection<a href="#Drop-Collection" class="wiki-anchor">&para;</a></h3>
+<pre>&gt; db.mycol.drop()
+true
+</pre>
+<a name="Insert-Document"></a>
+<h2 >Insert Document<a href="#Insert-Document" class="wiki-anchor">&para;</a></h2>
+<pre>&gt; db.COLLECTION_NAME.insert(DOCUMENT)
+</pre>
+<p>Example</p>
+<pre>db.pets.insert({
+    name: 'Fista',
+    kind: 'cat',
+    age: 2,
+    colors: ['black', 'white'],
+})
+db.pets.insert({
+    name: 'Pista',
+    kind: 'dog',
+    age: 4,
+    colors: ['brown'],
+})
+db.pets.insert({
+    name: 'Ben',
+    kind: 'dog',
+    age: 12,
+    colors: ['white'],
+})
+db.pets.insert({
+    name: 'Mista',
+    kind: 'rat',
+    age: 1,
+    colors: ['black', 'brown'],
+})
+</pre>
+<a name="Query-Document"></a>
+<h2 >Query Document<a href="#Query-Document" class="wiki-anchor">&para;</a></h2>
+
+<a name="Find"></a>
+<h3 >Find<a href="#Find" class="wiki-anchor">&para;</a></h3>
+
+<p>Select all documents</p>
+<pre>&gt; db.COLLECTION_NAME.find()
+</pre>
+<p>or</p>
+<pre>&gt; db.COLLECTION_NAME.find({})
+</pre>
+<p>Example</p>
+<pre>&gt; db.pets.find()
+{ &quot;_id&quot; : ObjectId(&quot;58dc747ad3fbf12faaaa1706&quot;), &quot;name&quot; : &quot;Fista&quot;, &quot;kind&quot; : &quot;cat&quot;, &quot;age&quot; : 2, &quot;colors&quot; : [ &quot;black&quot;, &quot;white&quot; ] }
+{ &quot;_id&quot; : ObjectId(&quot;58dc74e4d3fbf12faaaa1707&quot;), &quot;name&quot; : &quot;Pista&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 4, &quot;colors&quot; : [ &quot;brown&quot; ] }
+{ &quot;_id&quot; : ObjectId(&quot;58dc74e4d3fbf12faaaa1708&quot;), &quot;name&quot; : &quot;Mista&quot;, &quot;kind&quot; : &quot;rat&quot;, &quot;age&quot; : 1, &quot;colors&quot; : [ &quot;black&quot;, &quot;brown&quot; ] }
+</pre>
+<p>For pretty formating, use <code>.pretty()</code></p>
+<pre>&gt; db.pets.find().pretty()
+{
+    &quot;_id&quot; : ObjectId(&quot;58dc747ad3fbf12faaaa1706&quot;),
+    &quot;name&quot; : &quot;Fista&quot;,
+    &quot;kind&quot; : &quot;cat&quot;,
+    &quot;age&quot; : 2,
+    &quot;colors&quot; : [
+        &quot;black&quot;,
+        &quot;white&quot;
+    ]
+}
+...
+</pre>
+<a name="Operators"></a>
+<h3 >Operators<a href="#Operators" class="wiki-anchor">&para;</a></h3>
+
+<table><thead>
+<tr>
+<th>Operation</th>
+<th>Syntax</th>
+<th>Example</th>
+<th>SQL</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Equality</td>
+<td><code>{&lt;key&gt;:&lt;value&gt;}</code></td>
+<td><code>{kind: &#39;rat&#39;}</code></td>
+<td><code>where kind = &#39;rat&#39;</code></td>
+</tr>
+<tr>
+<td>Less Than</td>
+<td><code>{&lt;key&gt;:{$lt:&lt;value&gt;}}</code></td>
+<td><code>{age: {$lt: 2}}</code></td>
+<td><code>where age &lt; 2</code></td>
+</tr>
+<tr>
+<td>Less Than Equals</td>
+<td><code>{&lt;key&gt;:{$lte:&lt;value&gt;}}</code></td>
+<td><code>{age: {$lte: 2}}</code></td>
+<td><code>where age &lt;= 2</code></td>
+</tr>
+<tr>
+<td>Greater Than</td>
+<td><code>{&lt;key&gt;:{$gt:&lt;value&gt;}}</code></td>
+<td><code>{age: {$gt: 2}}</code></td>
+<td><code>where age &gt; 2</code></td>
+</tr>
+<tr>
+<td>Greater Than Equals</td>
+<td><code>{&lt;key&gt;:{$gte:&lt;value&gt;}}</code></td>
+<td><code>{age: {$gte: 2}}</code></td>
+<td><code>where age &gt;= 2</code></td>
+</tr>
+<tr>
+<td>Not Equals</td>
+<td><code>{&lt;key&gt;:{$ne:&lt;value&gt;}}</code></td>
+<td><code>{age: {$ne: 2}}</code></td>
+<td><code>where age != 2</code></td>
+</tr>
+<tr>
+<td>In</td>
+<td><code>{&lt;key&gt;:{$in:[&lt;value1&gt;, &lt;value2&gt;, ...]}}</code></td>
+<td><code>{age: {$in: [1, 2, 3]}}</code></td>
+<td><code>where age in (1, 2, 3)</code></td>
+</tr>
+</tbody></table>
+
+<p>Examples</p>
+<pre>&gt; db.pets.find({name: 'Pista'})
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170a&quot;), &quot;name&quot; : &quot;Pista&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 4, &quot;colors&quot; : [ &quot;brown&quot; ] }
+&gt; db.pets.find({kind: 'dog'})
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170a&quot;), &quot;name&quot; : &quot;Pista&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 4, &quot;colors&quot; : [ &quot;brown&quot; ] }
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170b&quot;), &quot;name&quot; : &quot;Ben&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 12, &quot;colors&quot; : [ &quot;white&quot; ] }
+&gt; db.pets.find({colors: 'black'})
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170c&quot;), &quot;name&quot; : &quot;Mista&quot;, &quot;kind&quot; : &quot;rat&quot;, &quot;age&quot; : 1, &quot;colors&quot; : [ &quot;black&quot;, &quot;brown&quot; ] }
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f6cd3fbf12faaaa170d&quot;), &quot;name&quot; : &quot;Fista&quot;, &quot;kind&quot; : &quot;cat&quot;, &quot;age&quot; : 2, &quot;colors&quot; : [ &quot;black&quot;, &quot;white&quot; ] }
+&gt; db.pets.find({colors: {$ne: 'black'}})
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170a&quot;), &quot;name&quot; : &quot;Pista&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 4, &quot;colors&quot; : [ &quot;brown&quot; ] }
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170b&quot;), &quot;name&quot; : &quot;Ben&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 12, &quot;colors&quot; : [ &quot;white&quot; ] }
+</pre>
+<a name="Columns"></a>
+<h3 >Columns<a href="#Columns" class="wiki-anchor">&para;</a></h3>
+<pre>db.COLLECTION_NAME.find(QUERY, COLLUMNS)
+</pre>
+<p>Example</p>
+<pre>&gt; db.pets.find({}, {name: 1})
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170a&quot;), &quot;name&quot; : &quot;Pista&quot; }
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170b&quot;), &quot;name&quot; : &quot;Ben&quot; }
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170c&quot;), &quot;name&quot; : &quot;Mista&quot; }
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f6cd3fbf12faaaa170d&quot;), &quot;name&quot; : &quot;Fista&quot; }
+&gt; db.pets.find({}, {name: 1, _id: 0})
+{ &quot;name&quot; : &quot;Pista&quot; }
+{ &quot;name&quot; : &quot;Ben&quot; }
+{ &quot;name&quot; : &quot;Mista&quot; }
+{ &quot;name&quot; : &quot;Fista&quot; }
+&gt; db.pets.find({}, {_id: 0})
+{ &quot;name&quot; : &quot;Pista&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 4, &quot;colors&quot; : [ &quot;brown&quot; ] }
+{ &quot;name&quot; : &quot;Ben&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 12, &quot;colors&quot; : [ &quot;white&quot; ] }
+{ &quot;name&quot; : &quot;Mista&quot;, &quot;kind&quot; : &quot;rat&quot;, &quot;age&quot; : 1, &quot;colors&quot; : [ &quot;black&quot;, &quot;brown&quot; ] }
+{ &quot;name&quot; : &quot;Fista&quot;, &quot;kind&quot; : &quot;cat&quot;, &quot;age&quot; : 2, &quot;colors&quot; : [ &quot;black&quot;, &quot;white&quot; ] }
+</pre>
+<a name="AND"></a>
+<h3 >AND<a href="#AND" class="wiki-anchor">&para;</a></h3>
+<pre>db.COLLECTION_NAME.find({key1:value1, key2:value2})
+</pre>
+<p>Example</p>
+<pre>&gt; db.pets.find({age: {$gte: 2}, kind: 'dog'})
+{ &quot;_id&quot; : ObjectId(&quot;58dc74e4d3fbf12faaaa1707&quot;), &quot;name&quot; : &quot;Pista&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 4, &quot;colors&quot; : [ &quot;brown&quot; ] }
+</pre>
+<a name="OR"></a>
+<h3 >OR<a href="#OR" class="wiki-anchor">&para;</a></h3>
+<pre>db.COLLECTION_NAME.find({$or: [{key1: value1}, {key2:value2}]})
+</pre>
+<p>Example </p>
+<pre>&gt; db.pets.find({$or: [{kind: 'rat'}, {kind: 'cat'}]})
+{ &quot;_id&quot; : ObjectId(&quot;58dc747ad3fbf12faaaa1706&quot;), &quot;name&quot; : &quot;Fista&quot;, &quot;kind&quot; : &quot;cat&quot;, &quot;age&quot; : 2, &quot;colors&quot; : [ &quot;black&quot;, &quot;white&quot; ] }
+{ &quot;_id&quot; : ObjectId(&quot;58dc74e4d3fbf12faaaa1708&quot;), &quot;name&quot; : &quot;Mista&quot;, &quot;kind&quot; : &quot;rat&quot;, &quot;age&quot; : 1, &quot;colors&quot; : [ &quot;black&quot;, &quot;brown&quot; ] }
+</pre>
+<a name="Limit-Offset"></a>
+<h3 >Limit &amp; Offset<a href="#Limit-Offset" class="wiki-anchor">&para;</a></h3>
+<pre>&gt; db.pets.find().limit(1)
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170a&quot;), &quot;name&quot; : &quot;Pista&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 4, &quot;colors&quot; : [ &quot;brown&quot; ] }
+&gt; db.pets.find().skip(1)
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170b&quot;), &quot;name&quot; : &quot;Ben&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 12, &quot;colors&quot; : [ &quot;white&quot; ] }
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170c&quot;), &quot;name&quot; : &quot;Mista&quot;, &quot;kind&quot; : &quot;rat&quot;, &quot;age&quot; : 1, &quot;colors&quot; : [ &quot;black&quot;, &quot;brown&quot; ] }
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f6cd3fbf12faaaa170d&quot;), &quot;name&quot; : &quot;Fista&quot;, &quot;kind&quot; : &quot;cat&quot;, &quot;age&quot; : 2, &quot;colors&quot; : [ &quot;black&quot;, &quot;white&quot; ] }
+&gt; db.pets.find().skip(1).limit(1)
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170b&quot;), &quot;name&quot; : &quot;Ben&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 12, &quot;colors&quot; : [ &quot;white&quot; ] }
+</pre>
+<a name="Sort"></a>
+<h3 >Sort<a href="#Sort" class="wiki-anchor">&para;</a></h3>
+<pre>&gt; db.pets.find().sort({name: 1})
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170b&quot;), &quot;name&quot; : &quot;Ben&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 12, &quot;colors&quot; : [ &quot;white&quot; ] }
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f6cd3fbf12faaaa170d&quot;), &quot;name&quot; : &quot;Fista&quot;, &quot;kind&quot; : &quot;cat&quot;, &quot;age&quot; : 2, &quot;colors&quot; : [ &quot;black&quot;, &quot;white&quot; ] }
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170c&quot;), &quot;name&quot; : &quot;Mista&quot;, &quot;kind&quot; : &quot;rat&quot;, &quot;age&quot; : 1, &quot;colors&quot; : [ &quot;black&quot;, &quot;brown&quot; ] }
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170a&quot;), &quot;name&quot; : &quot;Pista&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 4, &quot;colors&quot; : [ &quot;brown&quot; ] }
+&gt; db.pets.find().sort({name: -1} )
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170a&quot;), &quot;name&quot; : &quot;Pista&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 4, &quot;colors&quot; : [ &quot;brown&quot; ] }
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170c&quot;), &quot;name&quot; : &quot;Mista&quot;, &quot;kind&quot; : &quot;rat&quot;, &quot;age&quot; : 1, &quot;colors&quot; : [ &quot;black&quot;, &quot;brown&quot; ] }
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f6cd3fbf12faaaa170d&quot;), &quot;name&quot; : &quot;Fista&quot;, &quot;kind&quot; : &quot;cat&quot;, &quot;age&quot; : 2, &quot;colors&quot; : [ &quot;black&quot;, &quot;white&quot; ] }
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170b&quot;), &quot;name&quot; : &quot;Ben&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 12, &quot;colors&quot; : [ &quot;white&quot; ] }
+&gt; 
+</pre>
+<a name="Update-Documents"></a>
+<h2 >Update Documents<a href="#Update-Documents" class="wiki-anchor">&para;</a></h2>
+<pre>db.COLLECTION_NAME.update(SELECTIOIN_CRITERIA, UPDATED_DATA)
+</pre>
+<p>Example</p>
+<pre>&gt; db.pets.update({name: 'Ben'}, {$set: {age: 13}})
+WriteResult({ &quot;nMatched&quot; : 1, &quot;nUpserted&quot; : 0, &quot;nModified&quot; : 1 })
+&gt; db.pets.find({name: 'Ben'})
+{ &quot;_id&quot; : ObjectId(&quot;58dc7af7d3fbf12faaaa1709&quot;), &quot;name&quot; : &quot;Ben&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 13, &quot;colors&quot; : [ &quot;white&quot; ] }
+</pre>
+<p>By default, MongoDB will update only a single document. To update multiple documents, you need to set a parameter &#39;multi&#39; to true.</p>
+<pre>db.COLLECTION_NAME.update(SELECTIOIN_CRITERIA, UPDATED_DATA, {multi: true})
+</pre>
+<p>Example</p>
+<pre>&gt; db.pets.update({name: 'Ben'}, {$set: {age: 13}})
+WriteResult({ &quot;nMatched&quot; : 1, &quot;nUpserted&quot; : 0, &quot;nModified&quot; : 1 })
+&gt; db.pets.find({name: 'Ben'})
+{ &quot;_id&quot; : ObjectId(&quot;58dc7af7d3fbf12faaaa1709&quot;), &quot;name&quot; : &quot;Ben&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 13, &quot;colors&quot; : [ &quot;white&quot; ] }
+</pre>
+<a name="Save"></a>
+<h2 >Save<a href="#Save" class="wiki-anchor">&para;</a></h2>
+
+<p>Replace document by ID</p>
+<pre>db.COLLECTION_NAME.save({_id:ObjectId(),NEW_DATA})
+</pre>
+<p>Example</p>
+<pre>&gt; db.pets.find({_id: ObjectId('58dc7af7d3fbf12faaaa1709')})
+{ &quot;_id&quot; : ObjectId(&quot;58dc7af7d3fbf12faaaa1709&quot;), &quot;name&quot; : &quot;Ben&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 13, &quot;colors&quot; : [ &quot;white&quot; ] }
+&gt; db.pets.save({ &quot;_id&quot; : ObjectId(&quot;58dc7af7d3fbf12faaaa1709&quot;), &quot;name&quot; : 
+&gt; db.pets.save({ &quot;_id&quot; : ObjectId(&quot;58dc7af7d3fbf12faaaa1709&quot;), &quot;name&quot; : &quot;Benik&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 11 })
+WriteResult({ &quot;nMatched&quot; : 1, &quot;nUpserted&quot; : 0, &quot;nModified&quot; : 1 })
+&gt; db.pets.find({_id: ObjectId('58dc7af7d3fbf12faaaa1709')})
+{ &quot;_id&quot; : ObjectId(&quot;58dc7af7d3fbf12faaaa1709&quot;), &quot;name&quot; : &quot;Benik&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 11 }
+</pre>
+<a name="Deleting-Documents"></a>
+<h2 >Deleting Documents<a href="#Deleting-Documents" class="wiki-anchor">&para;</a></h2>
+<pre>db.COLLECTION_NAME.remove(DELLETION_CRITTERIA)
+</pre>
+<p>Remove only one</p>
+<pre>db.COLLECTION_NAME.remove(DELLETION_CRITTERIA, 1)
+</pre>
+<p>Example</p>
+<pre>&gt; db.pets.find()
+{ &quot;_id&quot; : ObjectId(&quot;58dc747ad3fbf12faaaa1706&quot;), &quot;name&quot; : &quot;Fista&quot;, &quot;kind&quot; : &quot;cat&quot;, &quot;age&quot; : 2, &quot;colors&quot; : [ &quot;black&quot;, &quot;white&quot; ] }
+{ &quot;_id&quot; : ObjectId(&quot;58dc74e4d3fbf12faaaa1707&quot;), &quot;name&quot; : &quot;Pista&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 4, &quot;colors&quot; : [ &quot;brown&quot; ] }
+{ &quot;_id&quot; : ObjectId(&quot;58dc74e4d3fbf12faaaa1708&quot;), &quot;name&quot; : &quot;Mista&quot;, &quot;kind&quot; : &quot;rat&quot;, &quot;age&quot; : 1, &quot;colors&quot; : [ &quot;black&quot;, &quot;brown&quot; ] }
+{ &quot;_id&quot; : ObjectId(&quot;58dc7af7d3fbf12faaaa1709&quot;), &quot;name&quot; : &quot;Benik&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 11 }
+&gt; db.pets.remove({age: {$gt: 1}}, 1)
+WriteResult({ &quot;nRemoved&quot; : 1 })
+&gt; db.pets.remove({age: {$gt: 1}})
+WriteResult({ &quot;nRemoved&quot; : 2 })
+&gt; db.pets.find()
+{ &quot;_id&quot; : ObjectId(&quot;58dc74e4d3fbf12faaaa1708&quot;), &quot;name&quot; : &quot;Mista&quot;, &quot;kind&quot; : &quot;rat&quot;, &quot;age&quot; : 1, &quot;colors&quot; : [ &quot;black&quot;, &quot;brown&quot; ] }
+</pre>
+<p>Delete all documents</p>
+<pre>db.COLLECTION_NAME.remove({})
+</pre>
+<p>Example</p>
+<pre>&gt; db.pets.remove({})
+WriteResult({ &quot;nRemoved&quot; : 1 })
+</pre>
+<a name="Indexing"></a>
+<h2 >Indexing<a href="#Indexing" class="wiki-anchor">&para;</a></h2>
+
+<a name="Get-indexes"></a>
+<h3 >Get indexes<a href="#Get-indexes" class="wiki-anchor">&para;</a></h3>
+<pre>db.COLLECTION.getIndexes()
+</pre>
+<p>Example</p>
+<pre>&gt; db.pets.getIndexes()
+[
+    {
+        &quot;v&quot; : 1,
+        &quot;key&quot; : {
+            &quot;_id&quot; : 1
+        },
+        &quot;name&quot; : &quot;_id_&quot;,
+        &quot;ns&quot; : &quot;test.pets&quot;
+    }
+]
+</pre>
+<a name="Create-index"></a>
+<h3 >Create index<a href="#Create-index" class="wiki-anchor">&para;</a></h3>
+<pre>db.COLLECTION_NAME.ensureIndex({KEY:1})
+</pre>
+<p>or multi key index</p>
+<pre>db.COLLECTION_NAME.ensureIndex({KEY1:1, KEY2:1})
+</pre>
+<p>Examples:</p>
+<pre>&gt; db.pets.ensureIndex({age:1})
+{
+    &quot;createdCollectionAutomatically&quot; : false,
+    &quot;numIndexesBefore&quot; : 1,
+    &quot;numIndexesAfter&quot; : 2,
+    &quot;ok&quot; : 1
+}
+</pre>
+<p>Parameters:</p>
+<pre>db.COLLECTION_NAME.ensureIndex(INDEX, PARAMS)
+</pre>
+<p>Eg.:</p>
+<pre>db.COLLECTION_NAME.ensureIndex(INDEX, {
+    unique: 1,
+    backgroud: 1,
+})
+</pre>
+<p>Background means build index on background, don&#39;t block the DB.</p>
+
+<p>Example:</p>
+<pre>&gt; db.pets.ensureIndex({name: 1}, {
+    unique: 1,
+    backgroud: 1,
+})
+&gt; db.pets.find()
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170a&quot;), &quot;name&quot; : &quot;Pista&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 4, &quot;colors&quot; : [ &quot;brown&quot; ] }
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170b&quot;), &quot;name&quot; : &quot;Ben&quot;, &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 12, &quot;colors&quot; : [ &quot;white&quot; ] }
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f1fd3fbf12faaaa170c&quot;), &quot;name&quot; : &quot;Mista&quot;, &quot;kind&quot; : &quot;rat&quot;, &quot;age&quot; : 1, &quot;colors&quot; : [ &quot;black&quot;, &quot;brown&quot; ] }
+{ &quot;_id&quot; : ObjectId(&quot;58dc7f6cd3fbf12faaaa170d&quot;), &quot;name&quot; : &quot;Fista&quot;, &quot;kind&quot; : &quot;cat&quot;, &quot;age&quot; : 2, &quot;colors&quot; : [ &quot;black&quot;, &quot;white&quot; ] }
+&gt; db.pets.insert({name: 'Pista', kind: 'bat'})
+WriteResult({
+    &quot;nInserted&quot; : 0,
+    &quot;writeError&quot; : {
+        &quot;code&quot; : 11000,
+        &quot;errmsg&quot; : &quot;E11000 duplicate key error collection: test.pets index: name_1 dup key: { : \&quot;Pista\&quot; }&quot;
+    }
+})
+</pre>
+<a name="Drop-index"></a>
+<h3 >Drop index<a href="#Drop-index" class="wiki-anchor">&para;</a></h3>
+<pre>db.COLLECTION_NAME.dropIndex({KEY:1})
+</pre>
+<p>Example</p>
+<pre>&gt; db.pets.dropIndex({age:1})
+{ &quot;nIndexesWas&quot; : 3, &quot;ok&quot; : 1 }
+</pre>
+<a name="Count"></a>
+<h2 >Count<a href="#Count" class="wiki-anchor">&para;</a></h2>
+<pre>db.COLLECTION_NAME.count()
+</pre>
+<p>or </p>
+<pre>db.COLLECTION_NAME.find(QUERY).count()
+</pre>
+<p>Example</p>
+<pre>&gt; db.pets.count()
+4
+&gt; db.pets.find({kind: 'dog'})
+2
+</pre>
+<a name="Aggregation"></a>
+<h2 >Aggregation<a href="#Aggregation" class="wiki-anchor">&para;</a></h2>
+
+<p>aggregation operators</p>
+
+<ul>
+<li><code>$sum</code></li>
+<li><code>$avg</code></li>
+<li><code>$min</code></li>
+<li><code>$max</code></li>
+<li><code>$push</code></li>
+<li><code>$addToSet</code></li>
+<li><code>$first</code></li>
+<li><code>$last</code></li>
+</ul>
+
+<p>Example</p>
+<pre>&gt; db.pets.aggregate([{$group : {_id : &quot;$kind&quot;, count: {$sum : 1}}}])
+{ &quot;_id&quot; : &quot;cat&quot;, &quot;count&quot; : 1 }
+{ &quot;_id&quot; : &quot;rat&quot;, &quot;count&quot; : 1 }
+{ &quot;_id&quot; : &quot;dog&quot;, &quot;count&quot; : 2 }
+&gt; db.pets.aggregate([{$group : {_id : &quot;$kind&quot;, count: {$sum : 1}, age: {$avg: '$age'}}}])
+{ &quot;_id&quot; : &quot;cat&quot;, &quot;count&quot; : 1, &quot;age&quot; : 2 }
+{ &quot;_id&quot; : &quot;rat&quot;, &quot;count&quot; : 1, &quot;age&quot; : 1 }
+{ &quot;_id&quot; : &quot;dog&quot;, &quot;count&quot; : 2, &quot;age&quot; : 8 }
+</pre>
+<p>By multiple keys</p>
+<pre>&gt; db.pets.aggregate([{$group : {_id : {kind: '$kind', age: '$age'}, count: {$sum : 1}}}])
+{ &quot;_id&quot; : { &quot;kind&quot; : &quot;cat&quot;, &quot;age&quot; : 2 }, &quot;count&quot; : 1 }
+{ &quot;_id&quot; : { &quot;kind&quot; : &quot;rat&quot;, &quot;age&quot; : 1 }, &quot;count&quot; : 1 }
+{ &quot;_id&quot; : { &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 12 }, &quot;count&quot; : 1 }
+{ &quot;_id&quot; : { &quot;kind&quot; : &quot;dog&quot;, &quot;age&quot; : 4 }, &quot;count&quot; : 1 }
+</pre>
+</body>
+</html>
