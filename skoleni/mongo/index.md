@@ -5,10 +5,13 @@ title: Skoleni MongoDB
 
 ## {{ page.title }}
 
+Data Script s.r.o., Praha, 29. - 30. 3. 2017
+
+
 ### Slides
 
-- [MongoDB Introduction](https://speakerdeck.com/ondrejsika/mongodb-introduction-datascript-29-3-2017)
-- [Getting Started with MongoDB](https://speakerdeck.com/ondrejsika/getting-started-with-mongodb-datascript-29-3-2017)
+- [MongoDB Introduction](documents/MongoDB_Introduction.pdf)
+- [Getting Started with MongoDB](documents/Getting_Started_with_MongoDB.pdf)
 
 
 ### Cheatsheet

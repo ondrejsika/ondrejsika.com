@@ -68,7 +68,7 @@ test   0.000GB
 switched to db test
 &gt; db.createCollection(&quot;mycol&quot;)
 { &quot;ok&quot; : 1 }
-&gt; db.createCollection(&quot;crappedcol&quot;, {
+&gt; db.createCollection(&quot;cappedcol&quot;, {
     capped: true,
     autoIndexID: true,
     size: 1024,
@@ -81,6 +81,11 @@ switched to db test
 <pre>&gt; show collections
 mycol
 crappedcol
+</pre>
+<a name="Rename-Collection"></a>
+<h3 >Rename Collection<a href="#Rename-Collection" class="wiki-anchor">&para;</a></h3>
+<pre>&gt; db.mycol.renameCollection('newcol')
+{ &quot;ok&quot; : 1 }
 </pre>
 <a name="Drop-Collection"></a>
 <h3 >Drop Collection<a href="#Drop-Collection" class="wiki-anchor">&para;</a></h3>
@@ -151,6 +156,10 @@ db.pets.insert({
 </pre>
 <a name="Operators"></a>
 <h3 >Operators<a href="#Operators" class="wiki-anchor">&para;</a></h3>
+
+<ul>
+<li>List of all operators - see docs - <a href="https://docs.mongodb.com/manual/reference/operator/query/">https://docs.mongodb.com/manual/reference/operator/query/</a></li>
+</ul>
 
 <table><thead>
 <tr>
@@ -316,6 +325,8 @@ WriteResult({ &quot;nMatched&quot; : 1, &quot;nUpserted&quot; : 0, &quot;nModifi
 </pre>
 <a name="Deleting-Documents"></a>
 <h2 >Deleting Documents<a href="#Deleting-Documents" class="wiki-anchor">&para;</a></h2>
+
+<p>Work only with non-capped collections.</p>
 <pre>db.COLLECTION_NAME.remove(DELLETION_CRITTERIA)
 </pre>
 <p>Remove only one</p>
