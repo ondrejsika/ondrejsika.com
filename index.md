@@ -6,10 +6,13 @@ noheader: true
 <style>
 h1 {
     text-align: center;
+    margin-bottom: 0;
 }
 </style>
 
 # Ondrej Sika
+
+<p style="font-size: 14px; text-align: center;">Create a better world.</p>
 
 ---
 
