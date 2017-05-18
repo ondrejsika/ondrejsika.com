@@ -33,7 +33,7 @@ I organize [Bitcoin Meetups in Pilsen](http://bitcoinplzen.cz).
 ---
 
 <div style="background: #ddd; padding: 20px; text-align: center; font-size: 1.1em;">
-<span style="font-size: 30px;">Moje <a href="https://ondrejsika.cz">Konzultace, Skoleni, Workshopy</a></span>
+<span style="font-size: 30px;">Moje <a href="https://bysika.cz">Konzultace, Skoleni, Workshopy</a></span>
 <br>
 Git, Docker, Continue Integration, KVM Virtualizace, CloudFlare, ...
 <br>
