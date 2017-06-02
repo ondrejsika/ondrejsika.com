@@ -24,9 +24,7 @@ title: Site Index
 
 My related sites
 
-* [article](https://ar.os1.cz)
-* [books](https://books.os1.cz)
-* [prints](https://prints.os1.cz)
+* [prints](https://prints.oxs.cz)
 
 My public wikis
 
