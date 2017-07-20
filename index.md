@@ -40,3 +40,6 @@ Git, Docker, Continue Integration, KVM Virtualizace, CloudFlare, ...
 <a href="https://bysika.cz">bysika.cz</a> / <a href="https://skoleni-git.cz">skoleni-git.cz</a> / <a href="https://skoleni-docker.cz">skoleni-docker.cz</a> / <a href="https://sedu.cz">sedu.cz</a>
 </div>
 
+<div id='rip-kata' onclick="document.getElementById('rip-kata').outerHTML='';" style="position:fixed; bottom: 0; left: 0; right: 0; top: 0; background-color:black; padding-top:50%; text-align: center; color: yellow; font-size: 2em;">Kato, zustanes naveky v nasich srdcich. O.</div>
+<script>setTimeout(function(){document.getElementById('rip-kata').outerHTML='';}, 5000)</script>
+
