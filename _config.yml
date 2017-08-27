@@ -2,3 +2,5 @@
 name: ondrejsika.com
 future: false
 exclude: [edit, ]
+highlighter: pygments
+
