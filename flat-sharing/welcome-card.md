@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Welcome Card - Molakova 34
+title: Welcome Card - Kurta Konrada 6, Prague
 ---
 
 
-## Welcome to Molakova 34, Prague
+## Welcome to Kurta Konrada 6, Prague
 
 ### WiFi name
 
