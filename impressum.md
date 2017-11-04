@@ -7,9 +7,8 @@ title: Impressum
 ## {{page.title}}
 
 __Ondrej Sika__
-<br>Molakova 544/34
-<br>flat no. 818
-<br>180 00 Prague
+<br>Kurta Konrada 2457/6
+<br>190 00 Prague
 <br>Czech Republic
 
 email: <ondrej@ondrejsika.com>
