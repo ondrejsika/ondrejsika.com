@@ -1,11 +1,3 @@
-* {
-    font-size: 1.03em;
-}
-
-p {
-    text-align: justify;
-}
-
 td, th {
     padding-right: 20px;
 }
@@ -13,7 +5,8 @@ td, th {
 .site-header {
     display: block;
     margin-top: 20px;
-    font-size: 1.3em;
+    font-size: 3.2em;
+    color: black;
 }
 
 @media print {
@@ -24,5 +17,41 @@ td, th {
 
 .footer {
     text-align: left;
+    font-size: 1.2em;
+}
+
+body {
+    margin: 3em;
+    max-width: 50em;
+    font-weight: normal;
+    font-family: 'cmu_typewriter', monospace;
+    color: #3c3c3c;
+}
+
+b, strong, h1, h2, h3, h4, h5, h6, th {
+    color: black;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.2em;
+}
+h2 {
+    font-size: 2.7em;
+}
+h3 {
+    font-size: 2.3em;
+}
+h4 {
+    font-size: 1.9em;
+}
+h5 {
+    font-size: 1.5em;
+}
+h6 {
+    font-size: 1.3em;
+}
+p, li, th, td {
+    font-size: 1.3em;
 }
 
