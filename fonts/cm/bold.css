@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'cmu_typewriter';
+    src: url('cmuntb-webfont.eot');
+    src: url('cmuntb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cmuntb-webfont.woff2') format('woff2'),
+         url('cmuntb-webfont.woff') format('woff'),
+         url('cmuntb-webfont.ttf') format('truetype'),
+         url('cmuntb-webfont.svg#cmu_typewriter_textbold') format('svg');
+    /* font-weight: normal; */
+    font-weight: bold;
+    font-style: normal;
+
+}
+
