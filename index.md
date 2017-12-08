@@ -20,7 +20,7 @@ I am Visionary, Software engineer at [Slush Pool](https://slushpool.com) and con
 
 I like the people, traveling, mountines, sports, technology, education, ...
 
-Find me on [Facebook](https://facebook.com/sikaondrej2), my code on [Github](https://www.github.com/ondrejsika), my photos on [Flickr](https://www.flickr.com/photos/ondrejsika/) or [Instagram](https://www.instagram.com/ondrejsika/) and my identity on [Keybase](https://www.keybase.io/ondrejsika) or [mojeID](https://ondrejsika.mojeid.cz/) (verified identity).
+Find me on [Facebook](https://facebook.com/sikaondrej), my code on [Github](https://www.github.com/ondrejsika), my photos on [Flickr](https://www.flickr.com/photos/ondrejsika/) or [Instagram](https://www.instagram.com/ondrejsika/) and my identity on [Keybase](https://www.keybase.io/ondrejsika) or [mojeID](https://ondrejsika.mojeid.cz/) (verified identity).
 
 Contact me via email <ondrej@ondrejsika.com> or more contacts [here](/contact.html). I care about privacy, my PGP key is __0903EF6B__ on [pgp.mit.edu](https://pgp.mit.edu/pks/lookup?op=vindex&search=0x775D8A020903EF6B) or in [file](ondrejsika_public.asc).
 
