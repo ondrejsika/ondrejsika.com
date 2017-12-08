@@ -5,7 +5,7 @@ td, th {
 .site-header {
     display: block;
     margin-top: 20px;
-    font-size: 3.2em;
+    font-size: 1.2em;
     color: black;
 }
 
@@ -17,7 +17,6 @@ td, th {
 
 .footer {
     text-align: left;
-    font-size: 1.2em;
 }
 
 body {
@@ -26,6 +25,7 @@ body {
     font-weight: normal;
     font-family: 'cmu_typewriter', monospace;
     color: #3c3c3c;
+    font-size: 1.15em;
 }
 
 b, strong, h1, h2, h3, h4, h5, h6, th {
@@ -33,25 +33,4 @@ b, strong, h1, h2, h3, h4, h5, h6, th {
     margin: 0;
 }
 
-h1 {
-    font-size: 3.2em;
-}
-h2 {
-    font-size: 2.7em;
-}
-h3 {
-    font-size: 2.3em;
-}
-h4 {
-    font-size: 1.9em;
-}
-h5 {
-    font-size: 1.5em;
-}
-h6 {
-    font-size: 1.3em;
-}
-p, li, th, td {
-    font-size: 1.3em;
-}
 
