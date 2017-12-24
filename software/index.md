@@ -5,10 +5,6 @@ title: My Software
 
 ## {{ page.title }}
 
-### Virtual Machines
-
-- [Gitlab CI Runner in Vagrant](https://github.com/ondrejsika/vagrant-gitlab-ci-runner) - Gitlab CI Docker runner in Vagrant. Provisioned by Ansible.
-
 ### Tools & Utils
 
 * [Bitcoin Block Parser](https://ondrejsika.com/js-utils/bitcoin-block-parser.html) - parse Bitcoin block header in hex format
