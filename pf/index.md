@@ -24,5 +24,9 @@ img {
 
 [![PF 2012](/static/content/pf2012/PF2012.jpg)](2012.html)
 
+[![PF 2011](/static/content/pf2011/PF2011_scan_800px.jpg)](2011.html)
+
+[![PF 2010](/static/content/pf2010/PF2010_scan_800px.jpg)](2010.html)
+
 [![PF 2009](/static/content/pf2009/pf2009.jpg)](2009.html)
 
