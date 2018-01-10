@@ -20,6 +20,7 @@ title: Site Index
 * [donate](/donate.html)
 * [drive](http://drive.ondrejsika.com/)
 * [orienteering](/ob/)
+* [public challenges](/challenges)
 * [others](/site-index-others.html)
 
 My related sites
