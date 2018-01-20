@@ -20,7 +20,7 @@ td, th {
 }
 
 body {
-    margin: 3em;
+    margin: 0.5em auto;
     max-width: 50em;
     font-weight: normal;
     font-family: 'cmu_typewriter', monospace;
@@ -28,10 +28,8 @@ body {
     font-size: 1.15em;
 }
 
-@media all and (max-width : 400px) {
-    body {
-        margin: 0.5em;
-    }
+.content-wrap {
+    margin: 1em;
 }
 
 b, strong, h1, h2, h3, h4, h5, h6, th {
