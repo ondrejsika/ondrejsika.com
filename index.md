@@ -1,30 +1,21 @@
 ---
 layout: default
-noheader: true
 ---
 
-# Ondrej Sika
 
+<div style="font-size: 2.2em">
+<a href="https://bysika.cz">Czech site</a>
+<!-- <br><a href="https://sikasw.com">English site</a> -->
+<br><a href="https://ondrej.sika.blog">Blog</a> (CZ)
+</div>
 
-I am Visionary, Entrepreneur, [Independet Consultant](https://bysika.cz) and Software engineer at [Slush Pool](https://slushpool.com), student at [FIT CVUT](https://fit.cvut.cz) (former [MFF UK](http://mff.cuni.cz)), Scout Leader of [Seda Strela](http://sedastrela.cz), ... and I am proud of it.
+<div style="font-size: 1.4em" markdown="1">
 
-I like the people, traveling, mountines, sports, technology, education, ...
+I am online at [Linkedin](https://www.linkedin.com/in/ondrejsika) [Facebook](https://facebook.com/sikaondrej) [Twitter](https://twitter.com/ondrejsika) [Github](https://www.github.com/ondrejsika) [Flickr](https://www.flickr.com/photos/ondrejsika/) [Instagram](https://www.instagram.com/ondrejsika/) [Keybase](https://keybase.io/ondrejsika) [mojeID](https://ondrejsika.mojeid.cz/)
 
-Find me on [Facebook](https://facebook.com/sikaondrej), my code on [Github](https://www.github.com/ondrejsika), my photos on [Flickr](https://www.flickr.com/photos/ondrejsika/) or [Instagram](https://www.instagram.com/ondrejsika/) and my identity on [Keybase](https://keybase.io/ondrejsika) or [mojeID](https://ondrejsika.mojeid.cz/) (verified identity).
+I do [Seda Strela](https://sedastrela.cz) [Slush Pool](https://slushpool.com) [Sedu](https://sedu.cz)
 
-Contact me via email <ondrej@ondrejsika.com> or more contacts [here](/contact.html). I care about privacy, my PGP key is __0903EF6B__ on [pgp.mit.edu](https://pgp.mit.edu/pks/lookup?op=vindex&search=0x775D8A020903EF6B) or in [file](ondrejsika_public.asc).
-
-In Czech Republic, I offer __Git Workshops__ - [Skoleni Gitu](https://skoleni-git.cz), __Docker Workshops__ - [Skoleni Docker](https://skoleni-docker.cz) and lot of other __trainings__ and __consulting__ on my bussiness site [bysika.cz](https://bysika.cz) and on [SEDU.cz](https://sedu.cz).
-
-Sometimes I write a few words from trips to my czech personal blog [ondrejbloguje.cz](https://ondrejbloguje.cz) and [speak](/talks).
-
-
-<div style="background: #ddd; padding: 20px; text-align: center; font-size: 1.1em;">
-<span style="font-size: 30px;">Moje <a href="https://bysika.cz">Konzultace, Skoleni, Workshopy</a></span>
-<br>
-Git, Docker, Continue Integration, KVM Virtualizace, CloudFlare, ...
-<br>
-<a href="https://bysika.cz">bysika.cz</a> / <a href="https://skoleni-git.cz">skoleni-git.cz</a> / <a href="https://skoleni-docker.cz">skoleni-docker.cz</a> / <a href="https://sedu.cz">sedu.cz</a>
+CZ: Skolim [Docker](https://skoleni-docker.cz) [Git](https://skoleni-git.cz) [Gitlab](https://skoleni-gitlab.cz) [CI](https://skoleni-ci.cz)
 </div>
 
 <!-- Kato, zustanes naveky v nasich srdcich. O.</div> -->
