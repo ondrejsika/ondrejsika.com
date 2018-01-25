@@ -20,7 +20,8 @@ td, th {
 }
 
 body {
-    margin: 0.5em auto;
+    /* margin: 0.5em auto; */
+    background: #f0f0f0;
     max-width: 50em;
     font-weight: normal;
     font-family: 'cmu_typewriter', monospace;
