@@ -6,8 +6,6 @@ noheader: true
 # Ondrej Sika
 
 
-<a href="/pf"><img src="/static/content/pf2018/PF2018_name_800px.jpg" width="300px"></a>
-
 I am Visionary, Entrepreneur, [Independet Consultant](https://bysika.cz) and Software engineer at [Slush Pool](https://slushpool.com), student at [FIT CVUT](https://fit.cvut.cz) (former [MFF UK](http://mff.cuni.cz)), Scout Leader of [Seda Strela](http://sedastrela.cz), ... and I am proud of it.
 
 I like the people, traveling, mountines, sports, technology, education, ...
