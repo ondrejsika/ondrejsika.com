@@ -7,11 +7,14 @@ layout: base
 <div class="col-md-8 col-md-offset-2">
 {{content}}
 <p class="footer">
+{% if page.nosignature %}
+{% else %}
 --
 <br>
 <b>Ondrej&nbsp;Sika</b>
 <br><a href="mailto:ondrej@ondrejsika.com">ondrej@ondrejsika.com</a> (<a href="/pgp.html">PGP</a>)
 <br>+420 773 452 376</a> (<a href="https://t.me/ondrejsika">Telegram</a>)
+{% endif %}
 <br>
 <span class="noprint">
     <br><a href="/site-index.html">index</a>
