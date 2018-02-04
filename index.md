@@ -4,37 +4,24 @@ noheader: true
 nosignature: true
 ---
 
-# Ondrej Sika
+<div style="font-size: 1.5em" markdown="1">
 
-I am Visionary, Entrepreneur, [Independet Consultant (CZ)](https://bysika.cz) and Software engineer at [Slush Pool](https://slushpool.com), Scout at [Seda Strela](http://sedastrela.cz), ... and I am proud of it.
+Ahoy, I am __Ondrej Sika__,
 
-I like the liberty, freedom, openness, people, traveling, mountines, sports, technology, education, ...
+I do a freelance [software consulting](https://sikasw.com). I also work as engineer st [Slush Pool](https://slushpool.com) (Bitcoin mining pool)
 
+Write me email to <ondrej@ondrejsika.com> ([PGP](/pgp.html)) or contact me by phone [+420 773 452 376](tel:+420773452376) ([Telegram](https://t.me/ondrejsika))
 
+I am on
+[LinkedIn](https://www.linkedin.com/in/ondrejsika/)
 [Facebook](https://facebook.com/sikaondrej)
 [Github](https://github.com/ondrejsika)
 [Flicker](https://www.flickr.com/photos/ondrejsika/albums)
 [Instagram](https://instagram.com/ondrejsika)
 
-[LinkedIn](https://www.linkedin.com/in/ondrejsika/)
-[Na Volne Noze (CZ)](https://navolnenoze.cz/prezentace/ondrej-sika/)
+</div>
 
-[Slush Pool](https://slushpool.com)
-
-## Czech consulting & trainings
-
-[Skoleni, Konzultace (CZ)](https://bysika.cz)
-[Git (CZ)](https://skoleni-git.cz)
-[Docker (CZ)](https://skoleni-docker.cz)
-[Continues Integration (CZ)](https://skoleni-ci.cz)
-[Gitlab (CZ)](https://skoleni-gitlab.cz)
-
-## Contact
-
-<ondrej@ondrejsika.com> ([PGP](/pgp.html))
-<br>+420 773 452 376 ([Telegram](https://t.me/ondrejsika))
-
-<!--
+{% comment %}
 I am Visionary, Entrepreneur, [Independet Consultant](https://bysika.cz) and Software engineer at [Slush Pool](https://slushpool.com), student at [FIT CVUT](https://fit.cvut.cz) (former [MFF UK](http://mff.cuni.cz)), Scout Leader of [Seda Strela](http://sedastrela.cz), ... and I am proud of it.
 
 I like the people, traveling, mountines, sports, technology, education, ...
@@ -56,7 +43,8 @@ Git, Docker, Continue Integration, KVM Virtualizace, CloudFlare, ...
 <a href="https://bysika.cz">bysika.cz</a> / <a href="https://skoleni-git.cz">skoleni-git.cz</a> / <a href="https://skoleni-docker.cz">skoleni-docker.cz</a> / <a href="https://sedu.cz">sedu.cz</a>
 </div>
 
--->
+{% endcomment %}
+
 
 <!-- Kato, zustanes naveky v nasich srdcich. O.</div> -->
 
