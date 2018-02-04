@@ -9,16 +9,19 @@ title: Public Wishlist by Ondrej Sika
 ### Books
 
 - [The Art of Computer Programing](https://www.amazon.com/Computer-Programming-Volumes-1-4A-Boxed/dp/0321751043)
-- [Nastroje Titanu](https://www.melvil.cz/kniha-nastroje-titanu/)
-- [Sprint](https://www.melvil.cz/kniha-sprint/)
 - [Nikdy nedelej kompromis](https://www.melvil.cz/kniha-nikdy-nedelej-kompromis/)
 - [Sedm principu spokojeneho manzelstvi](https://www.melvil.cz/kniha-sedm-principu-spokojeneho-manzelstvi/)
 - [Elon Musk](https://www.melvil.cz/kniha-elon-musk/)
 - [Ukaz co delas](https://www.melvil.cz/kniha-ukaz-co-delas/)
+- [Krad jako umelec](https://www.melvil.cz/kniha-krad-jako-umelec/)
 - [Ctyrhodinovy sefkuchar](https://www.melvil.cz/kniha-ctyrhodinovy-sefkuchar/)
-- [Restart](https://www.melvil.cz/kniha-restart/)
 - [Ctyrhodinovy pracovni tyden](https://www.melvil.cz/kniha-ctyrhodinovy-pracovni-tyden/)
 - [Zen a hotovo](https://www.melvil.cz/kniha-zen-a-hotovo/)
+- [Prace na dalku](https://www.melvil.cz/kniha-prace-na-dalku/)
+- [Prace na dalku](https://www.melvil.cz/kniha-prace-na-dalku/)
+- [Lidri jedi posledni](https://www.melvil.cz/kniha-lidri-jedi-posledni/)
+- [Zbrane vlivu](https://www.melvil.cz/kniha-zbrane-vlivu/)
+- [Pred-svedcovani](https://www.melvil.cz/kniha-pred-svedcovani/)
 
 
 ### Gadgets
