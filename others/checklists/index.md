@@ -14,4 +14,5 @@ title: Personal Checklists
 - [Fitness](fitness.html)
 - [Hacker Camp](hacker-camp.html)
 - [Jachta](jachta.html)
+- [Iceland (winter week)](iceland-winter-week.html)
 
