@@ -12,6 +12,7 @@ title: Tabor
 - batoh
 - ponozky, trenky - 1x den + 1
 - 2000 czk cash, kreditka
+- dokladova tasticka
 - papir, tuzka - hodne
 - telefon
 - zalozni telefon
@@ -32,7 +33,7 @@ title: Tabor
 - knizka, ? kindle
 - ? LTE modem + baterie
 - houpaci sit
-- skrabka (osobni) + erarni
+- skrabka (osobni)
 - lekarnicka
 - mapy - vytistene mapy okoli - idealne na barevnem laseru
 - vodotesna krabicka
@@ -59,5 +60,6 @@ title: Tabor
 - budik
 - kroj
 - raminka (plastova) - min 5x
+- ukulele
 
 
