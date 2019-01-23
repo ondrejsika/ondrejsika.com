@@ -21,6 +21,7 @@ title: Iceland (winter week)
 - tricko na spani
 - 1x tricko na den
 - 1x ponozky a trenky na den + 1x pro rezervu
+- retezy na boty
 
 --
 
@@ -42,6 +43,8 @@ title: Iceland (winter week)
 - celovka
 - papirove kapesnicky
 - nuz
+- drzak na telefon do auta
+- pytle na odpatky
 
 --
 
