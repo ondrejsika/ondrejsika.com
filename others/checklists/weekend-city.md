@@ -7,7 +7,7 @@ title: Weekend (City)
 
 ## {{page.title}}
 
-- maly batoh - deuter
+- goruck
 - cestovni spacak - salewa
 - zrcadlovka
 - notebook
@@ -20,7 +20,7 @@ title: Weekend (City)
 - PAS
 - nabijecky, powerbanka
 - kartacek, pasta, ?ustni voda
-- rucnik, sampon, gel, hreben
+- rucnik, sampon
 - tricko na spani
 - 1x tricko na den
 - 1x ponozky a trenky na den + 1

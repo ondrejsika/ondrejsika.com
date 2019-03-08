@@ -12,7 +12,6 @@ title: Weekend (Nature)
 - karimatka
 - lekarnicka
 - kreditka, cash
-- ? kindle
 - papir, tuzka
 - jidlo (chleba, pastika, uzenky, ...), piti (min 1.5L na den)
 - rezervni jidlo (arasidy, ...)
@@ -27,8 +26,8 @@ title: Weekend (Nature)
 - deospey
 - baterka, celovka
 - papirove kapesnicky
-- ?nexus - mapy
+- ? ipad mini - mapy
 - nepromokava bunda, plastenka na batoh
 - mikina
-- nuz
+- nuz (victorinox), taborovy nuz (victorinox), morakniv
 

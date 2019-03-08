@@ -24,7 +24,8 @@ title: Tabor
 - kanady, sandale, sportovni
 - 2x Mikina, nepromokava bunda
 - maglite, celovka, nahradni baterky
-- nuz, taborovy nuz
+- nuz (victorinox), taborovy nuz (victorinox), morakniv
+- erarni noze - mory
 - mydlo s jelenem, ? Bio sampon
 - kartacek, pasta, ustni voda
 - hrnek na cisteni zubu
@@ -32,7 +33,7 @@ title: Tabor
 - ? Repracek
 - knizka, ? kindle
 - ? LTE modem + baterie
-- houpaci sit
+- hamaka
 - skrabka (osobni)
 - lekarnicka
 - mapy - vytistene mapy okoli - idealne na barevnem laseru
@@ -44,7 +45,7 @@ title: Tabor
 - napinacky
 - pevny provazek, shit provazek (ne sysal)
 - esus (idealne kompletni)
-- lahve na vodu
+- lahve na vodu - nalgene + zelene
 - lzice (nebo cely pribor) - podepsany
 - ? policka
 - ulamovaci noze

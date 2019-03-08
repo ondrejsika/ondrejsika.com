@@ -38,13 +38,15 @@ title: Iceland (winter week)
 - papir, tuzka
 - pojistka
 - PAS
-- nabijecky, powerbanka
+- nabijecky, powerbanka, autonabijecka
 - sluchatka iphone (mala)
 - celovka
 - papirove kapesnicky
 - nuz
 - drzak na telefon do auta
 - pytle na odpatky
+- destnik
+- lzicky (spork / drevene / plastove)
 
 --
 
