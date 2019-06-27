@@ -1,6 +1,15 @@
 # ondrejsika.com jekyll config
 name: ondrejsika.com
 future: false
-exclude: [edit, ]
 highlighter: pygments
 
+exclude:
+  - edit
+  # Default
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
