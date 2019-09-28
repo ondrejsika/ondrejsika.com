@@ -8,7 +8,7 @@ nosignature: true
 
 Ahoy, I am __Ondrej Sika__,
 
-I do a freelance [software consulting](https://ondrejsika.com) and run software consulting company [Sika on Software](https://sikaonsoftware.com). I've spend many great years at [Slush Pool](https://slushpool.com) (Bitcoin mining pool) as a software engineer.
+I do a freelance [software consulting & training](https://which.sika.io) and run IT & DevOps training companies [Trainera](https://trainera.io) and [Sika Kraml](https://sika-kraml.de) (DE). I've spend many great years at [Slush Pool](https://slushpool.com) (Bitcoin mining pool) as a software engineer.
 
 Write me email to <ondrej@ondrejsika.com> ([PGP](/pgp.html)) or contact me by phone [+420 773 452 376](tel:+420773452376) ([Telegram](https://t.me/ondrejsika))
 
