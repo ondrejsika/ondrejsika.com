@@ -7,4 +7,5 @@ _site/*
 .bundle/
 Gemfile.lock
 vendor/
+.env
 

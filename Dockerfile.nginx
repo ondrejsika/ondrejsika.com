@@ -1,7 +1,0 @@
-FROM debian:8
-
-MAINTAINER Ondrej Sika <ondrej@ondrejsika.com>
-
-RUN apt-get update && apt-get install -y nginx
-
-ENTRYPOINT nginx -c /app/nginx.conf
