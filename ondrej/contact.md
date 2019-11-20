@@ -6,12 +6,14 @@ title: Contact
 
 ## {{page.title}}
 
-* email: __<ondrej@ondrejsika.com>__ (preferred)
-* phone czech (primary): __+420 773 452 376__ (Telegram, iMessage, Signal)
-* phone swiss: __+41 78 753 21 62__
+I preffer email communication
+
+* email (primary, personal): __<ondrej@ondrejsika.com>__
+* email (freelance): __<ondrej@sika.io>__
+* phone: __+420 773 452 376__ (Telegram, iMessage, Signal)
 * skype: __ondrejsika__
 * linedin: <https://www.linkedin.com/in/ondrejsika>
-- [__Social networks and accounts__](/accounts.html)
+- [__Social networks and accounts__](/ondrej/accounts.html)
 
 
 ### Addresses
@@ -32,7 +34,7 @@ Pernament address [map](http://www.openstreetmap.org/node/296689680)
 
 ### Billing information
 
-[fakturacni udaje](/fakturacni-udaje.html)
+[fakturacni udaje (on ondrej-sika.cz)](https://ondrej-sika.cz/kontakt/)
 
 * ID Number: __88114163__
 * Tax ID Number: __CZ9302252102__
@@ -51,6 +53,6 @@ Pernament address [map](http://www.openstreetmap.org/node/296689680)
 * BIC code / SWIFT: __FIOBCZPPXXX__
 * Bank address: __Fio banka, a.s., V Celnici 1028/10, Praha 1, Czech Republic__
 
-I also accept __Bitcoin__, [my addresses](/ba.html).
+I also accept __Bitcoin__, [my addresses](/ondrej/ba.html).
 
 

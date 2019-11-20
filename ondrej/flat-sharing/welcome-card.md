@@ -8,7 +8,7 @@ title: Welcome Card - Kurta Konrada 6, Prague
 
 ### WiFi name
 
-    sika-turris
+    sika-guest
 
 
 ### WiFi password
@@ -28,10 +28,10 @@ title: Welcome Card - Kurta Konrada 6, Prague
 
 ### More contacts
 
-    https://ondrejsika.com/contact.html
+    https://ondrejsika.com/ondrej/contact.html
 
 
 ### More informations
 
-    https://ondrejsika.com/flat-sharing/
+    https://ondrejsika.com/ondrej/flat-sharing/
 
