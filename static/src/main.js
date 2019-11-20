@@ -20,6 +20,6 @@ var disqus_shortname = 'ondrejsika';
 links = document.getElementsByTagName("a")
 for(i = 0; i< links.length; i++){
     if (links[i].class && links[i].class.search(/no-taget/) == -1) continue
-    if (links[i].hostname != "127.0.0.1" && links[i].hostname != "localhost" && links[i].hostname != "ondrejsika.com" && links[i].hostname != "www.ondrejsika.com" && links[i].hostname != "personal.ondrejsika.com") links[i].target = "_blank"
+    if (links[i].hostname != "127.0.0.1" && links[i].hostname != "localhost" && links[i].hostname != "ondrejsika.com" && links[i].hostname != "www.ondrejsika.com" && links[i].hostname != "personal.ondrejsika.com" && links[i].hostname != "os.oxs.cz") links[i].target = "_blank"
 }
 
