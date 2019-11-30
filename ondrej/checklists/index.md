@@ -9,6 +9,7 @@ title: Personal Checklists
 
 - [Vikendova akce (mesto)](weekend-city.html)
 - [Vikendova akce (priroda)](weekend-nature.html)
+- [Chill Weekend (Mountains)](chill-weekend.html)
 - [Mountains](mountains.html)
 - [Tabor](tabor.html)
 - [Tabor (oddil)](tabor-oddil.html)
