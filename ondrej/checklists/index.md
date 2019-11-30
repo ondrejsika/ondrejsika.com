@@ -17,4 +17,5 @@ title: Personal Checklists
 - [Hacker Camp](hacker-camp.html)
 - [Jachta](jachta.html)
 - [Iceland (winter week)](iceland-winter-week.html)
+- [Car](car.html)
 
