@@ -18,4 +18,5 @@ title: Personal Checklists
 - [Jachta](jachta.html)
 - [Iceland (winter week)](iceland-winter-week.html)
 - [Car](car.html)
+- [KPZ](kpz.html) (WIP)
 
