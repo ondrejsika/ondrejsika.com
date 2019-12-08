@@ -16,13 +16,19 @@ title: Tabor
 - papir, tuzka - hodne
 - telefon
 - zalozni telefon
+- notebook
+- iPad Pro
+- iPad Mini
+- kabely (tech pouch)
 - powerbanky
 - fotak
 - stativ
 - tricka - 1 na 2 dny
 - 2 tricka na spani
 - kanady, sandale, sportovni
-- 2x Mikina, nepromokava bunda
+- 2x Mikina
+- nepromokava bunda
+- maskacova bunda (latrobunda)
 - maglite, celovka, nahradni baterky
 - nuz (victorinox), taborovy nuz (victorinox), morakniv
 - erarni noze - mory
@@ -39,6 +45,7 @@ title: Tabor
 - mapy - vytistene mapy okoli - idealne na barevnem laseru
 - vodotesna krabicka
 - sekera osobni, oddilova
+- pilka
 - sirky, zapalovace
 - papirove kapesniky
 - plastove folie
@@ -51,6 +58,7 @@ title: Tabor
 - ulamovaci noze
 - caje - mate, tuareg, zeleny
 - kratasy 4x
+- kratasy na behani
 - kalhoty (dlouhy) 2x
 - plavky - plavaci kratasy
 - izolacka
@@ -62,5 +70,16 @@ title: Tabor
 - kroj
 - raminka (plastova) - min 5x
 - ukulele
-
-
+- hazeci nuz
+- karty
+- vyrezavaci noze
+- vyrezavaci sekerky
+- konvicka (nerezova cestovni)
+- maceta
+- destnik
+- velka auto powerbanka (230V)
+- auto menic
+- slackline
+- karabiny
+- platene tasky
+- ikea sacky
