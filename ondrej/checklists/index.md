@@ -14,6 +14,7 @@ title: Personal Checklists
 - [Tabor](tabor.html)
 - [Tabor (oddil)](tabor-oddil.html)
 - [Fitness](fitness.html)
+- [CCC](ccc.html)
 - [Hacker Camp](hacker-camp.html)
 - [Jachta](jachta.html)
 - [Iceland (winter week)](iceland-winter-week.html)
