@@ -2,7 +2,7 @@ version: "3.7"
 services:
   site:
     labels:
-      traefik.frontend.rule: Host:ondrejsika.com,www.ondrejsika.com,personal.ondrejsika.com,os.oxs.cz
+      traefik.frontend.rule: Host:ondrejsika.com,www.ondrejsika.com
       traefik.enable: 'true'
     networks:
         - traefik
