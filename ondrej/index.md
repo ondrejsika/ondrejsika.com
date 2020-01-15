@@ -9,6 +9,8 @@ noheader: true
 
 This is my personal site. If you're looking for my profession site, go to [__sika.io__](https://sika.io).
 
+- [Book Me](book-me/)
+
 ### Random Things
 
 - [projects](/ondrej/projects)
