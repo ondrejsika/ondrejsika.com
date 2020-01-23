@@ -7,10 +7,11 @@ title: Chill Weekend (Mountains)
 
 ## {{page.title}}
 
-- batoh na vylet (Mala Patagoina, Fjallraven Bergtagen)
+- batohy na vylety (Mala Patagoina, Fjallraven Bergtagen)
 - batoh do mesta (Goruck) - na IT veci
 - pocitac
 - taska s kabelama
+- vodafone internet
 - sluchatka + kabel
 - KPZ / lekarnicka
 - kreditka, cash, trezor
@@ -47,9 +48,20 @@ title: Chill Weekend (Mountains)
 - Cidery
 - Neco na snidani
 - Avokado, Banany, ...
+- Mana
 
 ### Zima
 
 - Cepice
 - Rukavice
 - Termoska
+
+### Bezky
+
+- bezky, hulky
+- boty
+- vosky
+- kalhoty na bezky
+- termotriko
+- mikinu na bezky
+- bunda na bezky
