@@ -38,6 +38,7 @@ title: Chill Weekend (Mountains)
 - mikina, islandsky svetr
 - Victorinox, Morakniv
 - kalhoty 2x (odepinaci nohavice)
+- plavky
 
 ### Jidlo & Piti
 
