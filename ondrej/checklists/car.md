@@ -17,6 +17,8 @@ title: Car
 - Coca Cola / RedBull
 - skrabatko na okna
 - bindry
-- nahradni rukavice & cepice
+- nahradni rukavice & cepice (2x)
 - nahradni ponozky (shit)
 - obouvaci lzici
+- pracovni rukavice (2x)
+- polni lopatka
