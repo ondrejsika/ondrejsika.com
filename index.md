@@ -4,6 +4,8 @@ noheader: true
 nosignature: true
 ---
 
+For my freelance / business site go to [sika.io](https://sika.io)
+
 <div style="font-size: 1.5em" markdown="1">
 
 Ahoy, I am __Ondrej Sika__,
