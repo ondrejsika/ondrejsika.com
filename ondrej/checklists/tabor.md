@@ -10,6 +10,7 @@ title: Tabor
 - taborovy spacak
 - 2 karimatky (? kvalitni)
 - batoh
+- batuzek na behani
 - ponozky, trenky - 1x den + 1
 - 2000 czk cash, kreditka
 - dokladova tasticka
@@ -20,9 +21,11 @@ title: Tabor
 - iPad Pro
 - iPad Mini
 - kabely (tech pouch)
+- Alza Powerstation
 - powerbanky
 - fotak
 - stativ
+- gopro
 - tricka - 1 na 2 dny
 - 2 tricka na spani
 - kanady, sandale, sportovni
@@ -43,9 +46,12 @@ title: Tabor
 - skrabka (osobni)
 - lekarnicka
 - mapy - vytistene mapy okoli - idealne na barevnem laseru
-- vodotesna krabicka
-- sekera osobni, oddilova
-- pilka
+- vodotesny sacek 5l
+- sekery fiskars: osobni, stipaci
+- pilky fiskars: mala, velka
+- pila fiskars (ramova)
+- polni lopatka(y)
+- fiskars ryc
 - sirky, zapalovace
 - papirove kapesniky
 - plastove folie
@@ -56,10 +62,11 @@ title: Tabor
 - lzice (nebo cely pribor) - podepsany
 - ? policka
 - ulamovaci noze
-- caje - mate, tuareg, zeleny
+- caje - mate, tuareg, zeleny, mata
+- sytka na caje
 - kratasy 4x
 - kratasy na behani
-- kalhoty (dlouhy) 2x
+- kalhoty (dlouhy)
 - plavky - plavaci kratasy
 - izolacka
 - slunecni bryle
@@ -69,7 +76,6 @@ title: Tabor
 - budik
 - kroj
 - raminka (plastova) - min 5x
-- ukulele
 - hazeci nuz
 - karty
 - vyrezavaci noze
@@ -77,9 +83,20 @@ title: Tabor
 - konvicka (nerezova cestovni)
 - maceta
 - destnik
-- velka auto powerbanka (230V)
-- auto menic
 - slackline
 - karabiny
 - platene tasky
 - ikea sacky
+- go (game)
+- sachy
+- izolepa
+- pracovni rukavice: moje (tvrde, kozene), erarni
+- hudrave polstarky
+- rozprasovac (tlakovaci)
+
+### Nelinka
+
+- Granulky (15 kg pytel)
+- Pamlsky
+- Voditko Stekula
+- Stopovacka
