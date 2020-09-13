@@ -18,4 +18,14 @@ title: Tabor (Oddil)
 - napinacky
 - izolepa
 - pravitka
+- sesivacka
 
+#### Provazova Bedna
+
+- lano na stozar
+- pradelni snury (cca 3x, na tee-pee)
+- provazky na lining
+
+#### Hrebikova Bedna
+
+- zahradni drat (na louci na slibak)
