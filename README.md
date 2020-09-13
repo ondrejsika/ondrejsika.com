@@ -2,6 +2,14 @@
 
 My website based on Jekyll and hosted by GitHub pages
 
+## Setup Repository
+
+```
+git clone git@github.com/ondrejsika/ondrejsika.com.git
+cd ondrejsika.com
+./link-git-hooks.sh
+```
+
 ## Docs
 
 Run development server on port 4000 `sh serve.sh`
