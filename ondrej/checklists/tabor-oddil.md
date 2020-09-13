@@ -19,6 +19,8 @@ title: Tabor (Oddil)
 - izolepa
 - pravitka
 - sesivacka
+- obalky
+- kolicky na pradlo
 
 #### Provazova Bedna
 
