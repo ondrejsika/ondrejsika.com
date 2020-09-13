@@ -56,7 +56,9 @@ title: Tabor
 - papirove kapesniky
 - plastove folie
 - napinacky
+- sesivacka
 - pevny provazek, shit provazek (ne sysal)
+- zahradni drat (na louci na slibak)
 - esus (idealne kompletni)
 - lahve na vodu - nalgene + zelene
 - lzice (nebo cely pribor) - podepsany
