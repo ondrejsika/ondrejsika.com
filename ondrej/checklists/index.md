@@ -3,9 +3,7 @@ layout: default
 title: Personal Checklists
 ---
 
-
 ## {{page.title}}
-
 
 - [Vikendova akce (mesto)](weekend-city.html)
 - [Vikendova akce (priroda)](weekend-nature.html)
@@ -20,4 +18,3 @@ title: Personal Checklists
 - [Iceland (winter week)](iceland-winter-week.html)
 - [Car](car.html)
 - [KPZ](kpz.html) (WIP)
-

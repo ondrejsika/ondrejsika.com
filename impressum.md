@@ -3,10 +3,9 @@ layout: default
 title: Impressum
 ---
 
-
 ## {{page.title}}
 
-__Ondrej Sika__
+**Ondrej Sika**
 <br>Kurta Konrada 2457/6
 <br>190 00 Prague
 <br>Czech Republic

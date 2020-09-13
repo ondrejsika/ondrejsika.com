@@ -5,7 +5,6 @@ title: Fakturacni udaje
 
 ## {{page.title}}
 
-
     Ondrej Sika
 
     Klatovska 1532/71
@@ -19,4 +18,3 @@ title: Fakturacni udaje
 
     Ucet: 2500171198/2010
     Banka: Fio
-

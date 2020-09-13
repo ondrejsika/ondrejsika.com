@@ -3,7 +3,6 @@ layout: default
 title: Flat Sharing
 ---
 
-
 ## {{page.title}} - Home Rules
 
 Welcome,
@@ -21,4 +20,3 @@ Map: <http://www.openstreetmap.org/node/3050703975>
 <br>
 
 - [welcome card](welcome-card.html)
-

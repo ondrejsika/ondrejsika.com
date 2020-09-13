@@ -8,7 +8,7 @@ nosignature: true
 
 <div style="font-size: 1.5em" markdown="1">
 
-Ahoy, I am __Ondrej Sika__,
+Ahoy, I am **Ondrej Sika**,
 
 I do a freelance [IT and DevOps consulting & training](https://sika.io) and run training companies [Trainera](https://trainera.io) and [Sika Kraml Schulungen](https://sika-kraml.de) (DE).
 
@@ -26,4 +26,3 @@ I am on
 </div>
 
 <!-- Kato, zustanes naveky v nasich srdcich. O.</div> -->
-

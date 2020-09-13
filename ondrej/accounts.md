@@ -3,7 +3,6 @@ layout: default
 title: Accounts
 ---
 
-
 ## {{page.title}}
 
 - [Facebook](https://facebook.com/sikaondrej)
@@ -11,12 +10,10 @@ title: Accounts
 - [Google+](https://plus.google.com/+OndrejSika)
 - [Linkedin](https://www.linkedin.com/in/ondrejsika)
 
-
 Slides
 
 - [SpeakerDeck](https://speakerdeck.com/ondrejsika)
 - [Slideshare](http://www.slideshare.net/ondrejsika)
-
 
 Code
 
@@ -31,12 +28,10 @@ Code
 - [Webtrh](https://webtrh.cz/members/91094-ondrejsika)
 - [Devel.cz](http://devel.cz/user/2565/)
 
-
 Photography
 
 - [Flicker](https://www.flickr.com/photos/ondrejsika/)
 - [Instagram](https://www.instagram.com/ondrejsika/)
-
 
 Flat sharing
 
@@ -62,4 +57,3 @@ Events
 Hackathons
 
 - [Hackathon.io](http://www.hackathon.io/ondrejsika)
-

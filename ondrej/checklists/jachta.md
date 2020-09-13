@@ -39,4 +39,3 @@ title: Jachta
 - nepromokava bunda
 - plavky (kratasy)
 - potapecske bryle
-

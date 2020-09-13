@@ -30,4 +30,3 @@ title: Weekend (Nature)
 - nepromokava bunda, plastenka na batoh
 - mikina
 - nuz (victorinox), taborovy nuz (victorinox), morakniv
-

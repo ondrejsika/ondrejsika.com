@@ -53,4 +53,3 @@ title: Iceland (winter week)
 - 2x lahev mana
 - 3x pytel mana
 - rezervni jidlo (arasidy, seminka, rozinky), piti (min 0.5l)
-

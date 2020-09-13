@@ -3,9 +3,6 @@ layout: default
 title: Scout
 ---
 
-
 ## {{page.title}}
 
-
-* [Seda Strela](sedastrela/)
-
+- [Seda Strela](sedastrela/)

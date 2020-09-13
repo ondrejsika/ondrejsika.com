@@ -3,7 +3,6 @@ layout: default
 title: Bitcoin Addresses
 ---
 
-
 ## {{page.title}}
 
 ### Trezor (preferred)
@@ -44,12 +43,11 @@ title: Bitcoin Addresses
 <br>
 <br>
 
-### Mobile (for small mounts up to $20)
+### Mobile (for small mounts up to \$20)
 
     Ondrej Sika's Bitcoin address (Mobile):
 
     1E6T2a83EXUFKcH644Uq2zGAqRchNLnNvF
-
 
 #### PGP signed message
 
@@ -76,4 +74,3 @@ title: Bitcoin Addresses
 ![](/static/content/ba/mobile-addr.png)
 
 PGP messages can be verified on: <https://keybase.io/verify>
-

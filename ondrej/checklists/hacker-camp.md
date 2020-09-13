@@ -38,7 +38,6 @@ title: Hacker Camp
 - kratasy, dlouhy
 - obleceni k ohni
 
-
 ### Jidlo
 
 - caje: mate, matcha, tuareg
@@ -46,4 +45,3 @@ title: Hacker Camp
 - vlocky, rozinky
 - 2x 1.5l Vody na den
 - 4x tycinka na den
-

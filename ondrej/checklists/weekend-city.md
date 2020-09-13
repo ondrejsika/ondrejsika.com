@@ -30,4 +30,3 @@ title: Weekend (City)
 - sluchatka, kabel
 - baterka
 - papirove kapesnicky
-

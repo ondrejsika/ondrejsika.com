@@ -7,7 +7,7 @@ noheader: true
 
 # Ondrej Sika
 
-This is my personal site. If you're looking for my profession site, go to [__sika.io__](https://sika.io).
+This is my personal site. If you're looking for my profession site, go to [**sika.io**](https://sika.io).
 
 - [Book Me](book-me/)
 

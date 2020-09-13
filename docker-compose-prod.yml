@@ -3,9 +3,9 @@ services:
   site:
     labels:
       traefik.frontend.rule: Host:ondrejsika.com,www.ondrejsika.com
-      traefik.enable: 'true'
+      traefik.enable: "true"
     networks:
-        - traefik
+      - traefik
 
 networks:
   traefik:
