@@ -18,7 +18,8 @@ for (i = 0; i < links.length; i++) {
     links[i].hostname != "ondrejsika.com" &&
     links[i].hostname != "www.ondrejsika.com" &&
     links[i].hostname != "personal.ondrejsika.com" &&
-    links[i].hostname != "os.oxs.cz"
+    links[i].hostname != "os.oxs.cz" &&
+    links[i].hostname != "xjzh7z7eackm5nx66vmer4t2xk4vdwvkv2ltqdcxbgst2fkoi74dzmyd.onion"
   )
     links[i].target = "_blank";
 }
