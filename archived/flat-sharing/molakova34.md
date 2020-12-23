@@ -36,7 +36,7 @@ I have WiFi network **sika-turris** with password **asdfasdf**. Or just scan thi
 
 <br>
 
-In case of any problem or if you have some question, contact me directly by phone **+420 773 452 376** (iMessage, Telegram), email <ondrej@ondrejsika.com> or by [Facebook](https://facebook.com/sikaondrej2).
+In case of any problem or if you have some question, contact me directly by phone **+420 773 452 376** (iMessage, Telegram), email <ondrej@ondrejsika.com> or by [Facebook](https://facebook.com/ondrejsika).
 
 PS: I'll be pleased if you send me a postcard, when you'll be back at home :)
 

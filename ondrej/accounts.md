@@ -5,7 +5,7 @@ title: Accounts
 
 ## {{page.title}}
 
-- [Facebook](https://facebook.com/sikaondrej)
+- [Facebook](https://facebook.com/ondrejsika)
 - [Twitter](https://twitter.com/ondrejsika)
 - [Google+](https://plus.google.com/+OndrejSika)
 - [Linkedin](https://www.linkedin.com/in/ondrejsika)

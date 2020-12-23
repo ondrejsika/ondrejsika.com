@@ -18,7 +18,7 @@ Write me email to <ondrej@ondrejsika.com> ([PGP](/ondrej/pgp.html)) or contact m
 
 I am on
 [LinkedIn](https://www.linkedin.com/in/ondrejsika/)
-[Facebook](https://facebook.com/sikaondrej)
+[Facebook](https://facebook.com/ondrejsika)
 [Github](https://github.com/ondrejsika)
 [Flicker](https://www.flickr.com/photos/ondrejsika/albums)
 [Instagram](https://instagram.com/ondrejsika)
