@@ -10,7 +10,7 @@ nosignature: true
 
 Ahoy, I am **Ondrej Sika**,
 
-I do a freelance [IT and DevOps consulting & training](https://sika.io) and run training companies [Trainera](https://trainera.io) and [Sika Kraml Schulungen](https://sika-kraml.de) (DE).
+I do a freelance [IT and DevOps consulting & training](https://sika.io), run DevOps company [Sika Labs](https://sikalabs.com) and training company [Trainera](https://trainera.io).
 
 I've spent many great years at [Slush Pool](https://slushpool.com) (Bitcoin mining pool, [Braiins](https://braiins.com)) as a software engineer.
 
