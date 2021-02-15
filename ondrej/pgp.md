@@ -13,3 +13,5 @@ Key on keyservers:
 - [pgp.mit.edu](https://pgp.mit.edu/pks/lookup?op=vindex&search=0x775D8A020903EF6B) (slow & maybe broken)
 
 or in file [https://ondrejsika.com/pgp.txt](/pgp.txt).
+
+[All my PGP keys](/ondrej/pgp-all.html)
