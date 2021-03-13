@@ -18,3 +18,4 @@ title: Personal Checklists
 - [Iceland (winter week)](iceland-winter-week.html)
 - [Car](car.html)
 - [KPZ](kpz.html) (WIP)
+- [Letani](letani.html)
