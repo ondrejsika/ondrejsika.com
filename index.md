@@ -4,7 +4,7 @@ noheader: true
 nosignature: true
 ---
 
-<p style="background: #ffbebe; padding: 15px; text-align: center;" markdown="1">For my freelance / business site go to [sika.io](https://sika.io)</p>
+<p style="background: #ffbebe; padding: 15px; text-align: center;" markdown="1">This is my personal site. For my freelance / business site go to [sika.io](https://sika.io)</p>
 
 <div style="font-size: 1.5em" markdown="1">
 
