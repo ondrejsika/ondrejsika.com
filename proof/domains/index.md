@@ -3,7 +3,6 @@ layout: default
 noheader: true
 ---
 
-
 # Proof of Legitimity for my Domains
 
 Here is a list of my domains. If you receive email from this domains, it is not a scam.
