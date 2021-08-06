@@ -20,3 +20,18 @@ title: My Web Archive
 - <https://ondrejsika-com-2018-02-03.web-archive.xsika.com/>
 - <https://ondrejsika-com-2018-02-04.web-archive.xsika.com/>
 - <https://ondrejsika-com-2019-11-18.web-archive.xsika.com/>
+
+### ondrej-sika.cz, bysika.cz, sika.guru, ondrejsika.com
+
+- <https://ondrej-sika-cz-2015-05-19.web-archive.xsika.com/>
+- <https://ondrej-sika-cz-2016-06-20.web-archive.xsika.com/>
+- <https://ondrej-sika-cz-2017-04-02.web-archive.xsika.com/>
+- <https://ondrej-sika-cz-2017-06-23.web-archive.xsika.com/>
+- <https://ondrej-sika-cz-2018-02-18.web-archive.xsika.com/>
+
+### skoleni-git.cz
+
+- <https://skoleni-git-cz-2016-05-14.web-archive.xsika.com/>
+- <https://skoleni-git-cz-2016-06-14.web-archive.xsika.com/>
+- <https://skoleni-git-cz-2018-01-21.web-archive.xsika.com/>
+- <https://skoleni-git-cz-2018-03-08.web-archive.xsika.com/>
