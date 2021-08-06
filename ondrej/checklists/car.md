@@ -14,6 +14,7 @@ title: Car
 - slucecni bryle
 - nahradni boty (z Decathlonu)
 - ubrousky / kapesniky
+- toaletni papir
 - Coca Cola / RedBull
 - skrabatko na okna
 - bindry
@@ -22,3 +23,7 @@ title: Car
 - obouvaci lzici
 - pracovni rukavice (2x)
 - polni lopatka
+- drivka a trisky na rozdelani grilu
+- zapalovac
+- platene / ikea tasky
+- uzaviratelne sacky ikea (vsechny velikosti)
