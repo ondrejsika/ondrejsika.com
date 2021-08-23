@@ -26,6 +26,9 @@ title: Tabor
 - fotak
 - stativ
 - gopro
+- dron velky
+- drony male
+- podlozky na psani
 - tricka - 1 na 2 dny
 - 2 tricka na spani
 - kanady, sandale, sportovni
@@ -52,9 +55,10 @@ title: Tabor
 - pila fiskars (ramova)
 - polni lopatka(y)
 - fiskars ryc
-- sirky, zapalovace
+- sirky, zapalovace (zippo + obycejny)
+- benzin do zapalovace
 - papirove kapesniky
-- plastove folie
+- plastove folie (eurodesky)
 - napinacky
 - obalky
 - sesivacka
