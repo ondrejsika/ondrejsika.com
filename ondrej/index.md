@@ -23,3 +23,4 @@ This is my personal site. If you're looking for my profession site, go to [**sik
 - [ideas](/ondrej/ideas.html)
 - [my web archive](/ondrej/web-archive)
 - [pf](/pf)
+- [homepage](/homepage)
