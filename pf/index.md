@@ -1,13 +1,20 @@
 ---
-layout: default
+layout: base
 title: PF
 ---
 
 <style>
 img {
-    width: 25em;
+    width: 700px;
+}
+body {
+    max-width: 100%;
 }
 </style>
+
+<div style="width:700px; margin: 0 auto;" markdown="1">
+
+<h1 style="margin: 1em 0; text-align: center;">Ondej Sika's PF</h1>
 
 [![PF 2022](/static/content/pf2022/PF2022_800px.jpg)](2022.html)
 
@@ -36,3 +43,5 @@ img {
 [![PF 2010](/static/content/pf2010/PF2010_scan_800px.jpg)](2010.html)
 
 [![PF 2009](/static/content/pf2009/pf2009.jpg)](2009.html)
+
+</div>
