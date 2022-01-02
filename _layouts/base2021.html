@@ -1,0 +1,58 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style data-styled="" data-styled-version="5.1.0">
+      .main {
+        padding: 0 2em;
+        font-family: "IBM Plex Sans", sans-serif;
+        max-width: 800px;
+      } /*!sc*/
+      @media (max-width: 600px) {
+        .main {
+          padding: 0 0.5em;
+        }
+      }
+      .header {
+        font-size: 2.5em;
+        margin-block-end: 0.2em;
+      }
+      .link {
+        color: #131480;
+      }
+      .link-button {
+        border: 2px solid #131480;
+        padding: 0.15em 0.4em;
+        margin: 0.3em 0.6em 0.3em 0;
+        color: #131480;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        display: inline-block;
+      } /*!sc*/
+      .link-button:hover {
+        border: 2px solid #131480;
+        padding: 0.15em 0.4em;
+        background-color: #131480;
+        color: white;
+      }
+      body {
+        font-size: 1.35em;
+      }
+    </style>
+    <meta charset="utf-8" />
+    <title>{% if page.title %}{{page.title}} | {% endif %}Ondrej Sika - ondrejsika.com</title>
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      {{ content }}
+    </div>
+  </body>
+</html>
