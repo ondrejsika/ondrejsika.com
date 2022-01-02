@@ -1,28 +1,32 @@
 ---
-layout: default
-noheader: true
-nosignature: true
+layout: default2021
 ---
 
-<p style="background: #ffbebe; padding: 15px; text-align: center;" markdown="1">This is my personal site. For my freelance / business site go to [sika.io](https://sika.io)</p>
+<h1 class="header">Ondrej Sika</h1>
 
-<div style="font-size: 1.5em" markdown="1">
-
-Ahoy, I am **Ondrej Sika**,
-
-I do a freelance [IT and DevOps consulting & training](https://sika.io), run DevOps company [Sika Labs](https://sikalabs.com) and training company [Trainera](https://trainera.io).
+<div markdown="1">
+I do a freelance [IT and DevOps consulting & training](https://sika.io), run DevOps company [SikaLabs](https://sikalabs.com) and training company [Trainera](https://trainera.io).
 
 I've spent many great years at [Slush Pool](https://slushpool.com) (Bitcoin mining pool, [Braiins](https://braiins.com)) as a software engineer.
-
-Write me email to <ondrej@ondrejsika.com> ([PGP](/ondrej/pgp.html)) or contact me by phone [+420 773 452 376](tel:+420773452376) ([Telegram](https://t.me/ondrejsika))
-
-I am on
-[LinkedIn](https://www.linkedin.com/in/ondrejsika/)
-[Facebook](https://facebook.com/ondrejsika)
-[Github](https://github.com/ondrejsika)
-[Flicker](https://www.flickr.com/photos/ondrejsika/albums)
-[Instagram](https://instagram.com/ondrejsika)
-
 </div>
 
-<!-- Kato, zustanes naveky v nasich srdcich. O.</div> -->
+<p>
+  <a href="mailto:ondrej@ondrejsika.com" class="link">ondrej@ondrejsika.com</a>
+  <br />
+  <a href="tel:+420773452376" class="link">+420 773 452 376</a> (<a href="https://t.me/ondrejsika" class="link">Telegram</a>)
+</p>
+<p class="row">
+  <a href="https://www.instagram.com/ondrejsika/" target="_blank" class="link-button" >Instagram</a>
+  <a href="https://www.linkedin.com/in/ondrejsika/" target="_blank" class="link-button" >Linkedin</a>
+  <a href="https://github.com/ondrejsika" target="_blank" class="link-button" >Github</a>
+  <a href="https://twitter.com/ondrejsika" target="_blank" class="link-button" >Twitter</a>
+  <a href="https://www.facebook.com/ondrejsika" target="_blank" class="link-button" >Facebook</a>
+  <a href="https://www.flickr.com/photos/ondrejsika/albums" target="_blank" class="link-button" >Flickr</a>
+</p>
+<p class="row">
+  <a href="https://sika.io/" target="_blank" class="link-button">Ondrej Sika DevOps (sika.io)</a>
+  <br />
+  <a href="https://sikalabs.com" target="_blank" class="link-button" >SikaLabs (sikalabs.com)</a>
+  <br />
+  <a href="https://trainera.io" target="_blank" class="link-button">Trainera (trainera.io)</a>
+</p>
