@@ -20,6 +20,7 @@ title: My Web Archive
 - <https://ondrejsika-com-2018-02-03.web-archive.xsika.com/>
 - <https://ondrejsika-com-2018-02-04.web-archive.xsika.com/>
 - <https://ondrejsika-com-2019-11-18.web-archive.xsika.com/>
+- <https://ondrejsika-com-2022-01-01.web-archive.xsika.com/>
 
 ### ondrej-sika.cz, bysika.cz, sika.guru, ondrejsika.com
 
