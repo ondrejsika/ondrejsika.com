@@ -3,6 +3,13 @@ layout: default2021
 ---
 
 <h1 class="header">Ondrej Sika</h1>
+
+<div markdown="1">
+I do a freelance [IT and DevOps consulting & training](https://sika.io), run DevOps company [SikaLabs](https://sikalabs.com) and training company [Trainera](https://trainera.io).
+
+I've spent many great years at [Slush Pool](https://slushpool.com) (Bitcoin mining pool, [Braiins](https://braiins.com)) as a software engineer.
+</div>
+
 <p>
   <a href="mailto:ondrej@ondrejsika.com" class="link">ondrej@ondrejsika.com</a>
   <br />
