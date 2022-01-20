@@ -10,4 +10,5 @@ RUN ./build.sh
 RUN ./generate-version-api.sh
 
 FROM nginx
+COPY ./nginx-site.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /build/_site /usr/share/nginx/html
