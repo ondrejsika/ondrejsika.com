@@ -5,7 +5,9 @@ title: Book Me - Ondrej Sika
 
 ## {{ page.title }}
 
-Book a personal meeting with me. For my freelance activity go to: <https://book-me.sika.io>
+Book a personal meeting with me.
+
+For my freelance activity go to: <https://book-me.sika.io>
 
 - [Beer](https://calendly.com/ondrejsika/beer)
 - [Lunch](https://calendly.com/ondrejsika/lunch)
