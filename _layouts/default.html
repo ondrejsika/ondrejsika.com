@@ -2,6 +2,12 @@
 layout: default2021
 ---
 
+{% if page.noheader %}{% else %}
+<div style="margin-top: 30px;">
+<span style="font-size: 1.5rem; font-weight: bold;">Ondrej Sika</span>
+</div>
+{% endif %}
+
 {{content}}
 
 <p class="footer" style="margin-top: 40px">
