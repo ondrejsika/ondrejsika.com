@@ -7,6 +7,7 @@ RUN ./install.sh
 COPY --from=sikalabs/slu:v0.35.0 /usr/local/bin/slu /usr/local/bin/slu
 COPY . .
 RUN ./build.sh
+ARG CI_COMMIT_TITLE=""
 RUN ./generate-version-api.sh
 
 FROM nginx
