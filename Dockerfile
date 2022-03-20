@@ -4,7 +4,7 @@ RUN gem update --system && gem install bundler
 COPY Gemfile .
 COPY install.sh .
 RUN ./install.sh
-COPY --from=sikalabs/slu:v0.27.1 /usr/local/bin/slu /usr/local/bin/slu
+COPY --from=sikalabs/slu:v0.35.0 /usr/local/bin/slu /usr/local/bin/slu
 COPY . .
 RUN ./build.sh
 RUN ./generate-version-api.sh
