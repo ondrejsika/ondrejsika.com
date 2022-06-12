@@ -1,5 +1,11 @@
 version: "3.7"
 services:
   site:
+    build:
+      target: build-env
+    image: ondrejsika/ondrejsika.com:build-env
+    command: ./serve.sh
+    volumes:
+      - ./:/build
     ports:
-      - ${PORT_HTTP:-80}:80
+      - ${PORT_HTTP:-80}:4000
