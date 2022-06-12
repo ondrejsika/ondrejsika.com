@@ -3,7 +3,7 @@ layout: default
 noheader: true
 ---
 
-![Ondrej Sika's photo](/ondrej/photo/ondrejsika4_200px.jpg)
+![Ondrej Sika's photo](/ondrej/photo/ondrejsika5_transparent_no_borders_100px.png)
 
 # Ondrej Sika
 
