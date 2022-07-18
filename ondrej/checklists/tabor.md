@@ -7,14 +7,16 @@ title: Tabor
 
 ## {{page.title}}
 
-- taborovy spacak
+- kvalitni taborovy spacak (tmave zeleny)
+- shitty taborovy spacak (svetle zeleny)
 - 2 karimatky (? kvalitni)
 - batoh
 - batuzek na behani
-- ponozky, trenky - 1x den + 1
+- ponozky, trenky - 4x
 - 2000 czk cash, kreditka
 - dokladova tasticka
 - papir, tuzka - hodne
+- ciste A4 na dopisy sam sobe
 - telefon
 - zalozni telefon
 - notebook
@@ -29,10 +31,9 @@ title: Tabor
 - dron velky
 - drony male
 - podlozky na psani
-- tricka - 1 na 2 dny
-- 2 tricka na spani
+- tricka - 5x
 - kanady, sandale, sportovni
-- 2x Mikina
+- Mikina
 - nepromokava bunda
 - maskacova bunda (latrobunda)
 - maglite, celovka, nahradni baterky
@@ -40,7 +41,6 @@ title: Tabor
 - erarni noze - mory
 - mydlo s jelenem, ? Bio sampon
 - kartacek, pasta, ustni voda
-- hrnek na cisteni zubu
 - rucnik - velky
 - ? Repracek
 - knizka, ? kindle
@@ -60,38 +60,40 @@ title: Tabor
 - papirove kapesniky
 - plastove folie (eurodesky)
 - napinacky
-- obalky
+- obalka na dopisy sam sobe (velka A4)
+- obalky A6 - taborova posta
 - sesivacka
 - pevny provazek, shit provazek (ne sysal)
 - zahradni drat (na louci na slibak)
+- pevnejsi drat (na louci na slibak)
 - esus (idealne kompletni)
-- lahve na vodu - nalgene + zelene
+- lahve na vodu - nalgene
 - lzice (nebo cely pribor) - podepsany
 - ? policka
 - ulamovaci noze
 - caje - mate, tuareg, zeleny, mata
 - sytka na caje
-- kratasy 4x
-- kratasy na behani
+- kratasy 2x
 - kalhoty (dlouhy)
 - plavky - plavaci kratasy
 - izolacka
+- duct tape
 - slunecni bryle
 - opalovaci krem
 - igelitky, pytle na odpatky
 - outdor hodinky
 - budik
 - kroj
-- raminka (plastova) - min 5x
+- raminka (plastova) - min 2x
 - hazeci nuz
 - karty
 - vyrezavaci noze
 - vyrezavaci sekerky
 - konvicka (nerezova cestovni)
-- maceta
+- maceta fiskars
 - destnik
 - slackline
-- karabiny
+- karabiny velke, male
 - platene tasky
 - ikea sacky
 - go (game)
@@ -100,9 +102,21 @@ title: Tabor
 - pracovni rukavice: moje (tvrde, kozene), erarni
 - hudrave polstarky
 - rozprasovac (tlakovaci)
+- mini gril
+- kempove zidle 2x
+- plynovy dvojvaric (na velkou bombu)
+- plynovy horak na plyn do zapalovacu
+- Plyn do zapalovacu
+- Pistalky 2x
+- trhac klistat
+- svicky
+- karton pod notebook
+- nuzky
 
-### Nelinka
+### Nelinka / Delinka
 
+- GPS Tracker (tracktive) + kabel
+- svitici obojek
 - Granulky (15 kg pytel)
 - Pamlsky
 - Voditko Stekula
