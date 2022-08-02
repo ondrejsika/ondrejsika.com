@@ -3,6 +3,7 @@
 
 _site/*
 .idea
+.vscode
 
 .bundle/
 vendor/
