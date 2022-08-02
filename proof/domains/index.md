@@ -9,6 +9,7 @@ Here is a list of my domains. If you receive email from this domains, it is not 
 
 - [sika.io](https://sika.io)
 - [sikahq.com](https://sikahq.com)
+- [teamsika.com](https://teamsika.com)
 - [sikalabs.com](https://sikalabs.com)
 - [sikalabs.io](https://sikalabs.io)
 - [sikamail.com](https://sikamail.com)
