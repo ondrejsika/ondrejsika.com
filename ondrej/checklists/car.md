@@ -33,3 +33,4 @@ title: Car
 - balik vody
 - celovka
 - papir, tuzka
+- spacak, nafukovaci polstarek
