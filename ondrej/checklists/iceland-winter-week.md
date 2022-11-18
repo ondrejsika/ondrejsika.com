@@ -7,21 +7,25 @@ title: Iceland (winter week)
 
 ## {{page.title}}
 
-- maly batoh - deuter
+- maly batoh - GORUCK GR2
 - velky batoh - gemma
+- obal na batoh do letadla
 - spacak (zimni)
 
 --
 
 - nepromokava bunda - poustni
 - perovka
-- mikina strabag
+- mikina (zelena patagonia)
 - dlouhe kalhoty (odepinaci nohavice)
+- cepice, rukavice
 - termotriko + termokalhoty
 - tricko na spani
 - 1x tricko na den
 - 1x ponozky a trenky na den + 1x pro rezervu
 - retezy na boty
+- plavky
+- slunecni bryle
 
 --
 
@@ -31,7 +35,6 @@ title: Iceland (winter week)
 
 --
 
-- zrcadlovka
 - notebook + nabijecka
 - kreditka, cash, trezor
 - tablet, ? kindle
