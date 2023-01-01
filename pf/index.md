@@ -1,20 +1,17 @@
 ---
-layout: base
+layout: default2021
 title: PF
 ---
 
 <style>
 img {
-    width: 700px;
-}
-body {
-    max-width: 100%;
+    width: 800px;
 }
 </style>
 
-<div style="width:700px; margin: 0 auto;" markdown="1">
+<div markdown="1">
 
-<h1 style="margin: 1em 0; text-align: center;">Ondej Sika's PF</h1>
+<h1>Ondej Sika's PF</h1>
 
 [![PF 2023](/static/content/pf2023/pf2023_800px.jpg)](2023.html)
 
