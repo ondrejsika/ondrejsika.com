@@ -13,4 +13,4 @@ jobs:
     - name: Login to Docker Hub
       run: docker login -u ondrejsika -p ${{ secrets.DOCKERHUB_ONDREJSIKA_PASSWORD }}
     - name: Build & Push the Docker Images
-      run: sh docker-build-push.sh
+      run: make docker-build-and-push
