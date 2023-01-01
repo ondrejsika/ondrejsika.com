@@ -1,4 +1,4 @@
-FROM ruby as build-env
+FROM ruby:3.1 as build-env
 WORKDIR /build
 RUN gem update --system && gem install bundler
 COPY Gemfile .
