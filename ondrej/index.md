@@ -25,3 +25,4 @@ This is my personal site. If you're looking for my profession site, go to [**sik
 - [pf](/pf)
 - [homepage](/homepage)
 - [iamondrej.com](https://iamondrej.com)
+- [ond.is](https://ond.is)
