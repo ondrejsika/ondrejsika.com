@@ -12,5 +12,7 @@ Here is a list of my domains. If you receive email from this domains, it is not 
 - [teamsika.com](https://teamsika.com)
 - [sikalabs.com](https://sikalabs.com)
 - [sikalabs.io](https://sikalabs.io)
+- [xsika.com](https://xsika.com)
 - [sikamail.com](https://sikamail.com)
 - [sikamail.cz](https://sikamail.cz)
+- [rej.is](https://rej.is)
