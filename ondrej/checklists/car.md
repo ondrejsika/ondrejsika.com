@@ -34,3 +34,8 @@ title: Car
 - celovka
 - papir, tuzka
 - spacak, nafukovaci polstarek
+
+## Dela
+
+- rezervni granule
+- svitici obojek
