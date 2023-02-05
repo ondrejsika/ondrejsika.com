@@ -13,6 +13,7 @@ This is my personal site. If you're looking for my profession site, go to [**sik
 
 ### Random Things
 
+- [flying](/ondrej/flying)
 - [scout](/ondrej/scout)
 - [checklists](/ondrej/checklists)
 - [bitcoin addresses](/ondrej/ba.html)
