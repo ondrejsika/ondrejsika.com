@@ -19,3 +19,4 @@ title: Personal Checklists
 - [Car](car.html)
 - [KPZ](kpz.html) (WIP)
 - [Letani](letani.html)
+- [Hackathon](hackathon.html)
