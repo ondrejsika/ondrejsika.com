@@ -37,7 +37,11 @@ title: Tabor
 - nepromokava bunda
 - maskacova bunda (latrobunda)
 - maglite, celovka, nahradni baterky
-- nuz (victorinox), taborovy nuz (victorinox), morakniv
+- nuz victorinox od mamky
+- nuz victorinox swiss champ
+- nuz victorinox skipper pro
+- taborovy nuz victorinox
+- morakniv
 - erarni noze - mory
 - mydlo s jelenem, ? Bio sampon
 - kartacek, pasta, ustni voda
