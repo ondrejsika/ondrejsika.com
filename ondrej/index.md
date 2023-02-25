@@ -27,3 +27,4 @@ This is my personal site. If you're looking for my profession site, go to [**sik
 - [homepage](/homepage)
 - [iamondrej.com](https://iamondrej.com)
 - [ond.is](https://ond.is)
+- [/api/version.json](/api/version.json)
