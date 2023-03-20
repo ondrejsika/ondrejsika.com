@@ -36,6 +36,7 @@ title: Car
 - spacak, nafukovaci polstarek
 - hamacka
 - tazne lano
+- zeleny a matovy caj
 
 ## Dela
 
