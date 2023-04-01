@@ -30,6 +30,7 @@ title: Tabor
 - gopro
 - dron velky
 - drony male
+- raketa (+ vsechny doplnky)
 - podlozky na psani
 - tricka - 5x
 - kanady, sandale, sportovni
@@ -116,6 +117,7 @@ title: Tabor
 - svicky
 - karton pod notebook
 - nuzky
+
 
 ### Nelinka / Delinka
 
