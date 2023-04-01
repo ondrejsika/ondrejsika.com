@@ -4,6 +4,9 @@ IMAGE_BUILD_ENV = ondrejsika/ondrejsika.com-build-env
 
 default: docker-build-and-push
 
+dev:
+	bundler exec jekyll serve --host 0.0.0.0
+
 docker-build-and-push:
 	@make docker-build IMAGE_DEPLOYMENT=$(IMAGE_DEPLOYMENT)
 	@make docker-push IMAGE_DEPLOYMENT=$(IMAGE_DEPLOYMENT)
