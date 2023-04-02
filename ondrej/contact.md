@@ -10,7 +10,6 @@ I preffer email communication
 - email (primary, personal): **<ondrej@ondrejsika.com>**
 - email (freelance): **<ondrej@sika.io>**
 - phone: **+420 773 452 376** (Telegram, iMessage, Signal)
-- skype: **ondrejsika**
 - linedin: <https://www.linkedin.com/in/ondrejsika>
 
 * [**Social networks and accounts**](/ondrej/accounts.html)
