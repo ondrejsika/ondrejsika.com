@@ -26,3 +26,5 @@ title: Batohy
 ### Stara Krosna Yukon (65L, na tabor)
 
 ### Stara Saleva (modra, general purpose)
+
+### Male batohy z Decathlonu a Ikea (cca 6ks)
