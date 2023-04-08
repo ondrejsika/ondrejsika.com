@@ -28,3 +28,4 @@ This is my personal site. If you're looking for my profession site, go to [**sik
 - [iamondrej.com](https://iamondrej.com)
 - [ond.is](https://ond.is)
 - [/api/version.json](/api/version.json)
+- [batohy](/ondrej/batohy)
