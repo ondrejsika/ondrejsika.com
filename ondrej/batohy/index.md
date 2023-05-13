@@ -23,6 +23,8 @@ title: Batohy
 
 ### Pilotni batoh Design4Pilots (na letani)
 
+### Gemma Turist 75L (oranzova)
+
 ### Stara Krosna Yukon (65L, na tabor)
 
 ### Stara Saleva (modra, general purpose)
