@@ -17,19 +17,21 @@ title: Tabor
 - dokladova tasticka
 - papir, tuzka - hodne
 - ciste A4 na dopisy sam sobe
+- tvrda podlozka s klipem
 - telefon
 - zalozni telefon
 - notebook
 - iPad Pro
 - iPad Mini
-- kabely (tech pouch)
+- kabely (tech pouch), bezdratova nabijecka
 - Alza Powerstation
 - powerbanky
-- fotak
+- fotak (novy, stary)
 - stativ
 - gopro
 - dron velky
 - drony male
+- vysilacky
 - raketa (+ vsechny doplnky)
 - podlozky na psani
 - tricka - 5x
@@ -38,12 +40,15 @@ title: Tabor
 - nepromokava bunda
 - maskacova bunda (latrobunda)
 - maglite, celovka, nahradni baterky
+- erarni svitilny (cervene z ciny)
 - nuz victorinox od mamky
 - nuz victorinox swiss champ
 - nuz victorinox skipper pro
+- merlin spike nuz (bund) na provazy
 - taborovy nuz victorinox
 - morakniv
 - erarni noze - mory
+- kleste leatherman
 - mydlo s jelenem, ? Bio sampon
 - kartacek, pasta, ustni voda
 - rucnik - velky
@@ -51,6 +56,7 @@ title: Tabor
 - knizka, ? kindle
 - ? LTE modem + baterie
 - hamaka
+- hamaka s konstrukci (z domova)
 - skrabka (osobni)
 - lekarnicka
 - mapy - vytistene mapy okoli - idealne na barevnem laseru
@@ -77,6 +83,7 @@ title: Tabor
 - ? policka
 - ulamovaci noze
 - caje - mate, tuareg, zeleny, mata
+- moca konvicky (na kavu)
 - sytka na caje
 - kratasy 2x
 - kalhoty (dlouhy)
@@ -96,6 +103,7 @@ title: Tabor
 - vyrezavaci sekerky
 - konvicka (nerezova cestovni)
 - maceta fiskars
+- maceta shitty
 - destnik
 - slackline
 - karabiny velke, male
@@ -109,6 +117,7 @@ title: Tabor
 - rozprasovac (tlakovaci)
 - mini gril
 - kempove zidle 2x
+- skladaci stoly (+ lavice)
 - plynovy dvojvaric (na velkou bombu)
 - plynovy horak na plyn do zapalovacu
 - Plyn do zapalovacu
@@ -117,6 +126,21 @@ title: Tabor
 - svicky
 - karton pod notebook
 - nuzky
+- sekery na pujcovani
+- solarni panel, regulator, kabely
+- autobaterie k solaru
+- nabijecky do auta (k solaru)
+- svetla do kuchyne + usb menice
+- svorkovnice (cokolady)
+- kabely na rozvody do kuchyne
+- mala sada sroubovaku a klice (z Lidlu)
+- plynova pajka + cin
+- nahradni kabely
+- multimetr
+- cerpadlo (Trkac)
+- celty
+- bindry
+- stinitka do auta + magnety
 
 
 ### Nelinka / Delinka
