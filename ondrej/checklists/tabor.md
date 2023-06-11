@@ -29,6 +29,7 @@ title: Tabor
 - fotak (novy, stary)
 - stativ
 - gopro
+- insta360
 - dron velky
 - drony male
 - vysilacky
@@ -52,6 +53,7 @@ title: Tabor
 - mydlo s jelenem, ? Bio sampon
 - kartacek, pasta, ustni voda
 - rucnik - velky
+- toaletak
 - ? Repracek
 - knizka, ? kindle
 - ? LTE modem + baterie
@@ -78,13 +80,14 @@ title: Tabor
 - zahradni drat (na louci na slibak)
 - pevnejsi drat (na louci na slibak)
 - esus (idealne kompletni)
+- hrnecky (plechacky)
 - lahve na vodu - nalgene
 - lzice (nebo cely pribor) - podepsany
 - ? policka
 - ulamovaci noze
 - caje - mate, tuareg, zeleny, mata
 - moca konvicky (na kavu)
-- sytka na caje
+- sytka na caje - vajicka, cedniky
 - kratasy 2x
 - kalhoty (dlouhy)
 - plavky - plavaci kratasy
@@ -151,3 +154,4 @@ title: Tabor
 - Pamlsky
 - Voditko Stekula
 - Stopovacka
+- Pelisek
