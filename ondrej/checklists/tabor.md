@@ -8,6 +8,7 @@ title: Tabor
 ## {{page.title}}
 
 - kvalitni taborovy spacak (tmave zeleny)
+- kvalitni spacak pro Zuz
 - shitty taborovy spacak (svetle zeleny)
 - 2 karimatky (? kvalitni)
 - batoh
