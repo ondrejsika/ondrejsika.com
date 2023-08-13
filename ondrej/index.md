@@ -27,6 +27,7 @@ This is my personal site. If you're looking for my profession site, go to [**sik
 - [pf](/pf)
 - [homepage](/homepage)
 - [iamondrej.com](https://iamondrej.com)
+- [ondrej.is](https://ondrej.is)
 - [ond.is](https://ond.is)
 - [/api/version.json](/api/version.json)
 - [batohy](/ondrej/batohy)
