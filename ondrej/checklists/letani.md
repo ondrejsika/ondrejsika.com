@@ -14,3 +14,4 @@ title: Letani
 - Databaze Letist
 - Rukavice
 - GoPro
+- Insta360
