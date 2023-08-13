@@ -24,6 +24,7 @@ This is my personal site. If you're looking for my profession site, go to [**sik
 - [contact](/ondrej/contact.html)
 - [ideas](/ondrej/ideas.html)
 - [my web archive](/ondrej/web-archive)
+- [my websites](/ondrej/websites)
 - [pf](/pf)
 - [homepage](/homepage)
 - [iamondrej.com](https://iamondrej.com)
