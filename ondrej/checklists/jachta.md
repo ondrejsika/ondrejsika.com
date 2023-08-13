@@ -28,6 +28,7 @@ title: Jachta
 - baterka, celovka
 - papirove kapesnicky
 - nuz
+- nuz victorinox skipper pro
 - sandaly
 - 2x boty na lod (tenisky)
 - 2x rucnik (slany, sladky), sampon, gel, hreben
