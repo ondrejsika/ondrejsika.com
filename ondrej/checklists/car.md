@@ -37,6 +37,7 @@ title: Car
 - hamacka
 - tazne lano
 - zeleny a matovy caj
+- nahradni tkanicky (do pohorek)
 
 ## Dela
 
