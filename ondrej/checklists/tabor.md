@@ -11,6 +11,7 @@ title: Tabor
 - kvalitni spacak pro Zuz
 - shitty taborovy spacak (svetle zeleny)
 - 2 karimatky (? kvalitni)
+- nafukovaci matrace pro dva
 - batoh
 - batuzek na behani
 - ponozky, trenky - 4x
@@ -18,6 +19,7 @@ title: Tabor
 - dokladova tasticka
 - papir, tuzka - hodne
 - ciste A4 na dopisy sam sobe
+- dopisy sam sobe (3 roky zpet)
 - tvrda podlozka s klipem
 - telefon
 - zalozni telefon
@@ -47,7 +49,7 @@ title: Tabor
 - nuz victorinox swiss champ
 - nuz victorinox skipper pro
 - merlin spike nuz (bund) na provazy
-- taborovy nuz victorinox
+- taborovy nuz victorinox (ctyrtool)
 - morakniv
 - erarni noze - mory
 - kleste leatherman
@@ -123,6 +125,7 @@ title: Tabor
 - kempove zidle 2x
 - skladaci stoly (+ lavice)
 - plynovy dvojvaric (na velkou bombu)
+- maly cestovni varic + bomba
 - plynovy horak na plyn do zapalovacu
 - Plyn do zapalovacu
 - Pistalky 2x
@@ -145,6 +148,7 @@ title: Tabor
 - celty
 - bindry
 - stinitka do auta + magnety
+- klesticky na uhliky
 
 
 ### Nelinka / Delinka
