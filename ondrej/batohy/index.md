@@ -9,6 +9,8 @@ title: Batohy
 
 ### Goruck GR2 (40L)
 
+### Goruck Rucker (20L)
+
 ### Patagonia (mala 1 den)
 
 ### Fjalraven Bergtagen 38L
