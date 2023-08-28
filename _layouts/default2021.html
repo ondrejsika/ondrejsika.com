@@ -4,6 +4,8 @@ layout: base2021
 
 {{ content }}
 
+{% if page.disable_link_to_ondrej %}{% else %}
 <div style="position: fixed; bottom: 0px; right: 0px; background-color: white;">
     <a href="/ondrej" class="link-button" style="margin: 0; margin-right: 0.2em; border-bottom: 0px;">/ondrej</a>
 </div>
+{% endif %}
