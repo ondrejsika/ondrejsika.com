@@ -7,6 +7,7 @@ noheader: true
 
 Here is a list of my domains. If you receive email from this domains, it is not a scam.
 
+- [ondrejsika.com](https://ondrejsika.com)
 - [sika.io](https://sika.io)
 - [sikahq.com](https://sikahq.com)
 - [teamsika.com](https://teamsika.com)
@@ -16,3 +17,4 @@ Here is a list of my domains. If you receive email from this domains, it is not 
 - [sikamail.com](https://sikamail.com)
 - [sikamail.cz](https://sikamail.cz)
 - [rej.is](https://rej.is)
+- [ondrejsikamail.com](https://ondrejsikamail.com)
