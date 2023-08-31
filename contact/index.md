@@ -5,24 +5,16 @@ disable_link_to_ondrej: true
 
 # Ondrej Sika
 
-## Personal
-
-<ondrej@ondrejsika.com>
+<ondrej@ondrejsika.com> (primary, personal)
 <br/>
-[+420 773 452 376](tel:+420773452376) ([Telegram](https://t.me/ondrejsika))
-
-## Freelance
-
-<ondrej@sika.io>
+<ondrej@sika.io> (freelance)
 <br/>
-[+420 773 452 376](tel:+420773452376) ([Telegram](https://t.me/ondrejsika))
-<br/>
-[sika.io](https://sika.io)
+<ondrej@sikalabs.com> (company SikaLabs)
 
-## SikaLabs
+[+420 773 452 376](tel:+420773452376), [Telegram](https://t.me/ondrejsika), iMessage
 
-<ondrej@sikalabs.com>
+[ondrejsika.com](https://ondrejsika.com) (primary, personal)
 <br/>
-[+420 773 452 376](tel:+420773452376) ([Telegram](https://t.me/ondrejsika))
+[sika.io](https://sika.io) (freelance)
 <br/>
-[sikalabs.com](https://sikalabs.com)
+[sikalabs.com](https://sikalabs.com) (company SikaLabs)
