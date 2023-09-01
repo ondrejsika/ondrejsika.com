@@ -27,6 +27,7 @@ title: Tabor
 - iPad Pro
 - iPad Mini
 - kabely (tech pouch), bezdratova nabijecka
+- externi SSD disky + SD karty
 - Alza Powerstation
 - powerbanky
 - fotak (novy, stary)
