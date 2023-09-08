@@ -18,3 +18,9 @@ disable_link_to_ondrej: true
 [sika.io](https://sika.io) (freelance)
 <br/>
 [sikalabs.com](https://sikalabs.com) (company SikaLabs)
+
+## SikaLabs Support
+
+<support@sikalabs.com>
+<br/>
+[support.sikalabs.com](https://support.sikalabs.com)
