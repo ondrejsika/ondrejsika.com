@@ -5,13 +5,13 @@ disable_link_to_ondrej: true
 
 # Ondrej Sika
 
+[+420 773 452 376](tel:+420773452376), [Telegram](https://t.me/ondrejsika), iMessage
+
 <ondrej@ondrejsika.com> (primary, personal)
 <br/>
 <ondrej@sika.io> (freelance)
 <br/>
 <ondrej@sikalabs.com> (company SikaLabs)
-
-[+420 773 452 376](tel:+420773452376), [Telegram](https://t.me/ondrejsika), iMessage
 
 [ondrejsika.com](https://ondrejsika.com) (primary, personal)
 <br/>
