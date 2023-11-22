@@ -19,6 +19,8 @@ disable_link_to_ondrej: true
 <br/>
 [sikalabs.com](https://sikalabs.com) (company SikaLabs)
 
+[linkedin.com/in/ondrejsika](https://www.linkedin.com/in/ondrejsika/)
+
 ## SikaLabs Support
 
 <support@sikalabs.com>
