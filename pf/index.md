@@ -13,6 +13,8 @@ img {
 
 <h1>Ondej Sika's PF</h1>
 
+[![PF 2024](/static/content/pf2024/pf2024_800px.jpg)](2024.html)
+
 [![PF 2023](/static/content/pf2023/pf2023_800px.jpg)](2023.html)
 
 [![PF 2022](/static/content/pf2022/PF2022_800px.jpg)](2022.html)
