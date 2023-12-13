@@ -20,3 +20,7 @@ title: Personal Checklists
 - [KPZ](kpz.html) (WIP)
 - [Letani](letani.html)
 - [Hackathon](hackathon.html)
+
+### Archive
+
+- [CCC (before update 2023-12-13)](archive/ccc-before-update-2023-12-13.html)
