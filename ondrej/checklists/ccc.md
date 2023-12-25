@@ -9,23 +9,23 @@ title: CCC
 
 - Goruck GR2, Taska Helly Hansen (oranzova)
 - zrcadlovka
-- notebook
+- Macbook Pro
+- Macbook Air
 - kreditka, cash (200 EUR), trezor
-- tablet, ? kindle
+- 5 EUR bankovky na Curry Wursty a Fritz Colu
+- iPad Pro, iPad Mini
 - papir, tuzka
 - rezervni jidlo (arasidy, seminka, rozinky), piti (min 0.5l)
 - pojistka
 - PAS
 - nabijecky, powerbanka
-- kartacek, pasta, ?ustni voda
-- rucnik, sampon
-- tricko na spani
+- kartacek, pasta
 - 1x tricko na den
 - 1x ponozky a trenky na den + 1x pro rezervu
 - dostatek vizitek
-- deospey, vonavka
+- deospey
 - tasticka s kabelama
-- sluchatka, kabel
+- AirPods Max, AirPods
 - baterka
 - papirove kapesnicky
 - prodluzovacka
