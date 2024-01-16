@@ -57,3 +57,4 @@ title: Mountains (4 days)
 - vlocky
 - vlastni smesy na obed
 - ? Vysusene jidlo z Decathlonu (150 CZK / porce)
+- sackove caje z Koreje
