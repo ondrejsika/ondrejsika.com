@@ -16,6 +16,8 @@ I've spent many great years at [Slush Pool](https://slushpool.com) (Bitcoin mini
   <a href="mailto:ondrej@ondrejsika.com" class="link">ondrej@ondrejsika.com</a>
   <br />
   <a href="tel:+420773452376" class="link">+420 773 452 376</a> (<a href="https://t.me/ondrejsika" class="link">Telegram</a>)
+  <br />
+  <a href="/contact" class="link">ondrejsika.com/contact</a>
 </p>
 <p class="row">
   <a href="https://www.instagram.com/ondrejsika/" target="_blank" class="link-button" >Instagram</a>
