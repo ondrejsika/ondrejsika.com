@@ -11,6 +11,8 @@ title: Batohy
 
 ### Goruck Rucker (20L)
 
+### Goruck Bullet Ruck (16L)
+
 ### Patagonia (mala 1 den)
 
 ### Fjalraven Bergtagen 38L
