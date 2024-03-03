@@ -20,6 +20,7 @@ title: Personal Checklists
 - [KPZ](kpz.html) (WIP)
 - [Letani](letani.html)
 - [Hackathon](hackathon.html)
+- [Grilovani](grilovani.html)
 
 ### Archive
 
