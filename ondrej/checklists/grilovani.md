@@ -6,3 +6,7 @@ title: Grilovani
 [checklists](.)
 
 ## {{page.title}}
+
+- papirove uterky
+- nuz (morakniv)
+- prkenko
