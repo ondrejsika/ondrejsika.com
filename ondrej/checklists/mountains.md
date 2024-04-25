@@ -1,11 +1,11 @@
 ---
 layout: default_checklists
-title: Mountains (4 days)
+title: Mountains
 ---
 
 [checklists](.)
 
-## {{page.title}}
+## {{page.title}} / Alps
 
 - velky batoh (Kajka)
 - maly batoh
@@ -17,6 +17,7 @@ title: Mountains (4 days)
 - pojistka
 - PAS
 - powerbanky
+- alza power station
 - kartacek, pasta, ?ustni voda
 - rucnik, mydlo
 - tricko na spani
@@ -32,6 +33,8 @@ title: Mountains (4 days)
 - konvicka, esus + lzice
 - varic + bomba
 - kresadlo
+- lihovy varic
+- lih
 - 5l vody (zalozni)
 - Voda v Nalgene lahvich
 - hrnecky
@@ -39,6 +42,18 @@ title: Mountains (4 days)
 - podsedaky
 - postel do auta - madrace + deska
 - trekking poles
+- fotak
+- dji osmo pocket
+
+### Dela
+
+- miska na vodu
+- svitici obojek
+- granule
+- naminku
+- voditko pro Karin
+- stopovacka
+- pelisek
 
 ### Ferraty
 
@@ -50,6 +65,7 @@ title: Mountains (4 days)
 
 ### Jidlo
 
+- 2x kanistr 25l s vodou
 - susene maso - vlastni
 - polivky kam se da sypat kuskus (napriklad dvojknedlickova) - min 1x den + 1
 - kuskus
@@ -58,3 +74,5 @@ title: Mountains (4 days)
 - vlastni smesy na obed
 - ? Vysusene jidlo z Decathlonu (150 CZK / porce)
 - sackove caje z Koreje
+- matovy caj (sackove)
+- mate
