@@ -18,6 +18,7 @@ title: Mountains
 - PAS
 - powerbanky
 - alza power station
+- solarni panel (z decathlonu)
 - kartacek, pasta, ?ustni voda
 - rucnik, mydlo
 - tricko na spani
