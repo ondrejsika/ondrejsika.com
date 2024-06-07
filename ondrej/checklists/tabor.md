@@ -150,7 +150,7 @@ title: Tabor
 - bindry
 - stinitka do auta + magnety
 - klesticky na uhliky
-
+- dalekohled
 
 ### Nelinka / Delinka
 
