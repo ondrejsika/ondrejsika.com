@@ -20,6 +20,8 @@ disable_link_to_ondrej: true
 [sikalabs.com](https://sikalabs.com) (company SikaLabs)
 
 [linkedin.com/in/ondrejsika](https://www.linkedin.com/in/ondrejsika/)
+<br/>
+[calendly.com/ondrejsika](https://calendly.com/ondrejsika) (schedule time with me)
 
 ## SikaLabs Support
 
