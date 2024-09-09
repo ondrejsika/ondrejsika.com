@@ -22,6 +22,7 @@ This is my personal site. If you're looking for my profession site, go to [**sik
 - [quotes](/ondrej/quotes.html)
 - [capek's bondy](/ondrej/capek.html)
 - [contact](/ondrej/contact.html)
+- [odlehla24](/ondrej/odlehla24)
 - [ideas](/ondrej/ideas.html)
 - [my web archive](/ondrej/web-archive)
 - [my websites](/ondrej/websites)
