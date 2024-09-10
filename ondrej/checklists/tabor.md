@@ -14,6 +14,7 @@ title: Tabor
 - nafukovaci matrace pro dva
 - batoh
 - batuzek na behani
+- salewa GP batoh
 - ponozky, trenky - 4x
 - 2000 czk cash, kreditka
 - dokladova tasticka
@@ -23,9 +24,11 @@ title: Tabor
 - tvrda podlozka s klipem
 - telefon
 - zalozni telefon
-- notebook
+- macbook pro
+- macbook air
 - iPad Pro
 - iPad Mini
+- elonga
 - kabely (tech pouch), bezdratova nabijecka
 - externi SSD disky + SD karty
 - Alza Powerstation
@@ -35,9 +38,7 @@ title: Tabor
 - gopro
 - insta360
 - dron velky
-- drony male
 - vysilacky
-- raketa (+ vsechny doplnky)
 - podlozky na psani
 - tricka - 5x
 - kanady, sandale, sportovni
@@ -51,8 +52,10 @@ title: Tabor
 - nuz victorinox skipper pro
 - merlin spike nuz (bund) na provazy
 - taborovy nuz victorinox (ctyrtool)
-- morakniv
+- morakniv garberg
+- victorinox full tang
 - erarni noze - mory
+- brousky na noze
 - kleste leatherman
 - mydlo s jelenem, ? Bio sampon
 - kartacek, pasta, ustni voda
@@ -100,7 +103,6 @@ title: Tabor
 - slunecni bryle
 - opalovaci krem
 - igelitky, pytle na odpatky
-- outdor hodinky
 - budik
 - kroj
 - raminka (plastova) - min 2x
@@ -109,6 +111,7 @@ title: Tabor
 - vyrezavaci noze
 - vyrezavaci sekerky
 - konvicka (nerezova cestovni)
+- konvicka (hlinikova)
 - maceta fiskars
 - maceta shitty
 - destnik
@@ -145,12 +148,14 @@ title: Tabor
 - plynova pajka + cin
 - nahradni kabely
 - multimetr
+- maly solarni panel (z decathlonu)
 - cerpadlo (Trkac)
 - celty
 - bindry
 - stinitka do auta + magnety
 - klesticky na uhliky
 - dalekohled
+- popcorn maker
 
 ### Nelinka / Delinka
 
