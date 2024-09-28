@@ -46,6 +46,7 @@ title: Iceland (winter week)
 - celovka
 - papirove kapesnicky
 - nuz
+- iphone do auta
 - drzak na telefon do auta
 - pytle na odpatky
 - destnik
