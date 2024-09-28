@@ -21,6 +21,7 @@ title: Personal Checklists
 - [Letani](letani.html)
 - [Hackathon](hackathon.html)
 - [Grilovani](grilovani.html)
+- [Poradani Zavodu Orientak](poradani-zavodu-orientak.html)
 
 ### Archive
 
