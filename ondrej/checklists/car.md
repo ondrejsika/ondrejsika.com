@@ -9,6 +9,10 @@ title: Car
 
 - 2000 CZK, 50 EUR
 - Victorinox Rescue Tool
+- iphone do auta
+- phone car holder
+- ipad car holder
+- magsafe charger
 - drobne na parkovani (CZK, EUR)
 - kanist na naftu
 - slucecni bryle
