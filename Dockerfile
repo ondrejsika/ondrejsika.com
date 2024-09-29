@@ -3,14 +3,13 @@ WORKDIR /build
 RUN gem update --system && gem install bundler
 COPY Gemfile .
 COPY Gemfile.lock .
-COPY install.sh .
-RUN ./install.sh
+RUN bundle install
 COPY --from=sikalabs/slu:v0.35.0 /usr/local/bin/slu /usr/local/bin/slu
 
 FROM build-env as build
 WORKDIR /build
 COPY . .
-RUN ./build.sh
+RUN bundler exec jekyll build
 ARG CI_COMMIT_TITLE=""
 RUN ./generate-version-api.sh
 
