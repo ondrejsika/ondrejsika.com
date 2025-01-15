@@ -12,12 +12,16 @@ disable_link_to_ondrej: true
 <ondrej@sika.io> (freelance)
 <br/>
 <ondrej@sikalabs.com> (company SikaLabs)
+<br/>
+<ondrej@devopsa.com> (company Devopsa)
 
 [ondrejsika.com](https://ondrejsika.com) (primary, personal)
 <br/>
 [sika.io](https://sika.io) (freelance)
 <br/>
 [sikalabs.com](https://sikalabs.com) (company SikaLabs)
+<br/>
+[devopsa.com](https://devopsa.com) (company Devopsa)
 
 [linkedin.com/in/ondrejsika](https://www.linkedin.com/in/ondrejsika/)
 <br/>
