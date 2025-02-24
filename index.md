@@ -32,5 +32,7 @@ I've spent many great years at [Slush Pool](https://slushpool.com) (Bitcoin mini
   <br />
   <a href="https://sikalabs.com" target="_blank" class="link-button" >SikaLabs (sikalabs.com)</a>
   <br />
+  <a href="https://devopsa.com" target="_blank" class="link-button" >Devopsa (devopsa.com)</a>
+  <br />
   <a href="https://trainera.io" target="_blank" class="link-button">Trainera (trainera.io)</a>
 </p>
