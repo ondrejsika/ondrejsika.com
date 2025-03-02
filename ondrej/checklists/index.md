@@ -22,6 +22,7 @@ title: Personal Checklists
 - [Hackathon](hackathon.html)
 - [Grilovani](grilovani.html)
 - [Poradani Zavodu Orientak](poradani-zavodu-orientak.html)
+- [Svalbard (winter, only carry-on)](svalbard-winter-carry-on.html)
 
 ### Archive
 
