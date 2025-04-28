@@ -26,6 +26,7 @@ title: Iceland (winter week)
 - retezy na boty
 - plavky
 - slunecni bryle
+- kukla
 
 --
 
@@ -43,6 +44,8 @@ title: Iceland (winter week)
 - PAS
 - nabijecky, powerbanka, autonabijecka
 - sluchatka iphone (mala)
+- fotak Canon M200
+- DJI Osmo Pocket 3
 - celovka
 - papirove kapesnicky
 - nuz
