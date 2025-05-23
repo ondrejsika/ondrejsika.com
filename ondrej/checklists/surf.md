@@ -17,7 +17,7 @@ title: Surf
 - powerbanka
 - kreditka, cash
 - ipad mini
-- vodotesny fotak
+- vodotesny fotak (OM System TG-7)
 - papir, tuzka
 - pojistka
 - PAS
