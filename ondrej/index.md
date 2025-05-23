@@ -16,7 +16,7 @@ This is my personal site. If you're looking for my profession site, go to [**sik
 - [Dela](/ondrej/dela)
 - [flying](/ondrej/flying)
 - [scout](/ondrej/scout)
-- [checklists](/ondrej/checklists)
+- [checklists](/ondrej/checklists/)
 - [bitcoin addresses](/ondrej/ba.html)
 - [pgp](/ondrej/pgp.html)
 - [quotes](/ondrej/quotes.html)
