@@ -23,6 +23,7 @@ title: Personal Checklists
 - [Grilovani](grilovani.html)
 - [Poradani Zavodu Orientak](poradani-zavodu-orientak.html)
 - [Svalbard (winter, only carry-on)](svalbard-winter-carry-on.html)
+- [Surf](surf.html)
 
 ### Archive
 
