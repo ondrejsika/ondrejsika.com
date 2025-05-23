@@ -1,4 +1,4 @@
-FROM ruby:3.1 as build-env
+FROM ruby:3.1 AS build-env
 WORKDIR /build
 RUN gem update --system && gem install bundler
 COPY Gemfile .
@@ -6,7 +6,7 @@ COPY Gemfile.lock .
 RUN bundle install
 COPY --from=sikalabs/slu:v0.35.0 /usr/local/bin/slu /usr/local/bin/slu
 
-FROM build-env as build
+FROM build-env AS build
 WORKDIR /build
 COPY . .
 RUN bundler exec jekyll build
