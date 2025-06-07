@@ -45,7 +45,11 @@ title: Iceland (winter week)
 - nabijecky, powerbanka, autonabijecka
 - sluchatka iphone (mala)
 - fotak Canon M200
+- fotak om-system tough tg-7
+- insta360
 - DJI Osmo Pocket 3
+- dron DJI Mini 2
+- mypilotpro camera mount
 - celovka
 - papirove kapesnicky
 - nuz
