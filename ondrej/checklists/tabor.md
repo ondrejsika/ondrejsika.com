@@ -26,19 +26,23 @@ title: Tabor
 - zalozni telefon
 - macbook pro
 - macbook air
+- macbook air 11"
+- getac notebook
 - iPad Pro
 - iPad Mini
 - elonga
 - kabely (tech pouch), bezdratova nabijecka
-- externi SSD disky + SD karty
+- externi SSD disbky + SD karty
 - Alza Powerstation
+- menic na 230V
 - powerbanky
 - fotak (novy, stary)
 - stativ
 - gopro
 - insta360
+- DJI Osmo Pocket
 - dron velky
-- vysilacky
+- vysilacky + nabijecky
 - podlozky na psani
 - tricka - 5x
 - kanady, sandale, sportovni
@@ -54,6 +58,7 @@ title: Tabor
 - taborovy nuz victorinox (ctyrtool)
 - morakniv garberg
 - victorinox full tang
+- morakniv dlato
 - erarni noze - mory
 - brousky na noze
 - kleste leatherman
@@ -61,9 +66,9 @@ title: Tabor
 - kartacek, pasta, ustni voda
 - rucnik - velky
 - toaletak
-- ? Repracek
+- Repracky (JBL)
 - knizka, ? kindle
-- ? LTE modem + baterie
+- LTE modem (Vodafone)
 - hamaka
 - hamaka s konstrukci (z domova)
 - skrabka (osobni)
@@ -138,7 +143,7 @@ title: Tabor
 - karton pod notebook
 - nuzky
 - sekery na pujcovani
-- solarni panel, regulator, kabely
+- solarni panely, regulatory, kabely
 - autobaterie k solaru
 - nabijecky do auta (k solaru)
 - svetla do kuchyne + usb menice
@@ -156,6 +161,11 @@ title: Tabor
 - klesticky na uhliky
 - dalekohled
 - popcorn maker
+- drevena zaba z rima
+- lihovy varic
+- lih
+- varic na drevo (z decathlonu)
+- cednik (na ohniste)
 
 ### Nelinka / Delinka
 
@@ -164,5 +174,6 @@ title: Tabor
 - Granulky (15 kg pytel)
 - Pamlsky
 - Voditko Stekula
-- Stopovacka
+- Stopovacka 2x
 - Pelisek
+- Plastova plachta pod pelisek
