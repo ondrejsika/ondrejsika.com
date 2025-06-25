@@ -42,6 +42,7 @@ title: Tabor
 - insta360
 - DJI Osmo Pocket
 - dron velky
+- instax + fotopapir
 - vysilacky + nabijecky
 - podlozky na psani
 - tricka - 5x
