@@ -30,6 +30,7 @@ title: Tabor
 - getac notebook
 - iPad Pro
 - iPad Mini
+- Starlink
 - elonga
 - kabely (tech pouch), bezdratova nabijecka
 - externi SSD disbky + SD karty
@@ -37,6 +38,7 @@ title: Tabor
 - menic na 230V
 - powerbanky
 - fotak (novy, stary)
+- vodotesny fotak (om system)
 - stativ
 - gopro
 - insta360
@@ -47,6 +49,7 @@ title: Tabor
 - podlozky na psani
 - tricka - 5x
 - kanady, sandale, sportovni
+- boty na behani
 - Mikina
 - nepromokava bunda
 - maskacova bunda (latrobunda)
@@ -75,6 +78,9 @@ title: Tabor
 - skrabka (osobni)
 - lekarnicka
 - mapy - vytistene mapy okoli - idealne na barevnem laseru
+- laminovane mapy okoli (A4)
+- laminovane basnicky Ohnivec
+- laminovane skautske pisne (oddilova hymna, skautska hymna, ...)
 - vodotesny sacek 5l
 - sekery fiskars: osobni, stipaci
 - pilky fiskars: mala, velka
@@ -90,6 +96,7 @@ title: Tabor
 - obalky A6 - taborova posta
 - sesivacka
 - pevny provazek, shit provazek (ne sysal)
+- paracord
 - zahradni drat (na louci na slibak)
 - pevnejsi drat (na louci na slibak)
 - esus (idealne kompletni)
@@ -127,6 +134,7 @@ title: Tabor
 - ikea sacky
 - go (game)
 - sachy
+- sachove hodiny
 - izolepa
 - pracovni rukavice: moje (tvrde, kozene), erarni
 - hudrave polstarky
@@ -137,6 +145,9 @@ title: Tabor
 - plynovy dvojvaric (na velkou bombu)
 - maly cestovni varic + bomba
 - plynovy horak na plyn do zapalovacu
+- pumpa na ustni vodu
+- jet vetrak
+- rucni vetrak (ruzovy od Vandy)
 - Plyn do zapalovacu
 - Pistalky 2x
 - trhac klistat
@@ -145,12 +156,13 @@ title: Tabor
 - nuzky
 - sekery na pujcovani
 - solarni panely, regulatory, kabely
-- autobaterie k solaru
+- autobaterie k solaru (4x)
 - nabijecky do auta (k solaru)
 - svetla do kuchyne + usb menice
 - svorkovnice (cokolady)
 - kabely na rozvody do kuchyne
 - mala sada sroubovaku a klice (z Lidlu)
+- sada klicu (v modrem obalu)
 - plynova pajka + cin
 - nahradni kabely
 - multimetr
@@ -160,6 +172,7 @@ title: Tabor
 - bindry
 - stinitka do auta + magnety
 - klesticky na uhliky
+- uhliky (do vodni dymky)
 - dalekohled
 - popcorn maker
 - drevena zaba z rima
@@ -167,6 +180,7 @@ title: Tabor
 - lih
 - varic na drevo (z decathlonu)
 - cednik (na ohniste)
+- tavna pistole (aku)
 
 ### Nelinka / Delinka
 
@@ -178,3 +192,4 @@ title: Tabor
 - Stopovacka 2x
 - Pelisek
 - Plastova plachta pod pelisek
+- Dumisek (od Vlasty)
