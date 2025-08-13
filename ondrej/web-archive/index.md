@@ -45,6 +45,7 @@ title: My Web Archive
 ### ccc.oxs.cz
 
 - <https://ccc-oxs-cz-2019.web-archive.xsika.com>
+- <https://ccc-oxs-cz-2023.web-archive.xsika.com>
 
 ### ond.is
 
