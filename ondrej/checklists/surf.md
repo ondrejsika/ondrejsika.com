@@ -11,7 +11,7 @@ title: Surf
 - batoh na plaz (z Decathlonu)
 - macbook pro, macbook air
 - obal na macbook (na plaz)
-- druhy telefon ve vodotesnem / piskotesnem obalu (iPhone XS)
+- druhy telefon ve vodotesnem / piskotesnem obalu (iPhone 16e)
 - odolna talcitkova Nokia (na SMS notifikace)
 - nabijecky
 - powerbanka
