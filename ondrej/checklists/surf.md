@@ -11,6 +11,7 @@ title: Surf
 - batoh na plaz (z Decathlonu)
 - macbook pro, macbook air
 - obal na macbook (na plaz)
+- rugged linux notebook (Getac)
 - druhy telefon ve vodotesnem / piskotesnem obalu (iPhone 16e)
 - rugged Android phone (Aligator)
 - odolna talcitkova Nokia (na SMS notifikace)
