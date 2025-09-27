@@ -19,6 +19,8 @@ title: Batohy
 
 ### Fjalraven Kajka 75L
 
+### Simond z Decathlonu na lezeni
+
 ### Patagonia General Purpose (lezecky)
 
 ### Batoh na behani Decathlon
