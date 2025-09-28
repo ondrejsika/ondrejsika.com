@@ -9,6 +9,7 @@ title: Warp Camp
 
 - prezuvky
 - rucnik
+- baofeng vysilacka
 - rollup
 - notebook
 - starlink
