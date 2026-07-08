@@ -24,27 +24,37 @@ title: Tabor
 - tvrda podlozka s klipem
 - telefon
 - zalozni telefon
+- odolny telefon (android)
 - macbook pro
 - macbook air
 - macbook air 11"
+- macbook neo
 - getac notebook
 - iPad Pro
 - iPad Mini
 - Starlink
-- elonga
 - kabely (tech pouch), bezdratova nabijecka
 - externi SSD disbky + SD karty
 - Alza Powerstation
 - menic na 230V
 - powerbanky
-- fotak (novy, stary)
+- Nikon Z5ii + objektivy
+- Canon 1100D + objektivy
+- Canon M200 + objektivy
+- Canon EOS 5000 (na film) + objektivy
+- Canon EOS 500 (na film) + objektivy
+- nahradni 35mm filmy
+- jednorazove fotaky na film
+- ruzovy fotacek nikon
 - vodotesny fotak (om system)
+- fotak rollei pro deti
 - stativ
 - gopro
 - insta360
 - DJI Osmo Pocket
 - dron velky
 - instax + fotopapir
+- nabijecky na vsechny fotaky
 - vysilacky + nabijecky
 - podlozky na psani
 - tricka - 5x
@@ -87,6 +97,7 @@ title: Tabor
 - pila fiskars (ramova)
 - polni lopatka(y)
 - fiskars ryc
+- kleste na vytahovani hrebiku
 - sirky, zapalovace (zippo + obycejny)
 - benzin do zapalovace
 - papirove kapesniky
@@ -116,6 +127,7 @@ title: Tabor
 - slunecni bryle
 - opalovaci krem
 - igelitky, pytle na odpatky
+- pytle od granulek (na konzervy a ostre odpatky)
 - budik
 - kroj
 - raminka (plastova) - min 2x
@@ -163,6 +175,7 @@ title: Tabor
 - kabely na rozvody do kuchyne
 - mala sada sroubovaku a klice (z Lidlu)
 - sada klicu (v modrem obalu)
+- kleste na draty
 - plynova pajka + cin
 - nahradni kabely
 - multimetr
@@ -181,6 +194,7 @@ title: Tabor
 - varic na drevo (z decathlonu)
 - cednik (na ohniste)
 - tavna pistole (aku)
+- bug-a-salt
 
 ### Nelinka / Delinka
 
@@ -192,4 +206,3 @@ title: Tabor
 - Stopovacka 2x
 - Pelisek
 - Plastova plachta pod pelisek
-- Dumisek (od Vlasty)
