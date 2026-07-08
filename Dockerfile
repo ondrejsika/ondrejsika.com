@@ -4,7 +4,7 @@ RUN gem update --system && gem install bundler
 COPY Gemfile .
 COPY Gemfile.lock .
 RUN bundle install
-COPY --from=sikalabs/slu:v0.35.0 /usr/local/bin/slu /usr/local/bin/slu
+COPY --from=sikalabs/slu:v0.102.0 /usr/local/bin/slu /usr/local/bin/slu
 
 FROM build-env AS build
 WORKDIR /build
