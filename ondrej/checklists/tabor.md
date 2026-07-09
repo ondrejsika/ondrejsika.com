@@ -38,6 +38,7 @@ title: Tabor
 - Alza Powerstation
 - menic na 230V
 - powerbanky
+- Ray-Ban Meta (bryle s kamerou)
 - Nikon Z5ii + objektivy
 - Canon 1100D + objektivy
 - Canon M200 + objektivy
