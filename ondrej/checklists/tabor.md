@@ -25,6 +25,7 @@ title: Tabor
 - telefon
 - zalozni telefon
 - odolny telefon (android)
+- iPhone 12 mini (od Barci)
 - macbook pro
 - macbook air
 - macbook air 11"
