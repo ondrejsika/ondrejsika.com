@@ -182,7 +182,6 @@ title: Tabor
 - nahradni kabely
 - multimetr
 - maly solarni panel (z decathlonu)
-- cerpadlo (Trkac)
 - celty
 - bindry
 - stinitka do auta + magnety
