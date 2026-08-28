@@ -8,6 +8,7 @@ title: Iceland (winter week)
 ## {{page.title}}
 
 - maly batoh - GORUCK GR2
+- Packable GORUCK Bullet
 - velky batoh - gemma
 - obal na batoh do letadla
 - spacak (zimni)
