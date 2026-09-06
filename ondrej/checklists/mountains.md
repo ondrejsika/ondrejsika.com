@@ -9,6 +9,7 @@ title: Mountains
 
 - velky batoh (Kajka)
 - maly batoh
+- tasky na nakupy (platene)
 - teply spacak
 - nafukovaci karimatka
 - lekarnicka
