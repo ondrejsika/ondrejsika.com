@@ -41,4 +41,6 @@ title: Batohy
 
 ### Stara Saleva (modra, general purpose)
 
+### Rolltop batoh z Decathlonu (2x)
+
 ### Male batohy z Decathlonu a Ikea (cca 6ks)
