@@ -29,3 +29,4 @@ title: Personal Checklists
 ### Archive
 
 - [CCC (before update 2023-12-13)](archive/ccc-before-update-2023-12-13.html)
+- [Jachta (before update 2026-09-03)](archive/jachta-before-update-2026-09-03.html)
