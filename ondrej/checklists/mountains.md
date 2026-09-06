@@ -46,8 +46,11 @@ title: Mountains
 - podsedaky
 - postel do auta - madrace + deska
 - trekking poles
-- fotak
+- Nikon Z5ii + objektivy
+- Garmin GPS (na tuzkovky)
+- Canon EOS 5000 + film
 - dji osmo pocket
+- dron - DJI Mini
 
 ### Dela
 
