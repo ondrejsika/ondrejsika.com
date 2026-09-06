@@ -11,8 +11,8 @@ title: Tabor
 - kvalitni spacak pro Zuz
 - shitty taborovy spacak (svetle zeleny)
 - 2 karimatky (? kvalitni)
-- nafukovaci matrace pro dva
-- batoh
+- nafukovaci matrace pro dva + nafukovadlo
+- batoh (yukon)
 - batuzek na behani
 - salewa GP batoh
 - ponozky, trenky - 4x
@@ -22,8 +22,8 @@ title: Tabor
 - ciste A4 na dopisy sam sobe
 - dopisy sam sobe (3 roky zpet)
 - tvrda podlozka s klipem
-- telefon
-- zalozni telefon
+- telefon (hlavni iPhone 16 Pro)
+- zalozni telefon (iPhone 17e)
 - odolny telefon (android)
 - iPhone 12 mini (od Barci)
 - macbook pro
@@ -140,7 +140,7 @@ title: Tabor
 - konvicka (nerezova cestovni)
 - konvicka (hlinikova)
 - maceta fiskars
-- maceta shitty
+- maceta shitty (na melouny)
 - destnik
 - slackline
 - karabiny velke, male
@@ -154,7 +154,7 @@ title: Tabor
 - hudrave polstarky
 - rozprasovac (tlakovaci)
 - mini gril
-- kempove zidle 2x
+- kempove zidle 4x (2x decathlon, 2x alza)
 - skladaci stoly (+ lavice)
 - plynovy dvojvaric (na velkou bombu)
 - maly cestovni varic + bomba
