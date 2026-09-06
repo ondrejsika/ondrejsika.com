@@ -12,7 +12,7 @@ title: Surf
 - macbook pro, macbook air
 - obal na macbook (na plaz)
 - rugged linux notebook (Getac)
-- druhy telefon ve vodotesnem / piskotesnem obalu (iPhone 16e)
+- druhy telefon ve vodotesnem / piskotesnem obalu (iPhone 17e)
 - rugged Android phone (Aligator)
 - odolna talcitkova Nokia (na SMS notifikace)
 - nabijecky
