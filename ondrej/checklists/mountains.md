@@ -66,6 +66,17 @@ title: Mountains
 - rukavice na ferraty
 - helma
 
+### Behani
+
+- batuzek na behani
+- sluchatka na behani (marshall)
+- sluchatka na plavani (vodotesna)
+- behaci boty
+- kratasy na behani
+- cepice / celenka
+- rukavice (pokud je chladno)
+- dostatek tricek, trenek a ponozek
+
 ### Jidlo
 
 - 2x kanistr 25l s vodou
