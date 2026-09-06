@@ -7,7 +7,8 @@ title: Jachta
 
 ## {{page.title}}
 
-- maly batoh - deuter
+- maly batoh - GORUCK GR2
+- taska helly hansen
 - spacak
 - zrcadlovka
 - notebook
