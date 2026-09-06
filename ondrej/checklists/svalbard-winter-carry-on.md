@@ -36,5 +36,6 @@ title: Svalbard (winter, only carry-on)
 - papirove kapesnicky
 - GoPro
 - Osmo Pocket
+- Nikon Z5ii + objektivy
 - Canon M200
 - OM System TG-7 (with GPS)
