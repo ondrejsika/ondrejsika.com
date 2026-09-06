@@ -63,6 +63,17 @@ title: Iceland (winter week)
 
 --
 
+- batuzek na behani
+- sluchatka na behani (marshall)
+- sluchatka na plavani (vodotesna)
+- behaci boty
+- kratasy na behani
+- cepice
+- rukavice
+- dostatek tricek, trenek a ponozek
+
+--
+
 - 2x lahev mana
 - 3x pytel mana
 - rezervni jidlo (arasidy, seminka, rozinky), piti (min 0.5l)
