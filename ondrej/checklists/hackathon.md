@@ -11,6 +11,7 @@ title: Hackathon
 - notebooky (pro, air)
 - kreditka, cash, trezor
 - ipad pro
+- ipad mini
 - taska na notebook (na papiry)
 - papir, tuzka - hodne
 - desky (papirove, eurodesky)
