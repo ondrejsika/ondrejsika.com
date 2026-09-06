@@ -27,6 +27,7 @@ title: Iceland (winter week)
 - 1x ponozky a trenky na den + 1x pro rezervu
 - retezy na boty
 - plavky
+- plavaci bryle
 - slunecni bryle
 - kukla
 
