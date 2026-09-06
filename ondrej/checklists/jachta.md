@@ -10,7 +10,10 @@ title: Jachta
 - maly batoh - GORUCK GR2
 - taska helly hansen
 - spacak
-- zrcadlovka
+- Nikon Z5ii + objektivy
+- Canon EOS 5000 + film
+- Osmo Pocket 3
+- Ray-Ban Meta (smart glasses)
 - notebook
 - kreditka, cash, trezor
 - tablet, ? kindle
