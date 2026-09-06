@@ -196,6 +196,9 @@ title: Tabor
 - cednik (na ohniste)
 - tavna pistole (aku)
 - bug-a-salt
+- nahradni baterie AA a AAA
+- tiskarna
+- laminovacka + folie
 
 ### Nelinka / Delinka
 
