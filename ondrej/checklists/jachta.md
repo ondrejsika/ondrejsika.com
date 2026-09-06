@@ -20,6 +20,7 @@ title: Jachta
 - papir, tuzka
 - rezervni jidlo (arasidy, seminka, rozinky), piti (min 0.5l)
 - LTE modem, 12 Adapter
+- Starlink
 - pojistka
 - PAS
 - kapitansky prukaz
