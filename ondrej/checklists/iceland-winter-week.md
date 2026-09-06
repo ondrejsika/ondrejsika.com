@@ -39,6 +39,8 @@ title: Iceland (winter week)
 
 --
 
+- telefon (iPhone 16 Pro)
+- druhy telefon (iPhone 17e)
 - notebook + nabijecka
 - kreditka, cash, trezor
 - tablet, ? kindle
