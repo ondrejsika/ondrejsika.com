@@ -7,11 +7,12 @@ title: Iceland (winter week)
 
 ## {{page.title}}
 
-- maly batoh - GORUCK GR2
+- maly batoh (GR Monster / Rucker Long Range / GR2)
 - Packable GORUCK Bullet
-- velky batoh - gemma
+- velky batoh (kajka, gemma, ...) / taska
 - obal na batoh do letadla
 - spacak (zimni)
+- tasky na nakupy (platene)
 
 --
 
