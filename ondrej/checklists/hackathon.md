@@ -22,6 +22,7 @@ title: Hackathon
 - krabicka s kabelama
 - nuz
 - prodluzovacka
+- Nikon Z5ii + objektivy
 
 ### Obleceni
 
