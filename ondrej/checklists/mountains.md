@@ -27,6 +27,8 @@ title: Mountains
 - deospey
 - baterka, celovka
 - papirove kapesnicky, toaletak
+- telefon (iPhone 16 Pro)
+- druhy telefon (iPhone 17e)
 - ipad mini - mapy
 - nepromokava bunda, plastenka na batoh
 - mikina
