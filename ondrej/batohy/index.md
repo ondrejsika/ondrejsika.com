@@ -9,9 +9,15 @@ title: Batohy
 
 ### Goruck GR2 (40L)
 
+### Goruck GR Monster
+
 ### Goruck Rucker (20L)
 
+### Goruck Rucker Long Range (40L)
+
 ### Goruck Bullet Ruck (16L)
+
+### Goruck Packable Bullet Ruck
 
 ### Patagonia (mala 1 den)
 
