@@ -1,0 +1,19 @@
+# Ondrej Sika
+
+> This is my personal site and main signpost for my online presence.
+
+## Contact
+
+- +420 773 452 376, Telegram, iMessage
+- ondrej@ondrejsika.com (primary, personal)
+- ondrej@sika.io (freelance)
+- ondrej@sikalabs.com (company SikaLabs)
+- ondrej@devopsa.com (company Devopsa)
+- [linkedin.com/in/ondrejsika](https://linkedin.com/in/ondrejsika)
+
+## Projects and Companies
+
+- [sika.io](https://sika.io) — freelance IT and DevOps consulting & training
+- [ondrej-sika.cz](https://ondrej-sika.cz) - DevOps skoleni v Ceske Republice
+- [SikaLabs](https://sikalabs.com) — DevOps company
+- [Devopsa](https://devopsa.com) — IT and DevOps Hiring company
