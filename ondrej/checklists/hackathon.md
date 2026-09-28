@@ -23,6 +23,7 @@ title: Hackathon
 - nuz
 - prodluzovacka
 - Nikon Z5ii + objektivy
+- Peak Design Capture (na batoh)
 
 ### Obleceni
 

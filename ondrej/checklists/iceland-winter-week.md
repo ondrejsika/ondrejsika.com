@@ -51,6 +51,7 @@ title: Iceland (winter week)
 - nabijecky, powerbanka, autonabijecka
 - sluchatka iphone (mala)
 - Nikon Z5ii + objektivy
+- Peak Design Capture (na batoh)
 - Garmin GPS (na tuzkovky)
 - fotak om-system tough tg-7
 - insta360

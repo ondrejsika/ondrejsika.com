@@ -47,6 +47,7 @@ title: Mountains
 - postel do auta - madrace + deska
 - trekking poles
 - Nikon Z5ii + objektivy
+- Peak Design Capture (na batoh)
 - Garmin GPS (na tuzkovky)
 - Canon EOS 5000 + film
 - dji osmo pocket

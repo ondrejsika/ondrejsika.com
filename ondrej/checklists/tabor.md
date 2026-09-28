@@ -45,6 +45,7 @@ title: Tabor
 - Canon M200 + objektivy
 - Canon EOS 5000 (na film) + objektivy
 - Canon EOS 500 (na film) + objektivy
+- Peak Design Capture (na batoh)
 - nahradni 35mm filmy
 - jednorazove fotaky na film
 - ruzovy fotacek nikon

@@ -11,6 +11,7 @@ title: Jachta
 - taska helly hansen
 - spacak
 - Nikon Z5ii + objektivy
+- Peak Design Capture (na batoh)
 - Canon EOS 5000 + film
 - Osmo Pocket 3
 - Ray-Ban Meta (smart glasses)
