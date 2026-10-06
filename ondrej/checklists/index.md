@@ -24,7 +24,7 @@ title: Personal Checklists
 - [Poradani Zavodu Orientak](poradani-zavodu-orientak.html)
 - [Svalbard (winter, only carry-on)](svalbard-winter-carry-on.html)
 - [Surf](surf.html)
-- [Warp Camp](warpcamp.html)
+- [Warp Camp, jOpenSpace, ...](warpcamp.html)
 - [IRONMAN](ironman.html)
 
 ### Archive
