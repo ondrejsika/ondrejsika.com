@@ -25,5 +25,5 @@ title: Warp Camp, jOpenSpace, ...
 - prodluzovacka
 - mikina
 - kratasy, dlouhy
-- obleceni k ohni
+- obleceni k ohni (WarpCamp)
 - plastovy obal na kartu do hotelu (jOpenSpace)
