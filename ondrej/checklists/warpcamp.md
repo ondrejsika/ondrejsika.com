@@ -26,3 +26,4 @@ title: Warp Camp, jOpenSpace, ...
 - mikina
 - kratasy, dlouhy
 - obleceni k ohni
+- plastovy obal na kartu do hotelu (jOpenSpace)
