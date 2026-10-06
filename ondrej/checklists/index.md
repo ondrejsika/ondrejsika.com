@@ -25,6 +25,7 @@ title: Personal Checklists
 - [Svalbard (winter, only carry-on)](svalbard-winter-carry-on.html)
 - [Surf](surf.html)
 - [Warp Camp](warpcamp.html)
+- [IRONMAN](ironman.html)
 
 ### Archive
 
