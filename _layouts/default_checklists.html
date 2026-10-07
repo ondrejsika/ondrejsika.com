@@ -4,6 +4,12 @@ layout: default
 
 {{ content }}
 
+{% if page.last_significant_update %}
+  <p style="font-style: italic;">
+    Last significant update: {{ page.last_significant_update }}
+  </p>
+{% endif %}
+
 <p>---</p>
 
 <script type="text/javascript" src="/static/src/jquery-3.0.0.min.js"></script>
