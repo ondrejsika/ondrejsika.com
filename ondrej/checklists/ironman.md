@@ -13,6 +13,7 @@ last_significant_update: 7. 10. 2026
 - triathlonovy pas
 - derovacka
 - sluchatka na plavani
+- batuzek na behani (decathlon na kolo)
 
 ### Kolo
 
@@ -20,11 +21,13 @@ last_significant_update: 7. 10. 2026
 - helma
 - boty na kolo
 - bike computer (z Decathlonu)
-- pumpa na kolo
+- pumpa na kolo (velka do auta)
+- pumpicka na kolo (do batuzku)
 - nahradni duse
 - paky na vymenu duse
 - imbusovy klic
-- bidony na vodu (2x)
+- 2x bidony na vodu (shitty, zahodim je)
+- Lahve na vodu na kolo (cucaci vicko)
 - hroznovy cukr
 - gumovy medvici
 - stahovaci pasky
