@@ -42,3 +42,7 @@ last_significant_update: 7. 10. 2026
 ### Plavani
 
 - plavaci bryle
+
+### Do Auta
+
+- starlink
