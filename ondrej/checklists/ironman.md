@@ -14,6 +14,7 @@ last_significant_update: 7. 10. 2026
 - derovacka
 - sluchatka na plavani
 - batuzek na behani (decathlon na kolo)
+- pojisteni (cestovni)
 
 ### Kolo
 
