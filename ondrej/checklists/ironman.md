@@ -47,3 +47,33 @@ last_significant_update: 7. 10. 2026
 ### Do Auta
 
 - starlink
+
+## Triathlon Color Bags
+
+### Batoh pred zavodem (Swim, Street)
+
+- trisuit
+- neopren
+- plavaci bryle
+- telefon
+- powebanka + kabel
+- sluchatka
+
+### Blue Bag (Bike)
+
+- triathlonovy pas + cislo
+- cyklopocitac
+- helma
+- boty na kolo
+- bidony na vodu / lahve na vodu na kolo (cucaci vicko)
+- pumpa na kolo
+- nahradni duse
+- imbusovy klic
+- hroznovy cukr
+- gumovy medvici
+
+### Red Bag (Run)
+
+- behaci boty
+- hroznovy cukr
+- gumovy medvici
