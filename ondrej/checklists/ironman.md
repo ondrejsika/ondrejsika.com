@@ -58,6 +58,7 @@ last_significant_update: 7. 10. 2026
 - telefon
 - powebanka + kabel
 - sluchatka
+- white bag (street wear)
 
 ### Blue Bag (Bike)
 
